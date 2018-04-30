@@ -8,8 +8,6 @@
 
 
 
-Bei einem Update des Addons wird die `settings.js` Datei überschrieben, die vorherige Version wird unter `settings.js.old` gesichert. Der Passwortschutz muss dann manuell wieder hergestellt werden.
-
 
 ### Node-RED Log-Level anpassen
 
