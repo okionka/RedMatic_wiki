@@ -1,3 +1,17 @@
+### Addon Installieren
+
+### Addon Aktualisieren
+
+### Addon deinstallieren
+
+
+### Passwort-Schutz für Node-RED einrichten
+
+_(Workaround bis in einer späteren Addon Version die Authentifizierung an der Rega implementiert ist)_
+
+
+
+
 ### Node-RED Log-Level anpassen
 
 * `/usr/local/addons/node-red/settings.js` Zeile 230 bearbeiten (level auf `debug` statt `info` setzen)
