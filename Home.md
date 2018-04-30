@@ -1,10 +1,10 @@
-### Addon Update
+# Inhalt
 
-Einfach über Systemsteuerung -> Zusatzsoftware die neue Version "drüberinstallieren" - __nicht__ vorher deinstallieren!
+* [Installation, Update, Deinstallation](Installation)
+* [Passwort Schutz für Node-RED einrichten](Passwort)
+* [Log-Level erhöhen für Fehleranalyse](Loglevel)
 
-### Addon Deinstallation
 
-Ist ebenfalls über Systemsteuerung -> Zusatzsoftware möglich und sollte das Addon restlos entfernen. __Achtung__: Hierbei werden auch die Node-RED Flows gelöscht. Wenn man diese sichern möchte findet sich die Flows Datei hier: `/usr/local/addons/node-red/var/flows.json`
 
 ### Passwort-Schutz für Node-RED einrichten
 
