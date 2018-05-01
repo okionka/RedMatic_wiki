@@ -2,7 +2,7 @@
 
 Einfach über Systemsteuerung -> Zusatzsoftware die neue Version "drüberinstallieren" - __nicht__ vorher deinstallieren!
 
-__Hinweis__: Bei einem Update des Addons wird die `settings.js` Datei überschrieben, die vorherige Version wird unter `settings.js.old` gesichert. Falls z.B. ein Passwortschutz konfiguriert war muss dieser manuell wieder hergestellt werden.
+__Hinweis__: Bei einem Update des Addons wird die Datei `/usr/local/addons/node-red/settings.js` überschrieben, die vorherige Version wird unter `settings.js.old` gesichert. Falls z.B. ein Passwortschutz konfiguriert war muss dieser nach dem Update manuell wieder hergestellt werden.
 
 ### Addon Deinstallation
 
