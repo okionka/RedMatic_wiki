@@ -6,6 +6,7 @@
 * [Beispiel Flows](Flows)
 * [Passwort Schutz für Node-RED einrichten](Passwort)
 * [Log-Level erhöhen für Fehleranalyse](Loglevel)
+* [Node-RED über Kommandozeile (neu-)starten](Restart)
 
     
 
