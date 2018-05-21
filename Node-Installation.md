@@ -12,7 +12,7 @@ https://flows.nodered.org
 
 ## Via Command Line
 
-`/usr/local/addons/node-red/bin/npm install <paket-name>`
+`/usr/local/addons/node-red/bin/npm install -g <paket-name>`
 
 
 ## Hinweis 
