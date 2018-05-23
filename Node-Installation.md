@@ -1,6 +1,6 @@
 # Zusätzliche Node-RED Nodes installieren
 
-https://flows.nodered.org
+[Verzeichnis verfügbarer Nodes](https://flows.nodered.org/?type=node&num_pages=1)
 
 
 ## Via Node-RED Admin UI
