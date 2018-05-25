@@ -1,4 +1,6 @@
-Leider gibt es keine Möglichkeit an der CCU angelernte Aktoren zu deaktivieren, dies kann störend sein z.B. bei einen Zwischenstecker der nur für den Weihnachtsbaum verwendet wird und 11 Monate im Jahr in der Schublade verbleibt und dann eine ständige `UNREACH` Servicemeldung erzeugt. Es ist zwar unmöglich diese Meldung zu bestätigen, allerdings gibt es die Möglichkeit der Logikschicht "vorzugaukeln" dass der Aktor wieder erreichbar ist. Folgender Flow reagiert auf `UNREACH` Events, prüft ob der Aktor in einer Liste von zu deaktivierenden Aktoren enthalten ist und sendet der Logikschicht einen "gefakten" Event der die Meldung zurücksetzt.
+# UNREACH Servicemeldung unterdrücken
+
+Leider gibt es keine Möglichkeit an der CCU angelernte Aktoren zu deaktivieren, dies kann störend sein z.B. bei einen Zwischenstecker der nur für den Weihnachtsbaumbeleuchtung verwendet wird und 11 Monate im Jahr in der Schublade verbleibt und dann eine ständige `UNREACH` Servicemeldung erzeugt. Es ist zwar unmöglich diese Meldung zu bestätigen, allerdings gibt es die Möglichkeit der Logikschicht "vorzugaukeln" dass der Aktor wieder erreichbar ist. Folgender Flow reagiert auf `UNREACH` Events, prüft ob der Aktor in einer Liste von zu deaktivierenden Aktoren enthalten ist und sendet der Logikschicht einen "gefakten" Event der die Meldung zurücksetzt.
 
 ### Nodes
 
