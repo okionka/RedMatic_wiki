@@ -3,14 +3,14 @@
 [Verzeichnis verfügbarer Nodes](https://flows.nodered.org/?type=node&num_pages=1)
 
 
-## Via Node-RED Admin UI
+## Installation via Node-RED Admin UI
 
 ![](images/node-install-1.png)
 
 ![](images/node-install-2.png)
 
 
-## Via Command Line
+## Installation via Command Line
 
 `/usr/local/addons/node-red/bin/npm install -g <paket-name>`
 
