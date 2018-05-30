@@ -1,4 +1,4 @@
-# Zusätzliche Node-RED Nodes installieren
+# Zusätzliche Node-RED Nodes
 
 [Verzeichnis verfügbarer Nodes](https://flows.nodered.org/?type=node&num_pages=1)
 
