@@ -7,7 +7,7 @@
 * [Installation](Installation)
 * [Update](Update)
 * [Deinstallation](Deinstallation)
-* [Zusätzliche Nodes installieren, updaten, deinstallieren](Node-Installation)
+* [Zusätzliche Nodes installieren](Node-Installation)
 * [Passwort Schutz für Node-RED einrichten](Passwort)
 * [Log-Level erhöhen für Fehleranalyse](Loglevel)
 
