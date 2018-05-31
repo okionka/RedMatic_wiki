@@ -3,7 +3,8 @@
 ## Administration
 
 * [Installation](Installation)
-* [Update, Deinstallation](Update)
+* [Update](Update)
+* [Deinstallation](Deinstallation)
 * [Zusätzliche Nodes installieren, updaten, deinstallieren](Node-Installation)
 * [Passwort Schutz für Node-RED einrichten](Passwort)
 * [Log-Level erhöhen für Fehleranalyse](Loglevel)
