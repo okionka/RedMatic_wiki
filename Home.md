@@ -2,7 +2,7 @@
 
 ## Administration
 
-* [Installation](Installation)
+* [Installation](Administration/Installation)
 * [Update, Deinstallation](Update)
 * [Zusätzliche Nodes installieren, updaten, deinstallieren](Node-Installation)
 * [Passwort Schutz für Node-RED einrichten](Passwort)
