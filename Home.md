@@ -1,4 +1,4 @@
-![](images/logo-w-400.png)
+![](images/logo-w-200.png)
 
 ## Administration
 
