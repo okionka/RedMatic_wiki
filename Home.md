@@ -1,4 +1,4 @@
-# Node-RED CCU Addon
+![](images/logo-w-400.png)
 
 ## Administration
 
