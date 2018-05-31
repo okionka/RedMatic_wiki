@@ -1,4 +1,4 @@
-### Update, Deinstallation
+### Update
 
 Einfach über Systemsteuerung -> Zusatzsoftware die neue Version "drüberinstallieren" - __nicht__ vorher deinstallieren!
 
