@@ -8,7 +8,6 @@
 * [Zusätzliche Nodes installieren, updaten, deinstallieren](Node-Installation)
 * [Passwort Schutz für Node-RED einrichten](Passwort)
 * [Log-Level erhöhen für Fehleranalyse](Loglevel)
-* [Node-RED über Kommandozeile (neu-)starten](Restart)
 
 ## Nutzung
 
