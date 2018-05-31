@@ -5,3 +5,5 @@
 * Datei auf die CCU hochladen: ![](images/install-6.png)
 * Installation Starten: ![](images/install-7.png)
 * Im Anschluss abwarten bis sich die CCU neu gestartet hat.
+* Node-RED ist unter `http://<ccu-adresse>/addons/red` erreichbar.
+* Node-RED Dashboard ist unter `http://<ccu-adresse>/addons/red/ui` erreichbar.
