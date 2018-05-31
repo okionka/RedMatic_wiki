@@ -3,6 +3,8 @@ Im Homematic WebUI unter _Systemsteuerung_ - _Zusatzsoftware_ auf _Deinstalliere
 
 Das Addon sollte nach einigen Sekunden - selbst ohne Reboot - vollständig entfernt worden sein. 
 
+Es ist auch möglich das Addon über die Kommandozeile (SSH-Login auf CCU) zu entfernen: `/usr/local/etc/config/rc.d/node-red uninstall`
+
 Folgende Dateien und Ordner werden vom Addon auf der CCU Installiert, sollte eine Deinstallation nicht fehlerfrei ablaufen, können diese auch von Hand gelöscht werden:
 
 * /usr/local/addons/node-red
