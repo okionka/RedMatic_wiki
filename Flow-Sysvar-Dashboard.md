@@ -1,9 +1,9 @@
 Dieser Beispielflow erstellt ein einfaches Dashboard mit dem der Zustand der Variablen "Anwesenheit" und "Alarmzone 1"
 angezeigt und geändert werden kann. 
 
-* Es müssen lediglich die Ein- und Ausgänge eines `ccu sysvar` und eines `dashboard dropdown` Nodes über Kreuz verbunden
+* Es müssen lediglich die Ein- und Ausgänge eines `ccu - sysvar` und eines `dashboard - dropdown` Nodes über Kreuz verbunden
 werden: ![](images/flow-sysvar-dashboard-1.png)
-* In den Einstellungen des dropdowns ist es __wichtig__ den Haken bei `If msg arrives on input, pass through to output` 
+* In den Einstellungen des Dropdown Node ist es __wichtig__ den Haken bei `If msg arrives on input, pass through to output` 
 zu entfernen, anderenfalls würde eine Endlosschleife entstehen: ![](images/flow-sysvar-dashboard-2.png)
 * Im Dashboard sollte das nun so aussehen: ![](images/flow-sysvar-dashboard-3.png)
 
