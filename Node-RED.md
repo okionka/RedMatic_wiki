@@ -15,7 +15,6 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 
 
 ![](images/crash-1.png)
-
 * Aus der _Palette_ im linken Bildschirmbereich können _Nodes_ per Drag&Drop in den _Flow_ im rechten Bildschirmbereich platziert werden
 * _Nodes_ können über einen Eingang auf der linken Seite und/oder einen Ausgang auf der rechten Seite mit anderen Nodes verbunden werden
 * Nachdem ein _Flow_ verändert wurde müssen die Änderungen per klick auf _Deploy_ übernommen werden
