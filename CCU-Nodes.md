@@ -23,6 +23,8 @@ Ansteuerung von Displays (HM-PB-4Dis-WM, HM-Dis-EP-WM55).
 
 ### sysvar
 
+![](images/node-sysvar.png)
+
 Systemvariablen setzen und Wertänderungen empfangen.
 
 ### program
