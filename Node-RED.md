@@ -13,14 +13,13 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 
 ## Crashkurs
 
-#### Nodes
 
 ![](images/crash-1.png)
 
-Aus der _Palette_ im linken Bildschirmbereich können Nodes per Drag&Drop in den _Flow_ im rechten Bildschirmbereich plaziert werden.
+* Aus der _Palette_ im linken Bildschirmbereich können _Nodes_ per Drag&Drop in den _Flow_ im rechten Bildschirmbereich platziert werden
+* _Nodes_ können über einen Eingang auf der linken Seite und/oder einen Ausgang auf der rechten Seite mit anderen Nodes verbunden werden
+* Nachdem ein _Flow_ verändert wurde müssen die Änderungen per klick auf _Deploy_ übernommen werden
+* Der _Inject Node_ erzeugt bei klick auf den Button an seiner linken Seite eine _Message_
+* Der _Debug Node_ zeigt eingehende _Messages_ im Debug Fenster an
 
-#### Deploy
 
-#### Debug und Inject Node
-
-#### Dashboard
