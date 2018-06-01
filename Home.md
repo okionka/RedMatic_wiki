@@ -12,7 +12,7 @@
   * [Node-RED Grundlagen](Node-RED)
   * [CCU Nodes](CCU-Nodes)
   * [Hilfreiche Nodes](Misc-Nodes)
-  * [Flows exportieren und importieren](Flow-Export-Import)
+  * [Flows exportieren](Flow-Export)
 * [Beispiel Flows](Flows)
 
 
