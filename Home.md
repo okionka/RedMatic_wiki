@@ -1,6 +1,5 @@
 ![](images/logo-w-200.png)
 
-* [Einführung](Intro)
 
 #### Administration
 
