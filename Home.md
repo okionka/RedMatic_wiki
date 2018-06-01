@@ -1,6 +1,3 @@
-![](images/logo-w-200.png)
-
-
 * Administration
   * [Installation](Installation)
   * [Update](Update)
