@@ -1,6 +1,3 @@
-![](images/logo-w-200.png)
-
-
 * Administration
   * [Installation](Installation)
   * [Update](Update)
@@ -11,7 +8,7 @@
 * Nutzung
   * [Node-RED Grundlagen](Node-RED)
   * [CCU Nodes](CCU-Nodes)
-  * [Hilfreiche Nodes](Misc-Nodes)
+  * [Tipps](Misc-Tipps)
   * [Flows exportieren](Flow-Export)
 * [Beispiel Flows](Flows)
 

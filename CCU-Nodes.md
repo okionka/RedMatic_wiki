@@ -1,5 +1,9 @@
 ![](images/nodes.png)
 
+## connection
+
+Der Connection Node ist ein sogenannter "Configuration Node" und nicht in der Palette sichtbar. Im Connection Node wird die Verbindung zu den CCU Schnittstellenprozessen und zur Logikschicht verwaltet. 
+
 ## value
 
 Geräte steuern und Events von Geräten empfangen.
