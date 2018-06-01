@@ -1,7 +1,8 @@
 ![](images/export-flow.mov.gif)
 
-* Ein beliebigen Node markieren
-* Menü -> Export -> Clipboard
-* Current Flow
-* Export to Clipboard
+* Einen beliebigen Node durch klick markieren
+* Menü oben rechts, Export -> Clipboard
+* "Current Flow" durch klick markieren
+* "Export to Clipboard" anklicken
 
+Die Daten des Flows befinden sich nun in der Zwischenablage und können nun mit cmd-c bzw strg-c anderenorts eingefügt werden. 
