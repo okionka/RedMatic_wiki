@@ -5,7 +5,7 @@ der Dinge.
 Node-RED wird seit 2013 von [IBM Emerging Technology](https://emerging-technology.co.uk/technologies/) 
 entwickelt und steht als kostenlose Open Source Software unter dem Dach der [JS Foundation](https://js.foundation/) zur 
 Verfügung.    
-Node-RED kann durch zusätzliche [Nodes](https://flows.nodered.org) erweitert werden, eine große und aktive 
+Node-RED kann durch zusätzliche [Nodes](https://flows.nodered.org/?type=node) erweitert werden, eine große und aktive 
 Community hat Stand Heute bereits weit über 1000 Nodes entwickelt, die unterschiedlichste Services und Systeme in 
 Node-RED integrieren.
 
