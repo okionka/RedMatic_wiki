@@ -21,5 +21,8 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 * Nachdem ein _Flow_ verändert wurde müssen die Änderungen per klick auf _Deploy_ übernommen werden
 * Der _Inject Node_ erzeugt bei klick auf den Button an seiner linken Seite eine _Message_
 * Der _Debug Node_ zeigt eingehende _Messages_ im Debug Fenster an
+* Das Debug Fenster befindet sich in der _Sidebar_, diese kann im Menü oben rechts unter View - Show Sidebar angezeigt werden
+
+![](images/crash-2.mov.png)
 
 
