@@ -22,6 +22,7 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 * Der _Debug Node_ zeigt eingehende _Messages_ im Debug Fenster an
 * Das Debug Fenster befindet sich in der _Sidebar_, diese kann im Menü oben rechts unter View - Show Sidebar angezeigt werden
 
+
 ![](images/crash-2.mov.gif)
 
 
