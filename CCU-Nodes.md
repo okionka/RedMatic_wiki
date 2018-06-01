@@ -1,19 +1,38 @@
 ![](images/nodes.png)
 
-## value
+### value
 
-## rpc event
+Geräte steuern und Events von Geräten empfangen.
 
-## rpc
+### rpc event
 
-## signal
+Gibt RPC events aus.
 
-## display
+### rpc
 
-## sysvar
+Beliebige RPC Methoden aufrufen und deren Rückgabe ausgeben.
 
-## program
+### signal
 
-## script
+Ansteuerung von Funk-Gongs (HM-OU-CFM-*, HM-OU-CM-PCB).
 
-## poll
+### display
+
+Ansteuerung von Displays (HM-PB-4Dis-WM, HM-Dis-EP-WM55).
+
+
+### sysvar
+
+Systemvariablen setzen und Wertänderungen empfangen.
+
+### program
+
+Programme starten, aktivieren oder deaktivieren. Gibt den Zeitpunkt der letzten Programmausführung aus.
+
+### script
+
+Beliebige Scripte starten und deren Rückgabe ausgeben.
+
+### poll
+
+Abfrage von Variablen und Programmen auslösen.
