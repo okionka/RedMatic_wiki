@@ -26,4 +26,5 @@
 * [Dashboard für Variablen und Programme](Flow-Sysvar-Dashboard)
 * [Offene Fenster im Dashboard anzeigen](Flow-Offene-Fenster)
 * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
+* [Berechnung von Feiertagen](Flow-calculate-german-holidays)
 
