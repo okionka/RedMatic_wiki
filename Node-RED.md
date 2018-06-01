@@ -9,17 +9,15 @@ Node-RED kann durch zusätzliche [Nodes](https://flows.nodered.org/?type=node&nu
 und aktive Community hat Stand Heute bereits weit über 1000 Nodes entwickelt, die unterschiedlichste Services und 
 Systeme in Node-RED integrieren.
 
-## Einstieg in Node-RED
-
-* https://entwickler.de/online/iot/node-red-iot-prototypen-2-579809637.html
-* https://jaxenter.de/baukasten-fuer-das-internet-dinge-13532
-
-Außerdem lassen sich unzählige weitere Artikel, Tutorials, Dokumentationen, Bücher und Youtube Videos zu Node-RED 
-finden.
+Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentationen, Bücher und Youtube Videos finden, zum Einstieg in Node-RED ist z.B. dieser Artikel https://entwickler.de/online/iot/node-red-iot-prototypen-2-579809637.html empfehlenswert.
 
 ## Crashkurs
 
-#### Nodes, Flows und Messages
+#### Nodes
+
+![](images/crash-1.png)
+
+Aus der _Palette_ im linken Bildschirmbereich können Nodes per Drag&Drop in den _Flow_ im rechten Bildschirmbereich plaziert werden.
 
 #### Deploy
 
