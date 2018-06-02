@@ -2,7 +2,7 @@
 
 ## connection
  
-Im Connection Node wird die Verbindung zu den CCU Schnittstellenprozessen und zur Logikschicht verwaltet. Der Connection Node ist ein sogenannter _Configuration Node_, ist nicht in der Palette sichtbar und kann nicht in einem Flow platziert werden. Seine Konfiguration im Menü unter _Configuration Nodes_ erreichbar: ![](images/ccu-config.mov.gif)
+Im Connection Node wird die Verbindung zu den CCU Schnittstellenprozessen und zur Logikschicht verwaltet. Der Connection Node ist ein sogenannter _Configuration Node_, ist nicht in der Palette sichtbar und kann nicht in einem Flow platziert werden. Seine Konfiguration ist im Menü unter _Configuration Nodes_ erreichbar: ![](images/ccu-config.mov.gif)
 
 
 ## value
