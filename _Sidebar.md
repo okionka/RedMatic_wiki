@@ -1,1 +1,1 @@
-![](images/logo-w-200.png)
+![](images/logo-r-256.png)
