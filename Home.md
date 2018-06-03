@@ -20,6 +20,6 @@
   * [Berechnung von Feiertagen](Flow-to-calculate-german-holidays)
   * [Funktion nur innerhalb einer bestimmten Uhr-Zeit ausführen](Flow-within-time)
 * Sonstiges
-  * [Dashboard Beispiel Screenshots](Dashboard-Examples)
+  * [Dashboard Beispiel Screenshots](Dashboard-Screenshots)
 
 
