@@ -1,7 +1,7 @@
 * [UNREACH Meldung unterdrücken](Flow-Unreach)
 * [DutyCycle Graph im Dashboard anzeigen](Flow-DutyCycle)
 * [RF-Taste für Wired-Dimmer nutzen](Flow-RF-Wired)
-* [Dashboard für Variablen und Programme](Flow-Sysvar-Dashboard)
+* [Dashboard zum Anzeigen und Setzen von Systemvariablen](Flow-Sysvar-Dashboard)
 * [Offene Fenster im Dashboard anzeigen](Flow-Offene-Fenster)
 * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
 * [Berechnung von Feiertagen](Flow-to-calculate-german-holidays)
