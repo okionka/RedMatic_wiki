@@ -1,46 +1,55 @@
+# Nodes
+
 ![](images/nodes.png)
 
-## connection
+## ccu connection node
  
 Im Connection Node wird die Verbindung zu den CCU Schnittstellenprozessen und zur Logikschicht verwaltet. Der Connection Node ist ein sogenannter _Configuration Node_, ist nicht in der Palette sichtbar und kann nicht in einem Flow platziert werden. Seine Konfiguration ist im Menü unter _Configuration Nodes_ erreichbar: ![](images/ccu-config.mov.gif)
 
 
-## value
+## ccu value node
 
-Geräte steuern und Events von Geräten empfangen.
+Geräte steuern und/oder Events von einem Gerät empfangen.
 
-## rpc event
+## ccu rpc event node
 
-Gibt RPC events aus.
+Events von einem oder mehreren Geräten empfangen. Filter...
 
-## rpc
+## ccu rpc node
 
-Beliebige RPC Methoden aufrufen und deren Rückgabe ausgeben.
+Beliebige RPC Methoden auf Schnittstellenprozess aufrufen und deren Rückgabe ausgeben.
 
-## signal
+## ccu signal node
 
 Ansteuerung von Funk-Gongs (HM-OU-CFM-*, HM-OU-CM-PCB).
 
-## display
+## ccu display node
 
 Ansteuerung von Displays (HM-PB-4Dis-WM, HM-Dis-EP-WM55).
 
 
-## sysvar
+## ccu sysvar node
 
-Systemvariablen setzen und Wertänderungen empfangen.
+Rega-Systemvariablen setzen und Wertänderungen empfangen.
 
 ![](images/node-sysvar.png)
 
 
-## program
+## ccu program node
 
-Programme starten, aktivieren oder deaktivieren. Gibt den Zeitpunkt der letzten Programmausführung aus.
+Rega-Programme starten, aktivieren oder deaktivieren. Gibt den Zeitpunkt der letzten Programmausführung aus.
 
-## script
+## ccu script node
 
-Beliebige Scripte starten und deren Rückgabe ausgeben.
+Beliebige Rega-Scripte starten und deren Rückgabe ausgeben.
 
-## poll
+## ccu poll node
 
-Abfrage von Variablen und Programmen auslösen.
+Sofortige Abfrage von Rega-Systemvariablen und -Programmen auslösen.
+
+
+# Attribute
+
+## topic
+
+Platzhalter...
