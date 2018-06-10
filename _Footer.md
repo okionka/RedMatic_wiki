@@ -1,1 +1,1 @@
-[Inhaltsverzeichnis](Home) - [Beispiel Flows](Flows)
+[Inhaltsverzeichnis](Home)
