@@ -1,7 +1,7 @@
 # Zusätzliche Node-RED Nodes
 
-[Verzeichnis verfügbarer Nodes](https://flows.nodered.org/?type=node&num_pages=1)
-
+* [Verzeichnis aller verfügbarer Nodes](https://flows.nodered.org/?type=node&num_pages=1)
+* [Erfolgreich getestete Nodes (bitte Ergänzen!)](Erfolgreich-getestete-Nodes)
 
 ## Installation via Node-RED Admin UI
 
