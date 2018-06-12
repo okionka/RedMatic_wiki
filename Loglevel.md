@@ -7,3 +7,6 @@ Zur Fehleranalyse ist es hilfreich den Loglevel zu erhöhen:
 * Node-RED neu starten
 
 Das Node-RED Log ist im CCU Syslog zu finden (`/var/log/messages`).
+
+
+![](images/loglevel.mov.gif)
