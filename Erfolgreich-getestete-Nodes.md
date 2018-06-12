@@ -1,4 +1,4 @@
-* [alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) - Siehe #15
+* [alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) - Siehe [Issue #15](https://github.com/hobbyquaker/RedMatic/issues/15)
 * [chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast)
 * [google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts)
 * [lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv)
