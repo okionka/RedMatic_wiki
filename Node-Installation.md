@@ -12,7 +12,7 @@
 
 ## Installation via Command Line
 
-`/usr/local/addons/node-red/bin/npm install -g <paket-name>`
+`/usr/local/addons/redmatic/bin/npm install -g <paket-name>`
 
 
 ## Hinweis 
