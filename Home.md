@@ -3,8 +3,8 @@
   * [Update](Update)
   * [Deinstallation](Deinstallation)
   * [Zusätzliche Nodes installieren](Node-Installation)
-  * [Passwort Schutz für Node-RED einrichten](Passwort)
   * [Log-Level erhöhen für Fehleranalyse](Loglevel)
+  * [Passwort Schutz für Node-RED einrichten](Passwort)
 * Nutzung
   * [Node-RED Grundlagen](Node-RED)
   * [CCU Nodes](CCU-Nodes)
