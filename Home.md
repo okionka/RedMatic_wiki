@@ -8,7 +8,7 @@
 * Nutzung
   * [Node-RED Grundlagen](Node-RED)
   * [CCU Nodes](CCU-Nodes)
-  * [Tipps](Misc-Tipps)
+  * [Tipps](Tipps)
   * [Flows exportieren](Flow-Export)
 * Beispiel Flows
   * [UNREACH Meldung unterdrücken](Flow-Unreach)
