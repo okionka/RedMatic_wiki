@@ -30,5 +30,7 @@ Link Nodes ermöglichen es Flow-übergreifende Verbindungen einzurichten. Sie ei
 
 ## MQTT
 
+Node-RED eignet sich hervorragend zur Ansteuerung von Geräten oder Empfang von (Sensor-)Daten via MQTT.
+
 * [Mosquitto MQTT Broker als CCU3/RaspberryMatic Addon](https://github.com/hobbyquaker/ccu-addon-mosquitto)
 * [MQTT Link Liste](https://github.com/hobbyquaker/awesome-mqtt)
