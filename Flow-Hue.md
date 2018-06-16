@@ -1,4 +1,4 @@
-Die Hue-Integration die die Homematic CCU mitbringt bietet leider keine Möglichkeit über langen Tastendruck eine Lampe auf/ab zu dimmen. Mit Hilfe dieses Flows kann dies dennoch realisiert werden. Hierfür werden die [Huemagic Nodes](https://flows.nodered.org/node/node-red-contrib-huemagic) benötigt (siehe [Installation zusätzlicher Nodes](https://github.com/hobbyquaker/RedMatic/wiki/Node-Installation). 
+Die Hue-Integration die die Homematic CCU mitbringt bietet leider keine Möglichkeit über langen Tastendruck eine Lampe auf/ab zu dimmen. Mit Hilfe dieses Flows kann dies dennoch realisiert werden. Hierfür werden die [Huemagic Nodes](https://flows.nodered.org/node/node-red-contrib-huemagic) benötigt (siehe [Installation zusätzlicher Nodes](https://github.com/hobbyquaker/RedMatic/wiki/Node-Installation)). 
 
 ![](images/hue-1.png)
 
