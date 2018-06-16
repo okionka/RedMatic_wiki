@@ -1,6 +1,6 @@
+* [Change Node](#change-node)
 * [Delay Node](#delay-node)
 * [Switch Node](#switch-node)
-* [Change Node](#change-node)
 * [If Node](#if-node)
 * [Statistic Node](#statistic-node)
 * [List Node](#list-node)
@@ -8,11 +8,16 @@
 * [Subflows](#subflows)
 * [MQTT](#mqtt)
 
+## Change Node
+
+Mit diesem Node kann der Payload eine _Message_ manipuliert werden, um z.B. die `payload` _Property_ auf einen bestimmten Wert zu setzen.
+
 ## Delay Node
+
+Verzögert die Weiterleitung einer _Message_ für eine bestimmte Zeit.
 
 ## Switch Node
 
-## Change Node
 
 ## If Node
 
