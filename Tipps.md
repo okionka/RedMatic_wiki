@@ -44,7 +44,7 @@ Link Nodes ermöglichen es Flow-übergreifende Verbindungen einzurichten. Sie ei
 
 ### Subflows
 
-Mit `Subflows` kann man `Flows` zu komfortabel wiederverwendbaren `Nodes` machen.
+Mit `Subflows` kann man `Flows` zu komfortabel wiederverwendbaren `Nodes` machen. Dieses lang erwartete Feature macht umfangreichere Programmierung mit Node-RED wesentlich übersichtlicher und erspart einem mehrfach gleiche Abläufe auf diverse Flows kopieren zu müssen.
 
 
 ## Sonstiges
