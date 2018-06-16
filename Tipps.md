@@ -1,9 +1,9 @@
-* [Link Nodes](#Link-Nodes)
-* [Delay Node](#Delay-Node)
-* [Switch Node](#Switch-Node)
-* [Change Node](#Change-Node)
-* [Statistic Node](#Statistic-Node)
-* [List Node](#List-Node)
+* [Link Nodes](#link-nodes)
+* [Delay Node](#delay-node)
+* [Switch Node](#switch-node)
+* [Change Node](#change-node)
+* [Statistic Node](#statistic-node)
+* [List Node](#list-node)
 * [Subflows](#subflows)
 
 ## Link Nodes
