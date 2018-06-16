@@ -12,39 +12,39 @@
 
 ## Nodes
 
-#### Change Node
+### Change Node
 
 Mit diesem Node kann der Payload eine _Message_ manipuliert werden, um z.B. die `payload` _Property_ auf einen bestimmten Wert zu setzen.
 
-#### Delay Node
+### Delay Node
 
 Verzögert die Weiterleitung einer _Message_ für eine bestimmte Zeit.
 
 Beispiel: Lampe bei Bewegungserkennung anschalten und 5 Minuten verzögert wieder ausschalten ![](images/delay-1.png)
 
-#### Switch Node
+### Switch Node
 
 Der Switch Node kann _Messages_ abhängig von Ihrem Inhalt an unterschiedliche Ausgänge weiterleiten. So ist es z.B. möglich eine _Message_ nur dann weiterzuleiten wenn der Wert des _Payloads_ größer/kleiner/gleich einem konfigurierten Wert ist u.v.m.
 
-#### If Node
+### If Node
 
-#### Time Range Node
+### Time Range Node
 
 
 ## Flows
 
-#### Links
+### Links
 
 Link Nodes ermöglichen es Flow-übergreifende Verbindungen einzurichten. Sie eignen sich z.B. gut um eine strukturierte Szenen-Steuerung zu realisieren:
 ![](images/link-1.png)
 ![](images/link-2.png)
 
-#### Subflows
+### Subflows
 
 
 ## Sonstiges
 
-#### MQTT
+### MQTT
 
 Node-RED eignet sich hervorragend zur Ansteuerung von Geräten oder Empfang von (Sensor-)Daten via MQTT.
 
