@@ -4,7 +4,7 @@
 * [Change Node](#Change-Node)
 * [Statistic Node](#Statistic-Node)
 * [List Node](#List-Node)
-* [Subflows](#Subflows)
+* [Subflows](#subflows)
 
 ## Link Nodes
 
