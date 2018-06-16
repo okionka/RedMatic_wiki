@@ -6,7 +6,7 @@ _RPC Event Nodes_ werden so konfiguriert dass sie den `PRESS_CONT` Event einer F
 
 ![](images/hue-2.png)
 
-Mit Hilfe eines _Change Nodes_ wird ein JSON Payload konfiguriert der die Lampe 12% Heller bzw. Dunkler dimmt.
+Mit Hilfe eines _Change Nodes_ wird ein JSON Payload konfiguriert der die Lampe 12% heller bzw. dunkler dimmt.
 
 ![](images/hue-3.png)
 
