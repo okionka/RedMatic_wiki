@@ -2,6 +2,7 @@
 * [Delay Node](#delay-node)
 * [Switch Node](#switch-node)
 * [Change Node](#change-node)
+* [If Node](#if-node)
 * [Statistic Node](#statistic-node)
 * [List Node](#list-node)
 * [Subflows](#subflows)
@@ -18,6 +19,8 @@ Link Nodes ermöglichen es Flow-übergreifende Verbindungen einzurichten. Sie ei
 ## Switch Node
 
 ## Change Node
+
+## If Node
 
 ## Statistic Node
 
