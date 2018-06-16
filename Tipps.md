@@ -47,7 +47,9 @@ Link Nodes ermöglichen es Flow-übergreifende Verbindungen einzurichten. Sie ei
 Mit _Subflows_ kann man _Flows_ in komfortabel wiederverwendbaren _Nodes_ "verpacken". Dieses lang erwartete Feature macht umfangreichere Programmierung mit Node-RED wesentlich übersichtlicher und vermeidet es gleiche Abläufe auf mehrere Flows kopieren zu müssen.
 
 _Subflows_ werden über das Menü angelegt und stehen nach dem sie _deployed_ wurden in der _Palette_ zur Verfügung und können dann wie "normale" _Nodes_ verwendet werden.
+
 ![](images/subflow-1.png)
+
 ![](images/subflow-2.png)
 
 ## Sonstiges
