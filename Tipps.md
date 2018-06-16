@@ -24,9 +24,11 @@ Beispiel: Lampe bei Bewegungserkennung anschalten und 5 Minuten verzögert wiede
 
 ### Switch Node
 
-Der Switch Node kann _Messages_ abhängig von Ihrem Inhalt an unterschiedliche Ausgänge weiterleiten. So ist es z.B. möglich eine _Message_ nur dann weiterzuleiten wenn der Wert des _Payloads_ größer/kleiner/gleich einem konfigurierten Wert ist u.v.m.
+Der _Switch Node_ kann _Messages_ abhängig von ihren _Properties_ an unterschiedliche Ausgänge weiterleiten. So ist es z.B. möglich eine _Message_ nur dann weiterzuleiten wenn der Wert des _Payloads_ größer/kleiner/gleich einem konfigurierten Wert ist u.v.m.
 
 ### If Node
+
+Der _If Node_ kann die Weiterleitung von _Messages_ in Abhängigkeit vorangegangenen _Messages_ mit bestimmter `payload` _Property_ steuern. ![](images/if-1.mov.gif)
 
 ### Time Range Node
 
