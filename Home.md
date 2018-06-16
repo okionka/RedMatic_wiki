@@ -11,6 +11,7 @@
   * [Tipps](Tipps)
   * [Flows exportieren](Flow-Export)
 * Beispiel Flows
+  * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
   * [UNREACH Meldung unterdrücken](Flow-Unreach)
   * [Anzeigen und Setzen von Systemvariablen im Dashboard](Flow-Sysvar-Dashboard)
   * [DutyCycle Graph im Dashboard anzeigen](Flow-DutyCycle)
