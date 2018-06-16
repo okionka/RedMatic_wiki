@@ -16,6 +16,9 @@ Mit diesem Node kann der Payload eine _Message_ manipuliert werden, um z.B. die 
 
 Verzögert die Weiterleitung einer _Message_ für eine bestimmte Zeit.
 
+Typisches Beispiel: Lampe bei Bewegungserkennung anschalten und 5 Minuten verzögert wieder ausschalten:
+![](images/delay-1.png)
+
 ## Switch Node
 
 
