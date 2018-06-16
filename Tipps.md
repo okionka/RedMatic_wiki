@@ -32,6 +32,7 @@ Der _If Node_ kann die Weiterleitung von _Messages_ in Abhängigkeit vorangegang
 
 ### Time Range Node
 
+Der _Time Range Node_ leitet Nachrichten in Abhängigkeit der Uhrzeit oder des Sonnenstands weiter. 
 
 ## Flows
 
@@ -42,6 +43,8 @@ Link Nodes ermöglichen es Flow-übergreifende Verbindungen einzurichten. Sie ei
 ![](images/link-2.png)
 
 ### Subflows
+
+Mit `Subflows` kann man `Flows` zu komfortabel wiederverwendbaren `Nodes` machen.
 
 
 ## Sonstiges
