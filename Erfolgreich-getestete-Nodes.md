@@ -5,4 +5,5 @@
 * [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb)
 * [node-red-contrib-lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv)
 * [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover)
+* [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap)
 * [node-red-node-weather-underground](node-red-node-weather-underground)
