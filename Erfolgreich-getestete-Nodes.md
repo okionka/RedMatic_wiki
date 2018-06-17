@@ -5,5 +5,6 @@
 * [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb)
 * [node-red-contrib-lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv)
 * [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover)
+* [node-red-contrib-tankerkoenig](https://flows.nodered.org/node/node-red-contrib-tankerkoenig) - benötigt [API Key](https://creativecommons.tankerkoenig.de/)
 * [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) - benötigt [API Key](http://openweathermap.org/appid)
 * [node-red-node-weather-underground](node-red-node-weather-underground) - benötigt [API Key](http://www.wunderground.com/weather/api/d/pricing.html)
