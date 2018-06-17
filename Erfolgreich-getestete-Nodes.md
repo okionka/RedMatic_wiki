@@ -11,3 +11,4 @@
 * [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) - benötigt [API Key](http://openweathermap.org/appid)
 * [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping)
 * [node-red-node-weather-underground](node-red-node-weather-underground) - benötigt [API Key](http://www.wunderground.com/weather/api/d/pricing.html)
+* [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol)
