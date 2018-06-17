@@ -3,7 +3,7 @@
 Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktive Community hat Stand Heute bereits weit über 1000 Nodes entwickelt die unterschiedlichste Anwendungsfälle abdecken und diverse Services und Systeme an Node-RED anbinden.
 
 * [Verzeichnis aller verfügbarer Nodes auf nodered.org](https://flows.nodered.org/?type=node&num_pages=1)
-* [Erfolgreich auf RedMatic getestete Nodes (bitte Ergänzen!)](Erfolgreich-getestete-Nodes)
+* [Erfolgreich auf RedMatic getestete Nodes (bitte ergänzen!)](Erfolgreich-getestete-Nodes)
 
 ## Installation via Node-RED Admin UI
 
