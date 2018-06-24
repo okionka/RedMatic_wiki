@@ -1,1 +1,1 @@
-[Inhaltsverzeichnis](Home)
+[Inhaltsverzeichnis](Home) <sub><sup>RedMatic Dokumentation © 2018 Sebastian Raff, lizenziert unter [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</sup></sub>
