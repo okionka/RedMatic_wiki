@@ -1,1 +1,1 @@
-[Inhaltsverzeichnis](Home) <sub><sup>RedMatic Dokumentation © 2018 RedMatic Contributors, lizenziert unter [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</sup></sub>
+[Inhaltsverzeichnis](Home) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <sub><sup>RedMatic Dokumentation © 2018 RedMatic Contributors, lizenziert unter [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)</sup></sub>
