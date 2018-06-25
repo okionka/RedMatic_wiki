@@ -4,7 +4,7 @@
 
 ## ccu connection node
  
-Im Connection Node wird die Verbindung zu den CCU Schnittstellenprozessen und zur Logikschicht verwaltet. Der Connection Node ist ein sogenannter _Configuration Node_, ist nicht in der Palette sichtbar und kann nicht in einem Flow platziert werden. Seine Konfiguration ist im Menü unter _Configuration Nodes_ erreichbar: ![](images/ccu-config.mov.gif)
+Im _Connection Node_ wird die Verbindung zu den CCU Schnittstellenprozessen und zur Logikschicht verwaltet. Der _Connection Node_ ist ein sogenannter _Configuration Node_, ist nicht in der _Palette_ sichtbar und kann nicht in einem _Flow_ platziert werden. Seine Konfiguration ist im Menü unter Configuration Nodes erreichbar: ![](images/ccu-config.mov.gif)
 
 
 ## ccu value node
@@ -52,4 +52,4 @@ Sofortige Abfrage von Rega-Systemvariablen und -Programmen auslösen.
 
 ## topic
 
-Platzhalter...
+Einige der CCU Nodes erlauben es in ihrer Topic-Konfiguration Platzhalter wie z.B. `${channelName}` zu verwenden. Dadurch ist es möglich das Topic dynamisch aus einem eingehenden Event zu erzeugen. Im den Nodes _RPC_ und _Value_ stehen dafür alle Attribute zur Verfügung die auch zum Filtern von Events konfiguriert werden können.
