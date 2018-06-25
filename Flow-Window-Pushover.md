@@ -1,4 +1,4 @@
-Dieser Node sendet eine Benachrichtigung via Pushover wenn ein Fenster länger als 10 Minuten offen ist.
+Dieser Flow sendet eine Benachrichtigung via Pushover wenn ein Fenster länger als 10 Minuten offen ist.
 
 ![](images/window-pushover.png)
 
