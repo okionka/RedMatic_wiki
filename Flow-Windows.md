@@ -5,21 +5,27 @@
 
 ## CCU RPC Event Node
 
-Der RPC Event Node wird so konfiguriert, dass er alle Events von Geräten, in deren Kanal-Namen die Zeichenkette `Fenster` vorkommt und bei denen eine Änderung des Wertes des `STATE` Datenpunktes erfolgt ist ausgibt.
+Der RPC Event Node wird so konfiguriert, dass er alle Events von Geräten, in deren Kanal-Namen die Zeichenkette `Fenster` vorkommt und bei denen eine Änderung des Wertes des `STATE` Datenpunktes erfolgt ist ausgibt. Als Topic wird der Kanal-Name (`channelName`) ausgegeben, dies wird später verwendet um die Liste der offenen Fenster zu erzeugen.
 
 ![](images/window-2.png)
 
 
 ## Switch Node
 
+Ein Switch Node wird so konfiguriert dass er nur Nachrichten weiterleitet deren Payload `true` (TFK offen) bzw. größer als `0` (Drehgriffsensor auf offen oder kipp) ist.
+
 ![](images/window-3.png)
 
 ## Combine Statistic Node
+
+Der Statistic Node zählt die Anzahl offener Fenster und erzeugt ein Array in `msg.topics` das die jeweiligen Kanal-Namen beinhaltet.
 
 ![](images/window-4.png)
 
 
 ## Function Node
+
+Ein Function Node verbindet dass Array mit den Kanal-Namen der offenen Fenster zu einem Komma-getrennten String und entfernt die Zeichenkette `Fenster ` aus dieser Liste.
 
 ![](images/window-5.png)
 
@@ -33,6 +39,8 @@ return msg;
 ```
 
 ## Dashboard Template Node
+
+Zu guter letzt wird ein Dashboard Template Node verwendet um die Anzahl und Liste der offenen Fenster anzuzeigen.
 
 ![](images/window-6.png)
 
