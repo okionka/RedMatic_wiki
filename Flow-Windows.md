@@ -1,5 +1,24 @@
 # Anzahl und Liste offener Fenster im Dashboard anzeigen
 
+## CCU RPC Event Node
+
+## Switch Node
+
+## Combine Statistic Node
+
+## Function Node
+
+```javascript
+msg.list = msg.topics
+    .join(', ')
+    .replace(/Fenster /g, '');
+    
+return msg;
+```
+
+## Dashboard Template Node
+
+
 
 
 #### Flow JSON
