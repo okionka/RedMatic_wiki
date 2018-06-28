@@ -5,6 +5,8 @@
 
 ## CCU RPC Event Node
 
+Der RPC Event Node wird so konfiguriert, dass er alle Events von Geräten, in deren Kanal-Namen die Zeichenkette `Fenster` vorkommt und bei denen eine Änderung des Wertes des `STATE` Datenpunktes erfolgt ist ausgibt.
+
 ![](images/window-2.png)
 
 
