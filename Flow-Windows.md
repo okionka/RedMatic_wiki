@@ -43,7 +43,7 @@ return msg;
 
 ## Dashboard Template Node
 
-Zu guter letzt wird ein Dashboard Template Node verwendet um die Anzahl und Liste der offenen Fenster anzuzeigen.
+Zu guter Letzt wird ein Dashboard Template Node verwendet um die Anzahl und Liste der offenen Fenster anzuzeigen.
 
 ![](images/window-6.png)
 
