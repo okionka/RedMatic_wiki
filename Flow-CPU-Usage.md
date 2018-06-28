@@ -1,4 +1,4 @@
-
+Dieser Flow benötigt [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) (siehe [Zusätzliche Nodes installieren](Node-Installation))
 
 ![](images/cpu-1.png)
 ![](images/cpu-1.png)
