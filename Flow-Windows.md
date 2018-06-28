@@ -3,7 +3,7 @@
 ![](images/window-1.png)
 
 
-Das Ergebnis dieses Flows im Dashboard:
+Das Ergebnis dieses Flows im Dashboard:    
 ![](images/window-7.png)
 
 ## CCU RPC Event Node
