@@ -18,7 +18,12 @@ return msg;
 
 ## Dashboard Template Node
 
-
+```html
+<div style="font-weight: bold">
+  <span ng-bind-html="msg.payload"></span> offen
+</div>
+<div ng-bind-html="msg.list"></div>
+```
 
 
 #### Flow JSON
