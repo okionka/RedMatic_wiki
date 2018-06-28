@@ -1,5 +1,6 @@
 * [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) - Workaround notwendig, siehe [Issue #15](https://github.com/hobbyquaker/RedMatic/issues/15)
 * [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast)
+* [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu)
 * [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats)
 * [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd)
 * [node-red-contrib-google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts)
