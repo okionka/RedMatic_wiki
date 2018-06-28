@@ -1,12 +1,26 @@
 # Anzahl und Liste offener Fenster im Dashboard anzeigen
 
+![](images/window-1.png)
+![](images/window-7.png)
+
 ## CCU RPC Event Node
+
+![](images/window-2.png)
+
 
 ## Switch Node
 
+![](images/window-3.png)
+
 ## Combine Statistic Node
 
+![](images/window-4.png)
+
+
 ## Function Node
+
+![](images/window-5.png)
+
 
 ```javascript
 msg.list = msg.topics
@@ -17,6 +31,9 @@ return msg;
 ```
 
 ## Dashboard Template Node
+
+![](images/window-6.png)
+
 
 ```html
 <div style="font-weight: bold">
