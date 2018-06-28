@@ -1,6 +1,9 @@
 # Anzahl und Liste offener Fenster im Dashboard anzeigen
 
 ![](images/window-1.png)
+
+
+Das Ergebnis dieses Flows im Dashboard:
 ![](images/window-7.png)
 
 ## CCU RPC Event Node
