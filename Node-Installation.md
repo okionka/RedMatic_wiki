@@ -27,7 +27,8 @@ Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein Backup der CCU anleg
 
 ```
 export PATH=/usr/local/addons/redmatic/bin:$PATH
-npm install -g <paket-name>
+cd /usr/local/addons/redmatic/var
+npm install --save <paket-name>
 ```
 
 
