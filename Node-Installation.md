@@ -12,6 +12,10 @@ Bluetooth) benötigen. Falls der Wunsch besteht bestimmte Nodes zu nutzen die si
 ein [Issue](https://github.com/hobbyquaker/ccu-addon-node-red/issues) angelegt werden, es ist dann u.U. möglich die 
 Nodes mit vorab gebauten Binärmodulen mit in das CCU Addon Paket aufzunehmen.
 
+## Backup
+
+Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein Backup der CCU anlegen!
+
 ## Installation via Node-RED Admin UI
 
 ![](images/node-install-1.png)
