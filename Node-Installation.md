@@ -25,7 +25,10 @@ Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein Backup der CCU anleg
 
 ## Installation via Command Line
 
-`/usr/local/addons/redmatic/bin/npm install -g <paket-name>`
+```
+export PATH=/usr/local/addons/redmatic/bin:$PATH
+/usr/local/addons/redmatic/bin/npm install -g <paket-name>
+```
 
 
 
