@@ -1,6 +1,8 @@
+# Warning: Currently the Node-Red will crash if the copnnection to the chromeCast will fail. I'm working on a solution to that.
+
 With the `node-red-contrib-chromecast` and the `node-red-contrib-google-tts` it is possible to let the Google Home speak any text.
 
-how to install Extensions?
+How to install Extensions?
 * open Manager palette
 * go to Tab Install
 * search for `node-red-contrib-chromecast` and install
