@@ -37,7 +37,7 @@ Der _Time Range Node_ leitet Nachrichten in Abhängigkeit der Uhrzeit oder des S
 
 ## Flows
 
-### Deaktiveren
+### Deaktivieren
 
 Über Doppelklick auf einen Flow-Tab kann dieser umbenannt und (de)aktiviert werden.
 
