@@ -14,8 +14,6 @@ Nodes mit vorab gebauten Binärmodulen mit in das CCU Addon Paket aufzunehmen.
 
 ## Kommentar: Qualität von Node-RED Nodes
 
-Mangelhafte Nodes können im schlimmsten Fall zum Node-RED Absturz führen. Falls dieses Problem auftritt ist es nötig den Node manuell zu entfernen da das Node-RED UI ja nicht mehr genutzt werden kann. Hierzu muss der Ordner des Nodes im Verzeichnis `/usr/local/addons/redmatic/var/node_modules/` gelöscht werden. Alternativ kann natürlich auch einfach ein vor der Node Installation erstelltes CCU Backup zurückgespielt werden.
-
 > V 0.0.1 (sagt vielleicht schon alles?).
 
 Mja, Node-RED krankt (wie imho auch andere Smart Home Software oder generell Open Source Frameworks mit Plugin-Konzept) an der sehr unterschiedlichen Qualität der Plugins/Adapter/Bindings/Nodes/Treiber/... Die Bandbreite reicht von "ohne Doku hingeworfen, keinerlei support, keine Updates" bis zu "Super getestet, ausführlichst dokumentiert, spitzen support, regelmäßige Updates" ;-)
@@ -45,5 +43,8 @@ cd /usr/local/addons/redmatic/var
 npm install --save --save-prefix="~" --production <paket-name>
 ```
 
+## Manuelle Deinstallation von Nodes
 
+
+Mangelhafte Nodes können im schlimmsten Fall zum Node-RED Absturz führen. Falls dieses Problem auftritt ist es nötig den Node manuell zu entfernen da das Node-RED UI ja nicht mehr genutzt werden kann. Hierzu muss der Ordner des Nodes im Verzeichnis `/usr/local/addons/redmatic/var/node_modules/` gelöscht werden. Alternativ kann natürlich auch einfach ein vor der Node Installation erstelltes CCU Backup zurückgespielt werden.
 
