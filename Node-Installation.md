@@ -12,6 +12,18 @@ Bluetooth) benötigen. Falls der Wunsch besteht bestimmte Nodes zu nutzen die si
 ein [Issue](https://github.com/hobbyquaker/ccu-addon-node-red/issues) angelegt werden, es ist dann u.U. möglich die 
 Nodes mit vorab gebauten Binärmodulen mit in das CCU Addon Paket aufzunehmen.
 
+## Kommentar: Qualität von Node-RED Nodes
+
+> V 0.0.1 (sagt vielleicht schon alles?).
+
+Mja, Node-RED krankt (wie imho auch andere Smart Home Software oder generell Open Source Frameworks mit Plugin-Konzept) an der sehr unterschiedlichen Qualität der Plugins/Adapter/Bindings/Nodes/Treiber/... Die Bandbreite reicht von "ohne Doku hingeworfen, keinerlei support, keine Updates" bis zu "Super getestet, ausführlichst dokumentiert, spitzen support, regelmäßige Updates" ;-)
+
+Als Tipp um die Qualität von sowas zu beurteilen würde ich raten: Github Seite anschauen. Das Projekt sollte schon ein gewisses alter haben, der letzte Commit sollte nicht allzu lange her sein, Issue Tracker anschauen - wird anständig supportet - wird auf Issues reagiert und wie lange lässt sich der Entwickler dafür Zeit? Wird es überhaupt von einer Nennenswerten Anzahl Usern benutzt (Github Issues, Github Sternchen, Download Counter auf flows.nodered.org)? Gibt/gab es Pull Requests (sprich: beteiligen sich Leute am Projekt oder ist es eine 1-Man-Show)?, gibt es eine ordentliche Doku/Readme? Auch ein guter Hinweis auf die Aktivität des Entwicklers ist seine Github-Profilseite, da gibts es diese Grafik mit den grünen Kästchen von der Du ablesen kannst wie aktiv der Entwickler insgesamt auf Github war/ist und auch ein Blick auf seine evtl. anderen Projekte schadet nicht.
+
+Auch ganz praktisch https://npms.io/ scannt alle Node-Module (auch alle Node-RED Nodes sind da zu finden) und erstellt 3 Bewertungen: Popularität, Qualität und Maintenance, was dort angezeigt wird ist meistens recht treffend, jedenfalls was Qualität und Maintenance angeht, Popularität ist bei so Smart Home Sachen meistens sehr niedrig und daher eher weniger aussagekräftig.
+
+(ursprünglich aus https://homematic-forum.de/forum/viewtopic.php?f=41&t=43508&p=446462#p446462)
+
 ## Backup
 
 Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein Backup der CCU anlegen!
