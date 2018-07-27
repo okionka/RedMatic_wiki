@@ -3,7 +3,7 @@
   * [Update](Update)
   * [Deinstallation](Deinstallation)
   * [Zusätzliche Nodes installieren](Node-Installation)
-  * [Erfolgreich mit RedMatic getestete Nodes](https://github.com/hobbyquaker/RedMatic/wiki/Erfolgreich-getestete-Nodes) - bitte diese Liste ergänzen!
+  * [Erfolgreich mit RedMatic getestete Nodes](Erfolgreich-getestete-Nodes) - bitte diese Liste ergänzen!
   * [Log-Level erhöhen für Fehleranalyse](Loglevel)
   * [Passwort Schutz für Node-RED einrichten](Passwort)
 * Nutzung
