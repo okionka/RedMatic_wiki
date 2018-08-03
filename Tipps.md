@@ -5,6 +5,7 @@
   * [If Node](#if-node)
   * [Time Range Node](#time-range)
 * Flows
+  * [Deaktiveren](#deaktivieren)
   * [Links](#links)
   * [Subflows](#subflows)
 * Sonstiges  
@@ -35,6 +36,10 @@ Der _If Node_ kann die Weiterleitung von _Messages_ in Abhängigkeit vorangegang
 Der _Time Range Node_ leitet Nachrichten in Abhängigkeit der Uhrzeit oder des Sonnenstands weiter. 
 
 ## Flows
+
+### Deaktivieren
+
+Über Doppelklick auf den Reiter eines Flows kann dieser umbenannt und (de)aktiviert werden.
 
 ### Links
 

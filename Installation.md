@@ -8,3 +8,7 @@
 * Im Anschluss abwarten bis sich die CCU neu gestartet hat.
 * Node-RED ist unter `http://<ccu-adresse>/addons/red` erreichbar.
 * Node-RED Dashboard ist unter `http://<ccu-adresse>/addons/red/ui` erreichbar.
+
+### Hinweis CUxD und Homematic-Wired
+
+Per Default werden die Schnittstellenprozesse CUxD und hs485d (wired) nicht aktiviert. Für eine Zukünftige Version ist dies geplant (https://github.com/hobbyquaker/RedMatic/issues/34), Stand heute muss das noch manuell im _ccu configuration_ Node gemacht werden.
