@@ -19,6 +19,7 @@
   * [DutyCycle Graph im Dashboard anzeigen](Flow-DutyCycle)
   * [Per Pushover benachrichtigen wenn Fenster länger als 10 Minuten offen ist](Flow-Window-Pushover)
   * [CPU Auslastung als Graph im Dashboard anzeigen](Flow-CPU-Usage)
+  * [JSON Daten von Webservice abfragen und in Systemvariable schreiben](Flow-HTTP-Client)
 * Von Usern bereitgestellte Flows
   * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
   * [Berechnung von Feiertagen](Flow-to-calculate-german-holidays)
