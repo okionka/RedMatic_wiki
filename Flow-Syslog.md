@@ -1,3 +1,5 @@
+# Fehlerüberwachung der CCU
+
 Treten Fehler in Programmen oder der Logik der CCU auf werden diese in `/var/log/messages` geloggt. Der folgende Flow beschreibt eine Möglichkeit
 * die Fehler auszulesen
 * die Gesamtzahl der Fehler zu zählen und im Dashboard anzuzeigen
@@ -7,40 +9,40 @@ Treten Fehler in Programmen oder der Logik der CCU auf werden diese in `/var/log
 Neben den standardmäßig vorhandenen Nodes verwendet dieser Flow zusätzlich [node-red-contrib-counter](https://www.npmjs.com/package/node-red-contrib-counter). Diese kann wie [hier beschrieben](https://github.com/hobbyquaker/RedMatic/wiki/Node-Installation) installiert werden.
 
 ## Flow und Dashboard
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/flow.png)
+![](images/errorlog/flow.png)
 
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/dash.png)
+![](images/errorlog/dash.png)
 
 ## Konfiguration der einzelnen Nodes
 
 ### Tail Node
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/tail.png)
+![](images/errorlog/tail.png)
 
 * Funktion: Überwacht `/var/log/messages` auf Änderungen und gibt diese als `msg.payload` aus
 * `Split lines on \n?` sorgt dafür, dass bei mehreren Zeilen, nur jeweile eine pro `msg` ausgegeben wird
 
 ### Switch Node - Filter Errors
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/switch.png)
+![](images/errorlog/switch.png)
 
 * Funktion: Lässt eine `msg` nur passieren, wenn in deren Payload irgendwo `Error:` vorkommt
 * `^.*Error\:.*$` ist ein sogenannter [https://de.wikipedia.org/wiki/Regul%C3%A4rer_Ausdruck](Regulärer Ausdruck) und prüft, ob in einem String neben beliebigen Zeichen auch die Zeichenfolge `Error:` vorkommt.
 
 ### Count Node - Count Errors
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/count.png)
+![](images/errorlog/count.png)
 
 * Funktion: Zählt die Anzahl der ankommenden Nachrichten
 * Output 1: Eine Message mit dem jeweilgen Zählerstand als Payload
 * Output 2: Die eingegangene Nachricht wird einfach durchgeleitet (und um die Eigenschaft `msg.count` als Zählerstand ergänzt)
 
 ### Join Node - Prepare Message
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/join.png)
+![](images/errorlog/join.png)
 
 * Funktion: Sammelt die eingehenden `msg` und fügt diese, bei Erreichen eines Grenzwerts, zu einer einzigen neuen Nachricht zusammen
 * Mit `\r\n` in `joined using` wird zwischen jeder Nachricht ein Windows-Zeilenumbruch eingefügt
 * `After a number of message parts` gibt den Grenzwert an, bei dem diese Anzahl `msg` zusammengefasst und ausgegeben wird
 
 ### Email Node - Send Email
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/email.png)
+![](images/errorlog/email.png)
 
 * Funktion: Diese Node erzeugt und versendet eine Mail mit `msg.payload` als Inhalt und `msg.topic` als Betreff
 * `Server` ist der Posteingangsserver der Mailadresse, von der die Nachricht versendet werden soll
@@ -48,25 +50,25 @@ Neben den standardmäßig vorhandenen Nodes verwendet dieser Flow zusätzlich [n
 * `Password` das zum Konto gehörende Passwort
 
 ### Gauge Node - Show Error Count
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/gauge.png)
+![](images/errorlog/gauge.png)
 
 * Funktion: Zeigt im Dashboard eine Zähluhr mit der Gesamtzahl der bisher aufgetretenen Fehler an
 
 
 ### Button Node - Reset Error Count
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/button_reset_count.png)
+![](images/errorlog/button_reset_count.png)
 
 * Funktion: Zeigt im Dashboard, direkt unter der Zähleruhr, einen Reset-Knopf an, mit dem der Zähler wieder auf Null gestellt werden kann
 
 ### Change Node - Set Reset Message
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/change_reset_count.png)
+![](images/errorlog/change_reset_count.png)
 
 * Funktion: Die Counter Node erwartet eine Nachricht mit der Eigenschaft _Reset_ (`msg.reset`), um den Zähler zu nullen.
 * Die Button Node kann diese Eigenschaft aber nicht erzeugen, also wird diese mit der Change Node gesetzt
 * Zusätzlich wird noch die _Topic_ Eigenschaft (`msg.topic`) gesetzt, um im Log die Aktion mit dem entsprechenden Topic anzeigen zu können
 
 ### Function Node - Rotate Entries
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/function.png)
+![](images/errorlog/function.png)
 
 ```javascript
 var dashboardLog = context.get('dashboardLog')|| [];
@@ -96,7 +98,7 @@ return msg;
 * Wird eine Nachricht mit der Eigenschaft `msg.resetlog` empfangen wird der gesamte Speicher geleert
 
 ### Template Node - DashLog
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/template.png)
+![](images/errorlog/template.png)
 
 ```html
 <ul>
@@ -113,12 +115,12 @@ return msg;
 * Die Liste zeigt immer den gesamten Inhalt des, in der `Rotate Entries` Node erzeugten, Speichers an
 
 ### Button Node - Clear DashLog
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/button_reset_count.png)
+![](images/errorlog/button_reset_count.png)
 
 * Funktion: Zeigt im Dashboard direkt unter dem DashLog einen Reset-Knopf an, mit dem der Inhalt des Logs gelöscht wird
 
 ### Change Node - Set Reset Message
-![](https://raw.githubusercontent.com/wiki/hobbyquaker/RedMatic/images/errorlog/change_reset_log.png)
+![](images/errorlog/change_reset_log.png)
 
 * Funktion: Die `Rotate Entries` Node erwartet eine Nachricht mit der Eigenschaft `msg.resetlog`, um das Log zu löschen
 * Die vorangegangene Button Node kann diese Eigenschaft aber nicht erzeugen, also wird diese mit der Change Node gesetzt
