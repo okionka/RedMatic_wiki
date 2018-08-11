@@ -20,6 +20,7 @@ Bitte diese Liste ergänzen!
 * [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-lifx)
 * [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover)
 * [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis)
+* [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell)
 * [node-red-contrib-tankerkoenig](https://flows.nodered.org/node/node-red-contrib-tankerkoenig) 
     * benötigt [API Key](https://creativecommons.tankerkoenig.de/)
 * [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot)
