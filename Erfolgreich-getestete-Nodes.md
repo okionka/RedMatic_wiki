@@ -25,6 +25,7 @@ Bitte diese Liste ergänzen!
 * [node-red-contrib-tankerkoenig](https://flows.nodered.org/node/node-red-contrib-tankerkoenig) 
     * benötigt [API Key](https://creativecommons.tankerkoenig.de/)
 * [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot)
+* [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri)
 * [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota)
 * [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql)
 * [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) 
