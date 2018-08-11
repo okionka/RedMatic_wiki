@@ -16,6 +16,7 @@ Bitte diese Liste ergänzen!
 * [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb)
 * [node-red-contrib-lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv)
 * [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2)
+* [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo)
 * [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover)
 * [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis)
 * [node-red-contrib-tankerkoenig](https://flows.nodered.org/node/node-red-contrib-tankerkoenig) 
