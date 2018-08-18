@@ -5,7 +5,7 @@
 * Heruntergeladene Datei auswählen: ![](images/install-4.png) ![](images/install-5.png)
 * Datei auf die CCU hochladen: ![](images/install-6.png)
 * Installation Starten: ![](images/install-7.png)
-* Im Anschluss abwarten bis sich die CCU neu gestartet hat.
+* Im Anschluss abwarten bis sich die CCU neu gestartet hat - hier ist Geduld erforderlich. Die Installation von RedMatic benötigt einige Zeit.
 * Node-RED ist unter `http://<ccu-adresse>/addons/red` erreichbar.
 * Node-RED Dashboard ist unter `http://<ccu-adresse>/addons/red/ui` erreichbar.
 
