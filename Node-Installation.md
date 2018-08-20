@@ -15,7 +15,7 @@ Nodes mit vorab gebauten Binärmodulen mit in das CCU Addon Paket aufzunehmen.
 
 ## Backup
 
-Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein Backup der CCU anlegen!
+Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein **Backup der CCU anlegen!**
 
 ## Installation via Node-RED Admin UI
 
