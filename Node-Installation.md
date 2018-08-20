@@ -35,7 +35,13 @@ npm install --save --no-package-lock --global-style --save-prefix="~" --producti
 ## Manuelle Deinstallation von Nodes
 
 
-Mangelhafte Nodes können im schlimmsten Fall zum Node-RED Absturz führen. Falls dieses Problem auftritt ist es nötig den Node manuell zu entfernen da das Node-RED UI ja nicht mehr genutzt werden kann. Hierzu muss der Ordner des Nodes im Verzeichnis `/usr/local/addons/redmatic/var/node_modules/` gelöscht werden. Alternativ kann natürlich auch einfach ein vor der Node Installation erstelltes CCU Backup zurückgespielt werden.
+Mangelhafte Nodes können im schlimmsten Fall zum Node-RED Absturz führen. Falls dieses Problem auftritt ist es nötig den Node manuell zu entfernen da das Node-RED UI ja nicht mehr genutzt werden kann. Hierzu wie folgt vorgehen:
+```
+export PATH=/usr/local/addons/redmatic/bin:$PATH
+cd /usr/local/addons/redmatic/var
+npm remove --save --no-package-lock <paket-name>
+```
+Alternativ kann natürlich auch einfach ein vor der Node Installation erstelltes CCU Backup zurückgespielt werden.
 
 ## Kommentar: Wie kann ich die Qualität von Node-RED Nodes beurteilen?
 
