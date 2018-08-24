@@ -1,3 +1,5 @@
+# Einfacher Flow zum Schalten einer Lampe mittels Taster
+
 Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächsten Ausschalten, ist das einfach möglich:
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
