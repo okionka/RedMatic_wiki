@@ -22,6 +22,8 @@
   * [JSON Daten von Webservice abfragen und in Systemvariable schreiben](Flow-HTTP-Client)
   * [Inhalt einer Systemvariablen über einfachen Webservice bereitstellen](Flow-HTTP-Server)
 * Von Usern bereitgestellte Flows
+  * sehr einfache Beispiele
+    * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
   * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
   * [Berechnung von Feiertagen](Flow-to-calculate-german-holidays)
   * [Funktion nur innerhalb einer bestimmten Uhr-Zeit ausführen](Flow-within-time)
