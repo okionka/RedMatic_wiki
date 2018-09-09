@@ -16,6 +16,7 @@
 * [node-red-contrib-huemagic](https://flows.nodered.org/node/node-red-contrib-huemagic)
 * [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb)
 * [node-red-contrib-lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv)
+* [node-red-contrib-light-scheduler](https://flows.nodered.org/node/node-red-contrib-light-scheduler)
 * [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) - Xiaomi Aqara Mi Home
 * [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2)
 * [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo)
