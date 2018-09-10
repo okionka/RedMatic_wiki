@@ -28,6 +28,7 @@
   * [Funktion nur innerhalb einer bestimmten Uhr-Zeit ausführen](Flow-within-time)
   * [Fehlerüberwachung der CCU](Flow-Syslog)
   * [Integration Weatherman (JSON, httpStatic, SteelSeries Gauges)](https://github.com/Sineos/node-red-contrib-weatherman/blob/master/README_DE.md)
+  * [Systeminformationen der CCU Zentrale](https://github.com/Sineos/redmatic-flow-sysinfo/blob/master/README_DE.md)
 * Sonstiges
   * [Dashboard Screenshots](Dashboard-Screenshots)
 
