@@ -30,7 +30,9 @@ Dieser Node beantwortet die HTTP Anfrage
 
 ![](images/api6.png)
 
-## Nun kann `http://<ccu-adresse>/addons/red/api/anwesenheit` genutzt werden:
+### Resultat
+
+Nun kann `http://<ccu-adresse>/addons/red/api/anwesenheit` genutzt werden:
 
 ![](images/api7.png)
 

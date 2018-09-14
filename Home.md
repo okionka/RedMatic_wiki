@@ -21,11 +21,16 @@
   * [CPU Auslastung als Graph im Dashboard anzeigen](Flow-CPU-Usage)
   * [JSON Daten von Webservice abfragen und in Systemvariable schreiben](Flow-HTTP-Client)
   * [Inhalt einer Systemvariablen über einfachen Webservice bereitstellen](Flow-HTTP-Server)
+  * [Schnelles Blinken der LED im Offline-Betrieb unterbinden](Flow-Offline-LED)
+  * [CCU an MQTT anbinden](Flow-MQTT)
 * Von Usern bereitgestellte Flows
+  * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
   * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
   * [Berechnung von Feiertagen](Flow-to-calculate-german-holidays)
   * [Funktion nur innerhalb einer bestimmten Uhr-Zeit ausführen](Flow-within-time)
   * [Fehlerüberwachung der CCU](Flow-Syslog)
+  * [Integration Weatherman (JSON, httpStatic, SteelSeries Gauges)](https://github.com/Sineos/node-red-contrib-weatherman/blob/master/README_DE.md)
+  * [Systeminformationen der CCU Zentrale](https://github.com/Sineos/redmatic-flow-sysinfo/blob/master/README_DE.md)
 * Sonstiges
   * [Dashboard Screenshots](Dashboard-Screenshots)
 
