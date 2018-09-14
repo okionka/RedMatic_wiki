@@ -21,6 +21,8 @@
   * [CPU Auslastung als Graph im Dashboard anzeigen](Flow-CPU-Usage)
   * [JSON Daten von Webservice abfragen und in Systemvariable schreiben](Flow-HTTP-Client)
   * [Inhalt einer Systemvariablen über einfachen Webservice bereitstellen](Flow-HTTP-Server)
+  * [Schnelles Blinken der LED im Offline-Betrieb unterbinden](Flow-Offline-LED)
+  * [CCU an MQTT anbinden](Flow-MQTT)
 * Von Usern bereitgestellte Flows
   * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
   * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
