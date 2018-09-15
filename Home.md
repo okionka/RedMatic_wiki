@@ -15,7 +15,6 @@
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
   * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
   * [UNREACH Meldung unterdrücken](Flow-Unreach)
-  * [STICKY_UNREACH Meldungen zurücksetzen](Flow-Sticky-Unreach)
   * [Anzeigen und Setzen von Systemvariablen im Dashboard](Flow-Sysvar-Dashboard)
   * [DutyCycle Graph im Dashboard anzeigen](Flow-DutyCycle)
   * [Per Pushover benachrichtigen wenn Fenster länger als 10 Minuten offen ist](Flow-Window-Pushover)
