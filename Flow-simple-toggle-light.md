@@ -3,10 +3,33 @@
 Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächsten Ausschalten, ist das einfach möglich:
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
-## Start
+## Inhalt
+  - [Vergleich mit einem CCU Programm](#vergleich-mit-einem-ccu-programm)
+  - [Node Red Flow](#node-red-flow)
+    - [Start](#start)
+    - [Trigger des Flow](#trigger-des-flow)
+      - [Konfiguration des Trigger](#konfiguration-des-trigger)
+    - [Ablauf steuern](#ablauf-steuern)
+    - [Ablauf verändern](#ablauf-verandern)
+    - [Aktion ausführen](#aktion-ausfuhren)
+
+## Vergleich mit einem CCU Programm
+
+Wenn man das Problem mittels CCU Programm lösen möchte, hat man vermutlich ein Programm in dieser Art erstellt:
+![image](https://user-images.githubusercontent.com/12692680/45623821-de23b200-ba88-11e8-94ee-053888e7bac5.png)
+
+Hier wird das Programm durch einen kurzen Tastendruck getriggert und abhängig vom aktuellen Zustand der Lampe (nur prüfen) diese entweder ein oder ausgeschaltet.
+
+In Node Red ist der Flow ähnlich:
+![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
+
+
+## RedMatic Flow
+### Start
 Als erstes sollte man sich die [Node-RED Grundlagen](Node-RED) durchlesen. Danach kann es auch schon losgehen.
 
-## Trigger des Flow
+
+### Trigger des Flow
 Als erstes benötigt man den Trigger für den Flow. Dieser gibt das Event, welches ein Ereignis auslösen soll.
 
 Wenn dieses Event durch eine Taste eines Homematic Gerätes ausgelöst werden soll, nimmt man dafür in der Palette den value node:
@@ -15,7 +38,7 @@ Wenn dieses Event durch eine Taste eines Homematic Gerätes ausgelöst werden so
 Diesen platziert man einfach in den Arbeitsbereitch und klickt ihn doppelt:
 ![image](https://user-images.githubusercontent.com/12692680/44587735-1dc1eb80-a7b4-11e8-860f-d5058af7432c.png)
 
-### Konfiguration des Trigger
+#### Konfiguration des Trigger
 zum konfigurieren sind die Felder wie folgt auszufüllen:
 1. Als erstes muss man die Homematic Zentrale auswählen. Hat man noch keine Konfiguriert, so ist mittles Stift Button danaben die EInstellungen zur Zentrale zu tätigen. (siehe auch [CCU Nodes](CCU-Nodes) )
 2. Danach das Interface des Homematic Gerätes. ![image](https://user-images.githubusercontent.com/12692680/44587957-b3f61180-a7b4-11e8-886d-9aa9c8d3b5cf.png) Sollte die Drop Down Box leer sein (weil beispielsweise die CCU erst konfiguriert wurde), so muss man die Einstellungen des Node mit dem Done Button einmal schließen und neu öffnen.
@@ -33,7 +56,7 @@ zum konfigurieren sind die Felder wie folgt auszufüllen:
       * Wenn man sich unsicher ist, sollte der Haken gesetzt sein.
     * Mit der EIgenschaft "Beim Start letzten bekannten Wert ausgeben" kann gesteuert werden ob beim Neu/Start von RedMatic der Flow mit dem letzten bekannten Wert getriggert werden soll.
 
-## Ablauf steuern
+### Ablauf steuern
 Als nächstes ziehen wir aus der Palette den Node, der den Ablauf steuern soll. In diesem Beispiel wollen wir abhängig vom Schaltzustand eines Lichtes dieses aus oder einschalten. Also muss sich in Abhängigkeit wvom Zustand des Lichtes (aus oder ein) etwas anderes passieren.
  - Wenn Lampe aus ist, soll sie eingeschaltet werden
  - Wenn Lampe ein ist, soll sie ausgeschaltet werden
@@ -70,7 +93,7 @@ Die Komplette Konfiguration kann wie folgt aussehen:
 
 ![image](https://user-images.githubusercontent.com/12692680/44590081-8a3fe900-a7ba-11e8-921f-e0ba6d4214c2.png)
 
-## Ablauf verändern
+### Ablauf verändern
 Als nächstes möchten wir bestimmen was an den beiden ausgängen passieren soll:
 
 ![image](https://user-images.githubusercontent.com/12692680/44590167-c4a98600-a7ba-11e8-84fa-8c6c3b93f114.png)
@@ -93,7 +116,7 @@ Diesen Node verbindet man mit dem oberen Ausgang des switch Nodes. Den Schritt w
 
 ![image](https://user-images.githubusercontent.com/12692680/44590514-a3956500-a7bb-11e8-835e-76600cd1f17d.png)
 
-## Aktion ausführen
+### Aktion ausführen
 Als Aktion soll ein Homematic Aktor geschaltet werden.
 Dafür ist aus der Palette der value Node in den Arbeitsbereich zu ziehen.
 Dieser ist genauso wie der Tasten Kanal für den Trigger zu konfigurieren, mit dem unterschied anstelle des Tasterkanals hier den Kanal des Aktors zu wählen.
