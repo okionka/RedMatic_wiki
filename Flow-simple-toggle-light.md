@@ -12,6 +12,7 @@ Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächste
     - [Ablauf steuern](#ablauf-steuern)
     - [Ablauf verändern](#ablauf-verandern)
     - [Aktion ausführen](#aktion-ausfuhren)
+    - [Abschluss](#abschluss)
 
 ## Vergleich mit einem CCU Programm
 
@@ -124,6 +125,7 @@ Dieser ist genauso wie der Tasten Kanal für den Trigger zu konfigurieren, mit d
 Als vorletzten Schritt verbindet man die beiden Change Nodes mit dem value Node:
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
+### Abschluss
 Ist dies erledigt, wird diese Änderung aktiviert mittels des Deploy Buttons:
 ![image](https://user-images.githubusercontent.com/12692680/44590937-962caa80-a7bc-11e8-9df3-592da55d8098.png)
 
