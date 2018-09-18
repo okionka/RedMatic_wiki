@@ -23,6 +23,7 @@
   * [Inhalt einer Systemvariablen über einfachen Webservice bereitstellen](Flow-HTTP-Server)
   * [Schnelles Blinken der LED im Offline-Betrieb unterbinden](Flow-Offline-LED)
   * [CCU an MQTT anbinden](Flow-MQTT)
+  * [Bidcos-Wired Dimmer mit Bidcos-RF Tasten steuern](Flow-Wired-Dimmer)
 * Von Usern bereitgestellte Flows
   * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
   * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
