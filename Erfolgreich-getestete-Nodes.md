@@ -4,10 +4,10 @@
 | --------- | ------------ | ----------------------- | -------------------- | ----------- |
 | [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) | | ✅| ✅ | |
 | [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos) | | ✅| | |
-| [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | | 
+| [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
 | [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) | | ✅ | ✅ | Achtung! Ein Verbindungsabbruch verursacht einen RedMatic absturz. [Issue #7](https://github.com/hobbyquaker/RedMatic/issues/7) |
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
-| [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | | |
+| [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | ✅ | |
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
 | [node-red-contrib-filter](https://flows.nodered.org/node/node-red-contrib-filter) | | ✅ | | |
 | [node-red-contrib-google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts) | | ✅ | ✅ | |
@@ -32,6 +32,6 @@
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) | | ✅ | | benötigt [API Key](http://openweathermap.org/appid) | 
 | [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping) | | ✅ | | |
-| [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | | |
+| [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
 | [node-red-node-weather-underground](node-red-node-weather-underground) | | ✅ | | benötigt [API Key](http://www.wunderground.com/weather/api/d/pricing.html) | 
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
