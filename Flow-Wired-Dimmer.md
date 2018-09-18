@@ -8,7 +8,7 @@ Zuerst müssen entsprechende Direktverknüpfungen angelegt werden, es ist jeweil
 
 ![](images/wired-dim-1.png)
 
-In den Verknüpfungsprofil ist auf kurzen Tastendruck das an- bzw ausschalten konfiguriert, ein langer Tastendruck Dimmt um 5% hoch bzw. runter:
+In den Verknüpfungsprofil ist auf kurzen Tastendruck das an- bzw ausschalten konfiguriert, ein langer Tastendruck Dimmt um 3% hoch bzw. runter:
 
 ![](images/wired-dim-2.png)
 ![](images/wired-dim-3.png)
