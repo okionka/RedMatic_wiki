@@ -1,6 +1,7 @@
 ### Bitte diese Liste ergänzen!
 
 * [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) 
+* [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos)
 * [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller)
 * [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast)
     * Achtung! Ein Verbindungsabbruch verursacht einen RedMatic absturz. [Issue #7](https://github.com/hobbyquaker/RedMatic/issues/7)
