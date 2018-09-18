@@ -15,7 +15,6 @@
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
   * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
   * [UNREACH Meldung unterdrücken](Flow-Unreach)
-  * [STICKY_UNREACH Meldungen zurücksetzen](Flow-Sticky-Unreach)
   * [Anzeigen und Setzen von Systemvariablen im Dashboard](Flow-Sysvar-Dashboard)
   * [DutyCycle Graph im Dashboard anzeigen](Flow-DutyCycle)
   * [Per Pushover benachrichtigen wenn Fenster länger als 10 Minuten offen ist](Flow-Window-Pushover)
@@ -24,6 +23,7 @@
   * [Inhalt einer Systemvariablen über einfachen Webservice bereitstellen](Flow-HTTP-Server)
   * [Schnelles Blinken der LED im Offline-Betrieb unterbinden](Flow-Offline-LED)
   * [CCU an MQTT anbinden](Flow-MQTT)
+  * [Bidcos-Wired Dimmer mit Bidcos-RF Tasten steuern](Flow-Wired-Dimmer)
 * Von Usern bereitgestellte Flows
   * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
   * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
