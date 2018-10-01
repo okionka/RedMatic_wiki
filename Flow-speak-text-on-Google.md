@@ -5,101 +5,18 @@ With the `node-red-contrib-chromecast` and the `node-red-contrib-google-tts` it 
 How to install Extensions?
 * open Manager palette
 * go to Tab Install
-* search for `node-red-contrib-chromecast` and install
-* search for `node-red-contrib-google-tts` and install
+* search for `node-red-contrib-cast` and install
 
 ### Example Flow:
-![screenshot 2018-05-21 at 01 23 56](https://user-images.githubusercontent.com/12692680/40284898-b4f68002-5c95-11e8-9891-7a14bd853c05.png)
+![example flow](https://user-images.githubusercontent.com/12692680/46281726-c6135e80-c56f-11e8-90e7-55d82366c30c.png)
 
 
+#### Example Flow with Text to speach:
 ```
-[
-    {
-        "id": "ae518952.246df8",
-        "type": "google-tts",
-        "z": "4e9fd15e.9ba8a",
-        "name": "tts",
-        "inputField": "payload",
-        "inputFieldType": "msg",
-        "outputField": "payload",
-        "outputFieldType": "msg",
-        "languageField": "de",
-        "languageFieldType": "str",
-        "speedField": "1",
-        "speedFieldType": "num",
-        "x": 330,
-        "y": 2600,
-        "wires": [
-            [
-                "42c153c1.70611c"
-            ]
-        ]
-    },
-    {
-        "id": "cbf4a6ea.930938",
-        "type": "inject",
-        "z": "4e9fd15e.9ba8a",
-        "name": "",
-        "topic": "",
-        "payload": "Hallo Duda",
-        "payloadType": "str",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "x": 180,
-        "y": 2600,
-        "wires": [
-            [
-                "ae518952.246df8"
-            ]
-        ]
-    },
-    {
-        "id": "561c1e70.b87fb",
-        "type": "debug",
-        "z": "4e9fd15e.9ba8a",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 830,
-        "y": 2600,
-        "wires": []
-    },
-    {
-        "id": "b4f153a6.32b31",
-        "type": "chromecast-play",
-        "z": "4e9fd15e.9ba8a",
-        "name": "",
-        "url": "",
-        "contentType": "",
-        "ip": "",
-        "x": 690,
-        "y": 2600,
-        "wires": [
-            [
-                "561c1e70.b87fb"
-            ]
-        ]
-    },
-    {
-        "id": "42c153c1.70611c",
-        "type": "function",
-        "z": "4e9fd15e.9ba8a",
-        "name": "Format Message",
-        "func": "let timer = context.get('timer');\nlet lastMsg  = context.get('lastMsg'); \n\nif (lastMsg === msg.payload) {\n    return null;\n}\n\nif (timer) {\n    clearTimeout(timer);\n}\ncontext.set('lastMsg',msg.payload);\n\n//make sure only send same Text only once in 5 minutes:\ntimer = setTimeout(function(){\n    context.set('timer',null);\n    context.set('lastMsg',null);\n}, 300000);\ncontext.set('timer',timer);\n\n//format outgoing message\nmsg.payload = {\n    ip: '192.168.178.35', //gogole home ore chromecast device\n    url: msg.payload,\n    contentType: 'audio/mp3'\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 510,
-        "y": 2600,
-        "wires": [
-            [
-                "b4f153a6.32b31"
-            ]
-        ]
-    }
-]
+[{"id":"2c459923.f48066","type":"debug","z":"41c55cf0.be39c4","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"true","x":790,"y":100,"wires":[]},{"id":"cbe16c75.2b27f","type":"inject","z":"41c55cf0.be39c4","name":"","topic":"test","payload":"Hallo","payloadType":"str","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":180,"y":100,"wires":[["98abbb78.b7f048"]]},{"id":"a406c701.d0f3b8","type":"cast-to-client","z":"41c55cf0.be39c4","name":"","url":null,"contentType":"","message":null,"language":"en","ip":"","port":"","volume":null,"x":610,"y":100,"wires":[["2c459923.f48066"]]},{"id":"98abbb78.b7f048","type":"change","z":"41c55cf0.be39c4","name":"","rules":[{"t":"set","p":"ip","pt":"msg","to":"192.168.178.35","tot":"str"},{"t":"set","p":"language","pt":"msg","to":"de","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":400,"y":100,"wires":[["a406c701.d0f3b8"]]}]
+```
+
+#### Example Flow with sending own url:
+```
+[{"id":"30969ad2.6669e6","type":"inject","z":"41c55cf0.be39c4","name":"","topic":"","payload":"true","payloadType":"bool","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":170,"y":180,"wires":[["e70fa4d6.b4cf38"]]},{"id":"e70fa4d6.b4cf38","type":"change","z":"41c55cf0.be39c4","name":"","rules":[{"t":"set","p":"ip","pt":"msg","to":"192.168.178.35","tot":"str"},{"t":"set","p":"language","pt":"msg","to":"de","tot":"str"},{"t":"set","p":"url","pt":"msg","to":"https://translate.google.com/translate_tts?ie=UTF-8&q=Hallo&tl=de&total=1&idx=0&textlen=5&tk=98540.459633&client=t&prev=input&ttsspeed=1","tot":"str"},{"t":"set","p":"contentType","pt":"msg","to":"audio/mp3","tot":"str"},{"t":"set","p":"lowerVolumeLimit","pt":"msg","to":"25","tot":"num"},{"t":"set","p":"upperVolumeLimit","pt":"msg","to":"50","tot":"num"}],"action":"","property":"","from":"","to":"","reg":false,"x":400,"y":180,"wires":[["38b8e2ce.7be9be"]]},{"id":"38b8e2ce.7be9be","type":"cast-to-client","z":"41c55cf0.be39c4","name":"","url":null,"contentType":"","message":null,"language":"en","ip":"","port":"","volume":null,"x":610,"y":180,"wires":[["35a22864.c9ba88"]]},{"id":"35a22864.c9ba88","type":"debug","z":"41c55cf0.be39c4","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"true","x":790,"y":180,"wires":[]}]
 ```
