@@ -5,7 +5,8 @@
 | [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) | | ✅| ✅ | |
 | [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos) | | ✅| | |
 | [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
-| [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) | | ✅ | ✅ | Achtung! Ein Verbindungsabbruch verursacht einen RedMatic absturz. [Issue #7](https://github.com/hobbyquaker/RedMatic/issues/7) |
+| [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) | | ✅ | :exclamation: | Achtung! Ein Verbindungsabbruch verursacht einen RedMatic absturz. [Issue #7](https://github.com/hobbyquaker/RedMatic/issues/7) |
+| [node-red-contrib-cast](https://flows.nodered.org/node/node-red-contrib-cast) | | ✅ | ✅ | ist der Nachfolger zu [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) |
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
 | [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | ✅ | |
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
