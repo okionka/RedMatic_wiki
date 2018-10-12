@@ -36,6 +36,8 @@ Die Sicherheitswarnung bestätigen
 ![](images/homekit/homekit8.png)    
 
 
+Nun sollten alle unterstützen Geräte der CCU in der Home App erscheinen.
+
 ### Sytemvariablen
 
 ### Programme
