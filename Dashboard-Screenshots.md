@@ -1,12 +1,12 @@
-## Smartphone
+## node-red-dashboard Smartphone
 
 ![](images/dashboard-4.jpg)
 
-## Dark Theme
+## node-red-dashboard Dark Theme
 
 ![](images/dashboard-dark.png)
 
-## Light Theme
+## node-red-dashboard Light Theme
 
 ![](images/dashboard-1.png)
 ![](images/dashboard-2.png)
