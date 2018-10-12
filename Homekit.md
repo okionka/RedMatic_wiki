@@ -53,5 +53,7 @@ Man nutzt hierfür am Ausgang des _HomeKit Switch_ Nodes einen _Function Switch_
 
 ![](images/homekit/homekit-pseudobutton.png)
 
+_Für eine spätere Version von RedMatic-HomeKit ist eine Vereinfachung dieser "Pseudo-Button" Methode geplant indem direkt im Switch-Node schon ein automatischer Reset nach konfigurierbarer Zeit eingestellt werden kann._
+
 ### Alarmsystem
 
