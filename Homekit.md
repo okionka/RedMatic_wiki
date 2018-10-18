@@ -45,9 +45,10 @@ Nun sollten alle unterstützen Geräte der CCU in der Home App erscheinen.
 
 ### Nutzungshinweise
 
-Nicht alle Änderungen an den in HomeKit bereitsgestellten Accessories werden bei einem Deploy in Node-RED übernommen. Bestimmte Änderungen erfordern einen Neustart von RedMatic:
+Nicht alle Änderungen an den in HomeKit bereitgestellten Accessories werden bei einem Deploy in Node-RED übernommen. Bestimmte Änderungen erfordern einen Neustart von RedMatic:
 * Entfernen von Geräten
 * Umbenennen von Geräten
+* Ändern der Anzahl der Tasten des Event Nodes
 
 
 ### Sytemvariablen
