@@ -49,6 +49,7 @@ Nicht alle Änderungen an den in HomeKit bereitgestellten Accessories werden bei
 * Entfernen von Geräten
 * Umbenennen von Geräten
 * Ändern der Anzahl der Tasten des Event Nodes
+* Die konfigurierten Services eines "Universellen Accessory" ändern
 
 
 ### Sytemvariablen
