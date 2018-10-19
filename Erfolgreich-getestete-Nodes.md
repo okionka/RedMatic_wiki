@@ -36,3 +36,4 @@
 | [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
 | [node-red-node-weather-underground](node-red-node-weather-underground) | | ✅ | | benötigt [API Key](http://www.wunderground.com/weather/api/d/pricing.html) | 
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
+| [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
