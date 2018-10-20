@@ -1,6 +1,6 @@
 # RedMatic HomeKit
 
-**Hinweis:** RedMatic HomeKit befindet sich noch in einem frühen Entwicklungsstadium und ist als Beta-Software zu betrachten. Es gibt noch einige Geräte die noch nicht unterstützt werden, es fehlen noch einige der geplanten Features, es sind wahrscheinlich noch einige Fehler enthalten (die im schlimmsten Fall zu einem Crash von Node-RED führen können und/oder ein löschen und erneutes Pairen der Bridge mit iOS erfordern). 
+**Hinweis:** RedMatic HomeKit befindet sich noch in einem frühen Entwicklungsstadium und ist als Beta-Software zu betrachten. Es gibt noch einige Geräte die noch nicht unterstützt werden, es fehlen noch einige der geplanten Features, es sind wahrscheinlich noch einige Fehler enthalten (die im schlimmsten Fall zu einem Crash von Node-RED führen können und/oder ein [löschen und erneutes Pairen](#reset) der Bridge mit iOS erfordern). 
 Einen Überblick über den Fortschritt der Entwicklung und geplante Features gibt es im [Issue Tracker](https://github.com/hobbyquaker/RedMatic-HomeKit/milestone/1). Bitte einen Issue anlegen falls die Implementierung bestimmter weiterer Homematic Geräte gewünscht ist. Die bereits unterstützen Geräte sind hier ersichtlich: https://github.com/hobbyquaker/RedMatic-HomeKit/tree/master/homematic-devices
 
 ## Inhalt
