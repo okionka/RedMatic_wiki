@@ -85,3 +85,5 @@ Um die Bridge im Fall von schwerwiegenden Problemen (alle Geräte unerreichbar) 
 * RedMatic stoppen
 * Auf der CCU das Verzeichnis `/usr/local/addons/redmatic/var/homekit` mitsamt Inhalt löschen
 * RedMatic starten
+
+Hierbei gehen alle Raum-Zuordnungen sowie Umbenennungen in HomeKit verloren!
