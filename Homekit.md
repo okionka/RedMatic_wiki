@@ -10,6 +10,7 @@ Einen Überblick über den Fortschritt der Entwicklung und geplante Features gib
 * [Sytemvariablen](#systemvariablen)
 * [CCU Programme starten](#programme)
 * [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
+* [HomeKit Reset](#reset)
 
 
 ## Einrichtung
@@ -75,3 +76,12 @@ Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kan
 
 ![](images/homekit/fernbedienung.png)
 
+
+### Reset
+
+Um die Bridge im Fall von schwerwiegenden Problemen (alle Geräte unerreichbar) komplett zurückzusetzen kann wie folgt vorgegangen werden:
+
+* Bridge in iOS löschen
+* RedMatic stoppen
+* Auf der CCU das Verzeichnis `/usr/local/addons/redmatic/var/homekit` mitsamt Inhalt löschen
+* RedMatic starten
