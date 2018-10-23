@@ -28,6 +28,7 @@
 | [node-red-contrib-tahoma](https://github.com/hobbyquaker/RedMatic/issues/70) | Somfy Tahoma | ✅ | ✅ | siehe https://github.com/hobbyquaker/RedMatic/issues/70 https://github.com/nikkow/node-red-contrib-tahoma/pull/7| 
 | [node-red-contrib-tankerkoenig](https://flows.nodered.org/node/node-red-contrib-tankerkoenig) | | ✅ | ✅ | benötigt [API Key](https://creativecommons.tankerkoenig.de/) | 
 | [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot) | | ✅ | ✅ | |
+| [node-red-contrib-telegrambot-home](https://flows.nodered.org/node/node-red-contrib-telegrambot-home) | | ✅ | ✅ |Interaktion mit Telegrambot über Commands vereinfacht gegenüber herkömmlichem telegrambot |
 | [node-red-contrib-tplink-iot](https://flows.nodered.org/node/node-red-contrib-tplink-iot)  | TP-Link Smart Plug HS110 | ✅ | ✅ | |
 | [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ | | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
