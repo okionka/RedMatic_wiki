@@ -20,6 +20,7 @@
 | [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) | Xiaomi Aqara Mi Home | ✅ | ✅ | |
 | [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | | |
 | [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo) | | ✅ | | |
+| [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-hue) | | ✅ | ✅ | |
 | [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-lifx) | | ✅ | | |
 | [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover) | | ✅ | ✅ | |
 | [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis) | | ✅ | | |
