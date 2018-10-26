@@ -20,14 +20,17 @@
 | [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) | Xiaomi Aqara Mi Home | ✅ | ✅ | |
 | [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | | |
 | [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo) | | ✅ | | |
+| [node-red-contrib-node-hue](https://flows.nodered.org/node/node-red-contrib-node-hue) | | ✅ | ✅ | |
 | [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-lifx) | | ✅ | | |
 | [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover) | | ✅ | ✅ | |
 | [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis) | | ✅ | | |
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
 | [node-red-contrib-s7comm](https://flows.nodered.org/node/node-red-contrib-s7comm) | | ✅ | | |
+| [node-red-contrib-tahoma](https://github.com/hobbyquaker/RedMatic/issues/70) | Somfy Tahoma | ✅ | ✅ | siehe https://github.com/hobbyquaker/RedMatic/issues/70 https://github.com/nikkow/node-red-contrib-tahoma/pull/7| 
 | [node-red-contrib-tankerkoenig](https://flows.nodered.org/node/node-red-contrib-tankerkoenig) | | ✅ | ✅ | benötigt [API Key](https://creativecommons.tankerkoenig.de/) | 
 | [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot) | | ✅ | ✅ | |
-| [node-red-contrib-tplink-iot](https://flows.nodered.org/node/node-red-contrib-tplink-iot) TP-Link Smart Plug HS110 | | ✅ | ✅ | |
+| [node-red-contrib-telegrambot-home](https://flows.nodered.org/node/node-red-contrib-telegrambot-home) | | ✅ | ✅ |Interaktion mit Telegrambot über Commands vereinfacht gegenüber herkömmlichem telegrambot |
+| [node-red-contrib-tplink-iot](https://flows.nodered.org/node/node-red-contrib-tplink-iot)  | TP-Link Smart Plug HS110 | ✅ | ✅ | |
 | [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ | | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
@@ -36,3 +39,4 @@
 | [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
 | [node-red-node-weather-underground](node-red-node-weather-underground) | | ✅ | | benötigt [API Key](http://www.wunderground.com/weather/api/d/pricing.html) | 
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
+| [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|

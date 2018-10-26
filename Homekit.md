@@ -1,15 +1,17 @@
 # RedMatic HomeKit
 
-**Hinweis:** RedMatic HomeKit befindet sich noch in einem frühen Entwicklungsstadium und ist als Beta-Software zu betrachten. Es gibt noch einige Geräte die noch nicht unterstützt werden, es fehlen noch einige der geplanten Features, es sind wahrscheinlich noch einige Fehler enthalten (die im schlimmsten Fall zu einem Crash von Node-RED führen können und/oder ein löschen und erneutes Pairen der Bridge mit iOS erfordern). 
+**Hinweis:** RedMatic HomeKit befindet sich noch in einem frühen Entwicklungsstadium und ist als Beta-Software zu betrachten. Es gibt noch einige Geräte die noch nicht unterstützt werden, es fehlen noch einige der geplanten Features, es sind wahrscheinlich noch einige Fehler enthalten (die im schlimmsten Fall zu einem Crash von Node-RED führen können und/oder ein [Löschen und erneutes Pairen](#reset) der Bridge mit iOS erfordern). 
 Einen Überblick über den Fortschritt der Entwicklung und geplante Features gibt es im [Issue Tracker](https://github.com/hobbyquaker/RedMatic-HomeKit/milestone/1). Bitte einen Issue anlegen falls die Implementierung bestimmter weiterer Homematic Geräte gewünscht ist. Die bereits unterstützen Geräte sind hier ersichtlich: https://github.com/hobbyquaker/RedMatic-HomeKit/tree/master/homematic-devices
 
 ## Inhalt
 
 * [Einrichtung](#einrichtung)
+* [Nutzungshinweise](#nutzungshinweise)
 * [Sytemvariablen](#systemvariablen)
 * [CCU Programme starten](#programme)
 * [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
-* [Alarmsystem](#alarmsystem)
+* [HomeKit Reset](#reset)
+
 
 ## Einrichtung
 
@@ -42,6 +44,15 @@ Die Sicherheitswarnung bestätigen
 
 Nun sollten alle unterstützen Geräte der CCU in der Home App erscheinen.
 
+### Nutzungshinweise
+
+Nicht alle Änderungen an den in HomeKit bereitgestellten Accessories werden bei einem Deploy in Node-RED übernommen. Bestimmte Änderungen erfordern einen Neustart von RedMatic:
+* Entfernen von Geräten
+* Umbenennen von Geräten
+* Ändern der Anzahl der Tasten des Event Nodes
+* Die konfigurierten Services eines "Universellen Accessory" ändern
+
+
 ### Sytemvariablen
 
 (Boolsche) Systemvariablen können über den _Redmatic HomeKit - Switch_ Node in HomeKit bereitgestellt werden. Hierzu werden die Ein- und Ausgänge eines _CCU Sysvar_ Nodes über kreuz mit dem _Redmatic HomeKit - Switch_ Node verbunden
@@ -61,9 +72,18 @@ _Für eine spätere Version von RedMatic-HomeKit ist eine Vereinfachung dieser "
 
 ### Tasten
 
-Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kann der Node _RedMatic HomeKit - Event_ genutzt werden. Er erwartet an seinem Eingang eine Message die in `msg.payload` die zu drückende Taste und die Art des Tastendrucks (kurz/lang) erwartet, z.B. `1/PRESS_LONG` für einen langen Tastendruck auf Taste 1. Dieses Topic kann direkt vom RPC Event Node erzeugt werden in dem man die Topic-Konfiguration auf `${channelIndex}/${datapoint}` setzt und den Datenpunkt mit dem regulären Ausdruck `PRESS_SHORT|PRESS_LONG` filtert:
+Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kann der Node _RedMatic HomeKit - Event_ genutzt werden. Er erwartet an seinem Eingang eine Message die in `msg.topic` die zu drückende Taste und die Art des Tastendrucks (kurz/lang) enthält, z.B. `1/PRESS_LONG` für einen langen Tastendruck auf Taste 1. Dieses Topic kann direkt vom RPC Event Node erzeugt werden in dem man die Topic-Konfiguration auf `${channelIndex}/${datapoint}` setzt und den Datenpunkt mit dem regulären Ausdruck `PRESS_SHORT|PRESS_LONG` filtert:
 
 ![](images/homekit/fernbedienung.png)
 
-### Alarmsystem
 
+### Reset
+
+Um die Bridge im Fall von schwerwiegenden Problemen (alle Geräte unerreichbar) komplett zurückzusetzen kann wie folgt vorgegangen werden:
+
+* Bridge in iOS löschen
+* RedMatic stoppen
+* Auf der CCU das Verzeichnis `/usr/local/addons/redmatic/var/homekit` mitsamt Inhalt löschen
+* RedMatic starten
+
+Hierbei gehen alle Raum-Zuordnungen sowie Umbenennungen in HomeKit verloren!

@@ -6,6 +6,7 @@ How to install Extensions?
 * open Manager palette
 * go to Tab Install
 * search for `node-red-contrib-cast` and install
+ 
 
 ### Example Flow:
 ![example flow](https://user-images.githubusercontent.com/12692680/46281726-c6135e80-c56f-11e8-90e7-55d82366c30c.png)
@@ -20,3 +21,7 @@ How to install Extensions?
 ```
 [{"id":"30969ad2.6669e6","type":"inject","z":"41c55cf0.be39c4","name":"","topic":"","payload":"true","payloadType":"bool","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":170,"y":180,"wires":[["e70fa4d6.b4cf38"]]},{"id":"e70fa4d6.b4cf38","type":"change","z":"41c55cf0.be39c4","name":"","rules":[{"t":"set","p":"ip","pt":"msg","to":"192.168.178.35","tot":"str"},{"t":"set","p":"language","pt":"msg","to":"de","tot":"str"},{"t":"set","p":"url","pt":"msg","to":"https://translate.google.com/translate_tts?ie=UTF-8&q=Hallo&tl=de&total=1&idx=0&textlen=5&tk=98540.459633&client=t&prev=input&ttsspeed=1","tot":"str"},{"t":"set","p":"contentType","pt":"msg","to":"audio/mp3","tot":"str"},{"t":"set","p":"lowerVolumeLimit","pt":"msg","to":"25","tot":"num"},{"t":"set","p":"upperVolumeLimit","pt":"msg","to":"50","tot":"num"}],"action":"","property":"","from":"","to":"","reg":false,"x":400,"y":180,"wires":[["38b8e2ce.7be9be"]]},{"id":"38b8e2ce.7be9be","type":"cast-to-client","z":"41c55cf0.be39c4","name":"","url":null,"contentType":"","message":null,"language":"en","ip":"","port":"","volume":null,"x":610,"y":180,"wires":[["35a22864.c9ba88"]]},{"id":"35a22864.c9ba88","type":"debug","z":"41c55cf0.be39c4","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"true","x":790,"y":180,"wires":[]}]
 ```
+
+#### How to import an example
+Open Node-Red and create a new table. Set a name like for instance "GoogleSpeak" to the new table by double click on the default table name ("flow..". The press "done".
+Press ctrl-i to import a folowing example as a string: Copy the example und insert into the import dialog. Click on "import to new flow".

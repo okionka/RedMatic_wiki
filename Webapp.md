@@ -1,4 +1,5 @@
 ## Screenshots
+Use `http://<ccu-addresse>/addons/red/app`
 
 ![](images/rwa/screen2.png)
 ![](images/rwa/screen3.png)
