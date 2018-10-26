@@ -4,6 +4,8 @@ Dieser Flow bestätigt auftretende STICK_UNREACH Servicemeldungen sofort und erh
 
 Ein _RPC Event_ Node abboniert alle Events mit dem Datenpunkt "STICKY_UNREACH", ein Switch Node leitet die Nachricht nur weiter wenn `msg.payload` `true` ist. In einem `Function` Node wird der Zähler im Flow Context erhöht und ein Homematic-Script erzeugt und an einen `CCU Script` Node übergeben.
 
+![](images/sticky.png)
+
 #### Function Node
 
 ```javascript
