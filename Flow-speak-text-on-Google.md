@@ -7,8 +7,8 @@ How to install Extensions?
 * go to Tab Install
 * search for `node-red-contrib-cast` and install
 
-Open Node-Red and create a new table. Set a name like for instance "GoogleSpeak" to the new table. 
-Press ctrl-i to import a folowing example as a string: 
+Open Node-Red and create a new table. Set a name like for instance "GoogleSpeak" to the new table by double click on the default table name ("flow..". The press "done".
+Press ctrl-i to import a folowing example as a string: Copy the example und insert into the import dialog. Click on "import to new flow". 
 
 ### Example Flow:
 ![example flow](https://user-images.githubusercontent.com/12692680/46281726-c6135e80-c56f-11e8-90e7-55d82366c30c.png)
