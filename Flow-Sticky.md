@@ -1,2 +1,2 @@
-# STICKY_UNREACH Meldungen ("Gerätekommunikation war gestört") bestätigen und zählen
+### STICKY_UNREACH ("Gerätekommunikation war gestört") Meldungen bestätigen und zählen
 
