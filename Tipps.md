@@ -31,6 +31,13 @@ Der _Switch Node_ kann _Messages_ abhängig von ihren _Properties_ an unterschie
 
 Der _If Node_ kann die Weiterleitung von _Messages_ in Abhängigkeit vorangegangenen _Messages_ mit bestimmter `payload` _Property_ steuern. ![](images/if-1.mov.gif)
 
+#### Beispiel im Detail zum runterladen
+![if condition zum ausprobieren](https://github.com/drose28357/Pictures/blob/master/RedMatic-Flow-If-Condition.png)
+
+```
+[{"id":"44db931f.f98a6c","type":"inject","z":"b5373d6e.8ce46","name":"Interval 2s","topic":"","payload":"Time is over","payloadType":"str","repeat":"2","crontab":"","once":false,"onceDelay":0.1,"x":179,"y":695,"wires":[["7a312e52.c6bec"]]},{"id":"7b63c8dc.b7e878","type":"debug","z":"b5373d6e.8ce46","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","x":612,"y":622,"wires":[]},{"id":"73e324ed.4bc17c","type":"inject","z":"b5373d6e.8ce46","name":"Acitvate with True","topic":"condition","payload":"true","payloadType":"bool","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":157,"y":596,"wires":[["7a312e52.c6bec"]]},{"id":"3d9d8c3b.c87f14","type":"inject","z":"b5373d6e.8ce46","name":"Deactivate with False","topic":"condition","payload":"false","payloadType":"bool","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":149,"y":648,"wires":[["7a312e52.c6bec"]]},{"id":"7a312e52.c6bec","type":"combine-if","z":"b5373d6e.8ce46","topic":"condition","name":"","timeout":0,"x":419.70001220703125,"y":629,"wires":[["7b63c8dc.b7e878"],[]]}]
+```
+
 ### Time Range Node
 
 Der _Time Range Node_ leitet Nachrichten in Abhängigkeit der Uhrzeit oder des Sonnenstands weiter. 
