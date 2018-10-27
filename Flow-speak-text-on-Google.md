@@ -11,6 +11,9 @@ How to install Extensions?
 ### Example Flow:
 ![example flow](https://user-images.githubusercontent.com/12692680/46281726-c6135e80-c56f-11e8-90e7-55d82366c30c.png)
 
+Configure your lokal router to make sure that your home device alway gets the same ip adress.
+Open the node "change: 2 rules" and add the the ip adresse of your home device to msg.ip 
+(if it is working you may delete the debug node)
 
 #### Example Flow with Text to speach:
 ```
