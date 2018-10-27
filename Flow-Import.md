@@ -1,4 +1,4 @@
-![](images/export-flow.mov.gif)
+#### Einfacher Import von Flows, die als Textbeschreibung der Nodes vorliegen.
 
 * Flow-Beschreibung als Text markieren und mit strg-c (in die Zwischenablage) kopieren
 * (optional: In Red eine neue Tabelle anlegen und durch doppelklick auf den Tabellennamen die Tabelle umbenennen)
