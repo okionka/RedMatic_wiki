@@ -18,7 +18,7 @@
 | [node-red-contrib-lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv) | | ✅ | ✅ | |
 | [node-red-contrib-light-scheduler](https://flows.nodered.org/node/node-red-contrib-light-scheduler) | | ✅ | ✅ | |
 | [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) | Xiaomi Aqara Mi Home | ✅ | ✅ | |
-| [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | | |
+| [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | ✅ | |
 | [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo) | | ✅ | | |
 | [node-red-contrib-node-hue](https://flows.nodered.org/node/node-red-contrib-node-hue) | | ✅ | ✅ | |
 | [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-lifx) | | ✅ | | |
