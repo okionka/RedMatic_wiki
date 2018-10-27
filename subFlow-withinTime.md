@@ -1,8 +1,8 @@
-# subFlow within time
+# subFlow withinTime
 ## introduction
 Sometimes it is needed to only send a message within a specified time frame. Example only send a message for instance between 12:00 and 18:00.
 
-For this the following solution exists:
+For this the following example with subFlow withinTime can be used:
 ![image](https://user-images.githubusercontent.com/12692680/40841302-4740b53c-65aa-11e8-83b7-7dc4e7e1cb03.png)
 
 ### Flow export
