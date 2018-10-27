@@ -1,4 +1,4 @@
-# Warning: Currently the Node-Red will crash if the copnnection to the chromeCast will fail. I'm working on a solution to that.
+# speak text on Google Home or Chromecast
 
 With the `node-red-contrib-cast` node it is possible to let the Google Home speak any text.
 
@@ -7,6 +7,8 @@ How to install Extensions?
 * go to Tab Install
 * search for `node-red-contrib-cast` and install
  
+### 
+The documentation can be found at [node-red-contrib-cast](https://github.com/Hypnos3/node-red-contrib-cast).
 
 ### Example Flow:
 ![example flow](https://user-images.githubusercontent.com/12692680/46281726-c6135e80-c56f-11e8-90e7-55d82366c30c.png)
