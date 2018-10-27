@@ -28,6 +28,7 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 #### Editieren von Nodes, Verbindungen und Layout :
 * Ein Node oder eine Verbindung kann durch anklicken selektiert werden (oranger Rahmen)
 * Mehrere Nodes können durch aufziehen eines Selektionsrahmen (maustaste halten und ziehen) ausgewählt werden. 
-* Ausgewählten Nodes können im Paket bewegt werden.
+* selektierte Nodes können im Paket bewegt werden.
 * selektierte Nodes (auch mehrere) und deren Verbindungen könne mit der del-taste gelöscht werden.
 * **einzelne** Verbindungen können mit der del-Taste gelöscht werden. 
+* mit strg-z kann man eine Änderung/Löschung rückgängig machen. (wenn noch nicht deployed wurde!)
