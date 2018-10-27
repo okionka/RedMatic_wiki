@@ -11,6 +11,7 @@
   * [CCU Nodes](CCU-Nodes)
   * [Tipps](Tipps)
   * [Flows exportieren](Flow-Export)
+  * [Flows importieren](Flow-Import)
 * Beispiel Flows
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
   * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
