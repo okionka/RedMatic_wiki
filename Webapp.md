@@ -2,7 +2,7 @@
 
 Add node "RedMatic / WebApp" to **any** flow and deploy. 
 Use the URL from WebApp configuration from attribute "App URL", for example 
-Use `http://<ccu-address>/addons/red/app/?/app`
+use `http://<your-ccu-address>/addons/red/app/?/app`
 
 ![](images/rwa/screen2.png)
 ![](images/rwa/screen3.png)
