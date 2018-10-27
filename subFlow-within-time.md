@@ -1,6 +1,6 @@
 # subFlow within time
 ## introduction
-Sometimes it is needed to only send a message within a specified time frame. Example only send a message between 12:00 and 18:00.
+Sometimes it is needed to only send a message within a specified time frame. Example only send a message for instance between 12:00 and 18:00.
 
 For this the following solution exists:
 ![image](https://user-images.githubusercontent.com/12692680/40841302-4740b53c-65aa-11e8-83b7-7dc4e7e1cb03.png)
@@ -11,7 +11,7 @@ For this the following solution exists:
 ```
 
 ## Input
-As Input to the flow the following informations can pe providden:
+As Input to the flow the following informations can be provided:
 * `msg.startTime` - a simple time as string "8:00" in 12 hour format which is the start of the time
 * `msg.endTime` - a simple time as string "20:00" in 12 hour format which is the end of the time
 * `msg.currentTime` - _optional_ a simple time as string "14:00" in 12 hour format which is the time to check if it is between `msg.startTime` and `msg.endTime`
@@ -19,7 +19,7 @@ As Input to the flow the following informations can pe providden:
 If any of the parameters is missing the current time will be used.
 Typically the `msg.currentTime` will not be set so that the current time should be used.
 
-If the `msg.endTime` is lower as the `msg.startTime` the time will be over midnight.
+If the `msg.endTime` is lower as the `msg.startTime` the time range will be over midnight.
 
 ### Enhanced
 If the global variables "workingDayToday" of type boolean exists, as `msg.startTime` two times could be provided seperated with |.
