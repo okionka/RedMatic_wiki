@@ -35,7 +35,7 @@
   * [Integration Weatherman (JSON, httpStatic, SteelSeries Gauges)](https://github.com/Sineos/node-red-contrib-weatherman/blob/master/README_DE.md)
   * [Systeminformationen der CCU Zentrale](https://github.com/Sineos/redmatic-flow-sysinfo/blob/master/README_DE.md)
   * [Werte in InfluxDB speichern](Flow-Influx)
-  * [Diverse Flows von Sineos](https://github.com/Sineos/redmatic-flow-misc)
+  * [Diverse Flows von](https://github.com/Sineos/redmatic-flow-misc) @Sineos
 * Erweiterungen
   * [RedMatic WebApp](Webapp)
   * [RedMatic HomeKit](Homekit)
