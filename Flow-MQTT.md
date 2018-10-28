@@ -2,5 +2,9 @@ Als Nachfolger/Ersatz für die nicht mehr weiterentwickelten Tools [hm2mqtt](htt
 
 ![](images/mqtt.png)
 
+Möchte man einen MQTT Broker auf der CCU installieren steht "Mosquitto" als Addon Paket hier zur Verfügung: https://github.com/hobbyquaker/ccu-addon-mosquitto
+
+Eine Umfangreiche Liste von Software die im Zusammenhang mit MQTT von Nutzen sein kann steht hier zur Verfügung: https://github.com/hobbyquaker/awesome-mqtt
+
 
 
