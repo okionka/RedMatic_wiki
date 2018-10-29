@@ -1,4 +1,4 @@
-# German Holidays
+# Deutsche Feiertage
 
 ## Generelles
 Für die Hausautomatisierung kann es sein, das die Steuerung basierend auf Feiertagen, Wochenenden benötigt wird. So sollen vielleicht Rollläden an Feiertagen oder Wochenenden später öffnen und später geschlossen werden.
