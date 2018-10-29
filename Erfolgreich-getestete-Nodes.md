@@ -10,7 +10,8 @@
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
 | [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | ✅ | |
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
-| [node-red-contrib-filter](https://flows.nodered.org/node/node-red-contrib-filter) | | ✅ | | |
+| [node-red-contrib-filter](https://flows.nodered.org/node/node-red-contrib-filter) | | ✅ |✅  | |
+| [node-red-contrib-german-holidays](https://www.npmjs.com/package/node-red-contrib-german-holidays) | | ✅ | ✅ | |
 | [node-red-contrib-google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts) | | ✅ | ✅ | |
 | [node-red-contrib-harmony](https://flows.nodered.org/node/node-red-contrib-harmony) | Logitech Harmony Hub | ✅ | ✅ | Installation dauert aufgrund von Dependencies die via `git clone` installiert werden aussergewöhnlich lang, UI spiegelt Installationsfortschritt nicht richtig wieder (Spinner verschwindet verfrüht), Geduld notwendig, nicht erneut auf _Install_ klicken! | 
 | [node-red-contrib-huemagic](https://flows.nodered.org/node/node-red-contrib-huemagic) | | ✅ | ✅ | |
