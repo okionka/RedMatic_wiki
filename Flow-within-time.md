@@ -24,9 +24,10 @@ Minütlich wird somit der time-range Node angestoßen, dieser muss wie im folgen
 ![image](https://user-images.githubusercontent.com/12249109/47701604-a62c9480-dc1a-11e8-83c7-0403ac0dc9f9.png)
 
 Zur Erkläung.
-Zum einen muss man definieren an welcher Ort zur Bestimmung der AstroDaten verwendet werden sollen. Wollt Ihr Zeitfenster selbst definieren könnt ihr die Einstellung an dieser Stelle überspringen.
+Zum einen muss man definieren welcher Ort zur Bestimmung der AstroDaten verwendet werden soll. Wollt Ihr Zeitfenster selbst definieren könnt ihr die Einstellung an dieser Stelle überspringen.
 
-Ich habe für meinen Anwendungsfall start-time als sunset definiert, laut info des Nodes ist dies die zivile Abenddämmerung. End-Time ist dawn, dies entspricht dem zivilen Sonnenaufgang. Somit wird jeden Abend wenn die Dämmerung einsetzt und die Dunkelheit beginnt die Beleuchtung im Garten eingeschaltet, sollte die Morgendämmerung eingesetzt haben werden die Lampen deaktiviert.
+Ich habe für meinen Anwendungsfall **start-time** als **sunset **definiert, laut info des Nodes ist dies die **zivile Abenddämmerung.**
+**End-Time **ist** dawn**, dies entspricht dem **zivilen Sonnenaufgang**. Somit wird jeden Abend wenn die Dämmerung einsetzt und die Dunkelheit beginnt die Beleuchtung im Garten eingeschaltet, sollte die Morgendämmerung eingesetzt haben werden die Lampen deaktiviert.
 
 Je nach zutreffender Bedingung hat der Node zwei Ausgänge. An diese Ausgänge setze ich den Aktor welchen ich schalten mag. 
 
@@ -37,6 +38,7 @@ Per change-node wird nun der zu treffende Schaltstatus definiert, im Beispielbil
 Abschließend noch die Konfiguration des ccu-value nodes
 
 ![image](https://user-images.githubusercontent.com/12249109/47701955-d294e080-dc1b-11e8-9705-1e2eda6f7ea4.png)
+
 
 ## Gartenbeleuchtung
 
