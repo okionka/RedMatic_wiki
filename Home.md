@@ -37,6 +37,7 @@
   * [Systeminformationen der CCU Zentrale](https://github.com/Sineos/redmatic-flow-sysinfo/blob/master/README_DE.md)
   * [Werte in InfluxDB speichern](Flow-Influx)
   * [Diverse Flows von](https://github.com/Sineos/redmatic-flow-misc) [@Sineos](https://github.com/Sineos/)
+  * [Harmony Activities mit Homekit nutzen](Harmony-Activities-mit-Homekit-nutzen)
 * Erweiterungen
   * [RedMatic WebApp](Webapp)
   * [RedMatic HomeKit](Homekit)
