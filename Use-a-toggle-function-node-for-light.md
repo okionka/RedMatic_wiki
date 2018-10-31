@@ -1,3 +1,5 @@
+## A simpler Flow to toggle light with a boolean toggle node
+
 Similar to the previous part we can toggle an boolean input to a sequence of true and false.
 Thus we need a node that stores its boolean sate to change it to the opposite.
 
