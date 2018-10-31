@@ -18,6 +18,7 @@ We can achive this by using a function node an introducing this simple script:
 > }else{
 >   msg.payload = false;
 > }
+
 > context.set(fname, msg.payload);
 > }
 > return msg;
