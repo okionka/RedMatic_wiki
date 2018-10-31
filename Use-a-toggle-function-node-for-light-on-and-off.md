@@ -2,14 +2,15 @@
 
 Similar to the previous part we can toggle an boolean input to a sequence of true and false.
 Thus we need a node that stores its boolean sate to change it to the opposite.
+In advance, we store the state in an named variable (for example "togglestore"). 
 
-We can achive this by using a function node an introducing this simple script:
+We can achive this by using a function node and inserting this simple script:
 > /* 
 > if we receive a true we toogle output
 > and store stat in a local context 
 > with a unique name 
 > */ 
-> var fname = "toggle1";
+> var fname = "togglestore";
 
 > if(msg.payload === true){
 
