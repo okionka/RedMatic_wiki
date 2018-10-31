@@ -1,5 +1,5 @@
-Similar to the previous part we can toggle an boolean input to a sequenz of true and false.
-Thus we need a node that stores its sate to change it to the oposite.
+Similar to the previous part we can toggle an boolean input to a sequence of true and false.
+Thus we need a node that stores its boolean sate to change it to the opposite.
 
 We can achive this by using a function node an introducing this simple script:
 `/* 
@@ -20,7 +20,7 @@ context.set(fname, msg.payload);
 }
 return msg;`
 
-Now we can connect a simple input to a state of an actor:
+Now we can connect for example a simple rednode-ui input to a state of an actor:
 
 
 
