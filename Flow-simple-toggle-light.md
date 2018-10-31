@@ -4,6 +4,7 @@ Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächste
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
 ## Inhalt
+  - [Vorwort](#Vorwort)
   - [Vergleich mit einem CCU Programm](#vergleich-mit-einem-ccu-programm)
   - [Node Red Flow](#node-red-flow)
     - [Start](#start)
@@ -13,6 +14,14 @@ Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächste
     - [Ablauf verändern](#ablauf-verandern)
     - [Aktion ausführen](#aktion-ausfuhren)
     - [Abschluss](#abschluss)
+
+## Vorwort
+
+Das Problem ließe sich sicherlich auf den ersten Blick einfacher mit einer function node und etwas JavaScript lösen. Die Empfehlung von IBM (der Firma hinter Node-Red) ist es vo möglich auf die function Node zu verzichten. Gerade bei solch einfachen beispielen sind die standard Nodes vorzuziehen.
+
+Die Gründe dafür sind:
+ - Die Funktion eines Flows erschließt sich viel besser mit der Verwendung der Standard Nodes anstelle von function Nodes.
+ - Die function nodes haben gegenüber den Standard Nodes eine schlechte Performance.
 
 ## Vergleich mit einem CCU Programm
 
