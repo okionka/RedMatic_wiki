@@ -17,11 +17,12 @@ Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächste
 
 ## Vorwort
 
-Das Problem ließe sich sicherlich auf den ersten Blick einfacher mit einer function node und etwas JavaScript lösen. Die Empfehlung von IBM (der Firma hinter Node-Red) ist es vo möglich auf die function Node zu verzichten. Gerade bei solch einfachen beispielen sind die standard Nodes vorzuziehen.
+Das Problem ließe sich sicherlich auf den ersten Blick einfacher mit einer function node und etwas JavaScript lösen. Die Empfehlung von IBM (der Firma hinter Node-Red) ist es wo möglich auf die function Node zu verzichten. Gerade bei solch einfachen Beispielen sind die Standard Nodes vorzuziehen.
 
 Die Gründe dafür sind:
- - Die Funktion eines Flows erschließt sich viel besser mit der Verwendung der Standard Nodes anstelle von function Nodes.
- - Die function nodes haben gegenüber den Standard Nodes eine schlechte Performance.
+ - Die Funktion eines Flows erschließt sich viel einfacher mit der Verwendung der Standard Nodes
+    - Auch wenn die Flows damit vielleicht nicht so aufgeräumt wirken, kann man die Funktion später viel einfacher nachvollziehen.
+ - Die *function nodes* haben gegenüber den Standard Nodes eine schlechte Performance, da der Javascript Code in einer Sandbox ausgeführt wird.
 
 ## Vergleich mit einem CCU Programm
 
