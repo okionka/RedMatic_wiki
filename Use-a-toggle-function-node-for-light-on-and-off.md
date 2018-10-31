@@ -21,6 +21,7 @@ We can achive this by using a function node an introducing this simple script:
 
 > context.set(fname, msg.payload);
 > }
+
 > return msg;
 
 Now we can connect for example a simple rednode-ui input to a state of an actor:
