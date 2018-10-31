@@ -4,23 +4,23 @@ Similar to the previous part we can toggle an boolean input to a sequence of tru
 Thus we need a node that stores its boolean sate to change it to the opposite.
 
 We can achive this by using a function node an introducing this simple script:
-```/* 
-if we receive a true we toogle output
-and store stat in a local context 
-with a unique name 
-*/ 
-var fname = "toggle1";
+> /* 
+> if we receive a true we toogle output
+> and store stat in a local context 
+> with a unique name 
+> */ 
+> var fname = "toggle1";
 
-if(msg.payload === true){
+> if(msg.payload === true){
 
-if(context.get(fname) === false){
-  msg.payload = true;  
-}else{
-  msg.payload = false;
-}
-context.set(fname, msg.payload);
-}
-return msg;```
+> if(context.get(fname) === false){
+>   msg.payload = true;  
+> }else{
+>   msg.payload = false;
+> }
+> context.set(fname, msg.payload);
+> }
+> return msg;
 
 Now we can connect for example a simple rednode-ui input to a state of an actor:
 
