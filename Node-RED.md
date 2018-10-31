@@ -34,4 +34,6 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 * mit strg-z kann man eine Änderung/Löschung rückgängig machen. (wenn noch nicht deployed wurde!)
 
 
-## [Ausführliche Beschreibung eines ersten einfachen Flow zum schalten einer Lampe mittels Tastendruck](https://github.com/hobbyquaker/RedMatic/wiki/Flow-simple-toggle-light)
+#### Weiterführende Links
+
+* [Ausführliche Beschreibung eines ersten einfachen Flow zum schalten einer Lampe mittels Tastendruck](https://github.com/hobbyquaker/RedMatic/wiki/Flow-simple-toggle-light)
