@@ -32,3 +32,8 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 * selektierte Nodes (auch mehrere) und deren Verbindungen könne mit der del-taste gelöscht werden.
 * **einzelne** Verbindungen können mit der del-Taste gelöscht werden. 
 * mit strg-z kann man eine Änderung/Löschung rückgängig machen. (wenn noch nicht deployed wurde!)
+
+
+## Ausführliches HowTo für einen ersten einfachen Flow
+
+https://github.com/hobbyquaker/RedMatic/wiki/Flow-simple-toggle-light
