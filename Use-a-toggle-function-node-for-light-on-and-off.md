@@ -1,8 +1,9 @@
 ## A simpler Flow to toggle light with a boolean toggle node
 
 Similar to the previous part we can toggle an boolean input to a sequence of true and false.
-Thus we need a node that stores its boolean sate to change it to the opposite.
-In advance, we store the state in an named variable (for example "togglestore"). 
+Thus we need a node that stores its boolean sate to change it to the opposite when triggered.
+
+In advance, we store the state in an named variable (for example "togglestore"). So we can identify the current context store.
 
 We can achive this by using a function node and inserting this simple script:
 > /* 
