@@ -1,6 +1,6 @@
 # Einfacher Flow zum Schalten einer Lampe mittels Taster
 
-Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächsten Ausschalten, ist das einfach möglich:
+Möchte man mittels eines Tastendrucks ein List ein und mit dem nächsten Ausschalten, ist das einfach möglich:
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
 ## Inhalt
@@ -17,21 +17,21 @@ Möchte man einfach mittels eines Tastendrucks ein List ein und mit dem nächste
 
 ## Vorwort
 
-Das Problem ließe sich sicherlich auf den ersten Blick einfacher mit einer function node und etwas JavaScript lösen. Die Empfehlung von IBM (der Firma hinter Node-Red) ist es wo möglich auf die function Node zu verzichten. Gerade bei solch einfachen Beispielen sind die Standard Nodes vorzuziehen.
+Das Problem ließe sich sicherlich auf den ersten Blick einfacher mit einem Function Node und etwas JavaScript lösen. Die Empfehlung von IBM (der Firma hinter Node-Red) ist es möglichst auf die Function Nodes zu verzichten. Gerade bei solch einfachen Beispielen sind die Standard Nodes vorzuziehen.
 
 Die Gründe dafür sind:
  - Die Funktion eines Flows erschließt sich viel einfacher mit der Verwendung der Standard Nodes
     - Auch wenn die Flows damit vielleicht nicht so aufgeräumt wirken, kann man die Funktion später viel einfacher nachvollziehen.
- - Die *function nodes* haben gegenüber den Standard Nodes eine schlechte Performance, da der Javascript Code in einer Sandbox ausgeführt wird.
+ - Die *Function Nodes* haben gegenüber den Standard Nodes eine schlechtere Performance, da der Javascript Code in einer Sandbox ausgeführt wird.
 
 ## Vergleich mit einem CCU Programm
 
-Wenn man das Problem mittels CCU Programm lösen möchte, hat man vermutlich ein Programm in dieser Art erstellt:
+Wenn man das Problem mittels CCU Programm lösen möchte, hat man vermutlich ein Programm in dieser Art erstellt:    
 ![image](https://user-images.githubusercontent.com/12692680/45623821-de23b200-ba88-11e8-94ee-053888e7bac5.png)
 
-Hier wird das Programm durch einen kurzen Tastendruck getriggert und abhängig vom aktuellen Zustand der Lampe (nur prüfen) diese entweder ein oder ausgeschaltet.
+Hier wird das Programm durch einen kurzen Tastendruck getriggert und abhängig vom aktuellen Zustand der Lampe (nur prüfen) diese entweder ein- oder ausgeschaltet.
 
-In Node Red ist der Flow ähnlich:
+In Node Red ist der Flow ähnlich:    
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
 
@@ -43,23 +43,25 @@ Als erstes sollte man sich die [Node-RED Grundlagen](Node-RED) durchlesen. Danac
 ### Trigger des Flow
 Als erstes benötigt man den Trigger für den Flow. Dieser gibt das Event, welches ein Ereignis auslösen soll.
 
-Wenn dieses Event durch eine Taste eines Homematic Gerätes ausgelöst werden soll, nimmt man dafür in der Palette den value node:
+Wenn dieser Event durch eine Taste eines Homematic Gerätes ausgelöst werden soll, nimmt man dafür in der Palette den Value Node:   
 ![image](https://user-images.githubusercontent.com/12692680/44587497-67f69d00-a7b3-11e8-9284-9b5b022cec19.png)
 
-Diesen platziert man einfach in den Arbeitsbereitch und klickt ihn doppelt:
+Diesen platziert man einfach in den Arbeitsbereitch und klickt ihn doppelt:    
 ![image](https://user-images.githubusercontent.com/12692680/44587735-1dc1eb80-a7b4-11e8-860f-d5058af7432c.png)
 
 #### Konfiguration des Trigger
-zum konfigurieren sind die Felder wie folgt auszufüllen:
-1. Als erstes muss man die Homematic Zentrale auswählen. Hat man noch keine Konfiguriert, so ist mittles Stift Button danaben die EInstellungen zur Zentrale zu tätigen. (siehe auch [CCU Nodes](CCU-Nodes) )
-2. Danach das Interface des Homematic Gerätes. ![image](https://user-images.githubusercontent.com/12692680/44587957-b3f61180-a7b4-11e8-886d-9aa9c8d3b5cf.png) Sollte die Drop Down Box leer sein (weil beispielsweise die CCU erst konfiguriert wurde), so muss man die Einstellungen des Node mit dem Done Button einmal schließen und neu öffnen.
-3. Hier wählt man den Kanal aus. Dabei kann man sehr einfach den Namen eintippen. Es öffnet sich eine Liste mit den möglichen Kanälen in der man den gewünschten auswählt. ![image](https://user-images.githubusercontent.com/12692680/44588257-8198e400-a7b5-11e8-943d-fd55bdae5bca.png)
+Zum Konfigurieren sind die Felder wie folgt auszufüllen:
+1. Als erstes muss man die Homematic Zentrale auswählen. Hat man noch keine konfiguriert, so ist mittels Stift Button daneben die Einstellungen zur Zentrale zu tätigen. (siehe auch [CCU Nodes](CCU-Nodes) )
+2. Danach das Interface des Homematic Gerätes auswählen    
+![image](https://user-images.githubusercontent.com/12692680/44587957-b3f61180-a7b4-11e8-886d-9aa9c8d3b5cf.png) Sollte die Drop Down Box leer sein (weil beispielsweise die CCU erst konfiguriert wurde), so muss man die Einstellungen des Node mit dem Done Button einmal schließen und neu öffnen.
+3. Hier wählt man den Kanal aus. Dabei kann man sehr einfach den Namen eintippen. Es öffnet sich eine Liste mit den möglichen Kanälen in der man den gewünschten auswählt.     
+![image](https://user-images.githubusercontent.com/12692680/44588257-8198e400-a7b5-11e8-943d-fd55bdae5bca.png)
 4. Der Datenpunkt des Kanals. Die folgenden Datenpunkte sind dabei die gebräuchlichsten:
     * Taster - kurzer Tastendruck: "PRESS_SHORT"
     * Taster - langer Tastendruck: "PRESS_LONG"
     * Status eines Aktors "STATE"
     Für eine Taste als Trigger benötigen wir damit "PRESS_SHORT"
-5. Mit dieser Einstellung kann man noch beeinflussen, wann die Node etwas ausgeben soll.
+5. Mit dieser Einstellung kann man noch beeinflussen, wann die Node etwas ausgeben soll.     
 ![image](https://user-images.githubusercontent.com/12692680/44588712-c2452d00-a7b6-11e8-9fbf-db21c17b9fdd.png)
     * Die Eigenschaft "Nur geänderte Werte ausgeben" kann man mit dem "bei Änderung", bzw. "bei Aktualisierung" in den Homematic Programmen vergleichen. Ist der Haken bei "Nur geänderte Werte ausgeben" gesetzt, wird der Flow nur gestartet, wenn sich der Datenpunkt auf einen anderen Wert (Bsp. true auf False) ändern ("bei Änderung"). Ist der Haken nicht gesetzt, wird der Flow immer dann gestartet, wenn der Datenpunkt aktualisiert wird ("bei Aktualisierung"). Damit auch wenn sich der Wert selbst nicht ändert (Bsp. true auf true).
       * Wenn man sich unsicher ist, sollte der Haken gesetzt sein.
@@ -68,12 +70,12 @@ zum konfigurieren sind die Felder wie folgt auszufüllen:
     * Mit der EIgenschaft "Beim Start letzten bekannten Wert ausgeben" kann gesteuert werden ob beim Neu/Start von RedMatic der Flow mit dem letzten bekannten Wert getriggert werden soll.
 
 ### Ablauf steuern
-Als nächstes ziehen wir aus der Palette den Node, der den Ablauf steuern soll. In diesem Beispiel wollen wir abhängig vom Schaltzustand eines Lichtes dieses aus oder einschalten. Also muss sich in Abhängigkeit wvom Zustand des Lichtes (aus oder ein) etwas anderes passieren.
+Als nächstes ziehen wir aus der Palette den Node, der den Ablauf steuern soll. In diesem Beispiel wollen wir abhängig vom Schaltzustand eines Lichtes dieses aus oder einschalten. Also muss sich in Abhängigkeit vom Zustand des Lichtes (aus oder ein) etwas anderes passieren.
  - Wenn Lampe aus ist, soll sie eingeschaltet werden
  - Wenn Lampe ein ist, soll sie ausgeschaltet werden
 
 Dafür benutzt man aus der Palette de switch Node.
-Möchten wir den Flow in abhängigkeit eines Datenpunktes eines Homematic Gerätes steuern nehmen wir den aus der ccu Palette:
+Möchten wir den Flow in Abhängigkeit eines Datenpunktes eines Homematic Gerätes steuern nehmen wir den aus der CCU Palette:
 
 ![image](https://user-images.githubusercontent.com/12692680/44588995-970f0d80-a7b7-11e8-9bff-2d1da501345a.png)
 
@@ -98,14 +100,14 @@ Im unteren Teil kann man die Bedingungen einstellen:
 
 1. Über den Add Button kann man die verschiedenen Bedingungen hinzufügen. Da wir 2 verschiedene Wege gehen möchten, müssen wir 2 Wege hinzufügen.
 2. Für jeden dieser Wege kann man einstellen, unter welcher Bedingung er betreten werden soll. Die Bedingung "otherwise" trifft immer zu und sollte als letztes gewählt werden.
-3. Diese EInstellung ist sehr wichtig. In der Standard EInstellung steht diese auf "checking all rules". Das bedeutet es wird jede Bedingung geprüft und der Flow an ihr weitergeführt. Für den "otherwise" zweig beispielsweise bedeutet das dieser immer weitergeführt wird, unabhängig von den anderen Bedingungen. Ist in dem Beispiel die Lampe eingeschaltet, geht es mit "checking all rules" sowohl bei "is true" als auch bei "otherwise" weiter. Will amn eher eine Wenn-dann bedingung ist diese Einstellugn auf "stopping after first match" umzustellen.
+3. Diese Einstellung ist sehr wichtig. In der Standard Einstellung steht diese auf "checking all rules". Das bedeutet es wird jede Bedingung geprüft und der Flow an ihr weitergeführt. Für den "otherwise" zweig beispielsweise bedeutet das dieser immer weitergeführt wird, unabhängig von den anderen Bedingungen. Ist in dem Beispiel die Lampe eingeschaltet, geht es mit "checking all rules" sowohl bei "is true" als auch bei "otherwise" weiter. Will man eher eine Wenn-dann Bedingung ist diese Einstellung auf "stopping after first match" umzustellen.
 
 Die Komplette Konfiguration kann wie folgt aussehen:
 
 ![image](https://user-images.githubusercontent.com/12692680/44590081-8a3fe900-a7ba-11e8-921f-e0ba6d4214c2.png)
 
 ### Ablauf verändern
-Als nächstes möchten wir bestimmen was an den beiden ausgängen passieren soll:
+Als nächstes möchten wir bestimmen was an den beiden Ausgängen passieren soll:
 
 ![image](https://user-images.githubusercontent.com/12692680/44590167-c4a98600-a7ba-11e8-84fa-8c6c3b93f114.png)
 
@@ -132,10 +134,10 @@ Als Aktion soll ein Homematic Aktor geschaltet werden.
 Dafür ist aus der Palette der value Node in den Arbeitsbereich zu ziehen.
 Dieser ist genauso wie der Tasten Kanal für den Trigger zu konfigurieren, mit dem unterschied anstelle des Tasterkanals hier den Kanal des Aktors zu wählen.
 
-Als vorletzten Schritt verbindet man die beiden Change Nodes mit dem value Node:
+Als vorletzten Schritt verbindet man die beiden Change Nodes mit dem value Node:    
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
 ### Abschluss
-Ist dies erledigt, wird diese Änderung aktiviert mittels des Deploy Buttons:
+Ist dies erledigt, wird diese Änderung aktiviert mittels des Deploy Buttons:    
 ![image](https://user-images.githubusercontent.com/12692680/44590937-962caa80-a7bc-11e8-9df3-592da55d8098.png)
 
