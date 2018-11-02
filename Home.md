@@ -38,7 +38,7 @@
   * [Werte in InfluxDB speichern](Flow-Influx)
   * [Diverse Flows von](https://github.com/Sineos/redmatic-flow-misc) [@Sineos](https://github.com/Sineos/)
   * [Harmony Activities mit Homekit nutzen](Harmony-Activities-mit-Homekit-nutzen)
-  * [Öffnen einer Tür mit Keymatic HM-Sec-Key-(S)](https://github.com/hobbyquaker/RedMatic/wiki/workaround:-open-für-HM-Sec-Key-(S))
+  * [Homekit: Öffnen einer Tür mit Keymatic HM-Sec-Key-(S)](https://github.com/hobbyquaker/RedMatic/wiki/workaround:-open-für-HM-Sec-Key-(S))
 * Erweiterungen
   * [RedMatic WebApp](Webapp)
   * [RedMatic HomeKit](Homekit)
