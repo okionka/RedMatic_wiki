@@ -2,8 +2,9 @@
 
 Für dieses Beispiel wird ein Webservice verwendet der den aktuellen Wechselkurs des Bitcoin zurückgibt. Er eignet sich gut als Beispiel da er keinen API Key verlangt und das zurückgegebene JSON recht übersichtlich ist:
 
-`https://api.coindesk.com/v1/bpi/currentprice.json`
+URL des Webservice: `https://api.coindesk.com/v1/bpi/currentprice.json`
 
+Beispiel Daten:
 ```Javascript
 {
 	"time": {
@@ -66,6 +67,8 @@ Der JSON Node parsed die vom HTTP Request Node erhaltene Daten:
 Der Change Node extrahiert die gewünschte Property (`rate_float`) in der der Euro Kurs als Number enthalten ist:
 
 ![](images/btc5.png)
+
+Hierfür wird der [JSONata](http://jsonata.org/) Ausdruck `msg.payload.bpi.EUR.rate_float` genutzt. Das JSON Objekt befindet sich (Node-RED üblich) in msg.payload, über die Punkt-Notation wird dann auf das gewünschte Unter-Objekt zugegriffen. 
 
 ## CCU Sysvar Node
 
