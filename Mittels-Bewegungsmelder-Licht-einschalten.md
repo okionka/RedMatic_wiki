@@ -1,8 +1,17 @@
 # Mittels Bewegungsmelder Licht einschalten
 
-Möchte man mittels eines Bewegungsmelser ein Licht abhängig von der Helligkeit und der Tageszeit ein Licht mittels Dimmer einschalten, löst:
+Möchte man mittels eines Bewegungsmelder ein Licht abhängig von der Helligkeit und der Tageszeit ein Licht mittels Dimmer einschalten, sind einige Flows nötig.
 
-![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
+Klassifizierung der Tageszeit:
+
+![image](https://user-images.githubusercontent.com/12692680/48412589-66e76300-e745-11e8-9844-e8ee0e183d14.png)
+
+
+Klassifizierung der Helligkeit:
+
+
+Eigentlicher Flow:
+
 
 ## Inhalt
   - [Vorwort](#Vorwort)
@@ -54,6 +63,7 @@ Die Installation erfolgt wie im im wiki auch unter [Node-Installation](https://g
 **6.**
 
   warten bis fertig
+
   ![image](https://user-images.githubusercontent.com/12692680/48411664-79ac6880-e742-11e8-9f83-9f74eca08148.png)
 
 **6.**
