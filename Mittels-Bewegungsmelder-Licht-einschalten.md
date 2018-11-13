@@ -27,7 +27,39 @@ Die Gründe dafür sind:
 
 ## Vorbereitung
 
-als Vorbereitung installiert man sich das zusätzliche Paket 
+als Vorbereitung installiert man sich das zusätzliche Paket [node-red-contrib-sun-position](https://flows.nodered.org/node/node-red-contrib-sun-position) und [node-red-node-smooth](https://flows.nodered.org/node/node-red-node-smooth).
+
+Die Installation erfolgt wie im im wiki auch unter [Node-Installation](https://github.com/hobbyquaker/RedMatic/wiki/Node-Installation) erklärt ist.
+
+**1.**
+
+  ![image](https://user-images.githubusercontent.com/12692680/48411467-e2dfac00-e741-11e8-946f-b1ba41162746.png)
+
+**2.**
+
+  ![image](https://user-images.githubusercontent.com/12692680/48411498-f68b1280-e741-11e8-8378-dee025c590bd.png)
+
+**3.**
+
+  ![image](https://user-images.githubusercontent.com/12692680/48411538-14f10e00-e742-11e8-9809-adb46df1247f.png)
+
+**4.**
+
+  ![image](https://user-images.githubusercontent.com/12692680/48411571-2d612880-e742-11e8-92b2-01065c2fee87.png)
+
+**5.**
+
+  ![image](https://user-images.githubusercontent.com/12692680/48411607-4c5fba80-e742-11e8-8f29-07af8708aeb4.png)
+
+**6.**
+
+  warten bis fertig
+  ![image](https://user-images.githubusercontent.com/12692680/48411664-79ac6880-e742-11e8-9f83-9f74eca08148.png)
+
+**6.**
+
+neue nodes verwenden
+
 
 ## RedMatic Flow
 ### Start
