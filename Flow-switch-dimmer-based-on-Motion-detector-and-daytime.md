@@ -2,18 +2,8 @@
 
 Möchte man mittels eines Bewegungsmelder ein Licht abhängig von der Helligkeit und der Tageszeit ein Licht mittels Dimmer einschalten, sind einige Flows nötig.
 
-Klassifizierung der Tageszeit:
-
-![image](https://user-images.githubusercontent.com/12692680/48412589-66e76300-e745-11e8-9844-e8ee0e183d14.png)
-
-
-Klassifizierung der Helligkeit:
-
-
-Eigentlicher Flow:
-
-
 ## Inhalt
+  - [Überblick](#Überblick)
   - [Vorwort](#Vorwort)
   - [Vorbereitung](#Vorbereitung)
   - [Node Red Flow](#node-red-flow)
@@ -24,6 +14,22 @@ Eigentlicher Flow:
     - [Ablauf verändern](#ablauf-verandern)
     - [Aktion ausführen](#aktion-ausfuhren)
     - [Abschluss](#abschluss)
+    - [Flows als Download](#flows-als-download)
+
+## Überblick
+
+Klassifizierung der Tageszeit:
+
+![image](https://user-images.githubusercontent.com/12692680/48412589-66e76300-e745-11e8-9844-e8ee0e183d14.png)
+
+Klassifizierung der Helligkeit:
+
+![image](https://user-images.githubusercontent.com/12692680/48420297-5d1c2a80-e75a-11e8-91ad-cb8a1096b751.png)
+
+Eigentlicher Flow:
+
+![image](https://user-images.githubusercontent.com/12692680/48420338-77ee9f00-e75a-11e8-89ee-c6417cfa5d26.png)
+
 
 ## Vorwort
 
@@ -75,7 +81,6 @@ neue nodes verwenden
 ### Start
 Als erstes sollte man sich die [Node-RED Grundlagen](Node-RED) durchlesen. Danach kann es auch schon losgehen.
 
-
 ### Trigger des Flow
 
 #### Konfiguration des Trigger
@@ -90,3 +95,4 @@ Als erstes sollte man sich die [Node-RED Grundlagen](Node-RED) durchlesen. Danac
 Ist dies erledigt, wird diese Änderung aktiviert mittels des Deploy Buttons:    
 ![image](https://user-images.githubusercontent.com/12692680/44590937-962caa80-a7bc-11e8-9df3-592da55d8098.png)
 
+### Flows als Download
