@@ -1,6 +1,7 @@
 # Einfacher Flow zum Schalten einer Lampe mittels Taster
 
-Möchte man mittels eines Tastendrucks ein List ein und mit dem nächsten Ausschalten, ist das einfach möglich:
+Möchte man mittels eines Tastendrucks ein Licht ein und mit dem nächsten Tastendruck Ausschalten, ist das einfach möglich:
+
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
 ## Inhalt
@@ -26,12 +27,14 @@ Die Gründe dafür sind:
 
 ## Vergleich mit einem CCU Programm
 
-Wenn man das Problem mittels CCU Programm lösen möchte, hat man vermutlich ein Programm in dieser Art erstellt:    
+Wenn man das Problem mittels CCU Programm lösen möchte, hat man vermutlich ein Programm in dieser Art erstellt:
+
 ![image](https://user-images.githubusercontent.com/12692680/45623821-de23b200-ba88-11e8-94ee-053888e7bac5.png)
 
 Hier wird das Programm durch einen kurzen Tastendruck getriggert und abhängig vom aktuellen Zustand der Lampe (nur prüfen) diese entweder ein- oder ausgeschaltet.
 
-In Node Red ist der Flow ähnlich:    
+In Node Red ist der Flow ähnlich:
+
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
 
@@ -43,10 +46,12 @@ Als erstes sollte man sich die [Node-RED Grundlagen](Node-RED) durchlesen. Danac
 ### Trigger des Flow
 Als erstes benötigt man den Trigger für den Flow. Dieser gibt das Event, welches ein Ereignis auslösen soll.
 
-Wenn dieser Event durch eine Taste eines Homematic Gerätes ausgelöst werden soll, nimmt man dafür in der Palette den Value Node:   
+Wenn dieser Event durch eine Taste eines Homematic Gerätes ausgelöst werden soll, nimmt man dafür in der Palette den Value Node:
+
 ![image](https://user-images.githubusercontent.com/12692680/44587497-67f69d00-a7b3-11e8-9284-9b5b022cec19.png)
 
-Diesen platziert man einfach in den Arbeitsbereitch und klickt ihn doppelt:    
+Diesen platziert man einfach in den Arbeitsbereitch und klickt ihn doppelt:
+
 ![image](https://user-images.githubusercontent.com/12692680/44587735-1dc1eb80-a7b4-11e8-860f-d5058af7432c.png)
 
 #### Konfiguration des Trigger
@@ -134,10 +139,12 @@ Als Aktion soll ein Homematic Aktor geschaltet werden.
 Dafür ist aus der Palette der value Node in den Arbeitsbereich zu ziehen.
 Dieser ist genauso wie der Tasten Kanal für den Trigger zu konfigurieren, mit dem unterschied anstelle des Tasterkanals hier den Kanal des Aktors zu wählen.
 
-Als vorletzten Schritt verbindet man die beiden Change Nodes mit dem value Node:    
+Als vorletzten Schritt verbindet man die beiden Change Nodes mit dem value Node:
+
 ![image](https://user-images.githubusercontent.com/12692680/44587420-2ebe2d00-a7b3-11e8-8f43-9019480b0600.png)
 
 ### Abschluss
-Ist dies erledigt, wird diese Änderung aktiviert mittels des Deploy Buttons:    
+Ist dies erledigt, wird diese Änderung aktiviert mittels des Deploy Buttons:
+
 ![image](https://user-images.githubusercontent.com/12692680/44590937-962caa80-a7bc-11e8-9df3-592da55d8098.png)
 
