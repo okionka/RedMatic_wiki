@@ -166,7 +166,7 @@ Der Link am Ende wird erstmal nicht genutzt. Dieser dient dazu andere Flows bei 
 
 ![image](https://user-images.githubusercontent.com/12692680/48480874-066f2900-e80c-11e8-82c5-9a089733cedb.png)
 
-Das ließe sich vereinfachen indem man gleich den Wert auf die globalen Variable (context) speichert. Die Implementierung hier ist so gewählt worden um ebenfalls mit einem nachgelagerten link node bei Änderung des Helligkeitsverlaufes andere Flows triggern zu können. Der be Node dient dazu die Nachricht nur bei einer wirklichen Änderung weiterzuleiten.
+Das ließe sich vereinfachen indem man gleich den Wert auf die globalen Variable (context) speichert. Die Implementierung hier ist so gewählt worden um ebenfalls mit einem nachgelagerten link node bei Änderung des Helligkeitsverlaufes andere Flows triggern zu können. Der rbe Node dient dazu die Nachricht nur bei einer wirklichen Änderung weiterzuleiten.
 
 ### Flow zum Schalten
 
