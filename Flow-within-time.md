@@ -3,7 +3,6 @@
 Dieser Flow stellt exemplarisch dar, wie Funktionen an Zeitfenster geknüpft werden können. Dafür werden beispielhaft zwei Szenarien dargestellt.
 
 
-
 ## Inhalt
   - [Steuerung der Außenbeleuchtung - AstroFunktion](#Gartenbeleuchtung)
   - [Bewegungsmelder für Beleuchtung im Hof (Nachts)](#Hofbeleuchtung)
@@ -11,6 +10,10 @@ Dieser Flow stellt exemplarisch dar, wie Funktionen an Zeitfenster geknüpft wer
 ## Gartenbeleuchtung
 
 In RedMatic ist der Node [time-range](https://flows.nodered.org/node/node-red-contrib-time-range-switch) integriert. Dieser Node ermöglicht es sowohl Zeitfenster selbst festzulegen als auch Zeitfenster an Hand des Sonnenstandes zu ermitteln. Dafür stehen die unterschiedlichen definierten Sonnenauf- und untergänge als Start- bzw. End-Time zur Verfügung, zum besseren Verständnis empfehle ich folgenden Link: [Dämmerung – die drei Dämmerungsphasen](https://www.timeanddate.de/astronomie/daemmerung-phasen).
+
+Ein verbesserter Node ist in dem Paket [node-red-contrib-sun-position](https://flows.nodered.org/node/node-red-contrib-sun-position) enthalten, welches zusätzlich installiert werden kann. Hier kann man zusätzlich auch der Mond aufgang oder untergang genutzt werden oder verschiedene Zeiten für Feiertage oder Wochenende.
+
+### Flow mit der [time-range](https://flows.nodered.org/node/node-red-contrib-time-range-switch) node
 
 Im folgenden Flow wird jeden Tag nach zivilem Sonnenuntergang die Beleuchtung im Garten eingeschaltet und nach zivilem Sonnenaufgang die Beleuchtung im Garten deaktiviert.
 ![image](https://user-images.githubusercontent.com/12249109/47701541-71b8d880-dc1a-11e8-88b1-ce446543640d.png)
@@ -39,6 +42,32 @@ Abschließend noch die Konfiguration des ccu-value nodes
 
 ![image](https://user-images.githubusercontent.com/12249109/47701955-d294e080-dc1b-11e8-9705-1e2eda6f7ea4.png)
 
+### Flow mit der [node-red-contrib-sun-position](https://flows.nodered.org/node/node-red-contrib-sun-position) nodes
+
+mit Hilfe des time-inject nodes lässt sich das stark vereinfachen:
+
+![image](https://user-images.githubusercontent.com/12692680/48482183-4c2df080-e810-11e8-8983-a9cade14dd6c.png)
+
+Die time-inject Nodes senden eine Nachricht beim erreichen der eingestellten zeit gleich mit dem richtigen payload:
+
+![image](https://user-images.githubusercontent.com/12692680/48482268-87302400-e810-11e8-995b-b09c18bd6a8a.png)
+
+Die Einstellung für die Position wird hier zentral über eine extra Konfiguration gehandelt und muss nicht in jeder Node einzeln konfiguriert werden.
+
+#### verschiedene Zeiten für Wochenende
+
+Dies lässt sich mit Hilfe der Auswahl der Tage und entsprechend mehr time-inject nodes realisieren:
+
+![image](https://user-images.githubusercontent.com/12692680/48483980-33740980-e815-11e8-850a-71538a9cd038.png)
+
+![image](https://user-images.githubusercontent.com/12692680/48484053-64543e80-e815-11e8-889f-644fd8703d7b.png)
+
+![image](https://user-images.githubusercontent.com/12692680/48484087-7f26b300-e815-11e8-82d0-069a97ea146c.png)
+
+
+#### verschiedene Zeiten für Feiertage
+
+_**noch offen**_
 
 ## Gartenbeleuchtung
 
