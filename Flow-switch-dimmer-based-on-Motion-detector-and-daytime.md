@@ -181,6 +181,16 @@ Das ließe sich vereinfachen indem man gleich den Wert auf die globalen Variable
 
 #### Erläuterung des Flows
 
+die beiden kleineren Flows zum setzen des Automaic Modus sind recht einfach aufgebaut:
+
+![image](https://user-images.githubusercontent.com/12692680/48487888-c6b23c80-e81f-11e8-84ea-486e234363cf.png)
+
+Diese setzen eine lokale flow variable (für den aktuellen Reiter gültig) auf den Wert true oder false:
+
+![image](https://user-images.githubusercontent.com/12692680/48487835-aa160480-e81f-11e8-86a1-901702f43e19.png)
+
+Davon abhängig wird im eigentlichen Flow zum Schalten der Lampe über den switch Node abgefragt welchen Wert diese variable besitzt.
+
 #### Konfiguration des Trigger
 
 ### Ablauf steuern
