@@ -1,3 +1,8 @@
+---
+Title: Screenshots
+Category: Dashboard
+---
+
 ## node-red-dashboard Smartphone
 
 ![](images/dashboard-4.jpg)
