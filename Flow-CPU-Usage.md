@@ -1,3 +1,8 @@
+---
+Title: CPU-Auslastung als Graph
+Category: Dashboard
+---
+
 # CPU-Auslastung als Graph im Dashboard anzeigen.
 
 Dieser Flow benötigt [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) (siehe [Zusätzliche Nodes installieren](Node-Installation)).
