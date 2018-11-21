@@ -1,3 +1,8 @@
+---
+Title: Installation
+Category: RedMatic
+---
+
 * Zur Sicherheit __ein Backup der CCU anfertigen__.
 * Neueste Version von https://github.com/hobbyquaker/RedMatic/releases/latest herunterladen. Es wird die Datei 
 `redmatic-<version>.tar.gz` benötigt: ![](images/install-1.png)
