@@ -1,3 +1,7 @@
+---
+Title: Deinstallation
+Category: RedMatic
+---
 Im Homematic WebUI unter _Systemsteuerung_ - _Zusatzsoftware_ auf _Deinstallieren_ klicken:
 ![](images/uninstall.png)
 
