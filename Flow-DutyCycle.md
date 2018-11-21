@@ -1,3 +1,8 @@
+---
+Title: DutyCycle Gauge-Chart
+Category: Dashboard
+---
+
 Dieser Flow erzeugt eine Chart/Gauge Darstellung des DutyCycles des ersten Interfaces im Dashboard
 
 ![](images/dc1.png)
