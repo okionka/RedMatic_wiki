@@ -1,3 +1,8 @@
+---
+Title: Erfolgreich getestete Nodes
+Category: Nodes
+---
+
 ### Bitte diese Liste ergänzen!
 
 | Name/Link | Beschreibung | Lässt sich installieren | Erfolgreich getestet | Anmerkungen |
