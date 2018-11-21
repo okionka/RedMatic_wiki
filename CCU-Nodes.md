@@ -1,3 +1,8 @@
+---
+Title: CCU
+Category: Nodes
+---
+
 # Nodes
 
 ![](images/nodes.png)
