@@ -1,7 +1,7 @@
 RedMatic-Homekit unterstützt z.Z. nur das Verriegeln und Entriegeln der HM-Sec-Key-(S),
-mit einem kleinen flow unter Zuhilfenahme des RedMatic-homekit universal-node, kann jedoch sehr einfach ein Taster zum Öffnen der Tür nachgebildet werden.
+mit einem kleinen flow unter Zuhilfenahme des RedMatic-homekit universal-node kann jedoch sehr einfach ein Taster zum Öffnen der Tür nachgebildet werden.
 
-Somit kann eine Tür verriegelt, entriegelt und geöffnet (zurückziehen der Türfalle) werden
+Hiermit wird die Tür verriegelt, entriegelt und geöffnet (Zurückziehen der Türfalle)
 
 
 ![flow](https://github.com/holgerimbery/environment/raw/master/flow.png)
