@@ -1,9 +1,9 @@
 ## A simple Flow to toggle an actor with a single button
 
-Similar to the previous part we want to toggle an boolean input to a sequence of alternating true and false.
+Similar to the previous part we want to toggle an actor with one input function into a sequence of alternating true and false states.
 Thus we need to read a state from an actor. Then invert that state and put it back to the actor.
 
-In this scenario we want to switsch a light on and off bei using one button on the dashboard.
+In this scenario we want to switsch a light on and off by using one button on the dashboard.
 
 1. Get a dashboard-button element to your flow. You set group to your dashboard item group, set label to a name of the button to be displayed on dashboard and set the payload to "true"
 
