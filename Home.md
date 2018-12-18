@@ -28,7 +28,7 @@
   * [Bidcos-Wired Dimmer mit Bidcos-RF Tasten steuern](Flow-Wired-Dimmer)
 * Von Usern bereitgestellte Flows
   * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
-  * [Licht schalten mit einem Dashboard button](Use-a-combine-logic-node-for-switsching-a-light-on-and-off-with-a-dashboard-button)
+  * [Licht schalten mit einem Dashboard button](combine-logic-node-for-toggle-state)
   * [Textausgabe mittels Chromecast oder Google Home](Flow-speak-text-on-Google)
   * [Berechnung von Feiertagen](Flow-to-calculate-german-holidays)
   * [Funktion nur innerhalb einer bestimmten Uhr-Zeit ausführen](Flow-within-time)
