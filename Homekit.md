@@ -6,9 +6,9 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 
 * [Einrichtung](#einrichtung)
 * [Nutzungshinweise](#nutzungshinweise)
+* [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
 * [Sytemvariablen](#systemvariablen)
 * [CCU Programme starten](#programme)
-* [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
 * [HomeKit Reset](#reset)
 
 
@@ -51,6 +51,12 @@ Nicht alle Änderungen an den in HomeKit bereitgestellten Accessories werden bei
 * Ändern der Anzahl der Tasten des Event Nodes
 * Die konfigurierten Services eines "Universellen Accessory" ändern
 
+### Tasten
+
+Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kann der Node _RedMatic HomeKit - Event_ genutzt werden. Er erwartet an seinem Eingang eine Message die in `msg.topic` die zu drückende Taste und die Art des Tastendrucks (kurz/lang) enthält, z.B. `1/PRESS_LONG` für einen langen Tastendruck auf Taste 1. Dieses Topic kann direkt vom RPC Event Node erzeugt werden in dem man die Topic-Konfiguration auf `${channelIndex}/${datapoint}` setzt und den Datenpunkt mit dem regulären Ausdruck `PRESS_SHORT|PRESS_LONG` filtert:
+
+![](images/homekit/fernbedienung.png)
+
 
 ### Sytemvariablen
 
@@ -69,18 +75,14 @@ Man nutzt hierfür am Ausgang des _HomeKit Switch_ Nodes einen _Function Switch_
 
 _Für eine spätere Version von RedMatic-HomeKit ist eine Vereinfachung dieser "Pseudo-Button" Methode geplant indem direkt im Switch-Node schon ein automatischer Reset nach konfigurierbarer Zeit eingestellt werden kann._
 
-### Tasten
 
-Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kann der Node _RedMatic HomeKit - Event_ genutzt werden. Er erwartet an seinem Eingang eine Message die in `msg.topic` die zu drückende Taste und die Art des Tastendrucks (kurz/lang) enthält, z.B. `1/PRESS_LONG` für einen langen Tastendruck auf Taste 1. Dieses Topic kann direkt vom RPC Event Node erzeugt werden in dem man die Topic-Konfiguration auf `${channelIndex}/${datapoint}` setzt und den Datenpunkt mit dem regulären Ausdruck `PRESS_SHORT|PRESS_LONG` filtert:
-
-![](images/homekit/fernbedienung.png)
 
 
 ### Reset
 
-Um die Bridge im Fall von schwerwiegenden Problemen (alle Geräte unerreichbar) komplett zurückzusetzen kann wie folgt vorgegangen werden:
+Um die Bridge im Fall von schwerwiegenden Problemen ("sollte" nicht passieren, aber man weiss ja nie 😉) komplett zurückzusetzen kann wie folgt vorgegangen werden:
 
-* Bridge in iOS löschen
+* Bridge in iOS Home App löschen
 * RedMatic stoppen
 * Auf der CCU das Verzeichnis `/usr/local/addons/redmatic/var/homekit` mitsamt Inhalt löschen
 * RedMatic starten
