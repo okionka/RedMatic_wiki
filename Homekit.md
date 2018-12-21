@@ -1,7 +1,6 @@
 # RedMatic HomeKit
 
-**Hinweis:** Es gibt noch einige Geräte die noch nicht unterstützt werden, es fehlen noch einige der geplanten Features.
-Einen Überblick über den Fortschritt der Entwicklung und geplante Features gibt es im [Issue Tracker](https://github.com/hobbyquaker/RedMatic-HomeKit/milestone/1). Bitte einen Issue anlegen falls die Implementierung bestimmter weiterer Homematic Geräte gewünscht ist. Die bereits unterstützen Geräte sind hier ersichtlich: https://github.com/hobbyquaker/RedMatic-HomeKit/tree/master/homematic-devices
+Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issues) falls ein Gerät nicht unterstützt wird und gewünscht ist. Die bereits unterstützen Geräte sind hier ersichtlich: https://github.com/hobbyquaker/RedMatic-HomeKit/tree/master/homematic-devices
 
 ## Inhalt
 
