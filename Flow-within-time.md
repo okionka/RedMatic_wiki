@@ -9,11 +9,10 @@ Dieser Flow stellt exemplarisch dar, wie Funktionen an Zeitfenster geknüpft wer
 
 ## Gartenbeleuchtung
 
-In RedMatic ist der Node [time-range](https://flows.nodered.org/node/node-red-contrib-time-range-switch) integriert. Dieser Node ermöglicht es sowohl Zeitfenster selbst festzulegen als auch Zeitfenster an Hand des Sonnenstandes zu ermitteln. Dafür stehen die unterschiedlichen definierten Sonnenauf- und untergänge als Start- bzw. End-Time zur Verfügung, zum besseren Verständnis empfehle ich folgenden Link: [Dämmerung – die drei Dämmerungsphasen](https://www.timeanddate.de/astronomie/daemmerung-phasen).
+In RedMatic ist der Node [node-red-contrib-sun-position](https://flows.nodered.org/node/node-red-contrib-sun-position) integriert. Diese Sammlung von Nodes ermöglicht es sehr ausführliche Zeitsteuerung. Der darin enthaltene within-time-switch Node ermöglicht es sowohl Zeitfenster selbst festzulegen als auch Zeitfenster an Hand des Sonnenstandes zu ermitteln. Dafür stehen die unterschiedlichen definierten Sonnenauf- und untergänge als Start- bzw. End-Time zur Verfügung, zum besseren Verständnis empfehle ich folgenden Link: [Dämmerung – die drei Dämmerungsphasen](https://www.timeanddate.de/astronomie/daemmerung-phasen).
+Zusätzlich ist auch möglich den Mond ufgang oder untergang genutzt werden oder verschiedene Zeiten für Feiertage oder Wochenende.
 
-Ein verbesserter Node ist in dem Paket [node-red-contrib-sun-position](https://flows.nodered.org/node/node-red-contrib-sun-position) enthalten, welches zusätzlich installiert werden kann. Hier kann man zusätzlich auch der Mond aufgang oder untergang genutzt werden oder verschiedene Zeiten für Feiertage oder Wochenende.
-
-### Flow mit der [time-range](https://flows.nodered.org/node/node-red-contrib-time-range-switch) node
+### Flow mit der within-time-switch node
 
 Im folgenden Flow wird jeden Tag nach zivilem Sonnenuntergang die Beleuchtung im Garten eingeschaltet und nach zivilem Sonnenaufgang die Beleuchtung im Garten deaktiviert.
 ![image](https://user-images.githubusercontent.com/12249109/47701541-71b8d880-dc1a-11e8-88b1-ce446543640d.png)
@@ -22,7 +21,7 @@ Das Programm wird minütlich per InjectNode aufgerufen, Konfiguration des Nodes 
 
 ![image](https://user-images.githubusercontent.com/12249109/47701596-9dd45980-dc1a-11e8-8018-563df4836266.png)
 
-Minütlich wird somit der time-range Node angestoßen, dieser muss wie im folgenden Bild eingestellt werden.
+Minütlich wird somit der within-time-switch Node angestoßen, dieser muss wie im folgenden Bild eingestellt werden.
 
 ![image](https://user-images.githubusercontent.com/12249109/47701604-a62c9480-dc1a-11e8-83c7-0403ac0dc9f9.png)
 
