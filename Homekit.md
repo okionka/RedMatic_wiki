@@ -87,7 +87,7 @@ Verfügbare Services sowie die dafür benötigten und optionalen Characteristike
 
 Um eine Characteristic anzulegen müssen dem Accessory beim Start Messages gesendet werden. Siehe dazu auch https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/44
 
-Beispiel:
+#### Beispiel
 
 Es soll ein Accessory mit einem _ContactSensor_ Service angelegt werden. Die `0` vor dem Service gibt den "Subtype" an, dieser wird später benötigt um diesen Service anzusprechen.
 
@@ -107,7 +107,7 @@ Um nun einen geschlossenen Kontakt zu melden muss dem Node ein Message geschickt
 
 ![](images/homekit/universal-1.png)
 
-#### Flow JSON
+##### Flow JSON
 
 ```
 [{"id":"f3c1ee32.c1bdf","type":"redmatic-homekit-universal","z":"e679be4e.ea888","bridgeConfig":"505f657d.84710c","name":"ContactSensor","services":[{"subtype":"0","service":"ContactSensor","name":"Test"}],"x":580,"y":240,"wires":[[]]},{"id":"26ae9d08.5d6242","type":"change","z":"e679be4e.ea888","name":"CONTACT_DETECTED","rules":[{"t":"set","p":"payload","pt":"msg","to":"0","tot":"num"},{"t":"set","p":"topic","pt":"msg","to":"0/ContactSensorState","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":340,"y":220,"wires":[["f3c1ee32.c1bdf","55fcb00d.f7a66"]]},{"id":"70eea6a6.faf3f8","type":"change","z":"e679be4e.ea888","name":"CONTACT_NOT_DETECTED","rules":[{"t":"set","p":"payload","pt":"msg","to":"1","tot":"num"},{"t":"set","p":"topic","pt":"msg","to":"0/ContactSensorState","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":320,"y":260,"wires":[["f3c1ee32.c1bdf","55fcb00d.f7a66"]]},{"id":"92689c97.a698c","type":"inject","z":"e679be4e.ea888","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":100,"y":220,"wires":[["26ae9d08.5d6242"]]},{"id":"7cbf7fe8.59d9","type":"inject","z":"e679be4e.ea888","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":100,"y":260,"wires":[["70eea6a6.faf3f8"]]},{"id":"55fcb00d.f7a66","type":"debug","z":"e679be4e.ea888","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"true","x":560,"y":320,"wires":[]},{"id":"505f657d.84710c","type":"redmatic-homekit-bridge","z":"","name":"RedMatic Test Bridge","username":"CC:22:3D:00:F6:05","pincode":"964-84-514","port":"51826"}]
