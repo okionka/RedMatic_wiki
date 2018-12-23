@@ -101,7 +101,8 @@ In der Definition dieser Charakteristik ist ersichtlich dass diese den Wert `0` 
 
 ![](images/homekit/universal-5.png)
 
-Um nun einen geschlossenen Kontakt zu melden muss dem Node ein Message geschickt werden deren `msg.topic` Eigenschaft sich durch den "Subtype" (siehe oben) und den Namen der Characteristik zusammensetzt: `0/ContactSensorState`. `msg.payload` muss in diesem Fall auf die Number `0` gesetzt werden. Um diese beiden Eigenschaften der Nachricht zu setzen kann ein Change Node genutzt werden:
+Um nun einen geschlossenen Kontakt zu melden muss dem Node eine Message geschickt werden deren `msg.topic` Property sich durch den "Subtype" (siehe oben) und den Namen der Characteristik zusammensetzt, getrennt durch einen Slash: `0/ContactSensorState`. 
+Die Property `msg.payload` muss in diesem Fall auf die Number `0` gesetzt werden. Um diese beiden Properties der Message zu setzen kann ein _Change_ Node genutzt werden:
 
 ![](images/homekit/universal-3.png)
 
