@@ -85,9 +85,21 @@ Dem Accessory können beliebig viele Services hinzugefügt werden.
 
 Verfügbare Services sowie die dafür benötigten und optionalen Characteristiken sind in dieser Datei ersichtlich: https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js
 
-Um eine Characteristic anzulegen müssen dem Accessory beim Start Messages gesendet werden. Siehe dazu https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/44
+Um eine Characteristic anzulegen müssen dem Accessory beim Start Messages gesendet werden. Siehe dazu auch https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/44
 
+Beispiel:
 
+Es soll ein Accessory mit einem _ContactSensor_ Service angelegt werden.
+
+![](images/homekit/universal-2.png)
+
+Aus https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js ist ersichtlich dass der Service _ContactSensor_ eine Charakteristik _ContactSensorState_ benötigt:
+
+![](images/homekit/universal-6.png)
+
+In der Definition dieser Charakteristik ist ersichtlich dass diese den Wert `0` annehmen muss um einen geschlossenen Kontakt zu signalisieren und den Wert `1` um einen offenen Kontakt zu melden:
+
+![](images/homekit/universal-5.png)
 
 ### Reset
 
