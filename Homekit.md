@@ -81,11 +81,11 @@ Dieser kann einfach mit einem _ccu - program_ Node verbunden werden, als _Payloa
 
 Mit dem Universal Accessory ist es möglich beliebige HomeKit-Geräte zu erzeugen, z.B. um damit auch Geräte abseits von Homematic einzubinden.
 
-Dem Accessory können beliebig viele Services hinzugefügt werden. 
+Dem Accessory können beliebig viele Services hinzugefügt werden. Siehe dazu auch https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/44
 
 Verfügbare Services sowie die dafür benötigten und optionalen Characteristiken sind in dieser Datei ersichtlich: https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js
 
-Um eine Characteristic anzulegen müssen dem Accessory beim Start Messages gesendet werden. Siehe dazu auch https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/44
+Um eine optionale Characteristic anzulegen müssen dem Accessory direkt beim Start (z.B. über einen _Inject_ Node) Messages gesendet werden. 
 
 #### Beispiel
 
