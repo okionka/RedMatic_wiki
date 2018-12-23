@@ -70,14 +70,11 @@ Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kan
 
 ### Programme
 
-Leider werden bisher von der Home App und Siri keine Taster unterstützt die einen Einmaligen Event erzeugen. Als Workaround kann jedoch ein Schalter genutzt werden den man kurze Zeit nach dem Anschalten automatisch wieder ausschaltet. So können dann auch einmalige Events mit einem Klick in der Home App oder über Siri realiseren um z.B. ein Homematic Programm zu starten.
+Leider werden bisher von der Home App und Siri keine Taster unterstützt die einen Einmaligen Event erzeugen. Als Workaround steht mit dem _redmatic homekit - button_ Node ein Schalter zur Verfügung der sich automatisch nach dem Anschalten zurücksetzt und so als "Pseudobutton" genutzt werden kann.
 
-Man nutzt hierfür am Ausgang des _HomeKit Switch_ Nodes einen _Function Switch_ Node der die Nachrichten nur weiterleitet wenn `msg.payload` `true` ist. Den Ausgang dieses Nodes verbindet man dann mit einem _CCU Program_ Node und mit einem _Function Delay_ Node um eine Verzögerung beim Rücksetzen des Tasters zu realisieren. Ein _Function Change_ Node setzt dann `msg.payload` auf `false` und wird wieder an den Eingang des _Homekit Switch_ Nodes geführt.
+Dieser kann einfach mit einem _ccu - program_ Node verbunden werden, als _Payload_ wird `timestamp` ausgewählt:
 
 ![](images/homekit/homekit-pseudobutton.png)
-
-_Für eine spätere Version von RedMatic-HomeKit ist eine Vereinfachung dieser "Pseudo-Button" Methode geplant indem direkt im Switch-Node schon ein automatischer Reset nach konfigurierbarer Zeit eingestellt werden kann._
-
 
 
 
