@@ -9,6 +9,7 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 * [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
 * [Sytemvariablen](#systemvariablen)
 * [CCU Programme starten](#programme)
+* [Universelles Accessory, Einbinden von nicht-Homematic Geräten](#universal-accessory)
 * [HomeKit Reset](#reset)
 
 
@@ -75,6 +76,16 @@ Leider werden bisher von der Home App und Siri keine Taster unterstützt die ein
 Dieser kann einfach mit einem _ccu - program_ Node verbunden werden, als _Payload_ wird `timestamp` ausgewählt:
 
 ![](images/homekit/homekit-pseudobutton.png)
+
+### Universal Accessory
+
+Mit dem Universal Accessory ist es möglich beliebige HomeKit-Geräte zu erzeugen, z.B. um damit auch Geräte abseits von Homematic einzubinden.
+
+Dem Accessory können beliebig viele Services hinzugefügt werden. 
+
+Verfügbare Services sowie die dafür benötigten und optionalen Characteristiken sind in dieser Datei ersichtlich: https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js
+
+Um eine Characteristic anzulegen müssen dem Accessory beim Start Messages gesendet werden. Siehe dazu https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/44
 
 
 
