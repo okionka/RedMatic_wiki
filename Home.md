@@ -39,6 +39,7 @@
   * [Diverse Flows von](https://github.com/Sineos/redmatic-flow-misc) [@Sineos](https://github.com/Sineos/)
   * [Harmony Activities mit Homekit nutzen](Harmony-Activities-mit-Homekit-nutzen)
   * [Homekit: Öffnen einer Tür mit Keymatic HM-Sec-Key-(S)](https://github.com/HM-RedMatic/RedMatic/wiki/Open-Workaround-für-HM-Sec-Key)
+  * [Nachrichten an Telegram versenden](https://github.com/HM-RedMatic/RedMatic/wiki/Nachrichten-an-Telegram-versenden)
 * Erweiterungen
   * [RedMatic WebApp](Webapp)
   * [RedMatic HomeKit](Homekit)
