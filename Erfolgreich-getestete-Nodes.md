@@ -41,7 +41,7 @@ Category: Nodes
 | [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ | | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
-| [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) | | ✅ | | benötigt [API Key](http://openweathermap.org/appid) | 
+| [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
 | [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping) | | ✅ | | |
 | [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
