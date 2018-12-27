@@ -25,7 +25,7 @@ Category: Nodes
 | [node-red-contrib-light-scheduler](https://flows.nodered.org/node/node-red-contrib-light-scheduler) | | ✅ | ✅ | |
 | [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) | Xiaomi Aqara Mi Home | ✅ | ✅ | |
 | [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | ✅ | |
-| [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo) | | ✅ | | |
+| [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo) |Netatmogeräte in Node-Red anzeigen| ✅ |✅ |benötigt API-Key und Mac-Adresse des Gerätes |
 | [node-red-contrib-node-hue](https://flows.nodered.org/node/node-red-contrib-node-hue) | | ✅ | ✅ | |
 | [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-lifx) | | ✅ | | |
 | [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover) | | ✅ | ✅ | |
