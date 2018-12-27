@@ -26,6 +26,7 @@ return {
 };
 
 Zuletzt muss noch die Nachricht versendet werden. Hierzu ist es notwendig den change node (oder function node) mit einem „sender“ node zu verbinden. Bevor Nachrichten versendet werden können, muss noch der Bot definiert werden. Dies kann direkt im „sender“ node erfolgen indem man auf den bearbeiten-Button neben „Add new telegram bot…“ klickt. Hier nun den Botnamen (Zeile 1) und den API-Token (Zeile 2) eingeben (siehe Screenshot). 
+![](https://user-images.githubusercontent.com/44581521/50490693-bab8bd80-0a0e-11e9-98a8-52f478a31271.png)
 
 Der gesamte Flow schaut dann wie folgt aus:
 ![](https://user-images.githubusercontent.com/44581521/50490572-12a2f480-0a0e-11e9-87a5-598a16008ffc.png)
