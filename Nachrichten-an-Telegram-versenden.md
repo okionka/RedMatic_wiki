@@ -3,6 +3,7 @@
 ### 3) Einfacher Flow zum Nachrichten versenden
 ### 4) Weiterführende Informationen
 
+- - - - - - - - - - - - - - - - - - - - 
 
 ### 1) Node installieren
 In Node-Red rechts oben auf den Menübotton klicken. Auf “Manage palette“ klicken und anschließend im Tab „Install“ folgenden Node suchen und installieren: node-red-contrib-telegrambot.
