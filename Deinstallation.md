@@ -17,4 +17,4 @@ Folgende Dateien und Ordner werden vom Addon auf der CCU Installiert, sollte ein
 * /usr/local/etc/config/addons/www/redmatic
 * /usr/local/etc/config/lighttpd/redmatic.conf
 * /usr/local/etc/config/rc.d/redmatic
-* `node-red` und `node-red-dashboard` in /usr/local/etc/config/hm_addons.cfg
+* Abschnitt `RedMatic` in /usr/local/etc/config/hm_addons.cfg
