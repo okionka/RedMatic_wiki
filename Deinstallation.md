@@ -16,8 +16,8 @@ Es ist auch möglich das Addon über die Kommandozeile zu entfernen: `/usr/local
 
 Folgende Dateien und Ordner werden vom Addon auf der CCU Installiert, sollte eine Deinstallation nicht fehlerfrei ablaufen, können diese auch manuell gelöscht werden:
 
-* /usr/local/addons/redmatic
-* /usr/local/etc/config/addons/www/redmatic
-* /usr/local/etc/config/lighttpd/redmatic.conf
-* /usr/local/etc/config/rc.d/redmatic
-* Abschnitt `RedMatic` in /usr/local/etc/config/hm_addons.cfg
+* `/usr/local/addons/redmatic`
+* `/usr/local/etc/config/addons/www/redmatic`
+* `/usr/local/etc/config/lighttpd/redmatic.conf`
+* `/usr/local/etc/config/rc.d/redmatic`
+* Abschnitt `RedMatic` in `/usr/local/etc/config/hm_addons.cfg`
