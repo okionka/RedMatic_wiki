@@ -1,5 +1,8 @@
 # Anzahl und Liste offener Fenster im Dashboard anzeigen
 
+
+__** SORRY! Dieser Flow funktioniert nicht wie er soll. Korrigierte Version kommt ASAP **__
+
 ![](images/window-1.png)
 
 
