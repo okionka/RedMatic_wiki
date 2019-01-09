@@ -1,5 +1,5 @@
 ### 1) [Abfrage von CCU-Variabeln beschleunigen](#abfrage-von-ccu-variablen-beschleunigen)
-### 2) [Datenpunktstatus von mehreren Geräten gleichzeitig abfragen] (#datenpunktstatus-von-mehreren-geräten-gleichzeitig-abfragen)
+### 2) Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen
 ### 3) ...
 
 - - - - - - - - - - - - - - - - - - - - 
@@ -13,8 +13,9 @@ Umsetzung:
 2) Mittels eines "value" oder "rpc event" nodes einen virtuellen Taster der CCU abfragen (z.B. den BidCoS-RF:1 HM-RCV-50 BidCoS-RF:1) und mit dem "poll" node verbinden.
 3) Ein Programm in der CCU-Anlegen, das bei Änderung einer der "wichtigen" Variablen den virtuellen Taster auslöst.
 
+- - - - - - - - - - - - - - - - - - - - 
 
-### 2) Datenpunktstatus von mehreren Geräten gleichzeitig abfragen
+### 2) Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen
 
 Der folgende Beispielflow, ergibt am Ende als Payload ein bool "true" Ausgeben falls ein oder mehrere Lichter an sind, "false" falls alle aus sind.
 ![](https://user-images.githubusercontent.com/44581521/50928157-30cf1280-145a-11e9-9e73-df4739cd2a2a.png)
