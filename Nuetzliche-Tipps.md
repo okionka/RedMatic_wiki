@@ -1,5 +1,5 @@
 ### 1) [Abfrage von CCU-Variabeln beschleunigen](#abfrage-von-ccu-variablen-beschleunigen)
-### 2) [Datenpunktstatus von mehreren Geräten gleichzeitig abfragen] (#Datenpunktstatus von mehreren Geräten gleichzeitig abfragen)
+### 2) [Datenpunktstatus von mehreren Geräten gleichzeitig abfragen] (#datenpunktstatus-von-mehreren-geräten-gleichzeitig-abfragen)
 ### 3) ...
 
 - - - - - - - - - - - - - - - - - - - - 
