@@ -47,3 +47,4 @@ Category: Nodes
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
 | [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
+| [node-red-contrib-ifttt](https://github.com/diegopamio/node-red-contrib-ifttt) | | ✅ | |benötigt IFTTT Account https://ifttt.com/ |
