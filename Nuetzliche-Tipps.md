@@ -30,17 +30,16 @@ Wenn man den Status der Geräte bei einem bestimmten Event abfragen will (z.B. W
 
 ### 3) Manuelles Backup
 
-Für eine manuelle Sicherung sind folgende Dateien relevant:
+Für eine manuelle Sicherung der Flows sind folgende Dateien relevant:
 
 /usr/local/addons/redmatic/var/flows.json
 /usr/local/addons/redmatic/var/flows_cred.json
-/usr/local/addons/redmatic/var/homekit/*
-/usr/local/addons/redmatic/etc/settings.json
 /usr/local/addons/redmatic/etc/credentials.key
 
-Falls das Node-RED Projects-Feature aktiviert ist, dann auch noch der Ordner:
-
+Falls das Node-RED Projects-Feature aktiviert der Ordner:
 /usr/local/addons/redmatic/var/projects
 
-Das alles steckt auch mit im CCU Backup.
+Falls HomeKit genutzt wird noch der Ordner:
+/usr/local/addons/redmatic/var/homekit
 
+Das alles steckt auch mit im CCU Backup.
