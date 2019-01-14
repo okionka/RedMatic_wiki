@@ -1,6 +1,6 @@
 ---
-Title: Node-RED Grundlagen
-Category: Tipps
+Title: Tipps
+Category: Nutzung
 ---
 
 * Nodes
