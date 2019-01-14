@@ -1,6 +1,6 @@
 ---
 Title: Update
-Category: RedMatic
+Category: Administration
 ---
 
 ### Update
