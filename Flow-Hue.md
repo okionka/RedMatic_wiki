@@ -1,7 +1,8 @@
 ---
-Title: Hue
-Category: Flows
+Title: Hue Lampen mit langem Tastendruck dimmen
+Category: Beispiel Flows
 ---
+
 
 # Hue Lampen mit langem Tastendruck dimmen
 
