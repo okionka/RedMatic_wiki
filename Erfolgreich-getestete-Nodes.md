@@ -1,6 +1,6 @@
 ---
 Title: Erfolgreich getestete Nodes
-Category: Nodes
+Category: Administration
 ---
 
 ### Bitte diese Liste ergänzen!
