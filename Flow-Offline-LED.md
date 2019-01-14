@@ -1,3 +1,8 @@
+---
+Title: Blinken der CCU LED unterbinden
+Category: Beispiel Flows
+---
+
 Wird die CCU ohne Internetverbindung betrieben blinkt die LED dauerhaft schnell blau. Möchte man dies verhindern ist das mit folgendem Flow möglich:
 
 ![](images/offline.png)
