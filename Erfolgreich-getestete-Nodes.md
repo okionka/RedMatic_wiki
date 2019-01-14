@@ -38,7 +38,7 @@ Category: Administration
 | [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot) | | ✅ | ✅ | |
 | [node-red-contrib-telegrambot-home](https://flows.nodered.org/node/node-red-contrib-telegrambot-home) | | ✅ | ✅ |Interaktion mit Telegrambot über Commands vereinfacht gegenüber herkömmlichem telegrambot |
 | [node-red-contrib-tplink-iot](https://flows.nodered.org/node/node-red-contrib-tplink-iot)  | TP-Link Smart Plug HS110 | ✅ | ✅ | |
-| [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ | | |
+| [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ | siehe https://github.com/HM-RedMatic/RedMatic/issues/131 | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
