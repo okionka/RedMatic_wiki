@@ -1,3 +1,8 @@
+---
+Title: Wired Dimmer mit RF Tasten steuern
+Category: Beispiel Flows
+---
+
 # Bidcos-Wired Dimmer mit Bidcos-RF Tasten steuern
 
 Da sich Bidcos-Wired Dimmer nicht mit Funk-Fernbedienungen/Tastern Verknüpfen lassen ist es von Haus aus nicht möglich über langen Tastendruck auf. und ab zu dimmen. Eine Lösung für dieses Problem ist die Verwendung von Direktverknüpfungen zwischen virtuellen Wired Tasten und den Dimmern die dann über die `PRESS_CONT` Events von Bidcos-RF Tasten angesteuert werden. Weitere wichtige Informationen zu den `PRESS_CONT` Events siehe https://github.com/hobbyquaker/RedMatic/issues/61
