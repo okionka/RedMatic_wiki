@@ -1,3 +1,8 @@
+---
+Title: WebApp
+Category: Erweiterungen
+---
+
 ## Screenshots
 
 Add node "RedMatic / WebApp" to **any** flow and deploy. 
