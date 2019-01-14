@@ -1,3 +1,8 @@
+---
+Title: Passwort-Schutz für Node-RED einrichten
+Category: Administration
+---
+
 ### Passwort-Schutz für Node-RED einrichten
 
 * Unter Systemsteuerung Zusatzsoftware Redmatic die Konfigurationsseite aufrufen (Button "Einstellen")
