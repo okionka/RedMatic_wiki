@@ -1,3 +1,8 @@
+---
+Title: Flows Importieren
+Category: Nutzung
+---
+
 #### Einfacher Import von Flows, die als Textbeschreibung der Nodes vorliegen.
 
 * Flow-Beschreibung als Text markieren und mit strg-c (in die Zwischenablage) kopieren
