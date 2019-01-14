@@ -1,3 +1,8 @@
+---
+Title: Inhalt einer Systemvariablen über einfachen Webservice bereitstellen
+Category: Beispiel Flows
+---
+
 # Inhalt einer Systemvariablen über einfachen Webservice bereitstellen
 
 Dieses Beispiel ermöglicht es den Zustand der Systemvariable "Anwesenheit" via HTTP GET abzufragen.
