@@ -1,3 +1,8 @@
+---
+Title: JSON Daten von Webservice abfragen
+Category: Beispiel Flows
+---
+
 # JSON Daten von Webservice abfragen und in Systemvariable schreiben
 
 Für dieses Beispiel wird ein Webservice verwendet der den aktuellen Wechselkurs des Bitcoin zurückgibt. Er eignet sich gut als Beispiel da er keinen API Key verlangt und das zurückgegebene JSON recht übersichtlich ist:
