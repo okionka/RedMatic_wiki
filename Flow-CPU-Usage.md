@@ -1,6 +1,6 @@
 ---
-Title: CPU-Auslastung als Graph
-Category: Dashboard
+Title: CPU-Auslastung als Graph im Dashboard anzeigen
+Category: Beispiel Flows
 ---
 
 # CPU-Auslastung als Graph im Dashboard anzeigen.
