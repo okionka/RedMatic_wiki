@@ -1,6 +1,6 @@
 ---
-Title: DutyCycle Gauge-Chart
-Category: Dashboard
+Title: DutyCycle Graph im Dashboard
+Category: Beispiel Flows
 ---
 
 Dieser Flow erzeugt eine Chart/Gauge Darstellung des DutyCycles des ersten Interfaces im Dashboard
