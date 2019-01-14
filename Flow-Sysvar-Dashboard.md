@@ -1,3 +1,8 @@
+---
+Title: Systemvariablen im Dashboard
+Category: Beispiel Flows
+---
+
 Dieser Beispielflow erstellt ein einfaches Dashboard mit dem der Zustand der Variablen "Anwesenheit" und "Alarmzone 1"
 angezeigt und geändert werden kann. 
 
