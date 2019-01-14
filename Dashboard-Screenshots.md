@@ -1,6 +1,6 @@
 ---
-Title: Screenshots
-Category: Dashboard
+Title: Dashboard
+Category: Erweiterungen
 ---
 
 ## node-red-dashboard Smartphone
