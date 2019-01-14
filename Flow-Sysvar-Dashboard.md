@@ -1,5 +1,5 @@
 ---
-Title: Systemvariablen im Dashboard
+Title: Anzeigen/Setzen von Systemvariablen im Dashboard
 Category: Beispiel Flows
 ---
 
