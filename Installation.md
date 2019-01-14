@@ -1,6 +1,6 @@
 ---
 Title: Installation
-Category: RedMatic
+Category: Administration
 ---
 
 * Zur Sicherheit __ein Backup der CCU anfertigen__.
