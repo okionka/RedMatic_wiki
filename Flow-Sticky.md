@@ -1,3 +1,8 @@
+---
+Title: STICKY_UNREACH Meldungen bestätigen und zählen
+Category: Beispiel Flows
+---
+
 ### STICKY_UNREACH ("Gerätekommunikation war gestört") Meldungen bestätigen und zählen
 
 Dieser Flow bestätigt auftretende STICK_UNREACH Servicemeldungen sofort und erhöht dabei einen Zähler im Flow Context.
