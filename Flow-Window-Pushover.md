@@ -1,3 +1,8 @@
+---
+Title: Pushover Benachrichtigung wenn Fenster 10 Minuten offen
+Category: Beispiel Flows
+---
+
 Dieser Flow sendet eine Benachrichtigung via Pushover wenn ein Fenster länger als 10 Minuten offen ist.
 
 ![](images/window-pushover.png)
