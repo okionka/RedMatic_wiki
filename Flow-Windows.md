@@ -1,3 +1,8 @@
+---
+Title: Anzahl und Liste offener Fenster im Dashboard anzeigen
+Category: Beispiel Flows
+---
+
 # Anzahl und Liste offener Fenster im Dashboard anzeigen
 
 
