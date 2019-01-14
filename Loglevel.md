@@ -1,3 +1,8 @@
+---
+Title: Log-Level erhöhen zur Fehleranalyse
+Category: Administration
+---
+
 ### Node-RED Log-Level anpassen
 
 Zur Fehleranalyse ist es hilfreich den Loglevel zu erhöhen:
