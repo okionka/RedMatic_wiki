@@ -1,6 +1,6 @@
 ---
-Title: CCU
-Category: Nodes
+Title: CCU Nodes
+Category: Nutzung
 ---
 
 # Nodes
