@@ -1,3 +1,9 @@
+---
+Title: speak text on Google Home or Chromecast
+Category: User Flows
+---
+
+
 # speak text on Google Home or Chromecast
 
 With the `node-red-contrib-cast` node it is possible to let the Google Home speak any text.

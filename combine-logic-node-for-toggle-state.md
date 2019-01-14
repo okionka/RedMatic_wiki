@@ -1,3 +1,8 @@
+---
+Title: A simple Flow to toggle an actor with a single button
+Category: User Flows
+---
+
 ## A simple Flow to toggle an actor with a single button
 
 Similar to the previous part we want to toggle an actor with one input function into a sequence of alternating true and false states.

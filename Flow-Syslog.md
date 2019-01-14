@@ -1,3 +1,8 @@
+---
+Title: Fehlerüberwachung der CCU
+Category: User Flows
+---
+
 # Fehlerüberwachung der CCU
 
 Treten Fehler in Programmen oder der Logik der CCU auf werden diese in `/var/log/messages` geloggt. Der folgende Flow beschreibt eine Möglichkeit

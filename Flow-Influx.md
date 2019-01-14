@@ -1,3 +1,8 @@
+---
+Title: Werte in InfluxDB speichern
+Category: User Flows
+---
+
 Als erstes alle benötigen Komponenten installieren (redmatic, TICK-Stack, grafana). Dann die Verbindung in redmatic zur ccu einrichten, Datenbank in influxdb einrichten, datasource in grafana einrichten.
 
 Dann in redmatic influxdb adapter installieren: Burger-Menu, manage palette, dann    

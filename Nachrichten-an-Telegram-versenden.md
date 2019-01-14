@@ -1,3 +1,8 @@
+---
+Title: Nachrichten an Telegram versenden
+Category: User Flows
+---
+
 ### 1) Node installieren
 ### 2) Telegrambot erstellen
 ### 3) Einfacher Flow zum Nachrichten versenden

@@ -1,3 +1,8 @@
+---
+Title: Harmony Activities mit Homekit nutzen
+Category: User Flows
+---
+
 ### Ziel ist es, dass mit HomeKit die Harmony Activities gestartet werden können und dass gleichzeitig der korrekte Status in der Home App angezeigt wird, sollte mal direkt mit der Harmony Remote geschaltet werden.
 
 Dazu muss zuerst der Harmony Node installiert werden. Das geht binnen Minuten.

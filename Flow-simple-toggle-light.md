@@ -1,3 +1,8 @@
+---
+Title: Einfacher Flow zum Schalten einer Lampe
+Category: User Flows
+---
+
 # Einfacher Flow zum Schalten einer Lampe mittels Taster
 
 Möchte man mittels eines Tastendrucks ein Licht ein und mit dem nächsten Tastendruck Ausschalten, ist das einfach möglich:

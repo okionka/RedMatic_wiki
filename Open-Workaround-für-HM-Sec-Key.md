@@ -1,3 +1,8 @@
+---
+Title: Homekit - Öffnen einer Tür mit Keymatic HM-Sec-Key-(S)
+Category: User Flows
+---
+
 RedMatic-Homekit unterstützt z.Z. nur das Verriegeln und Entriegeln der HM-Sec-Key-(S),
 mit einem kleinen flow unter Zuhilfenahme des RedMatic-homekit universal-node kann jedoch sehr einfach ein Taster zum Öffnen der Tür nachgebildet werden.
 

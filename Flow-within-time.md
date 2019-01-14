@@ -1,4 +1,9 @@
-# Ausführen von Funktion in definierten Zeitfenstern
+---
+Title: Ausführen von Funktionen in definierten Zeitfenstern
+Category: User Flows
+---
+
+# Ausführen von Funktionen in definierten Zeitfenstern
 
 Dieser Flow stellt exemplarisch dar, wie Funktionen an Zeitfenster geknüpft werden können. Dafür werden beispielhaft zwei Szenarien dargestellt.
 
