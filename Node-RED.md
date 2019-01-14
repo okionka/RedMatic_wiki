@@ -1,3 +1,8 @@
+---
+Title: Node-RED Grundlagen
+Category: Nutzung
+---
+
 ## Was ist Node-RED?
 
 [Node-RED](https://nodered.org/about/) ist eine Nachrichtenflussbasierte, visuelle Programmierumgebung für das Internet 
