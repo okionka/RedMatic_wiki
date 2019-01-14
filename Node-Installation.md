@@ -1,3 +1,8 @@
+---
+Title: Zusätzliche Node-RED Nodes installieren
+Category: Administration
+---
+
 # Zusätzliche Node-RED Nodes installieren
 
 Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktive Community hat Stand Heute bereits weit über 1000 Nodes entwickelt die unterschiedlichste Anwendungsfälle abdecken und diverse Services und Systeme an Node-RED anbinden.
