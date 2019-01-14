@@ -1,3 +1,8 @@
+---
+Title: UNREACH Servicemeldung unterdrücken
+Category: Beispiel Flows
+---
+
 # UNREACH Servicemeldung unterdrücken
 
 Leider gibt es ([noch?](https://github.com/jens-maus/RaspberryMatic/issues/222)) keine Möglichkeit an der CCU angelernte Aktoren zu deaktivieren, dies kann störend sein z.B. bei einen Zwischenstecker der nur für die Weihnachtsbaumbeleuchtung verwendet wird, 11 Monate im Jahr in der Schublade verbleibt und dann eine ständige `UNREACH` Servicemeldung erzeugt. Es ist zwar unmöglich diese Meldung zu bestätigen, allerdings gibt es die Möglichkeit der Logikschicht "vorzugaukeln" dass der Aktor wieder erreichbar ist. 
