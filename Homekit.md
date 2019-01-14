@@ -1,3 +1,8 @@
+---
+Title: HomeKit
+Category: Erweiterungen
+---
+
 # RedMatic HomeKit
 
 Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issues) falls ein Gerät nicht unterstützt wird und gewünscht ist. Die bereits unterstützen Geräte sind hier ersichtlich: https://github.com/hobbyquaker/RedMatic-HomeKit/tree/master/homematic-devices
