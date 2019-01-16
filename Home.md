@@ -40,7 +40,7 @@
   * [Harmony Activities mit Homekit nutzen](Harmony-Activities-mit-Homekit-nutzen)
   * [Homekit: Öffnen einer Tür mit Keymatic HM-Sec-Key-(S)](https://github.com/HM-RedMatic/RedMatic/wiki/Open-Workaround-für-HM-Sec-Key)
   * [Nachrichten an Telegram versenden](https://github.com/HM-RedMatic/RedMatic/wiki/Nachrichten-an-Telegram-versenden)
-  * [dashbuttons ohne zusätzliche addons auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/dashbutton.md)
+  * [dashbuttons ohne zusätzliche addons auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/README.md)
 * Erweiterungen
   * [RedMatic WebApp](Webapp)
   * [RedMatic HomeKit](Homekit)
