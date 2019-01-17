@@ -6,7 +6,7 @@ Category: Nutzung
 
 # CCU Nodes
 
-<img src="images/nodes.png" align="left" style="padding-right: 30px">
+<img src="images/nodes.png" align="left" padding="30">
 <br><br>
 
 * [connection](#ccu-connection-node)
