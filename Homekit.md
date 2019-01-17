@@ -12,7 +12,7 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 * [Einrichtung](#einrichtung)
 * [Nutzungshinweise](#nutzungshinweise)
 * [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
-* [Sytemvariablen](#systemvariablen)
+* [Systemvariablen](#systemvariablen)
 * [CCU Programme starten](#programme)
 * [Universelles Accessory, Einbinden von nicht-Homematic Geräten](#universal-accessory)
 * [HomeKit Reset](#reset)
@@ -67,7 +67,7 @@ Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kan
 ![](images/homekit/fernbedienung.png)
 
 
-### Sytemvariablen
+### Systemvariablen
 
 (Boolsche) Systemvariablen können über den _Redmatic HomeKit - Switch_ Node in HomeKit bereitgestellt werden. Hierzu werden die Ein- und Ausgänge eines _CCU Sysvar_ Nodes über kreuz mit dem _Redmatic HomeKit - Switch_ Node verbunden
 
