@@ -335,9 +335,43 @@ Der Name dient zur Beschriftung des Node im Flow.
 
 Ansteuerung von Funk-Gongs (HM-OU-CFM-*, HM-OU-CM-PCB).
 
+
 # ccu display node
 
 Ansteuerung von Displays (HM-PB-4Dis-WM, HM-Dis-EP-WM55).
+
+## Attribute
+
+### CCU
+
+Unter CCU wird die zu verwendende CCU-Konfiguration angegeben.
+
+### Channel
+
+Der Kanal dessen Datenpunkte verwendet werden solln.  
+Er besteht aus der Serien- sowie der Kanalnummer.  
+Eine Autovervollständigung hilft bei der Auswahl anhand der Klarnamen. 
+
+### Typ
+
+Hier wird der Typ des Display-Devices gewählt.
+
+### Farbe / Zeile / Icon
+
+Je nach Device-Typ stehen verschiedene Optionen zur Darstellung des Inhalts zur Verfügung.
+
+### LED / Ton / Wiederholungen / Pause
+
+Einige Devices besitzen LEDs und Piepser. Über diese Optionen können diese angesteuert werden.
+Die Wiederholungen sowie Pause-Zeiten werden in Sekunden angegeben.
+
+## Konfiguration durch `msg`
+
+Die anzuzeigenden Werte können über `msg`-Properties gesetzt werden:
+
+* `msg.lineX`: Text der `X`ten Zeile
+* `msg.iconX`: Icon der `X`ten Zeile
+* `msg.colorX`: Farbe der `X`ten Zeile
 
 
 # ccu sysvar node
@@ -350,19 +384,175 @@ Rega-Systemvariablen setzen und Wertänderungen empfangen.
 # ccu program node
 
 Rega-Programme starten, aktivieren oder deaktivieren. Gibt den Zeitpunkt der letzten Programmausführung aus.
+![program node settings](./images/program-node-settings.png)
+
+## Input
+
+Ist `msg.payload` vom Typ `boolean` wird das Programm bei `true` aktiviert und ausgeführt und bei `false` deaktiviert.
+
+In allen anderen Fällen (Payload ist z.B. `exec`) wird das Programm ausgeführt.
+
+
+## Output
+
+Im Payload ist der Zeitstempel der letzten Programmausführung (Attribut `ts`) sowie die Information ob ein Programm aktiv oder inaktiv ist (Attribut `active`) enthalten.
+
+
+## Attribute
+
+### CCU
+
+Unter CCU wird die zu verwendende CCU-Konfiguration angegeben.
+
+### Topic
+
+Der Wert von `msg.topic` für den Output der Node.
+
+### Name
+
+Der Name des ReGaHSS Programms.
+Wird kein Programm ausgewählt kann der Programm-Name über `msg.topic` übergeben werden.
+
 
 # ccu script node
 
-Beliebige Rega-Scripte starten und deren Rückgabe ausgeben.
+Übergibt ein in RedMatic definiertes Script an ReGaHSS führt dieses aus und gibt die Rückgabe an _Output_ der Node zurück.
+
+![script node settings](./images/script-node-settings.png)
+
+## Attribute
+
+### CCU
+
+Die zu verwendende CCU-Konfiguration.
+
+### Topic
+
+Das Topic ist an [MQTT](https://de.wikipedia.org/wiki/MQTT) angelehnt und dient zu späteren
+Identifizierung der Rückgabe.
+
+### Script
+
+Das ReGaHSS Script welches ausgeführt werden soll.
+Das Feld kann leer gelassen werden um `msg.payload` aus dem Input-Objekt als Script zu verwenden.
+
+### Name
+
+Der Name dient zur Beschriftung des Node im Flow.
+
 
 # ccu switch node
+Der `ccu switch` Node verhält sich ähnlich wie der [switch](https://nodered.org/docs/user-guide/nodes#switch) Node von Node-RED. Er leitet eine Nachricht abhängig von einem Zustand eines Aktors oder einer Systemvariablen weiter, wahlweise auch je nach Zustand an unterschiedliche Ausgänge.
+
+Beispiel: Ein Tastendruck erzeugt eine Nachricht. Ist von Kanal `Gang Licht` der Datenpunkt `STATE` gleich `true` (also Licht ist an), fahre an Output 1 fort, ansonsten Output 2. An Output 1 hängt eine ein [change](https://nodered.org/docs/user-guide/nodes#change) Node welche den Payload auf `false` ändert. An Output 2 ein `change` Node der den Payload auf `true` ändert. Beide Nodes sind mit einem [value](value.html) Node verbunden welche den `STATE` vom Kanal `Gang Licht` setzt. Nun hat man einen Taster geschaffen welcher das Licht im Gang aus bzw. ein schaltet.
+
+![switch example](./images/switch-node-example.png)
+
+
+## Attribute
+
+### Name
+
+Der Name dient zur Beschriftung des Node im Flow.
+
+### CCU
+
+Die zu verwendende CCU-Konfiguration.
+
+### Interface
+
+Hier wird das Interface gewählt, welches das Event erzeugt hat.
+
+### Channel
+
+Der Kanal von dem der Datenpunkte abgefragt werden solln.  
+Eine Autovervollständigung hilft bei der Auswahl anhand der Klarnamen.
+
+### Datapoint
+
+Der Datenpunkt des Kanals, auch hier wird über eine Autovervollständigung die Auswahl vereinfacht.
+
+### Property
+
+Hier wird das spezifische Property des Datenpunkts ausgewählt:
+
+* `value`: Der reale Wert
+* `ts`: Der aktuelle Timestamp
+* `lc`: Der Timestamp der letzten Aktualisierung
+* `working`: Gibt an, ob sich der Aktor gerade im Schaltvorgang befindet
+* `direction`: Gibt die Richtung an in der sich z.B. ein Rollladen im Moment bewegt
+
+### Regeln
+
+Für jeden Output wird Bedingung definiert.
+
+Der Operator (z.B. `==` oder `<=`) gibt die Art des Vergleichs an. Je nach Operator wird daneben der Vergleichswert gewählt. Er kann aus verschiedenen Quellen kommen, zum Beispiel über Eingabe als String oder Number, aus einem anderen Property von `msg`, aus einem [Context](https://nodered.org/docs/user-guide/context) und weiteren.
+
+![switch node rules](./images/switch-node-rules.png)
+
+Es können beliebig viele Rules und damit Outputs angelegt werden.
+
+Verahlten des Matchers:
+* `checking all rules`: Es werden Events an allen Outputs erzeugt, an denen der Vergleich zutrifft
+* `stopping after first match`: Der erste zutreffende Vergleich erzeugt ein Event, es werden keine weiteren Prüfungen durchlaufen.
+
 
 # ccu get value node
+
+Dieser Node gibt beim Eintreffen einer Beliebigen Nachricht den zwischengespeicherten Zustand eines Datenpunkt der CCU aus.
+Das Ausgeben des Werts findet also nicht statt wenn sich der Wert ändert, sondern
+wenn er innerhalb eines Flows benötigt wird.
+
+![get value node example](./images/getvalue-node-settings.png)
+
+## Attribute
+
+### CCU
+
+Unter CCU wird die zu verwendende CCU-Konfiguration angegeben.
+
+
+### Interface
+
+Hier wird das Interface gewählt, welches den gewünschten Datenpunkt enthält.
+
+### Channel
+
+Der Kanal dessen Datenpunkte verwendet werden solln.  
+Er besteht aus der Serien- sowie der Kanalnummer.  
+Eine Autovervollständigung hilft bei der Auswahl anhand der Klarnamen. 
+
+### Datapoint
+
+Der Datenpunkt des Kanals, auch hier wird über eine Autovervollständigung die Auswahl vereinfacht.
+
+### Property
+
+Hier wird das spezifische Property des Datenpunkts ausgewählt:
+
+* `value`: Der reale Wert
+* `ts`: Der aktuelle Timestamp
+* `lc`: Der Timestamp der letzten Aktualisierung
+* `working`: Gibt an, ob sich der Aktor gerade im Schaltvorgang befindet
+* `direction`: Gibt die Richtung an in der sich z.B. ein Rollladen im Moment bewegt
+* `all properties as object`: Es werden alle Attribute eines Datenpunktes als Objekt zurückgegeben
+
+### Set Property
+
+Mit dieser Einstellung kann ausgewählt werden in welche Property der ausgegebenen Nachricht das Ergebnis gesetzt wird. Alternativ kann auch eine [Context](https://nodered.org/docs/user-guide/context)
+Variable gesetzt werden.
+
+Soll beispielsweise `msg.payload` vom Input-Event erhalten werden, kann über `msg.` eine
+zusätzliche Property angegeben werden welche dem `msg` Objekt hinzugefügt wird. 
 
 # ccu poll node
 
 Sofortige Abfrage von Rega-Systemvariablen und -Programmen auslösen.
 
+Dieser Node ist dazu vorgesehen die Änderung von Systemvariablen mit möglichst geringer Verzögerung zu empfangen. Hierzu kann man ein Programm auf der CCU anlegen, welches bei Änderung von Variablen einen virtuellen Taster betätigt. In Node-RED wird dann z.B. über den [value](#ccu-value-node) oder [rpc event](#rpc-event-node) Node auf diese "Tastenbetätigung" reagiert und den poll Node aufruft. Dies führt zum sofortigen Aktualisieren der geänderten Werte von der CCU.
+
+
+![poll example](./images/poll-node-example.png)
 
 # Attribute
 
