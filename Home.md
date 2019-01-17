@@ -12,6 +12,10 @@
   * [Tipps](Tipps)
   * [Flows exportieren](Flow-Export)
   * [Flows importieren](Flow-Import)
+* Erweiterungen
+  * [RedMatic WebApp](Webapp)
+  * [RedMatic HomeKit](Homekit)
+  * [Node-RED Dashboard](Dashboard-Screenshots)
 * Beispiel Flows
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
   * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
@@ -42,10 +46,6 @@
   * [Nachrichten an Telegram versenden](https://github.com/HM-RedMatic/RedMatic/wiki/Nachrichten-an-Telegram-versenden)
   * [dashbuttons ohne zusätzliche addons auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/README.md)
   * [Monitoring der Batteriespannung von Aktoren (hier: HM-CC-RT-DN)](https://github.com/holgerimbery/redmatic_flows/blob/master/battery_monitoring/README.md)
-* Erweiterungen
-  * [RedMatic WebApp](Webapp)
-  * [RedMatic HomeKit](Homekit)
-  * [Node-RED Dashboard](Dashboard-Screenshots)
 * Sonstiges
   * [Blogbeiträge, Berichte, Videos, ...](Berichterstattung)
   * [Link Sammlung](Links)
