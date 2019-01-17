@@ -6,8 +6,8 @@ Category: Nutzung
 
 # CCU Nodes
 
-<img src="images/nodes.png" align="left">
-<br><br><br>
+<img src="images/nodes.png" align="left" style="padding-right: 30px">
+<br><br>
 
 * [connection](#ccu-connection-node)
 * [value](#ccu-value-node)
