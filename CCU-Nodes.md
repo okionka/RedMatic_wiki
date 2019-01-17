@@ -3,11 +3,7 @@ Title: CCU Nodes
 Category: Nutzung
 ---
 
-
 # CCU Nodes
-
-<img src="images/nodes.png" align="left" padding="30">
-<br><br>
 
 * [connection](#ccu-connection-node)
 * [value](#ccu-value-node)
