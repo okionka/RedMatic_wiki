@@ -5,7 +5,7 @@ Category: User Flows
 
 **_Mittlerweile kann im HomeKit-RedMatic Node konfiguriert werden ob eine Tür nur aufgeschlossen werden soll oder ob auch die Falle zurückgezogen werden soll_**
 
-RedMatic-Homekit unterstützt z.Z. nur das Verriegeln und Entriegeln der HM-Sec-Key-(S),
+~~RedMatic-Homekit unterstützt z.Z. nur das Verriegeln und Entriegeln der HM-Sec-Key-(S),~~
 mit einem kleinen flow unter Zuhilfenahme des RedMatic-homekit universal-node kann jedoch sehr einfach ein Taster zum Öffnen der Tür nachgebildet werden.
 
 Hiermit wird die Tür verriegelt, entriegelt und geöffnet (Zurückziehen der Türfalle)
