@@ -4,9 +4,10 @@ Category: Nutzung
 ---
 
 
-# Nodes
+# CCU Nodes
 
-![](images/nodes.png)
+<img src="images/nodes.png" align="left">
+
 * [connection](#ccu-connection-node)
 * [value](#ccu-value-node)
 * [rpc event](#ccu-rpc-event-node)
