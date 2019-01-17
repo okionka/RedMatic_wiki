@@ -47,6 +47,6 @@
   * [RedMatic HomeKit](Homekit)
   * [Node-RED Dashboard](Dashboard-Screenshots)
 * Sonstiges
-  * [Berichterstattung](Blogbeiträge, Berichte, Videos, ...)
+  * [Blogbeiträge, Berichte, Videos, ...](Berichterstattung)
   * [Link Sammlung](Links)
   * [Nützliche Tipps](https://github.com/HM-RedMatic/RedMatic/wiki/Nuetzliche-Tipps)
