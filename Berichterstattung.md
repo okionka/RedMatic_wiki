@@ -1,0 +1,2 @@
+* [technikkram.net](https://technikkram.net/2018/12/vorstellung-redmatic-nodered-als-addon-fuer-die-ccu3-oder-raspberrymatic)
+* [Homematic-Guru.de](https://homematic-guru.de/redmatic-node-red-addon-fuer-homematic)
