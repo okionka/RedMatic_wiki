@@ -41,4 +41,5 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 
 #### Weiterführende Links
 
+* [Blogbeiträge, Howtos, Videos zu RedMatic](https://github.com/HM-RedMatic/RedMatic/wiki/Berichterstattung)
 * [Ausführliche Beschreibung eines ersten einfachen Flow zum schalten einer Lampe mittels Tastendruck](https://github.com/hobbyquaker/RedMatic/wiki/Flow-simple-toggle-light)
