@@ -47,6 +47,7 @@
   * [Nachrichten an Telegram versenden](https://github.com/HM-RedMatic/RedMatic/wiki/Nachrichten-an-Telegram-versenden)
   * [Dashbuttons ohne zusätzliche Nodes auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/README.md)
   * [Monitoring der Batteriespannung von Aktoren (hier: HM-CC-RT-DN)](https://github.com/holgerimbery/redmatic_flows/blob/master/battery_monitoring/README.md)
+  * [Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen](flow-multi-geraete)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge und Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
