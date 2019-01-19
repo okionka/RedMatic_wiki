@@ -9,7 +9,11 @@ Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der In
     
 <details><summary>Wie kann ich mich für das Projekt erkenntlich zeigen?
 </summary>
-<p>siehe https://homematic-forum.de/forum/viewtopic.php?f=77&t=43508&start=30#p450127</p>
+<p>
+
+siehe https://homematic-forum.de/forum/viewtopic.php?f=77&t=43508&start=30#p450127
+
+</p>
 </details>
 
 
