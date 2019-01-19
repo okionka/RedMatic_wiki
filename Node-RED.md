@@ -16,7 +16,7 @@ Systeme in Node-RED integrieren.
 
 Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentationen, Bücher und Youtube Videos finden.
 
-* [Blogbeiträge, Howtos, Videos zu RedMatic](https://github.com/HM-RedMatic/RedMatic/wiki/Berichterstattung)
+* [Berichterstattung, Blogbeiträge, Videos zu RedMatic](https://github.com/HM-RedMatic/RedMatic/wiki/Berichterstattung)
 * [Links rund um das Thema Node-RED](https://github.com/HM-RedMatic/RedMatic/wiki/Links)
 
 ## Crashkurs
