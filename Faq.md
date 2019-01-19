@@ -80,7 +80,7 @@ Für eine Sicherung der Flows sind folgende Dateien relevant:
 </details>
 
 
-<details><summary>Wie kann ich mich für das Projekt erkenntlich zeigen?
+<details><summary>Wie kann ich mich erkenntlich zeigen?
 </summary>
 <p>
 
@@ -88,7 +88,8 @@ Das ist lieb gemeint - aber ich möchte aus mehreren Gründen keine Spenden anne
 
 Da wird aus einem Hobby ganz schnell eine genehmigungspflichtige Nebentätigkeit, es erzeugt den Druck die Erwartungen der Spender an Support und Updates zu erfüllen und außerdem wird es sehr schwierig sobald sich mehr Leute am Projekt beteiligen eine faire Verteilung der Spenden zu bewerkstelligen. Bei diesem speziellen Projekt kommt dann auch noch dazu dass es in großen Teilen "nur eine Verpackung" bereits vorhandener Open Source Software anderer Autoren ist.    
 
-Lieber wäre mir es wenn sich die User durch Mitarbeit erkenntlich zu zeigen. Und sei es nur die Verbesserung von Rechtschreibfehlern im Wiki ;-)
+Lieber wäre mir es wenn sich die User durch Mitarbeit erkenntlich zu zeigen. Und sei es nur die Verbesserung von Rechtschreibfehlern im Wiki. Auch freue ich mich wenn das Projekt auf Github mit einem "Star" ausgezeichnet wird.
+;-)
 
 </p>
 </details>
