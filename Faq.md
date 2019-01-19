@@ -86,7 +86,7 @@ Für eine Sicherung der Flows sind folgende Dateien relevant:
 
 Das ist lieb gemeint - aber ich möchte aus mehreren Gründen keine Spenden annehmen:    
 
-Da wird aus einem Hobby ganz schnell eine genehmigungspflichtige Nebentätigkeit, es erzeugt den Druck die Erwartungen der Spender an Support und Updates zu erfüllen und außerdem wird es sehr schwierig sobald sich mehr Leute am Projekt beteiligen eine faire Verteilung der Spenden zu bewerkstelligen. Bei diesem speziellen Projekt kommt dann auch noch dazu dass es in großen Teilen "nur eine Verpackung" bereits vorhandener Open Source Software anderer Autoren ist.    
+Da wird aus einem Hobby ganz schnell eine genehmigungspflichtige Nebentätigkeit, es erhöht den Druck die Erwartungen der Spender an Support und Updates zu erfüllen und außerdem wird es sehr schwierig sobald sich mehr Leute am Projekt beteiligen eine faire Verteilung der Spenden zu bewerkstelligen. Bei diesem speziellen Projekt kommt dann auch noch dazu dass es in großen Teilen "nur eine Verpackung" bereits vorhandener Open Source Software anderer Autoren ist.    
 
 Lieber wäre mir es wenn sich die User durch Mitarbeit erkenntlich zu zeigen - und sei es "nur" die Verbesserung von Rechtschreibfehlern im Wiki. Auch freue ich mich wenn das Projekt auf Github mit einem "Star" ausgezeichnet wird.
 ;-)
