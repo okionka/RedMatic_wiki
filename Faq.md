@@ -1,3 +1,4 @@
+
 <details><summary>Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!
 </summary>
 <p>
@@ -6,6 +7,12 @@ Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der In
 </details>
     
     
+<details><summary>Wie kann ich mich für das Projekt erkenntlich zeigen?
+</summary>
+<p>siehe https://homematic-forum.de/forum/viewtopic.php?f=77&t=43508&start=30#p450127</p>
+</details>
+
+
 
 <details><summary>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</summary>
 <p>
