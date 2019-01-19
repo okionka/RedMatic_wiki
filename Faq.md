@@ -1,8 +1,11 @@
-<details><summary>Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!</summary>
+<details><summary>Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!
+</summary>
 <p>
 Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der Installation länger als 10 Minuten her ist. <br>RedMatic ist für ein Homematic Addon sehr groß und besteht aus sehr vielen Dateien. Das auspacken des Archivs dass bei der Installation von der CCU erledigt werden muss ist dabei je nach Raspberry CPU und io bzw SD Karten Performance sehr Zeitintensiv. Hier ist Geduld erforderlich.
 <p>
 </details>
+    
+    
 
 <details><summary>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</summary>
 <p>
@@ -13,8 +16,8 @@ Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der In
 
 </p>
 </details>
-
-
+    
+    
 
 <details><summary>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</summary>
 <p>
