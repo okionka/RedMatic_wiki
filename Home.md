@@ -18,7 +18,7 @@
   * [RedMatic HomeKit](Homekit)
   * [Node-RED Dashboard](Dashboard-Screenshots)
 * Sonstiges
-  * [Berichterstattung, Howto's, Videos über RedMatic](Berichterstattung)
+  * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
 * Beispiel Flows
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
