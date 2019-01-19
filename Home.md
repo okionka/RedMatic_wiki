@@ -12,6 +12,7 @@
   * [Tipps](Tipps)
   * [Flows exportieren](Flow-Export)
   * [Flows importieren](Flow-Import)
+* [FAQ](Faq)
 * Erweiterungen
   * [RedMatic WebApp](Webapp)
   * [RedMatic HomeKit](Homekit)
