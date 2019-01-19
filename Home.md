@@ -10,6 +10,7 @@
   * [Node-RED Grundlagen](Node-RED)
   * [CCU Nodes](CCU-Nodes)
   * [Tipps](Tipps)
+  * [FAQ - Häufig gestellte Fragen](Faq)
   * [Flows exportieren](Flow-Export)
   * [Flows importieren](Flow-Import)
 * Erweiterungen
@@ -17,7 +18,6 @@
   * [RedMatic HomeKit](Homekit)
   * [Node-RED Dashboard](Dashboard-Screenshots)
 * Sonstiges
-  * [FAQ](Faq)
   * [Berichterstattung, Howto's, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
 * Beispiel Flows
