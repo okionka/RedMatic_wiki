@@ -8,20 +8,6 @@ Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der In
 </details>
     
     
-
-
-<details><summary>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</summary>
-<p>
-
-##### node-red-contrib-alexa-local
-
-##### RedMatic-HomeKit
-
-</p>
-</details>
-    
-    
-
 <details><summary>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</summary>
 <p>
 
@@ -44,6 +30,20 @@ Viele User ersetzen mit RedMatic ihre Homematic-Scripte und -Programme, haben ab
 Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker zu betreiben und nur ganz bestimmte Anwendungsfälle wie z.B. das timing-kritische Dimmen mit langem Tastendruck über Schnittstellen-Grenzen hinweg mit RedMatic realisieren.
 </p>
 </details>
+
+<details><summary>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</summary>
+<p>
+
+##### node-red-contrib-alexa-local
+
+##### RedMatic-HomeKit
+
+</p>
+</details>
+    
+    
+
+
 
 <details><summary>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar</summary>
 <p>
