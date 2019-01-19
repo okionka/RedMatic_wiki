@@ -26,7 +26,7 @@ Eine weitere Abgrenzung ergibt sich bei RedMatic auch durch ein paar andere Anwe
 </p>
 </details>
 
-<details><summary>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) ausgegraut obwohl ich CUxD/Wired habe</summary>
+<details><summary>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar</summary>
 <p>
 </p>
 </details>
