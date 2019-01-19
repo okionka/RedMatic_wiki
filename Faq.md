@@ -43,3 +43,8 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 <p>
 </p>
 </details>
+
+<details><summary>Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen</summary>
+<p>
+</p>
+</details>
