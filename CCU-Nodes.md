@@ -8,6 +8,7 @@ Category: Nutzung
 * [connection](#ccu-connection-node)
 * [value](#ccu-value-node)
 * [rpc event](#ccu-rpc-event-node)
+* [set value](#ccu-set-value-node)
 * [rpc](#ccu-rpc-node)
 * [signal](#ccu-signal-node)
 * [display](#ccu-display-node)
