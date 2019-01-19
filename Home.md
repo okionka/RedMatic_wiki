@@ -48,6 +48,5 @@
   * [Dashbuttons ohne zusätzliche Nodes auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/README.md)
   * [Monitoring der Batteriespannung von Aktoren (hier: HM-CC-RT-DN)](https://github.com/holgerimbery/redmatic_flows/blob/master/battery_monitoring/README.md)
 * Sonstiges
-  * [Blogbeiträge, Berichte, Videos, ...](Berichterstattung)
-  * [Link Sammlung](Links)
-  * [Nützliche Tipps](https://github.com/HM-RedMatic/RedMatic/wiki/Nuetzliche-Tipps)
+  * [Berichterstattung, Blogbeiträge und Videos über RedMatic](Berichterstattung)
+  * [Node-RED Link Sammlung](Links)
