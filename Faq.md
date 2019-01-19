@@ -51,3 +51,8 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 <p>
 </p>
 </details>
+
+<details><summary>Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?</summary>
+<p>
+</p>
+</details>
