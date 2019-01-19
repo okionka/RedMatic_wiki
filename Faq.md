@@ -68,9 +68,9 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 <p>
 Für eine Sicherung der Flows sind folgende Dateien relevant:
 
-* `/usr/local/addons/redmatic/var/flows.json
-* `/usr/local/addons/redmatic/var/flows_cred.json
-* `/usr/local/addons/redmatic/etc/credentials.key
+* `/usr/local/addons/redmatic/var/flows.json`
+* `/usr/local/addons/redmatic/var/flows_cred.json`
+* `/usr/local/addons/redmatic/etc/credentials.key`
 * Falls das Node-RED Projects-Feature aktiviert der Ordner: `/usr/local/addons/redmatic/var/projects`
 * Falls HomeKit genutzt wird noch der Ordner: `/usr/local/addons/redmatic/var/homekit`
 
