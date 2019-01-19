@@ -1,11 +1,17 @@
-## CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?
+<details><summary>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</summary>
+<p>
 
 ##### node-red-contrib-alexa-local
 
 ##### RedMatic-HomeKit
 
+</p>
+</details>
 
-## Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿
+
+
+<details><summary>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</summary>
+<p>
 
 Node-RED beschäftigt sich nur mit dem Empfang, der Weiterleitung, dem Senden und der Manipulation von Nachrichten innerhalb Node-RED oder über bestimmte Nodes auch mit unzähligen externen Services und Systemen. 
 
@@ -17,5 +23,10 @@ Smart Home Software wie ioBroker setzen zur Vermeidung der oben genannten Eigens
 Node-RED hat auf der Gegenseite jedoch den Vorteil wesentlich "leichtgewichtiger" als ioBroker zu sein, alles läuft in einem Prozess und durch den vielfach geringeren RAM-Bedarf ist die Möglichkeit RedMatic auf einer CCU zu betreiben. Somit ist RedMatic unter der prämisse "ich möchte es als alternative zu einer Software wie ioBroker einsetzen" ganz besonders für diejenigen Interessant die neben der CCU keinen weiteren Server 24 Stunden laufen lassen wollen.
 
 Eine weitere Abgrenzung ergibt sich bei RedMatic auch durch ein paar andere Anwendungsfälle die gar nicht mit einer "ausgewachsenen" Smart Home Software konkurrieren. RedMatic kann z.B. eine sehr sinnvolle Ergänzung in einem MQTT basierten Smart Home dienen und ermöglicht es die Geräte der CCU sehr einfach an MQTT anzubinden. Für Apple User können sich die interessanten Features von RedMatic sich durchaus nur auf HomeKit beschränken, er hat dann vielleicht sogar außer einem einzigen Homematic-HomeKit Node gar nichts in RedMatic konfiguriert. Viele User ersetzen mit RedMatic ihre Homematic-Scripte und -Programme. Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker zu betreiben und nur ganz bestimmte Anwendungsfälle wie z.B. das timing-kritische Dimmen mit langem Tastendruck über Schnittstellen-Grenzen hinweg mit RedMatic realisieren.
+</p>
+</details>
 
-## Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) ausgegraut obwohl ich CUxD/Wired habe
+<details><summary>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) ausgegraut obwohl ich CUxD/Wired habe</summary>
+<p>
+</p>
+</details>
