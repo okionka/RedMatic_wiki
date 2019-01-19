@@ -64,7 +64,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 </details>
 
 
-<details><summary>Ich möchte meine Flows auch unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</summary>
+<details><summary>Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</summary>
 <p>
 Für eine Sicherung der Flows sind folgende Dateien relevant:
 
