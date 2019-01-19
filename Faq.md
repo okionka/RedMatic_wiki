@@ -62,3 +62,17 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 * Ein Programm in der CCU-Anlegen, das bei Änderung einer der relevanten Variablen den virtuellen Taster auslöst.
 </p>
 </details>
+
+
+<details><summary>Ich möchte meine Flows auch unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</summary>
+<p>
+Für eine Sicherung der Flows sind folgende Dateien relevant:
+
+* `/usr/local/addons/redmatic/var/flows.json
+* `/usr/local/addons/redmatic/var/flows_cred.json
+* `/usr/local/addons/redmatic/etc/credentials.key
+* Falls das Node-RED Projects-Feature aktiviert der Ordner: `/usr/local/addons/redmatic/var/projects`
+* Falls HomeKit genutzt wird noch der Ordner: `/usr/local/addons/redmatic/var/homekit`
+
+</p>
+</details>
