@@ -18,7 +18,3 @@ Category: Administration
 ### CUxD und Homematic-Wired
 
 Per Default werden die Schnittstellenprozesse CUxD und hs485d (wired) nicht aktiviert. Für eine Zukünftige Version ist dies geplant (https://github.com/hobbyquaker/RedMatic/issues/34), Stand heute muss das noch manuell im _ccu configuration_ Node gemacht werden.
-
-### rmupdate
-
-RedMatic lässt sich auch über das [Addon rmupdate](https://github.com/j-a-n/raspberrymatic-addon-rmupdate) installieren und updaten. Dies bietet den Vorteil dass kein überflüssiger Zwangs-Reboot im Anschluss an die Installation durchgeführt wird.
