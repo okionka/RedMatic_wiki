@@ -66,3 +66,8 @@ und ein [Unterforum im Homematic-Forum](https://homematic-forum.de/forum/viewfor
 Beteiligung in jeder Form ist willkommen und gewünscht, insbesondere sind alle Nutzer aufgefordert die [Liste erfolgreich getesteter Nodes](https://github.com/HM-RedMatic/RedMatic/wiki/Erfolgreich-getestete-Nodes) zu ergänzen, Beispiel-Flows zu veröffentlichen und an der Verbesserung und Erweiterung der [Dokumentation](https://github.com/HM-RedMatic/RedMatic/wiki) mitzuarbeiten.
 
 Es werden keine Spenden angenommen, ich würde mich jedoch darüber freuen wenn der erfolgreiche Einsatz dieser Software mit einem Github Sternchen ⭐️ honoriert wird (Github Account ist schnell angelegt! ;-)
+
+## Webseite
+
+Eine Webseite für das Projekt befindet sich derzeit im Aufbau. Wer einen Blick riskieren möchte: 
+https://dev.redmatic.de - Hilfe ist willkommen und gewünscht! :-)
