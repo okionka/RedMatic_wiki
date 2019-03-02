@@ -67,7 +67,3 @@ Beteiligung in jeder Form ist willkommen und gewünscht, insbesondere sind alle 
 
 Es werden keine Spenden angenommen, ich würde mich jedoch darüber freuen wenn der erfolgreiche Einsatz dieser Software mit einem Github Sternchen ⭐️ honoriert wird (Github Account ist schnell angelegt! ;-)
 
-## Webseite
-
-Eine Webseite für das Projekt befindet sich derzeit im Aufbau. Wer einen Blick riskieren möchte: 
-https://dev.redmatic.de - Hilfe ist willkommen und gewünscht! :-)
