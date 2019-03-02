@@ -52,4 +52,4 @@ and a [subforum in the Homematic-Forum](https://homematic-forum.de/forum/viewfor
 
 Participation in any form is welcome and desired, especially all users are invited to extend the [list of successfully tested nodes](https://github.com/HM-RedMatic/RedMatic/wiki/Erfolgreich-getestete-Nodes), to publish sample flows and to contribute to the improvement and extension of the [documentation](https://github.com/HM-RedMatic/RedMatic/wiki).
 
-No donations will be accepted, but I would be happy if the successful use of this software is acknowledged by giving the project a Github star ⭐️
+No donations will be accepted, but I would be happy if the successful usage of this software is acknowledged by giving the project a Github star ⭐️
