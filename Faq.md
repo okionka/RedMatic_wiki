@@ -8,6 +8,12 @@ Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der In
 </details>
     
 <br>    
+<details><summary><b>Besser CCU3/RaspberryMatic und RedMatic oder piVCCU/Debmatic und Node-RED (im Container) ...?﻿</b></summary>
+<p>
+
+</details>
+    
+<br>    
 <details><summary><b>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</b></summary>
 <p>
 
