@@ -1,14 +1,14 @@
 # FAQ - Häufig gestellte Fragen
 
-<details><summary>Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!
-</summary>
+<details><summary><b>Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!
+<b></summary>
 <p>
 Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der Installation länger als 10 Minuten her ist. <br>RedMatic ist für ein Homematic Addon sehr groß und besteht aus sehr vielen Dateien. Das auspacken des Archivs dass bei der Installation von der CCU erledigt werden muss ist dabei je nach Raspberry CPU und io bzw. SD Karten Performance sehr Zeitintensiv. Hier ist Geduld erforderlich.
 <p>
 </details>
     
 <br>    
-<details><summary>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</summary>
+<details><summary><b>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</b></summary>
 <p>
 
 Node-RED beschäftigt sich primär mit dem Empfang, der Weiterleitung, dem Senden und der Manipulation von Nachrichten innerhalb Node-RED oder über bestimmte Nodes auch mit unzähligen externen Services und Systemen.
@@ -31,7 +31,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 </p>
 </details>
 <br>
-<details><summary>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</summary>
+<details><summary><b>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</b></summary>
 <p>
 
 ##### node-red-contrib-alexa-local
@@ -45,7 +45,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 
 
 <br>
-<details><summary>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar</summary>
+<details><summary><b>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar</b></summary>
 <p>
 </p>
 </details>
@@ -55,7 +55,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 </p>
 </details>
 <br>
-<details><summary>Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?</summary>
+<details><summary><b>Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?</b></summary>
 <p>Per Default Settings werden CCU-Variablen alle 30 Sekunden von der Rega abgeholt. Dieser Intervall lässt sich zwar verkürzen, hiermit wird aber die Belastung der "Rega" erhöht. Mit dem "poll" Node (unter CCU) kann man eleganter eine quasi-sofortige Abfrage erzwingen und die Latenz beim Empfang von Änderungen an Systemvariablen beschleunigen, man baut einen "Pseudo-Push" Mechanismus. Kurze Latenzen könnten z.B. gewünscht sein, wenn man eine Alarmanlage mit CCU-Variablen steuern will.
 
 #### Umsetzung:
@@ -67,7 +67,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 </details>
 <br>
 
-<details><summary>Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</summary>
+<details><summary><b>Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</b></summary>
 <p>
 Für eine Sicherung der Flows sind folgende Dateien relevant:
 
@@ -81,8 +81,7 @@ Für eine Sicherung der Flows sind folgende Dateien relevant:
 </details>
 <br>
 
-<details><summary>Wie kann ich mich erkenntlich zeigen?
-</summary>
+<details><summary><b>Wie kann ich mich erkenntlich zeigen?</b></summary>
 <p>
 
 Das ist lieb gemeint - aber ich möchte aus mehreren Gründen keine Spenden annehmen:    
