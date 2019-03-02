@@ -65,7 +65,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 * Ein Programm in der CCU-Anlegen, das bei Änderung einer der relevanten Variablen den virtuellen Taster auslöst.
 </p>
 </details>
-
+<br><br>
 
 <details><summary>Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</summary>
 <p>
@@ -79,7 +79,7 @@ Für eine Sicherung der Flows sind folgende Dateien relevant:
 
 </p>
 </details>
-
+<br><br>
 
 <details><summary>Wie kann ich mich erkenntlich zeigen?
 </summary>
