@@ -5,7 +5,7 @@ Die Grundlage bildet [Node-RED](https://nodered.org/about/) mit den
 [CCU Nodes für Node-RED](https://github.com/HM-RedMatic/node-red-contrib-ccu). Hiermit ist es auf einfache und visuelle 
 Weise möglich Regeln, Automationen, Scripte und Anbindungen von externen Services und Systemen für ein Homematic System 
 zu realisieren - und das weitgehend auch ohne Programmierkenntnisse. Die Einrichtung und der Betrieb von _RedMatic_ 
-ist dabei sehr einsteigerfreundlich, es bedarf keiner Nutzung der Linux-Kommandozeile und es müssen keine 
+ist sehr benutzerfreundlich, es bedarf keiner Nutzung der Linux-Kommandozeile und es müssen keine 
 Konfigurationsdateien o.Ä. bearbeitet werden. Im [Wiki](https://github.com/HM-RedMatic/RedMatic/wiki) gibt es weitere 
 Informationen zu Node-RED und einige Anwendungsbeispiele (sogenannte _Flows_).
 
