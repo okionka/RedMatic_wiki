@@ -50,7 +50,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 </p>
 </details>
 <br>
-<details><summary>Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen</summary>
+<details><summary><b>Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen</b></summary>
 <p>
 </p>
 </details>
