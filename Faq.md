@@ -54,7 +54,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 <p>
 </p>
 </details>
-
+<br>
 <details><summary>Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?</summary>
 <p>Per Default Settings werden CCU-Variablen alle 30 Sekunden von der Rega abgeholt. Dieser Intervall lässt sich zwar verkürzen, hiermit wird aber die Belastung der "Rega" erhöht. Mit dem "poll" Node (unter CCU) kann man eleganter eine quasi-sofortige Abfrage erzwingen und die Latenz beim Empfang von Änderungen an Systemvariablen beschleunigen, man baut einen "Pseudo-Push" Mechanismus. Kurze Latenzen könnten z.B. gewünscht sein, wenn man eine Alarmanlage mit CCU-Variablen steuern will.
 
