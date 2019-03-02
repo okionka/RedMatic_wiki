@@ -7,7 +7,7 @@ Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der In
 <p>
 </details>
     
-    
+<br>    
 <details><summary>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</summary>
 <p>
 
@@ -30,7 +30,7 @@ Viele User ersetzen mit RedMatic ihre Homematic-Scripte und -Programme, haben ab
 Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker zu betreiben und nur ganz bestimmte Anwendungsfälle wie z.B. das timing-kritische Dimmen mit langem Tastendruck über Schnittstellen-Grenzen hinweg mit RedMatic realisieren.
 </p>
 </details>
-
+<br>
 <details><summary>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</summary>
 <p>
 
@@ -44,12 +44,12 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
     
 
 
-
+<br>
 <details><summary>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar</summary>
 <p>
 </p>
 </details>
-
+<br>
 <details><summary>Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen</summary>
 <p>
 </p>
@@ -65,7 +65,7 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 * Ein Programm in der CCU-Anlegen, das bei Änderung einer der relevanten Variablen den virtuellen Taster auslöst.
 </p>
 </details>
-<br><br>
+<br>
 
 <details><summary>Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</summary>
 <p>
@@ -79,7 +79,7 @@ Für eine Sicherung der Flows sind folgende Dateien relevant:
 
 </p>
 </details>
-<br><br>
+<br>
 
 <details><summary>Wie kann ich mich erkenntlich zeigen?
 </summary>
