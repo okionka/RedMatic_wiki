@@ -52,6 +52,7 @@
   * [Dashbuttons ohne zusätzliche Nodes auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/README.md)
   * [Monitoring der Batteriespannung von Aktoren (hier: HM-CC-RT-DN)](https://github.com/holgerimbery/redmatic_flows/blob/master/battery_monitoring/README.md)
   * [Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen](flow-geraete-abfragen)
+  * [sehr einfache Jalousiesteuerung](https://github.com/HM-RedMatic/RedMatic/wiki/sehr-einfache-Jalousiesteuerung)
 
 
 ## Webseite
