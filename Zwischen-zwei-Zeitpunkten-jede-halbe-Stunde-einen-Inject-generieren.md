@@ -1,3 +1,8 @@
+---
+Title: Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren
+Category: User Flows
+---
+
 # Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren
 
 Möchte man beispielsweise zwischen 08.30 und 21.30 jede halbe Stunde einen Inject generieren, kann man dies folgendermaßen erledigen:
