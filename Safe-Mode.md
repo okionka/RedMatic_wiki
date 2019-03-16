@@ -1,0 +1,2 @@
+Für den Fall das Node-RED direkt nach dem Start Probleme verursacht, z.B. weil man aus versehen eine Endlosschleife programmiert hat oder fehlerhafte Nodes zum Absturz führen, gibt es die Möglichkeit Node-RED im sogenannten "Safe Mode" zu starten. Im Safe Mode werden zwar alle Flows geladen - aber nicht gestartet. Man kann dann fehlerhafte Flows verändern oder problematische Nodes entfernen und erst nach einem Deploy werden die Flows dann wieder gestartet.
+
