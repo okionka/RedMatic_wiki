@@ -3,6 +3,8 @@ Title: Passwort-Schutz für Node-RED einrichten
 Category: Administration
 ---
 
+In Standardeinstellung wird für Node-RED der gleiche Username und das gleiche Passwort verwendet das auch zur Authentifizierung am CCU WebUI genutzt werden muss. Hierbei Groß-/Kleinschreibung beachten, der Standardbenutzer der CCU ist `Admin` mit großem A.
+
 ### Passwort-Schutz für Node-RED einrichten
 
 * Unter Systemsteuerung Zusatzsoftware Redmatic die Konfigurationsseite aufrufen (Button "Einstellen")
