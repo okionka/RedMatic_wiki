@@ -13,6 +13,9 @@ Zur Fehleranalyse ist es hilfreich den Loglevel zu erhöhen:
 
 ![](images/loglevel.mov.gif)
 
+
+### Log herunterladen
+
 RedMatic loggt in das CCU Syslog (`/var/log/messages`), im UI kann das Log (gefiltert auf Meldungen von RedMatic/Node-RED) heruntergeladen werden:
 
 ![](images/log-download.png)
