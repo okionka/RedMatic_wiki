@@ -49,13 +49,13 @@
   * [Werte in InfluxDB speichern](Flow-Influx)
   * [Diverse Flows von](https://github.com/Sineos/redmatic-flow-misc) [@Sineos](https://github.com/Sineos/)
   * [Harmony Activities mit Homekit nutzen](Harmony-Activities-mit-Homekit-nutzen)
-  * [Homekit: Öffnen einer Tür mit Keymatic HM-Sec-Key-(S)](https://github.com/HM-RedMatic/RedMatic/wiki/Open-Workaround-für-HM-Sec-Key)
-  * [Nachrichten an Telegram versenden](https://github.com/HM-RedMatic/RedMatic/wiki/Nachrichten-an-Telegram-versenden)
+  * [Homekit: Öffnen einer Tür mit Keymatic HM-Sec-Key-(S)](https://github.com/rdmtc/RedMatic/wiki/Open-Workaround-für-HM-Sec-Key)
+  * [Nachrichten an Telegram versenden](https://github.com/rdmtc/RedMatic/wiki/Nachrichten-an-Telegram-versenden)
   * [Dashbuttons ohne zusätzliche Nodes auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/README.md)
   * [Monitoring der Batteriespannung von Aktoren (hier: HM-CC-RT-DN)](https://github.com/holgerimbery/redmatic_flows/blob/master/battery_monitoring/README.md)
   * [Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen](flow-geraete-abfragen)
-  * [sehr einfache Jalousiesteuerung](https://github.com/HM-RedMatic/RedMatic/wiki/sehr-einfache-Jalousiesteuerung)
-  * [Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren](https://github.com/HM-RedMatic/RedMatic/wiki/Zwischen-zwei-Zeitpunkten-jede-halbe-Stunde-einen-Inject-generieren)
+  * [sehr einfache Jalousiesteuerung](https://github.com/rdmtc/RedMatic/wiki/sehr-einfache-Jalousiesteuerung)
+  * [Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren](https://github.com/rdmtc/RedMatic/wiki/Zwischen-zwei-Zeitpunkten-jede-halbe-Stunde-einen-Inject-generieren)
 
 
 ## Webseite

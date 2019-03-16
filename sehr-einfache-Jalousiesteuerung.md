@@ -66,7 +66,7 @@ Dafür gibt es folgende Optionen:
 Wenn man als Zeitvorgabe zum Beispiel eine Zeit abhängig vom Sonnenstand gewählt hat ("sun time") kann man über ein Auswahlmenü die entsprechende Zeit wählen:
 ![image](https://user-images.githubusercontent.com/12692680/53872167-dbe4ee00-3ffd-11e9-956c-45733c32e387.png)
 
-Die mögliche Auswahl ist im GitHub zum (node-red-contrib-sun-position)[https://github.com/HM-RedMatic/node-red-contrib-sun-position/blob/master/README.md] node (erläutert)[https://github.com/HM-RedMatic/node-red-contrib-sun-position/blob/master/README.md#sun-times]. Der EInfachheit sind hier nur folgende erwähnt:
+Die mögliche Auswahl ist im GitHub zum (node-red-contrib-sun-position)[https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/README.md] node (erläutert)[https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/README.md#sun-times]. Der EInfachheit sind hier nur folgende erwähnt:
  * sunrise - Beginn des Sonnenaufganges
  * sunriseEnd - Ende des Sonnenaufganges
  * sunsetStart - Beginn des Sonnenunterganges

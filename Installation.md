@@ -4,7 +4,7 @@ Category: Administration
 ---
 
 * Zur Sicherheit __ein Backup der CCU anfertigen__.
-* Neueste Version von https://github.com/HM-RedMatic/RedMatic/releases/latest herunterladen. Es wird die Datei 
+* Neueste Version von https://github.com/rdmtc/RedMatic/releases/latest herunterladen. Es wird die Datei 
 `redmatic-<version>.tar.gz` benötigt: ![](images/install-1.png)
 * Im Homematic WebUI Systemsteuerung Zusatzsoftware aufrufen: ![](images/install-2.png) ![](images/install-3.png)
 * Heruntergeladene Datei auswählen: ![](images/install-4.png) ![](images/install-5.png)
