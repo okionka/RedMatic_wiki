@@ -2,12 +2,13 @@
 * Administration
   * [Installation](Installation)
   * [Update](Update)
-  * [Deinstallation](Deinstallation)
-  * [Log-Level erhöhen für Fehleranalyse](Loglevel)
-  * [Safe Mode](Safe-Mode)
+  * [Context Storage Konfigurieren](Context-Storage)
   * [Passwort Schutz für Node-RED einrichten](Passwort)
   * [Zusätzliche Nodes installieren](Node-Installation)
   * [Erfolgreich mit RedMatic getestete Nodes](Erfolgreich-getestete-Nodes) - bitte diese Liste ergänzen!
+  * [Log-Level erhöhen für Fehleranalyse](Loglevel)
+  * [Safe Mode](Safe-Mode)
+  * [Deinstallation](Deinstallation)
 * Nutzung
   * [Node-RED Grundlagen](Node-RED)
   * [CCU Nodes](CCU-Nodes)
