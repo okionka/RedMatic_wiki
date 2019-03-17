@@ -15,6 +15,6 @@ Es ist zu beachten dass die Authentifzierung für das Node-RED Admin UI ("Admin 
 
 Wichtig! 
 
-Das Eingabefeld unter der Admin Authentifzierung ist der Session Timeout in Sekunden. Nach demSession Timeout wird der Login-Dialog neu angezeigt.
+Das Eingabefeld unter der Admin Authentifzierung ist der Session Timeout in Sekunden. Nach dem Session Timeout wird der Login-Dialog neu angezeigt.
 
-Hier kann eine große Zahl (bis zu 86400 = 1 Tag) eingtragen werden. 
+Hier kann eine große Zahl (bis zu 86400 = 1 Tag) einegtragen werden. 
