@@ -12,3 +12,9 @@ In Standardeinstellung wird für Node-RED der gleiche Username und das gleiche P
 * Node-RED neustarten
 
 Es ist zu beachten dass die Authentifzierung für das Node-RED Admin UI ("Admin Auth") und für Node-RED Dashboard getrennt vorgenommen werden muss ([siehe Node-RED Dokumentation](https://nodered.org/docs/security#http-node-security), "Node Auth" gilt für das Dashboard).
+
+Wichtig! 
+
+Das Eingabefeld unter der Admin Authentifzierung ist der Session Timeout in Sekunden. Nach demSession Timeout wird der Login-Dialog neu angezeigt.
+
+Hier kann eine große Zahl (bis zu 86400 = 1 Tag) eingtragen werden. 
