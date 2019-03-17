@@ -17,4 +17,4 @@ Wichtig!
 
 Das Eingabefeld unter der Admin Authentifzierung ist der Session Timeout in Sekunden. Nach dem Session Timeout wird der Login-Dialog neu angezeigt.
 
-Hier kann eine große Zahl (bis zu 86400 = 1 Tag) eingetragen werden. 
+Hier kann eine große Zahl (z.B. 86400 = 1 Tag) eingetragen werden. 
