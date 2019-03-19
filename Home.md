@@ -2,6 +2,7 @@
 * Administration
   * [Installation](Installation)
   * [Update](Update)
+  * [Backup](Backup)
   * [Context Storage Konfigurieren](Context-Storage)
   * [Passwort Schutz für Node-RED einrichten](Passwort)
   * [Zusätzliche Nodes installieren](Node-Installation)
