@@ -3,6 +3,7 @@
   * [Installation](Installation)
   * [Update](Update)
   * [Backup](Backup)
+  * [Firewall](Firewall)
   * [Context Storage Konfigurieren](Context-Storage)
   * [Passwort Schutz für Node-RED einrichten](Passwort)
   * [Zusätzliche Nodes installieren](Node-Installation)
