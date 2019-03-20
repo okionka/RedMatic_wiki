@@ -4,6 +4,8 @@ Allerdings erfordern bestimmte Nodes die zusätzliche Ports öffnen unter Umstä
 
 ### RedMatic-HomeKit
 
+Neben dem in der Bridge Konfiguration eingestellten Port (Default `51826`) muss der Port `5353` (mDNS) freigegeben werden.
+
 ### node-red-contrib-alexa-local
 
 ### node-red-contrib-alexa-home-skill
