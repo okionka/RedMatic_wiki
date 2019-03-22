@@ -23,6 +23,7 @@
   * [RedMatic HomeKit](Homekit)
   * [Node-RED Dashboard](Dashboard-Screenshots)
 * Sonstiges
+  * [Danksagungen](Danke)
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
 * Beispiel Flows
