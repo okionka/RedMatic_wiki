@@ -1,7 +1,7 @@
 # Danksagungen
 
-* Danke [@psi4ward](https://github.com/psi4ward) für die Entwicklung der [RedMatic Homepage](https://dev.redmatic.de)!
-* Danke @hypnos3 für die wertvolle Unterstützung beim Testen, Supporten, Dokumentieren und die Entwicklung seiner hervorragenden Nodes!
+* Danke [@psi-4ward](https://github.com/psi-4ward) für die Entwicklung der [RedMatic Homepage](https://dev.redmatic.de)!
+* Danke [@hypnos3](https://github.com/hypnos3) für die wertvolle Unterstützung beim Testen, Supporten, Dokumentieren und die Entwicklung seiner hervorragenden Nodes!
 * Danke eQ-3 - für die Bereitstellung von Test-Hardware!
 * Danke JetBrains - für die Bereitstellung einer WebStorm Lizenz!     
   [![JetBrains](https://github.com/rdmtc/RedMatic/raw/master/assets/jetbrains-variant-4.png)](https://www.jetbrains.com/?from=RedMatic)
