@@ -2,8 +2,6 @@
 
 * Danke [@knolleary](https://github.com/knolleary) und [@dceejay](https://github.com/dceejay) - den Entwicklern von Node-RED
 * Danke [eQ-3](https://eq-3.de) - für die Bereitstellung von Test-Hardware    
-      
-  [![eQ-3](https://github.com/rdmtc/RedMatic/raw/master/assets/eQ-3_Logo.png)](https://eq-3.de)
 * Danke JetBrains - für die Bereitstellung einer WebStorm Lizenz       
   [![JetBrains](https://github.com/rdmtc/RedMatic/raw/master/assets/jetbrains-variant-4.png)](https://www.jetbrains.com/?from=RedMatic)
 * Danke [@psi-4ward](https://github.com/psi-4ward) für die Entwicklung der [RedMatic Homepage](https://dev.redmatic.de)
