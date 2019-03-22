@@ -3,7 +3,8 @@
 * Danke @psi4ward für die Entwicklung der [RedMatic Homepage](https://dev.redmatic.de)!
 * Danke @hypnos3 für die wertvolle Unterstützung beim Testen, Supporten, Dokumentieren und die Entwicklung seiner hervorragenden Nodes!
 * Danke eQ-3 - für die Bereitstellung von Test-Hardware!
-* Danke JetBrains - für die Bereitstellung einer WebStorm Lizenz! [![JetBrains](https://github.com/rdmtc/RedMatic/raw/master/assets/jetbrains-variant-4.png)](https://www.jetbrains.com/?from=RedMatic)
+* Danke JetBrains - für die Bereitstellung einer WebStorm Lizenz! 
+  [![JetBrains](https://github.com/rdmtc/RedMatic/raw/master/assets/jetbrains-variant-4.png)](https://www.jetbrains.com/?from=RedMatic)
 * Danke @knolleary und @dceejay - den Entwicklern von Node-RED!
 * Danke an die gesamte Node-RED Community für die unzähligen Nodes und Flows!
 * Danke @KhaosT - dem Entwickler von HAP-Nodejs das RedMatic-HomeKit ermöglicht!
