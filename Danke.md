@@ -9,6 +9,6 @@
 * Danke an die gesamte [https://flows.nodered.org](Node-RED Community) für die unzähligen Nodes und Flows!
 * Danke [@KhaosT](https://github.com/KhaosT) - dem Entwickler von HAP-Nodejs das RedMatic-HomeKit ermöglicht!
 * Danke [@hardillb](https://github.com/hardillb) - dem Entwickler von node-red-contrib-alexa-home-skill der es mit seinem kostenfreien Cloudservice ermöglicht eine erstklassige Alexa-Anbindung zu realisieren!
-* Danke an Technikkram, Verdrahtet, Homematic-Guru für ihre [Blogpostings und Youtube-Videos](Berichterstattung) zum Thema RedMatic!
+* Danke an Homematic-Guru, Technikkram, Verdrahtet und Luvima für ihre [Blogpostings und Youtube-Videos](Berichterstattung) zum Thema RedMatic!
 * Und nicht zuletzt Danke an alle RedMatic User die mit ihrem freundlichem Feedback (und Github Sternchen ;)) für Motivation sorgen und das Projekt durch Ihre Mitarbeit an der Dokumentation, Verbesserungsvorschläge und das Melden von Bugs voranbringen!
  
