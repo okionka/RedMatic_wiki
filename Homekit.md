@@ -9,6 +9,7 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 
 ## Inhalt
 
+* [Installation](#installation)
 * [Einrichtung](#einrichtung)
 * [Nutzungshinweise](#nutzungshinweise)
 * [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
@@ -17,6 +18,9 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 * [Universelles Accessory, Einbinden von nicht-Homematic Geräten](#universal-accessory)
 * [HomeKit Reset](#reset)
 
+## Installation
+
+Im RedMatic UI im Tab "Packages" auf den Install Button klicken, danach Node-RED neustarten. Siehe auch [Zusätzliche Nodes Installieren](Node-Installation)
 
 ## Einrichtung
 
