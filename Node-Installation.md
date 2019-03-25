@@ -50,7 +50,7 @@ Um dieses Problem zu lösen bringt RedMatic noch eine weitere eigene Paketverwal
 ## Installation via npm auf der Kommandozeile
 
 ```
-export PATH=/usr/local/addons/redmatic/bin:$PATH
+source /usr/local/addons/redmatic/home/.profile
 cd /usr/local/addons/redmatic/var
 npm install --save --no-package-lock --global-style --save-prefix="~" --production <paket-name>
 ```
