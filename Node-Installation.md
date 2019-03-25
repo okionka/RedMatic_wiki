@@ -10,9 +10,11 @@ Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktiv
 * [Verzeichnis aller verfügbarer Nodes auf nodered.org](https://flows.nodered.org/?type=node&num_pages=1)
 * [Erfolgreich auf RedMatic getestete Nodes (bitte ergänzen!)](Erfolgreich-getestete-Nodes)
 
-## Backup
+## Hinweise
 
-Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein **Backup der CCU anlegen!**
+* Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein **CCU Backup anlegen!**
+* Fehlerhafte Nodes können im schlimmsten Fall zum Node-RED Absturz direkt beim Start führen, falls dieses Problem auftritt kann man diese im [Safe Mode](safe-mode) wieder entfernen.
+
 
 ## Installation via Node-RED Palette Manager
 
@@ -55,9 +57,6 @@ cd /usr/local/addons/redmatic/var
 npm install --save --no-package-lock --global-style --save-prefix="~" --production <paket-name>
 ```
 
-## Hinweis
-
-Fehlerhafte Nodes können im schlimmsten Fall zum Node-RED Absturz direkt beim Start führen, falls dieses Problem auftritt kann man diese im [Safe Mode](safe-mode) wieder entfernen.
 
 ## Kommentar: Wie kann ich die Qualität von Node-RED Nodes beurteilen?
 
