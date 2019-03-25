@@ -3,23 +3,6 @@ Title: Zusätzliche Node-RED Nodes installieren
 Category: Administration
 ---
 
-- [RedMatic spezifische Nodes mit Binärmodulen](#redmatic-spezifische-nodes-mit-bin-rmodulen)
-- [Zusätzliche Node-RED Nodes installieren](#zus-tzliche-node-red-nodes-installieren)
-
-# RedMatic spezifische Nodes mit Binärmodulen
-
-Zusätzliche Nodes die Aufgrund von Binärabhängigkeiten nicht über den Palette Manager installiert werden können sind nun nicht mehr im RedMatic Installationspaket enthalten, sondern können unter dem neuen Menüpunkt "Packages" im RedMatic UI installiert werden.
-
-1.  RedMatic UI aufrufen: 
-![image](https://user-images.githubusercontent.com/12692680/54923090-ce8a9780-4f09-11e9-8219-86ce56e4f716.png)
-
-2. Menüpunkt "Packages" aufrufen:
-![image](https://user-images.githubusercontent.com/12692680/54923099-d1858800-4f09-11e9-8ce0-2402a2bced6f.png)
-
-3. Pakete installieren / deinstallieren:
-![image](https://user-images.githubusercontent.com/12692680/54923104-d5b1a580-4f09-11e9-8668-22509a30ec3a.png)
-
-
 # Zusätzliche Node-RED Nodes installieren
 
 Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktive Community hat Stand Heute bereits weit über 1000 Nodes entwickelt die unterschiedlichste Anwendungsfälle abdecken und diverse Services und Systeme an Node-RED anbinden.
@@ -31,6 +14,16 @@ Nicht alle Nodes lassen sich über den Palette Manager bzw. per npm installieren
 
 Um dieses Problem zu lösen bringt RedMatic noch eine weitere eigene Paketverwaltung mit (im RedMatic UI, Tab "Packages"). Falls der Wunsch besteht bestimmte Nodes mit Binärmodulen zu nutzen die in der RedMatic Paketverwaltung noch nicht vorhanden sind bitte einen [Issue](https://github.com/rdmtc/RedMatic/issues) anlegen.
 
+## spezifische Nodes mit Binärmodulen installieren
+
+1.  RedMatic UI aufrufen: 
+![image](https://user-images.githubusercontent.com/12692680/54923090-ce8a9780-4f09-11e9-8219-86ce56e4f716.png)
+
+2. Menüpunkt "Packages" aufrufen:
+![image](https://user-images.githubusercontent.com/12692680/54923099-d1858800-4f09-11e9-8ce0-2402a2bced6f.png)
+
+3. Pakete installieren / deinstallieren:
+![image](https://user-images.githubusercontent.com/12692680/54923104-d5b1a580-4f09-11e9-8668-22509a30ec3a.png)
 
 ## Backup
 
