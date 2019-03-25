@@ -10,8 +10,6 @@ Category: Administration
 
 Zusätzliche Nodes die Aufgrund von Binärabhängigkeiten nicht über den Palette Manager installiert werden können sind nun nicht mehr im RedMatic Installationspaket enthalten, sondern können unter dem neuen Menüpunkt "Packages" im RedMatic UI installiert werden.
 
-Datui ist folgendes zu tun:
-
 1.  RedMatic UI aufrufen: 
 ![image](https://user-images.githubusercontent.com/12692680/54923090-ce8a9780-4f09-11e9-8219-86ce56e4f716.png)
 
