@@ -18,8 +18,9 @@
 ## Welche Daten werden _nicht_ übertragen und/oder gespeichert?
 
 * IP-Adressen
-* Flows
-* Node-Konfigurationen
+* Flows, Nodes
+* Konfigurationsdaten
+* Betriebsdaten
 * Informationen über angebundene Geräte
 
 ## Transparenz
