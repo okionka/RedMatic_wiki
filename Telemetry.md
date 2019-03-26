@@ -7,7 +7,7 @@
 
 ## Welche Daten werden übertragen und gespeichert?
 
-* Eine Zufällig erzeugte Kennung die auf der CCU gespeichert ist aber nicht zurückverfolgt werden kann
+* Eine zufällig erzeugte Kennung die auf der CCU gespeichert ist aber nicht zurückverfolgt werden kann
 * Zeitpunkt der Installation
 * Zeitpunkt des letzten Updates
 * RedMatic Version
