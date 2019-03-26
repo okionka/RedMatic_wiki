@@ -28,7 +28,7 @@ Um diesen Vorgang so Transparent wie möglich zu gestalten hat Jedermann die Mö
 
 * Auswertung: https://telemetry.redmatic.de
 * Rohdaten (sqlite3 Datenbank): https://telemetry.redmatic.de/database
-* Server Sourcen: https://github.com/rdmtc/redmatic-telemetry-server
+* Server Software: https://github.com/rdmtc/redmatic-telemetry-server
 
 ## Opt-Out
 
