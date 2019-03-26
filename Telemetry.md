@@ -28,7 +28,7 @@
 Um diesen Vorgang so transparent wie möglich zu gestalten hat Jedermann die Möglichkeit jederzeit Einsicht in die Daten, die Auswertung sowie die Software auf dem Server zu nehmen:
 
 * Auswertung: https://telemetry.redmatic.de
-* Rohdaten (sqlite3 Datenbank): https://telemetry.redmatic.de/database
+* Rohdaten: https://telemetry.redmatic.de/database (SQLite Datenbank, zu öffnen z.B. mit [SQLiteStudio](https://sqlitestudio.pl/index.rvt))
 * Server Software: https://github.com/rdmtc/redmatic-telemetry-server
 
 ## Opt-Out
