@@ -36,5 +36,5 @@ Ich bitte darum das nicht zu tun. Bei RedMatic handelt es sich um ein Projekt da
 
 * RedMatic deinstallieren (niemand es gezwungen RedMatic zu nutzen!).
 * Den Curl Aufruf im Startscript auskommentieren oder entfernen.
-* Eine Firewall einsetzen und den Server zu dem die Daten gesendet werden blockieren.
+* Eine Firewall einsetzen und den Server an den die Daten gesendet werden blockieren.
 * Die CCU vom Internet trennen.
