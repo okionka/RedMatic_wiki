@@ -34,7 +34,7 @@ Um diesen Vorgang so Transparent wie möglich zu gestalten hat Jedermann die Mö
 
 Ich bitte darum das nicht zu tun. Bei RedMatic handelt es sich um ein Projekt in das viel (Frei)zeit und Arbeit gesteckt wird und für dessen Nutzung außer dem Übertragen dieser Daten (und dem vergeben eines Github Sternchens 😉) keine Gegenleistung verlangt wird. Wer dennoch unbedingt das Übertragen der Nutzungsstatistiken deaktivieren möchte hat folgende Möglichkeiten:
 
-* RedMatic deinstallieren (niemand es gezwungen RedMatic zu nutzen!).
+* RedMatic deinstallieren (niemand wird gezwungen RedMatic zu nutzen!).
 * Den Curl Aufruf im Startscript auskommentieren oder entfernen.
 * Eine Firewall einsetzen und den Server an den die Daten gesendet werden blockieren.
 * Die CCU vom Internet trennen.
