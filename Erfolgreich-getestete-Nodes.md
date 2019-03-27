@@ -33,14 +33,14 @@ Category: Administration
 | [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis) | | ✅ | | |
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
 | [node-red-contrib-s7comm](https://flows.nodered.org/node/node-red-contrib-s7comm) | | ✅ | | |
-| [node-red-contrib-sonospollytts](https://flows.nodered.org/node/node-red-contrib-sonospollytts) | | ✅ |✅ | Node-RED Port muss auf `80` konfiguriert werden |
+| [node-red-contrib-sonospollytts](https://flows.nodered.org/node/node-red-contrib-sonospollytts) | | ✅ |⚠️ | Node-RED Port muss auf `80` konfiguriert werden |
 | [node-red-contrib-sun-position](https://github.com/Hypnos3/node-red-contrib-sun-position) | Steuerung abhängig von Sonne, Mond oder Zeit | ✅ | ✅ | |
 | [node-red-contrib-tahoma](https://github.com/hobbyquaker/RedMatic/issues/70) | Somfy Tahoma | ✅ | ✅ | siehe https://github.com/hobbyquaker/RedMatic/issues/70 https://github.com/nikkow/node-red-contrib-tahoma/pull/7| 
 | [node-red-contrib-tankerkoenig](https://flows.nodered.org/node/node-red-contrib-tankerkoenig) | | ✅ | ✅ | benötigt [API Key](https://creativecommons.tankerkoenig.de/) | 
 | [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot) | | ✅ | ✅ | |
 | [node-red-contrib-telegrambot-home](https://flows.nodered.org/node/node-red-contrib-telegrambot-home) | | ✅ | ✅ |Interaktion mit Telegrambot über Commands vereinfacht gegenüber herkömmlichem telegrambot |
 | [node-red-contrib-tplink-iot](https://flows.nodered.org/node/node-red-contrib-tplink-iot)  | TP-Link Smart Plug HS110 | ✅ | ✅ | |
-| [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ | siehe https://github.com/rdmtc/RedMatic/issues/131 | |
+| [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ |⚠️  | siehe https://github.com/rdmtc/RedMatic/issues/131|
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
