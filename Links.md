@@ -17,3 +17,6 @@ Category: Sonstiges
 ## Englisch
 
 * https://notenoughtech.com/category/home-automation/nodered-home-automation/
+* https://cookbook.nodered.org/
+* http://noderedguide.com/
+* https://www.coursera.org/learn/developer-nodered

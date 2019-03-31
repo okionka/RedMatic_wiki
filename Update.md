@@ -9,6 +9,8 @@ Das Addon sollte vor einem Update **nicht** deinstalliert werden, man installier
 
 Nach erfolgtem Update ist u.U. eine Löschung des Browser-Cache notwendig.
 
+Sollte das Update fehlschlagen ist u.U. dieser Issues hilfreich: https://github.com/rdmtc/RedMatic/issues/169#issuecomment-475347616
+
 
 
 

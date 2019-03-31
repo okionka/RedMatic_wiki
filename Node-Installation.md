@@ -10,43 +10,53 @@ Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktiv
 * [Verzeichnis aller verfügbarer Nodes auf nodered.org](https://flows.nodered.org/?type=node&num_pages=1)
 * [Erfolgreich auf RedMatic getestete Nodes (bitte ergänzen!)](Erfolgreich-getestete-Nodes)
 
-Nicht alle Nodes lassen sich auf einer CCU installieren. Es gibt Nodes die bei der Installation Binärmodule compilieren 
-müssen, dies ist auf der CCU bzw. RaspberryMatic nicht praktikabel machbar (Buildroot ist nicht dafür vorgesehen die 
-dafür notwendigen Tools wie z.B. gcc zu installieren). Dies betrifft u.A. Nodes die Zugriff auf Hardware (z.B. 
-Bluetooth) benötigen. Falls der Wunsch besteht bestimmte Nodes zu nutzen die sich nicht installieren lassen kann gerne 
-ein [Issue](https://github.com/hobbyquaker/ccu-addon-node-red/issues) angelegt werden, es ist dann u.U. möglich die 
-Nodes mit vorab gebauten Binärmodulen mit in das CCU Addon Paket aufzunehmen.
+## Hinweise
+
+* Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein **CCU Backup anlegen!**
+* Fehlerhafte Nodes können im schlimmsten Fall zum Node-RED Absturz direkt beim Start führen, falls dieses Problem auftritt kann man diese im [Safe Mode](safe-mode) wieder entfernen.
 
 
-## Backup
-
-Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein **Backup der CCU anlegen!**
-
-## Installation via Node-RED Admin UI
+## Installation via Node-RED Palette Manager
 
 ![](images/node-install-1.png)
 
 ![](images/node-install-2.png)
 
 
-## Installation via Command Line
+## Nodes mit Binärmodulen
+
+Nicht alle Nodes lassen sich über den Palette Manager bzw. per npm installieren. Es gibt Nodes die bei der Installation Binärmodule compilieren müssen, dies ist auf der CCU bzw. RaspberryMatic nicht praktikabel machbar (Buildroot ist nicht dafür vorgesehen die dafür notwendigen Tools wie z.B. gcc zu installieren). Dies betrifft u.A. Nodes die Zugriff auf Hardware (z.B. Bluetooth) benötigen. 
+
+Erkennbar ist das daran wenn bei einem Installationsversuch im Log folgende Fehlermeldungen erscheinen:
 
 ```
-export PATH=/usr/local/addons/redmatic/bin:$PATH
+gyp ERR! configure error
+gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+gyp ERR! stack at PythonFinder.failNoPython 
+```
+
+Um dieses Problem zu lösen bringt RedMatic noch eine weitere eigene Paketverwaltung mit (im RedMatic UI, Tab "Packages"). Falls der Wunsch besteht bestimmte Nodes mit Binärmodulen zu nutzen die in der RedMatic Paketverwaltung noch nicht vorhanden sind bitte einen [Issue](https://github.com/rdmtc/RedMatic/issues) anlegen.
+
+### Installation via RedMatic Package Manager
+
+1.  RedMatic UI aufrufen: 
+![image](https://user-images.githubusercontent.com/12692680/54923090-ce8a9780-4f09-11e9-8219-86ce56e4f716.png)
+
+2. Menüpunkt "Packages" aufrufen:
+![image](https://user-images.githubusercontent.com/12692680/54923099-d1858800-4f09-11e9-8ce0-2402a2bced6f.png)
+
+3. Pakete installieren / deinstallieren:
+![image](https://user-images.githubusercontent.com/12692680/54923104-d5b1a580-4f09-11e9-8668-22509a30ec3a.png)
+
+
+## Installation via npm auf der Kommandozeile
+
+```
+source /usr/local/addons/redmatic/home/.profile
 cd /usr/local/addons/redmatic/var
 npm install --save --no-package-lock --global-style --save-prefix="~" --production <paket-name>
 ```
 
-## Manuelle Deinstallation von Nodes
-
-
-Mangelhafte Nodes können im schlimmsten Fall zum Node-RED Absturz führen. Falls dieses Problem auftritt ist es nötig den Node manuell zu entfernen da das Node-RED UI ja nicht mehr genutzt werden kann. Hierzu wie folgt vorgehen:
-```
-export PATH=/usr/local/addons/redmatic/bin:$PATH
-cd /usr/local/addons/redmatic/var
-npm remove --save --no-package-lock <paket-name>
-```
-Alternativ kann natürlich auch einfach ein vor der Node Installation erstelltes CCU Backup zurückgespielt werden.
 
 ## Kommentar: Wie kann ich die Qualität von Node-RED Nodes beurteilen?
 

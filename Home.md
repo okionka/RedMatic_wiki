@@ -2,6 +2,8 @@
 * Administration
   * [Installation](Installation)
   * [Update](Update)
+  * [Backup](Backup)
+  * [Firewall](Firewall)
   * [Context Storage Konfigurieren](Context-Storage)
   * [Passwort Schutz für Node-RED einrichten](Passwort)
   * [Zusätzliche Nodes installieren](Node-Installation)
@@ -20,9 +22,6 @@
   * [RedMatic WebApp](Webapp)
   * [RedMatic HomeKit](Homekit)
   * [Node-RED Dashboard](Dashboard-Screenshots)
-* Sonstiges
-  * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
-  * [Node-RED Link Sammlung](Links)
 * Beispiel Flows
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
   * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
@@ -56,7 +55,10 @@
   * [Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen](flow-geraete-abfragen)
   * [sehr einfache Jalousiesteuerung](https://github.com/rdmtc/RedMatic/wiki/sehr-einfache-Jalousiesteuerung)
   * [Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren](https://github.com/rdmtc/RedMatic/wiki/Zwischen-zwei-Zeitpunkten-jede-halbe-Stunde-einen-Inject-generieren)
-
+* Sonstiges
+  * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
+  * [Node-RED Link Sammlung](Links)
+  * [Danksagungen](Danke)
 
 ## Webseite
 

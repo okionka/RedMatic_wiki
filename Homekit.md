@@ -9,6 +9,7 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 
 ## Inhalt
 
+* [Installation](#installation)
 * [Einrichtung](#einrichtung)
 * [Nutzungshinweise](#nutzungshinweise)
 * [Homematic Fernbedienungen/Tasten in HomeKit nutzen](#tasten)
@@ -17,6 +18,9 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 * [Universelles Accessory, Einbinden von nicht-Homematic Geräten](#universal-accessory)
 * [HomeKit Reset](#reset)
 
+## Installation
+
+Im RedMatic UI im Tab "Packages" auf den Install Button klicken, danach Node-RED neustarten. Siehe auch [Zusätzliche Nodes Installieren](Node-Installation)
 
 ## Einrichtung
 
@@ -27,7 +31,9 @@ Die Konfiguration des neu hinzugefügten Node per Doppelklick öffnen, den Butto
 ![](images/homekit/homekit2.png)    
 
 Die Standardeinstellungen können beibehalten werden, mit einem Klick auf den Button _Add_ wird die Bridge angelegt    
-![](images/homekit/homekit3.png)    
+![](images/homekit/homekit3.png)   
+
+Der in der Bridge-Konfiguration angegebene Port (Default: `51826`) muss in der CCU Firewall freigegeben werden falls diese nicht über die Einstellung "Ports offen" deaktiviert ist. 
 
 Die Konfiguration des _RedMatic HomeKit - Homematic_ mit klick auf _Done_ verlassen und dann den Button _Deploy_ anklicken     
 ![](images/homekit/homekit4.png)    
