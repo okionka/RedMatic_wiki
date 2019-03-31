@@ -33,8 +33,6 @@ Die Konfiguration des neu hinzugefügten Node per Doppelklick öffnen, den Butto
 Die Standardeinstellungen können beibehalten werden, mit einem Klick auf den Button _Add_ wird die Bridge angelegt    
 ![](images/homekit/homekit3.png)   
 
-Der in der Bridge-Konfiguration angegebene Port (Default: `51826`) muss in der CCU Firewall freigegeben werden falls diese nicht über die Einstellung "Ports offen" deaktiviert ist. 
-
 Die Konfiguration des _RedMatic HomeKit - Homematic_ mit klick auf _Done_ verlassen und dann den Button _Deploy_ anklicken     
 ![](images/homekit/homekit4.png)    
 
@@ -43,6 +41,9 @@ Nochmals die Konfiguration des _RedMatic HomeKit - Homematic_ Node per Doppelkli
 
 Bei einer erfolgreich aktivierten Bridge wird in dem Bridge Konfigurationsdialog nun ein QR-Code angezeigt    
 ![](images/homekit/homekit6.png)    
+
+Der in der Bridge-Konfiguration angegebene Port (Default: `51826`) und der Port für den mDNS Dienst (`5353`) müssen in der CCU Firewall freigegeben werden (falls diese nicht über die Einstellung "Ports offen" deaktiviert ist). 
+![](images/homekit/homekit-firewall.png)
 
 
 In der Home App oben rechts über den Plus-Button ein neues Gerät hinzufügen, den QR-Code vom Bildschirm abscannen    
