@@ -42,7 +42,7 @@ Nochmals die Konfiguration des _RedMatic HomeKit - Homematic_ Node per Doppelkli
 Bei einer erfolgreich aktivierten Bridge wird in dem Bridge Konfigurationsdialog nun ein QR-Code angezeigt    
 ![](images/homekit/homekit6.png)    
 
-Der in der Bridge-Konfiguration angegebene Port (Default: `51826`) und der Port für den mDNS Dienst (`5353`) müssen in der CCU Firewall freigegeben werden (falls diese nicht über die Firewall-Richtlinie "Ports blockiert" aktiviert ist). 
+Der in der Bridge-Konfiguration angegebene Port (Default: `51826`) und der Port für den mDNS Dienst (`5353`) müssen in der CCU Firewall freigegeben werden (falls diese über die Firewall-Richtlinie "Ports blockiert" aktiviert ist). 
 ![](images/homekit/homekit-firewall.png)
 
 
