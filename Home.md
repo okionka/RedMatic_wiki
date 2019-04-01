@@ -58,6 +58,7 @@
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
+  * [Telemetrie](Telemetry)
   * [Danksagungen](Danke)
 
 ## Webseite
