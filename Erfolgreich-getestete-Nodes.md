@@ -51,6 +51,7 @@ Category: Administration
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
 | [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping) | | ✅ | | |
 | [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
+| [node-red-node-sentiment](https://flows.nodered.org/node/node-red-node-sentiment) | | ✅ | | |
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
 | [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
