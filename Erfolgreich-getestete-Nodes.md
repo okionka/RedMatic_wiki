@@ -10,6 +10,8 @@ Category: Administration
 | [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) | | ✅| ✅ | |
 | [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos) | | ✅| | |
 | [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
+| [node-red-contrib-blockly](https://flows.nodered.org/node/node-red-contrib-blockly) | | ✅ | ✅ | | 
+| [node-red-contrib-broadlink](https://flows.nodered.org/node/node-red-contrib-broadlink) | | ✅ | ✅ | | 
 | [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) | | ✅ | :exclamation: | Achtung! Ein Verbindungsabbruch verursacht einen RedMatic absturz. [Issue #7](https://github.com/hobbyquaker/RedMatic/issues/7) |
 | [node-red-contrib-cast](https://flows.nodered.org/node/node-red-contrib-cast) | | ✅ | ✅ | ist der Nachfolger zu [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) |
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
@@ -17,18 +19,21 @@ Category: Administration
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
 | [node-red-contrib-filter](https://flows.nodered.org/node/node-red-contrib-filter) | | ✅ |✅  | |
 | [node-red-contrib-german-holidays](https://www.npmjs.com/package/node-red-contrib-german-holidays) | Feiertagsberechnung für Deutschland | ✅ | ✅ | |
+| [node-red-contrib-google-action-dialogflow-http](https://flows.nodered.org/node/node-red-contrib-google-action-dialogflow-http) | | ✅ | | |
 | [node-red-contrib-google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts) | | ✅ | ✅ | |
 | [node-red-contrib-harmony](https://flows.nodered.org/node/node-red-contrib-harmony) | Logitech Harmony Hub | ✅ | ✅ | Installation dauert aufgrund von Dependencies die via `git clone` installiert werden aussergewöhnlich lang, UI spiegelt Installationsfortschritt nicht richtig wieder (Spinner verschwindet verfrüht), Geduld notwendig, nicht erneut auf _Install_ klicken! | 
 | [node-red-contrib-huemagic](https://flows.nodered.org/node/node-red-contrib-huemagic) | | ✅ | ✅ | |
 | [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb) | | ✅ | ✅ | |
 | [node-red-contrib-lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv) | | ✅ | ✅ | |
 | [node-red-contrib-light-scheduler](https://flows.nodered.org/node/node-red-contrib-light-scheduler) | | ✅ | ✅ | |
+| [node-red-contrib-lodash-throttle](https://flows.nodered.org/node/node-red-contrib-lodash-throttle) | | ✅ | ✅ | |
 | [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) | Xiaomi Aqara Mi Home | ✅ | ✅ | |
 | [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | ✅ | |
 | [node-red-contrib-mysensors](https://github.com/tbowmo/node-red-contrib-mysensors) | [MySensors DIY Home Automation and IoT](https://www.mysensors.org/) | ✅ | ✅ | |
 | [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo) |Netatmogeräte in Node-Red anzeigen| ✅ |✅ |benötigt API-Key und Mac-Adresse des Gerätes |
 | [node-red-contrib-node-hue](https://flows.nodered.org/node/node-red-contrib-node-hue) | | ✅ | ✅ | |
 | [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-lifx) | | ✅ | | |
+| [node-red-contrib-nora](https://flows.nodered.org/node/node-red-contrib-nora) | | ✅ | ✅ | |
 | [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover) | | ✅ | ✅ | |
 | [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis) | | ✅ | | |
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
