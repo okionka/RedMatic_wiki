@@ -3,7 +3,7 @@
 ## Warum?
 
 * Neugier. Ich möchte wissen wieviele Nutzer RedMatic hat und im zeitlichen Verlauf dazugewinnt.
-* Bessere Priorisierung der Weiterentwicklung durch Kenntnis welche Nodes von wie vielen Usern eingesetzt werden und wie lange es nach einem Release dauert bis Updates von den Nutzern installiert werden.
+* Bessere Priorisierung der Weiterentwicklung durch Kenntnis welche CCU/RaspberryMatic Versionen und welche Nodes von wie vielen Usern eingesetzt werden und wie lange es nach einem Release dauert bis Updates von den Nutzern installiert werden.
 
 ## Welche Daten werden übertragen und gespeichert?
 
