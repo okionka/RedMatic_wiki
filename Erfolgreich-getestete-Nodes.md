@@ -12,12 +12,18 @@ Category: Administration
 | [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
 | [node-red-contrib-blockly](https://flows.nodered.org/node/node-red-contrib-blockly) | | ✅ | ✅ | | 
 | [node-red-contrib-broadlink](https://flows.nodered.org/node/node-red-contrib-broadlink) | | ✅ | ✅ | | 
+| [node-red-contrib-boolean-logic](https://flows.nodered.org/node/node-red-contrib-boolean-logic) | | ✅ | ✅ | | 
 | [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) | | ✅ | :exclamation: | Achtung! Ein Verbindungsabbruch verursacht einen RedMatic absturz. [Issue #7](https://github.com/hobbyquaker/RedMatic/issues/7) |
 | [node-red-contrib-cast](https://flows.nodered.org/node/node-red-contrib-cast) | | ✅ | ✅ | ist der Nachfolger zu [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) |
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
+| [node-red-contrib-combine](https://flows.nodered.org/node/node-red-contrib-combine) | | ✅ | ✅ | |
+| [node-red-contrib-counter](https://flows.nodered.org/node/node-red-contrib-counter) | | ✅ | ✅ | |
 | [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | ✅ | |
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
+| [node-red-contrib-dashboard-average-bars](https://flows.nodered.org/node/node-red-contrib-dashboard-average-bars) | | ✅ | | |
+| [node-red-contrib-edge-trigger](https://flows.nodered.org/node/node-red-contrib-edge-trigger) | | ✅ | ✅ | |
 | [node-red-contrib-filter](https://flows.nodered.org/node/node-red-contrib-filter) | | ✅ |✅  | |
+| [node-red-contrib-unsafe-function](https://flows.nodered.org/node/node-red-contrib-unsafe-function) | | ✅ |✅  | |
 | [node-red-contrib-german-holidays](https://www.npmjs.com/package/node-red-contrib-german-holidays) | Feiertagsberechnung für Deutschland | ✅ | ✅ | |
 | [node-red-contrib-google-action-dialogflow-http](https://flows.nodered.org/node/node-red-contrib-google-action-dialogflow-http) | | ✅ | | |
 | [node-red-contrib-google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts) | | ✅ | ✅ | |
@@ -45,13 +51,18 @@ Category: Administration
 | [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot) | | ✅ | ✅ | |
 | [node-red-contrib-telegrambot-home](https://flows.nodered.org/node/node-red-contrib-telegrambot-home) | | ✅ | ✅ |Interaktion mit Telegrambot über Commands vereinfacht gegenüber herkömmlichem telegrambot |
 | [node-red-contrib-tplink-iot](https://flows.nodered.org/node/node-red-contrib-tplink-iot)  | TP-Link Smart Plug HS110 | ✅ | ✅ | |
+| [node-red-contrib-throttle](https://flows.nodered.org/node/node-red-contrib-throttle)  | | ✅ | ✅ | |
 | [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ |⚠️  | siehe https://github.com/rdmtc/RedMatic/issues/131|
+| [node-red-contrib-uibuilder](https://flows.nodered.org/node/node-red-contrib-uibuilder)  | | ✅ | ⚠️ | [funktioniert nicht](https://github.com/rdmtc/RedMatic/issues/94) |
+| [node-red-contrib-ui-led](https://flows.nodered.org/node/node-red-contrib-ui-led) | | ✅ | ✅ | |
+| [node-red-contrib-ui_list](https://flows.nodered.org/node/node-red-contrib-ui_list) | | ✅ | | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
 | [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping) | | ✅ | | |
 | [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
 | [node-red-node-sentiment](https://flows.nodered.org/node/node-red-node-sentiment) | | ✅ | | |
+| [node-red-node-smooth](https://flows.nodered.org/node/node-red-node-smooth) | | ✅ | ✅ | |
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
 | [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
