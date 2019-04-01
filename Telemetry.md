@@ -35,7 +35,7 @@ Um diesen Vorgang so transparent wie möglich zu gestalten hat Jedermann die Mö
 
 Ich bitte darum das nicht zu tun. Bei RedMatic handelt es sich um ein Projekt in das viel Arbeit gesteckt wird, für das viel Freizeit geopfert wird und für dessen Nutzung außer dem Übertragen dieser Daten (und dem Vergeben eines Github Sternchens 😉) keinerlei Gegenleistung erwartet wird. 
 
-Wer dennoch unbedingt das Übertragen der Nutzungsstatistiken deaktivieren möchte hat folgende Möglichkeiten:
+Wer dennoch unbedingt das Übertragen der Nutzungsstatistiken deaktivieren möchte kann eine der folgenden Möglichkeiten nutzen:
 
 * Eine Firewall einsetzen und den Server an den die Daten gesendet werden blockieren.
 * Über die hosts Datei den Servernamen auf 127.0.0.1 umlenken.
