@@ -21,6 +21,7 @@ Rund um das Thema Node-RED lassen sich unzählige Artikel, Tutorials, Dokumentat
 
 ## Crashkurs
 
+Um auf die Node-RED Oberfläche zu gelangen, verwenden Sie folgende URL im Web-Browser: `http://CCU-IP/addons/red`.
 
 ![](images/crash-1.png)
 * Aus der _Palette_ im linken Bildschirmbereich können _Nodes_ per Drag&Drop im _Flow_ platziert werden
