@@ -34,7 +34,7 @@
  * In Node-Red die Node `node-red-node-openweathermap` [installieren](https://github.com/rdmtc/RedMatic/wiki/Node-Installation)
 
   * einen neuen Flow erstellen oder den Flow aufrufen in dem die Nodes ablegen möchte
-  * aus der Palette die OpenWeathermap Node ohne Ausgang in den Flow ziehen
+  * aus der Palette die OpenWeathermap Node ohne Eingang in den Flow ziehen
 
 ![image](https://user-images.githubusercontent.com/12692680/55947620-1e2dca80-5c4f-11e9-92ac-31f6c257d3c2.png)
 
