@@ -1,4 +1,4 @@
-# Openweathermap mit Virtuelle CUxD Wetterstation nutzen
+# Openweathermap mit Virtuellem CUxD Device und Systemvariablen nutzen
 
 ## Voraussetzungen
   * OpenWeatherMap [API Key (kostenlos) bekommen](http://openweathermap.org/appid)
@@ -100,9 +100,9 @@
 
 ![image](https://user-images.githubusercontent.com/12692680/55947392-a6f83680-5c4e-11e9-8f99-b37d35381e41.png)
 
-## Erweiterung
- * genauso wie das CUxD Device kann man auch Systemvariablen auf der CCU füllen.
-    * dazu anstelle der CCU value node die sysvar node nutzen:
+## Erweiterung mit Systemvariablen
+ * Genauso wie das CUxD Device kann man auch Systemvariablen mit den Wetterdaten auf der CCU füllen.
+    * dazu muss man lediglich anstelle der CCU value node die sysvar node nutzen
 
 ![image](https://user-images.githubusercontent.com/12692680/55948566-1bcc7000-5c51-11e9-82ce-73fc2eda1358.png)
 
