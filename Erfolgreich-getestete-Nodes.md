@@ -71,3 +71,4 @@ Category: Administration
 | [node-red-node-smooth](https://flows.nodered.org/node/node-red-node-smooth) | | ✅ | ✅ | |
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
 | [node-red-contrib-pushbullet](https://flows.nodered.org/node/node-red-node-pushbullet) | | ✅ | ✅ | benötigt [API Key](https://docs.pushbullet.com/) |
+| [node-red-contrib-volumio](https://flows.nodered.org/node/node-red-contrib-volumio) | | ✅ | ✅ | |
