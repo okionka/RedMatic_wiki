@@ -22,4 +22,7 @@ Falls das Node-RED Projects-Feature aktiviert ist das Verzeichnis
 Falls RedMatic-HomeKit genutzt wird das Verzeichnis
 * `/usr/local/addons/redmatic/var/homekit`
 
+Falls node-red-contrib-zigbee genutzt wird das Verzeichnis
+* `/usr/local/addons/redmatic/var/zigbee`
+
 Wenn man ein manuelles Backup zurückspielt sollte zuerst Node-RED gestoppt werden, dann erst die Dateien zurück kopieren. 
