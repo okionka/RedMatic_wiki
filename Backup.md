@@ -1,6 +1,8 @@
 ## CCU Backup
 
-Da das RedMatic Addon sehr groß ist und die Backup-Routine der CCU3 die Backupdatei im RAM anlegt ist es in der Vergangenheit bei einigen Nutzern zu Problemen mit der Speicherauslastung gekommen, die im schlimmsten Fall dazu geführt haben dass Node-RED oder der hmipserver beim Backup beendet wurden. Um dieses Problem zu lösen musste der Platzbedarf von RedMatic im Backup reduziert werden, daher werden in der Default-Einstellung nur noch die wirklich relevanten Dateien von RedMatic mit ins CCU Backup gepackt. Leider bringt dies folgenden Nachteil mit:
+Da das RedMatic Addon sehr groß ist und die Backup-Routine der CCU3 die Backupdatei im RAM anlegt ist es in der Vergangenheit bei einigen Nutzern zu Problemen mit der Speicherauslastung gekommen, die im schlimmsten Fall dazu geführt haben dass Node-RED oder der hmipserver beim Backup beendet wurden. Um dieses Problem zu lösen musste der Platzbedarf von RedMatic im Backup reduziert werden, daher werden in der Default-Einstellung nur noch die wirklich relevanten Dateien von RedMatic mit ins CCU Backup gepackt. Wahlweise kann aber auch der komplette RedMatic Ordner im Backup inkludiert werden - auf eigene Gefahr!
+
+Leider bringt das Reduzieren der Backup-Größe folgenden Nachteil mit:
 
 **Nach dem Zurückspielen eines CCU-Backups muss RedMatic wieder manuell nachinstalliert werden.** 
 
