@@ -4,7 +4,7 @@ Da das RedMatic Addon sehr groß ist und die Backup-Routine der CCU3 die Backupd
 
 Leider bringt das Reduzieren der Backup-Größe folgenden Nachteil mit:
 
-**Nach dem Zurückspielen eines CCU-Backups muss RedMatic wieder manuell nachinstalliert werden.** 
+**Nach dem Zurückspielen eines CCU-Backups muss RedMatic (und eventuell genutzte Zusatzpakete) wieder manuell nachinstalliert werden.** 
 
 ## Manuelles Backup
 
