@@ -41,4 +41,4 @@ Wer dennoch unbedingt das Übertragen der Nutzungsstatistiken deaktivieren möch
 * Über die hosts Datei den Servernamen auf 127.0.0.1 umlenken.
 * Den Curl Aufruf im Startscript auskommentieren oder entfernen.
 * Die CCU vom Internet trennen.
-* RedMatic deinstallieren (niemand wird gezwungen RedMatic zu nutzen!).
+* RedMatic deinstallieren - niemand wird gezwungen RedMatic zu nutzen!
