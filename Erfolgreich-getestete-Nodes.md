@@ -58,7 +58,7 @@ Category: Administration
 | [node-red-contrib-tradfri](https://flows.nodered.org/node/node-red-contrib-tradfri) | | ✅ |⚠️  | siehe https://github.com/rdmtc/RedMatic/issues/131|
 | [node-red-contrib-ui-led](https://flows.nodered.org/node/node-red-contrib-ui-led) | | ✅ | ✅ | |
 | [node-red-contrib-ui_list](https://flows.nodered.org/node/node-red-contrib-ui_list) | | ✅ | | |
-| [node-red-contrib-uibuilder](https://flows.nodered.org/node/node-red-contrib-uibuilder)  | | ✅ | ⚠️ | [funktioniert nicht](https://github.com/rdmtc/RedMatic/issues/94) |
+| [node-red-contrib-uibuilder](https://flows.nodered.org/node/node-red-contrib-uibuilder)  | | ✅ | ⚠️ | Workaround nötig [siehe #94](https://github.com/rdmtc/RedMatic/issues/94) |
 | [node-red-contrib-unsafe-function](https://flows.nodered.org/node/node-red-contrib-unsafe-function) | | ✅ |✅  | |
 | [node-red-contrib-viera](https://flows.nodered.org/node/node-red-contrib-viera) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
@@ -70,3 +70,5 @@ Category: Administration
 | [node-red-node-sentiment](https://flows.nodered.org/node/node-red-node-sentiment) | | ✅ | | |
 | [node-red-node-smooth](https://flows.nodered.org/node/node-red-node-smooth) | | ✅ | ✅ | |
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) | | ✅ | | |
+| [node-red-contrib-pushbullet](https://flows.nodered.org/node/node-red-node-pushbullet) | | ✅ | ✅ | benötigt [API Key](https://docs.pushbullet.com/) |
+| [node-red-contrib-volumio](https://flows.nodered.org/node/node-red-contrib-volumio) | | ✅ | ✅ | |

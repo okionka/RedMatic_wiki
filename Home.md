@@ -55,6 +55,7 @@
   * [Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen](flow-geraete-abfragen)
   * [sehr einfache Jalousiesteuerung](https://github.com/rdmtc/RedMatic/wiki/sehr-einfache-Jalousiesteuerung)
   * [Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren](https://github.com/rdmtc/RedMatic/wiki/Zwischen-zwei-Zeitpunkten-jede-halbe-Stunde-einen-Inject-generieren)
+  * [Wetterdaten mittels OpenWeatherMap in ein CUxD Device übertragen](Openweathermap)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)

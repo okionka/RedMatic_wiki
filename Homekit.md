@@ -20,7 +20,7 @@ Bitte einen [Issue anlegen](https://github.com/hobbyquaker/RedMatic-HomeKit/issu
 
 ## Installation
 
-Im RedMatic UI im Tab "Packages" auf den Install Button klicken, danach Node-RED neustarten. Siehe auch [Zusätzliche Nodes Installieren](Node-Installation)
+Im RedMatic UI (Erreichbar im CCU WebUI unter Einstellungen->Systemsteuerung) im Tab "Pakete" bei RedMatic-HomeKit auf den Install Button klicken, danach Node-RED neustarten.
 
 ## Einrichtung
 

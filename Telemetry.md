@@ -33,7 +33,7 @@ Um diesen Vorgang so transparent wie möglich zu gestalten hat Jedermann die Mö
 
 ## Opt-Out
 
-Ich bitte darum das nicht zu tun. Bei RedMatic handelt es sich um ein Projekt in das viel Arbeit gesteckt wird, für das viel Freizeit geopfert wird und für dessen Nutzung außer dem Übertragen dieser Daten (und dem Vergeben eines Github Sternchens 😉) keinerlei Gegenleistung erwartet wird. 
+Ich bitte darum das nicht zu tun. Bei RedMatic handelt es sich um ein Projekt in das viel Arbeit gesteckt wird, für das viel Freizeit geopfert wird und für dessen Nutzung außer dem Übertragen dieser (meiner Meinung nach nicht Privacy-relevanten) Daten (und dem Vergeben eines Github Sternchens 😉) keinerlei Gegenleistung erwartet wird. 
 
 Wer dennoch unbedingt das Übertragen der Nutzungsstatistiken deaktivieren möchte kann eine der folgenden Möglichkeiten nutzen:
 
@@ -41,4 +41,4 @@ Wer dennoch unbedingt das Übertragen der Nutzungsstatistiken deaktivieren möch
 * Über die hosts Datei den Servernamen auf 127.0.0.1 umlenken.
 * Den Curl Aufruf im Startscript auskommentieren oder entfernen.
 * Die CCU vom Internet trennen.
-* RedMatic deinstallieren (niemand wird gezwungen RedMatic zu nutzen!).
+* RedMatic deinstallieren - niemand wird gezwungen RedMatic zu nutzen!
