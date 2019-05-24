@@ -131,7 +131,7 @@ Die Property `msg.payload` muss in diesem Fall auf die Number `0` gesetzt werden
 
 ### Camera Accessory
 
-https://github.com/rdmtc/RedMatic/wiki/Homekit-Kamera-einbinden
+Anleitung von nicolas-eric: https://github.com/rdmtc/RedMatic/wiki/Homekit-Kamera-einbinden
 
 Siehe auch:
 * https://github.com/rdmtc/RedMatic-HomeKit/issues/125#issuecomment-466550728
