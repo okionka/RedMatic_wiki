@@ -133,6 +133,9 @@ Die Property `msg.payload` muss in diesem Fall auf die Number `0` gesetzt werden
 
 https://github.com/rdmtc/RedMatic/wiki/Homekit-Kamera-einbinden
 
+Siehe auch:
+* https://github.com/rdmtc/RedMatic-HomeKit/issues/125#issuecomment-466550728
+
 ### Reset
 
 Um die Bridge im Fall von schwerwiegenden Problemen ("sollte" nicht passieren, aber man weiss ja nie 😉) komplett zurückzusetzen kann wie folgt vorgegangen werden:
