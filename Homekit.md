@@ -135,7 +135,7 @@ Anleitung von nicolas-eric: https://github.com/rdmtc/RedMatic/wiki/Homekit-Kamer
 
 Siehe auch:
 * https://github.com/rdmtc/RedMatic-HomeKit/issues/125#issuecomment-466550728
-* [https://homematic-forum.de/forum/viewtopic.php?f=77&t=50935](Homematic-Forum - Homekit Popup Bild bei Bewegung)
+* [Homematic-Forum - Homekit Popup Bild bei Bewegung](https://homematic-forum.de/forum/viewtopic.php?f=77&t=50935)
 
 ### Reset
 
