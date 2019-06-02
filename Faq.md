@@ -1,6 +1,9 @@
 # FAQ - Häufig gestellte Fragen
 
-## Tastendruck erzeugt keinen Event
+* [Tastendruck erzeugt keinen Event](#Tastendruck-erzeugt-keine-Events)
+* [Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!](#Hilfe!-Nach-der-Installation-fährt-meine-CCU/RaspberryMatic-nicht-mehr-hoch!)
+
+## Tastendruck erzeugt keine Events
 
 Dem Schnittstellenprozess muss mitgeteilt werden, dass sich jemand für diese Events "interessiert" (er legt dann "hinter den Kulissen" eine Verknüpfung von der Taste zum sogenannten "Central Device" an die notwendig ist um die Events von Tasten zu erhalten). Dies kann über eine der folgenden beiden Möglichkeiten bewerkstelligt werden:
 
