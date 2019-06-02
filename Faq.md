@@ -1,21 +1,21 @@
 # FAQ - Häufig gestellte Fragen
 
-<details><summary><b>Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!
-<b></summary>
-<p>
-Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der Installation länger als 10 Minuten her ist. <br>RedMatic ist für ein Homematic Addon sehr groß und besteht aus sehr vielen Dateien. Das auspacken des Archivs dass bei der Installation von der CCU erledigt werden muss ist dabei je nach Raspberry CPU und io bzw. SD Karten Performance sehr Zeitintensiv. Hier ist Geduld erforderlich.
-<p>
-</details>
-    
-<br>    
-<details><summary><b>Besser CCU3/RaspberryMatic und RedMatic oder piVCCU/Debmatic und Node-RED (im Container) ...?﻿</b></summary>
-<p>
+## Tastendruck erzeugt keinen Event
 
-</details>
+Dem Schnittstellenprozess muss mitgeteilt werden, dass sich jemand für diese Events "interessiert" (er legt dann "hinter den Kulissen" eine Verknüpfung von der Taste zum sogenannten "Central Device" an die notwendig ist um die Events von Tasten zu erhalten). Dies kann über eine der folgenden beiden Möglichkeiten bewerkstelligt werden:
+
+1. Für jeden Kanal ein "Dummy" CCU-Programm anlegen. Einfach ein Programm das auf Tastendruck reagiert (egal ob PRESS_SHORT oder PRESS_LONG) und nichts tut. Die Programme können danach wieder gelöscht werden.
+2. Den Homematic-Manager installieren, im Reiter Geräte das Gerät über das + in der Spalte links "aufklappen" und dann auf die Kanäle rechtsklicken und "reportValueUsage" anklicken.
+
+
+## Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!
+
+Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der Installation länger als 10 Minuten her ist. <br>RedMatic ist für ein Homematic Addon sehr groß und besteht aus sehr vielen Dateien. Das auspacken des Archivs dass bei der Installation von der CCU erledigt werden muss ist dabei je nach Raspberry CPU und io bzw. SD Karten Performance sehr Zeitintensiv. Hier ist Geduld erforderlich.
+
     
-<br>    
-<details><summary><b>Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿</b></summary>
-<p>
+## Besser CCU3/RaspberryMatic und RedMatic oder piVCCU/Debmatic und Node-RED (im Container) ...?﻿</b></summary>
+
+## Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿
 
 Node-RED beschäftigt sich primär mit dem Empfang, der Weiterleitung, dem Senden und der Manipulation von Nachrichten innerhalb Node-RED oder über bestimmte Nodes auch mit unzähligen externen Services und Systemen.
 
@@ -34,47 +34,26 @@ Für Apple User können sich die interessanten Features von RedMatic sich durcha
 Viele User ersetzen mit RedMatic ihre Homematic-Scripte und -Programme, haben aber dennoch noch weitere Software laufen oder betreiben Mischformen in dem die Automatisierung auf mehreren Ebenen implementiert ist. 
 
 Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker zu betreiben und nur ganz bestimmte Anwendungsfälle wie z.B. das timing-kritische Dimmen mit langem Tastendruck über Schnittstellen-Grenzen hinweg mit RedMatic realisieren.
-</p>
-</details>
-<br>
-<details><summary><b>CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?</b></summary>
-<p>
 
-##### node-red-contrib-alexa-local
+## CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?
 
-##### RedMatic-HomeKit
+## Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar
 
-</p>
-</details>
-    
-    
+## Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen
 
+## Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?
 
-<br>
-<details><summary><b>Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar</b></summary>
-<p>
-</p>
-</details>
-<br>
-<details><summary><b>Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen</b></summary>
-<p>
-</p>
-</details>
-<br>
-<details><summary><b>Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?</b></summary>
-<p>Per Default Settings werden CCU-Variablen alle 30 Sekunden von der Rega abgeholt. Dieser Intervall lässt sich zwar verkürzen, hiermit wird aber die Belastung der "Rega" erhöht. Mit dem "poll" Node (unter CCU) kann man eleganter eine quasi-sofortige Abfrage erzwingen und die Latenz beim Empfang von Änderungen an Systemvariablen beschleunigen, man baut einen "Pseudo-Push" Mechanismus. Kurze Latenzen könnten z.B. gewünscht sein, wenn man eine Alarmanlage mit CCU-Variablen steuern will.
+Per Default Settings werden CCU-Variablen alle 30 Sekunden von der Rega abgeholt. Dieser Intervall lässt sich zwar verkürzen, hiermit wird aber die Belastung der "Rega" erhöht. Mit dem "poll" Node (unter CCU) kann man eleganter eine quasi-sofortige Abfrage erzwingen und die Latenz beim Empfang von Änderungen an Systemvariablen beschleunigen, man baut einen "Pseudo-Push" Mechanismus. Kurze Latenzen könnten z.B. gewünscht sein, wenn man eine Alarmanlage mit CCU-Variablen steuern will.
 
 #### Umsetzung:
 
 * "poll" Node anlegen, CCU auswählen und eventuell den Node benennen
 * Mittels eines "value" oder "rpc event" nodes einen virtuellen Taster der CCU abfragen (z.B. den BidCoS-RF:1 HM-RCV-50 BidCoS-RF:1) und mit dem "poll" node verbinden.
 * Ein Programm in der CCU-Anlegen, das bei Änderung einer der relevanten Variablen den virtuellen Taster auslöst.
-</p>
-</details>
-<br>
 
-<details><summary><b>Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?</b></summary>
-<p>
+
+## Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?
+
 Für eine Sicherung der Flows sind folgende Dateien relevant:
 
 * `/usr/local/addons/redmatic/var/flows.json`
@@ -83,12 +62,7 @@ Für eine Sicherung der Flows sind folgende Dateien relevant:
 * Falls das Node-RED Projects-Feature aktiviert ist der Ordner: `/usr/local/addons/redmatic/var/projects`
 * Falls HomeKit genutzt wird noch der Ordner: `/usr/local/addons/redmatic/var/homekit`
 
-</p>
-</details>
-<br>
-
-<details><summary><b>Wie kann ich mich erkenntlich zeigen?</b></summary>
-<p>
+## Wie kann ich mich erkenntlich zeigen?
 
 Das ist lieb gemeint - aber ich möchte aus mehreren Gründen keine Spenden annehmen:    
 
@@ -97,7 +71,5 @@ Da wird aus einem Hobby ganz schnell eine genehmigungspflichtige Nebentätigkeit
 Lieber wäre mir es wenn sich die User durch Mitarbeit erkenntlich zu zeigen - und sei es "nur" die Verbesserung von Rechtschreibfehlern im Wiki. Auch freue ich mich wenn das Projekt auf Github mit einem "Star" ausgezeichnet wird.
 ;-)
 
-</p>
-</details>
 
 
