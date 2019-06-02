@@ -18,6 +18,8 @@ Bitte erst Sorgen machen und Maßnahmen einleiten falls der Neustart nach der In
     
 ## Besser CCU3/RaspberryMatic und RedMatic oder piVCCU/Debmatic und Node-RED (im Container) ...?﻿</b></summary>
 
+Siehe https://homematic-forum.de/forum/viewtopic.php?f=77&t=49409
+
 ## Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿
 
 Node-RED beschäftigt sich primär mit dem Empfang, der Weiterleitung, dem Senden und der Manipulation von Nachrichten innerhalb Node-RED oder über bestimmte Nodes auch mit unzähligen externen Services und Systemen.
