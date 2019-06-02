@@ -1,7 +1,7 @@
 # FAQ - Häufig gestellte Fragen
 
 * [Tastendruck erzeugt keinen Event](#Tastendruck-erzeugt-keine-Events)
-* [Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!](#Hilfe!-Nach-der-Installation-fährt-meine-CCU/RaspberryMatic-nicht-mehr-hoch!)
+* [Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!](#hilfe-nach-der-installation-fährt-meine-ccuraspberrymatic-nicht-mehr-hoch)
 
 ## Tastendruck erzeugt keine Events
 
