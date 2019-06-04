@@ -25,6 +25,7 @@ Category: Administration
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
 | [node-red-contrib-edge-trigger](https://flows.nodered.org/node/node-red-contrib-edge-trigger) | | ✅ | ✅ | |
 | [node-red-contrib-filter](https://flows.nodered.org/node/node-red-contrib-filter) | | ✅ |✅  | |
+| [node-red-contrib-fritz](https://flows.nodered.org/node/node-red-contrib-fritz) | Zugang zur Fritzbox mittels TR064 API | ✅ |✅  | Erfolgreich getestete Nodes bisher `fritzbox-in` und `fritzbox-calllist` auf Basis 7590 und FritzOS 7 |
 | [node-red-contrib-german-holidays](https://www.npmjs.com/package/node-red-contrib-german-holidays) | Feiertagsberechnung für Deutschland | ✅ | ✅ | |
 | [node-red-contrib-google-action-dialogflow-http](https://flows.nodered.org/node/node-red-contrib-google-action-dialogflow-http) | | ✅ | | |
 | [node-red-contrib-google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts) | | ✅ | ✅ | |
