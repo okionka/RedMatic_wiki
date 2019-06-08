@@ -27,5 +27,5 @@ Auf einem RPi3B ist die CPU Auslastung mit dem sich aktualisierenden Standbild k
 **Achtung:**
 **Bei mehreren Kameras unbedingt im Camera Node unterschiedliche Ports vergeben. Sonst bleibt RedMatic hängen und man kommt auch nicht mehr ohne weiteres rein.**
 
-***Achtung2:***
-*** Nicht vergessen die entsprechenden Ports auch in der CCU Firewall freizugeben, sonnst kann keine Verbindung hergestellt werden***
+**Achtung2:**
+** Nicht vergessen die entsprechenden Ports auch in der CCU Firewall freizugeben, sonnst kann keine Verbindung hergestellt werden**
