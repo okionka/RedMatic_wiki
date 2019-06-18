@@ -1,12 +1,12 @@
 # FAQ - Häufig gestellte Fragen
 
 * [Tastendruck erzeugt keine Events](#Tastendruck-erzeugt-keine-Events)
+* [Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen](#bei-anhaltendem-tastendruck-werden-keine-press_cont-events-empfangen)
 * [Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!](#hilfe-nach-der-installation-fährt-meine-ccuraspberrymatic-nicht-mehr-hoch)
 * [Besser CCU3/RaspberryMatic und RedMatic oder piVCCU/Debmatic und Node-RED (im Container) ...?](besser-ccu3raspberrymatic-und-redmatic-oder-pivccudebmatic-und-node-red-im-container-)
 * [Wo liegt nun der Unterschied zu ioBroker, HASS, OpenHAB, ...?﻿](#wo-liegt-nun-der-unterschied-zu-iobroker-hass-openhab-)
 * [CCU Firewall Einstellungen? Was muss ich für die Nutzungs welcher Nodes freischalten?](#ccu-firewall-einstellungen-was-muss-ich-für-die-nutzungs-welcher-nodes-freischalten)
 * [Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar](#beim-auswählen-der-schnittstelle-ist-cuxd-oder-bidcos-wired-nicht-auswählbar)
-* [Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen](#bei-anhaltendem-tastendruck-werden-keine-press_cont-events-empfangen)
 * [Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?](#bis-Änderungen-von-systemvariablen-in-redmatic-ankommen-vergeht-sehr-viel-zeit-wie-kann-man-das-beschleunigen)
 * [Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?](#ich-möchte-meine-flows-unabhängig-vom-ccu-backup-sichern-welche-dateien-sind-relevant)
 * [Wie kann ich mich erkenntlich zeigen?](#wie-kann-ich-mich-erkenntlich-zeigen)
@@ -18,6 +18,10 @@ Dem Schnittstellenprozess muss mitgeteilt werden, dass sich jemand für diese Ev
 1. Für jeden Kanal ein "Dummy" CCU-Programm anlegen. Einfach ein Programm das auf Tastendruck reagiert (egal ob PRESS_SHORT oder PRESS_LONG) und nichts tut. Die Programme können danach wieder gelöscht werden.
 2. Den Homematic-Manager installieren, im Reiter Geräte das Gerät über das + in der Spalte links "aufklappen" und dann auf die Kanäle rechtsklicken und "reportValueUsage" anklicken.
 
+
+## Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen
+
+Bei BidCos-RF Aktoren muss die gesicherte Übertragung deaktiviert werden damit PRESS_CONT Events genutzt werden können.
 
 ## Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!
 
@@ -52,7 +56,6 @@ Auch denkbar ist es RedMatic in Kombination mit Software wie HASS oder ioBroker 
 
 ## Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar
 
-## Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen
 
 ## Bis Änderungen von Systemvariablen in RedMatic "ankommen" vergeht sehr viel Zeit. Wie kann man das beschleunigen?
 
