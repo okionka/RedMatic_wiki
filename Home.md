@@ -54,7 +54,7 @@
   * [Dashbuttons ohne zusätzliche Nodes auswerten](https://github.com/holgerimbery/redmatic_flows/blob/master/dashbutton_auswerten/README.md)
   * [Monitoring der Batteriespannung von Aktoren (hier: HM-CC-RT-DN)](https://github.com/holgerimbery/redmatic_flows/blob/master/battery_monitoring/README.md)
   * [Datenpunktstatus von mehreren Geraeten gleichzeitig abfragen](flow-geraete-abfragen)
-  * [sehr einfache Jalousiesteuerung](https://github.com/rdmtc/RedMatic/wiki/sehr-einfache-Jalousiesteuerung)
+  * [Rollladen und Jalousiesteuerung](https://github.com/rdmtc/RedMatic/wiki/Rollladen-und-Jalousiesteuerung)
   * [Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren](https://github.com/rdmtc/RedMatic/wiki/Zwischen-zwei-Zeitpunkten-jede-halbe-Stunde-einen-Inject-generieren)
   * [Wetterdaten mittels OpenWeatherMap in ein CUxD Device übertragen](Openweathermap)
 * Sonstiges
