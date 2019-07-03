@@ -1,6 +1,7 @@
 ---
 Title: Rollladen und Jalousiesteuerung
 Category: User Flows
+link: https://github.com/rdmtc/RedMatic/wiki/Rollladen-und-Jalousiesteuerung
 ---
 
 # Rollläden, Jalousien, Markisen mit Node-Red steuern
@@ -490,12 +491,12 @@ Die genaue Logik ist wie folgt:
 1. Das System wertet von der ersten Regel an beginnend der Reihen nach aufsteigend bis zur letzten __bis__ Regel (oder falls es keine __bis__ Regel gibt bis zur letzten Regel) aus.
    * Regeln deren Bedingung nicht zutreffen werden übersprungen.
    * Regeln vom Zeit-Typ __von__ werden übersprungen.
-   * Die erste Regel vom Level Typ c, die keinerlei Zeit-Einschränkung hat oder deren Zeit größer ist als die aktuelle Zeit wird gewählt.
-   * Nachfolgende Regeln werden nicht mehr betrachtet, auch nicht wenn diese keine Zeit-Einschränkung haben.
+   * Die erste Regel vom Level Typ __absolut__, die keinerlei Zeit-Einschränkung hat oder deren Zeit größer ist als die aktuelle Zeit wird gewählt.
+     * Nachfolgende Regeln werden nicht mehr betrachtet, auch nicht wenn diese keine Zeit-Einschränkung haben.
 2. Wenn unter 1. keine Regel gefunden wurde, wertet das System die Regeln absteigend von der letzten Regel aus.
    * Regeln deren Bedingung nicht zutreffen werden übersprungen.
-   * Regeln vom Typ __bis__ werden übersprungen.
-   * Die dabei erste Regel vom Level Typ __absolut__ die keinerlei Zeit-Einschränkung hat oder deren Zeit kleiner als die aktuelle Zeit ist  wird gewählt.
+   * Regeln vom Zeit-Typ __bis__ werden übersprungen.
+   * Die dabei erste Regel vom Level Typ __absolut__ die keinerlei Zeit-Einschränkung hat oder deren Zeit kleiner als die aktuelle Zeit ist wird gewählt.
    * Weitere Regeln werden nicht ausgewertet, auch nicht wenn diese keine Zeit-Einschränkung haben.
 3. Wenn mit 1.und 2. keine Regel gefunden wurde, wird der standard-Wert für die Rollladensteuerung genommen und die Sonnensteuerung kann aktiv gehen.
 
