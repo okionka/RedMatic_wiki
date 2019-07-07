@@ -5,13 +5,15 @@ Category: User Flows
 # Schalter mit Status als Badge Ersatz
 
 ## Generelles
-Häufig möchte man einen Schalter, der zum einen Informationen angibt (Anzahl offener Jalousien, Player on / off) und zum anderen auch "clickbar" ist. In Android / iPhones kann man das mit "badges" realisieren - in NodeRED Dashboard geht das mit dem Dashboard Button. Es sieht dann so aus: 
+Häufig möchte man einen Schalter, der zum einen Informationen angibt (Anzahl offener Jalousien, Player on / off) und zum anderen auch "clickbar" ist. In Android / iPhones kann man das mit "badges" realisieren - in NodeRED Dashboard geht das mit dem Dashboard Button. Ich nutzte es um die Funktionen (Jalousien, Sicherheit/Fenster, Lichter, Heizung, Media auf einem Dashboard anzuzeigen und bei "click" dorthin zu springen (Detailseiten). Es sieht dann so aus: 
+
 ![Aussehen](https://user-images.githubusercontent.com/17273119/60768123-83b01c80-a0c1-11e9-9b15-ef626cff7a8c.png)
 
 ## Benötigte Erweiterungen
 Keine.
 
 ## Einstellungen
+
 ![Node Konfiguration](https://user-images.githubusercontent.com/17273119/60768199-852e1480-a0c2-11e9-8afa-3e6ec2348007.png)
 
 Hier ist die Node zum import. 
