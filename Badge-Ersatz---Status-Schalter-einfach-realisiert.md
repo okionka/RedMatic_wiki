@@ -1,5 +1,4 @@
 ---
-Title: Badge Ersatz - Status Schalter einfach realisiert
 Category: User Flows
 ---
 
