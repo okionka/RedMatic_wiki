@@ -2,7 +2,7 @@
 Category: User Flows
 ---
 
-# Badge Ersatz
+# Badge Ersatz - Schalter mit Status
 
 ## Generelles
 Häufig möchte man einen Schalter, der zum einen Informationen angibt (Anzahl offener Jalousien, Anzahl offenen Fenster) und zum anderen auch "clickbar" ist. In Android / iPhones kann man das mit "badges" realisieren - in NodeRED Dashboard geht das mit dem Dashboard Button. Es sieht dann so aus: 
