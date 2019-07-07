@@ -6,7 +6,7 @@ Category: User Flows
 
 ## Generelles
 Häufig möchte man einen Schalter, der zum einen Informationen angibt (Anzahl offener Jalousien, Player on / off) und zum anderen auch "clickbar" ist. In Android / iPhones kann man das mit "badges" realisieren - in NodeRED Dashboard geht das mit dem Dashboard Button. Es sieht dann so aus: 
-![How it looks](![Result](https://github.com/rdmtc/RedMatic/wiki/Schalter-mit-Status-als-Badge-Ersatz)---)
+![How it looks](![Result](https://github.com/rdmtc/RedMatic/wiki/Schalter-mit-Status-als-Badge-Ersatz)
 
 ## Benötigte Erweiterungen
 Keine.
