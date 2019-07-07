@@ -57,6 +57,7 @@
   * [Rollladen und Jalousiesteuerung](https://github.com/rdmtc/RedMatic/wiki/Rollladen-und-Jalousiesteuerung)
   * [Zwischen zwei Zeitpunkten jede halbe Stunde einen Inject generieren](https://github.com/rdmtc/RedMatic/wiki/Zwischen-zwei-Zeitpunkten-jede-halbe-Stunde-einen-Inject-generieren)
   * [Wetterdaten mittels OpenWeatherMap in ein CUxD Device übertragen](Openweathermap)
+  * [Schalter mit Statusanzeige](Schalter-mit-Status-als-Badge-Ersatz)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
