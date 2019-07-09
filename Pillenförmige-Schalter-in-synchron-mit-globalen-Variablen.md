@@ -2,7 +2,7 @@
 Category: User Flows
 ---
 
-# Pillenförmige Schalter in Verbindung mit globalen Variablen
+# Pillenförmige Schalter synchron mit globalen Variablen
 
 ## Generelles
 Häufig braucht man einen Schalter, der bidirectional an eine globale Variable gekoppelt ist, bei Änderung Aktionen auslöst und den Status komprimiert/farblich anzeigt. In dieser Implementierung kann man den angezeigten Text und die Farbe statusabhängige definieren. Ich nutze diese Art für Anzeige von Nacht, Anwesend, Abwesend, etc. Es sieht dann so aus: 
