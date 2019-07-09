@@ -5,7 +5,7 @@ Category: User Flows
 # Pillenförmige Schalter in Verbindung mit globalen Variablen
 
 ## Generelles
-Häufig braucht man einen Schalter, der an eine globale Variable gekoppelt ist, bei Änderung Aktionen auslöst und den Status komprimiert/farblich anzeigt. Ich nutze diese Art für Anzeige von Nacht, Anwesend, Abwesend, etc. Es sieht dann so aus: 
+Häufig braucht man einen Schalter, der an eine globale Variable gekoppelt ist, bei Änderung Aktionen auslöst und den Status komprimiert/farblich anzeigt. In diesem Fall kann man den angezeigten Text und die Farbe statusabhängige definieren. Ich nutze diese Art für Anzeige von Nacht, Anwesend, Abwesend, etc. Es sieht dann so aus: 
 
 ![Darstellung im Browser](https://user-images.githubusercontent.com/17273119/60909649-11853680-a27f-11e9-9105-a00fd1fa5adc.png)
 
@@ -17,3 +17,6 @@ Die Konfiguration besteht aus einem subflow und einem Dashbaord ui-template, die
 
 ![subflow und ui-template](https://user-images.githubusercontent.com/17273119/60909856-98d2aa00-a27f-11e9-941b-ce520d7bf03f.png)
 
+Der subflow sieht so aus: 
+
+![subflow darstellung](https://user-images.githubusercontent.com/17273119/60910199-62495f00-a280-11e9-9094-6190977925c6.png)
