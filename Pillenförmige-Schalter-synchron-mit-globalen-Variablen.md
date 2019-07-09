@@ -14,7 +14,7 @@ Keine.
 
 ## Einstellungen
 Die Konfiguration besteht aus einem subflow und einem Dashbaord ui-template, die doppelt verknüpft sind. Getrennt deshalb um den Schaltern in Tabs zu positionieren. Änderungen der globalen Variablen steuert man links am subflow ein. Aktionen, die bei Änderung ausgelöst warden sind mit dem rechten, unteren Ausgang zu verknüpfen. 
-Die pillenförmige Gestaltung erfolgt über ein weiteres ui-template (wird der Gruppe hinzugefügt).
+Die pillenförmige Gestaltung erfolgt über ein weiteres ui-template, welches man der Gruppe hinzu fügt.
 
 ![subflow und ui-template](https://user-images.githubusercontent.com/17273119/60909856-98d2aa00-a27f-11e9-941b-ce520d7bf03f.png)
 
