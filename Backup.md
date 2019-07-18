@@ -8,21 +8,13 @@ Leider bringt das Reduzieren der Backup-Größe folgenden Nachteil mit:
 
 ## Manuelles Backup
 
-Wer die Flows und Einstellungen von RedMatic unabhängig vom CCU Backup sichern möchte benötigt mindestens folgende Dateien:
-
-* `/usr/local/addons/redmatic/var/flows.json`
-* `/usr/local/addons/redmatic/var/flows_cred.json`
+Wer die Flows und Einstellungen von RedMatic unabhängig vom CCU Backup sichern möchte, sollte die folgenden Dateien und Verzeichnisse inklusive aller Unterverzeichnisse sichern:
 * `/usr/local/addons/redmatic/etc/credentials.key`
 * `/usr/local/addons/redmatic/etc/settings.json`
-* `/usr/local/addons/redmatic/var/package.json`
+* `/usr/local/addons/redmatic/var` aber ohne Verzeichnis `node_modules`
 
-Falls das Node-RED Projects-Feature aktiviert ist das Verzeichnis
-* `/usr/local/addons/redmatic/var/projects`
+Das entspricht der Empfehlung von[nodeRed cookbook](https://github.com/node-red/cookbook.nodered.org/wiki/How-to-backup-flows-and-related-configuration).
 
-Falls RedMatic-HomeKit genutzt wird das Verzeichnis
-* `/usr/local/addons/redmatic/var/homekit`
-
-Falls node-red-contrib-zigbee genutzt wird das Verzeichnis
-* `/usr/local/addons/redmatic/var/zigbee`
+Achtung: Die globalen Variablen (falls genutzt) müssen zusätzlich gesichert warden, falls man den Default Pfad geändert hat. 
 
 Wenn man ein manuelles Backup zurückspielt sollte zuerst Node-RED gestoppt werden, dann erst die Dateien zurück kopieren. 
