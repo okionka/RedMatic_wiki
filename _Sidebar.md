@@ -1,1 +1,1 @@
-![](images/logo-r-256.png)
+![](https://raw.githubusercontent.com/rdmtc/RedMatic/master/assets/redmatic5-high.png)
