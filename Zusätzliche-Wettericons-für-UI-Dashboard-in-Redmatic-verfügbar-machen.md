@@ -1,13 +1,13 @@
 <img width="1084" alt="image" src="https://user-images.githubusercontent.com/37173958/58908532-1e0ef000-8711-11e9-8e30-63e8ed86b718.png">
 
-[Weather Icons Lite](https://github.com/Paul-Reed/weather-icons-lite) ist eine Sammlung von Wettersymbolen/-Icons, die bereits in node-red integriert sind. Sie können somit in jedem Flow verwendet werden, das hochwertige wetterbasierte Symbole darstelle soll, die als Labels und/oder auf Tasten im Node-red Dashboard angezeigt werden können.
+[Weather Icons Lite](https://github.com/Paul-Reed/weather-icons-lite) ist eine Sammlung von Wettersymbolen/-Icons, die bereits in node-red integriert sind. Sie können somit in jedem Flow verwendet werden, das hochwertige wetterbasierte Symbole darstellen soll, die als Labels und/oder auf Tasten im Node-red Dashboard angezeigt werden können.
 
 Der node_red Flow-Editor für z. B. das ```ui_template_widget``` 
 <img width="141" alt="image" src="https://user-images.githubusercontent.com/37173958/60324605-84d89f80-9985-11e9-8e0c-bc94f8e09442.png"> verweisst in seiner Infobox selbst auf diese [in Node-Red out of-the-box verfügbaren](https://github.com/Paul-Reed/weather-icons-lite/blob/master/css_mappings.md) Wetter-Icons: 
 
 > <img width="707" alt="image" src="https://user-images.githubusercontent.com/37173958/60266438-55c02080-98e8-11e9-91c7-2b224a41c513.png">
 
-Es gibt darüber hinaus auf dieser Basis ein in Node-red nutzbares [noch umfangreiches Set von über 200 Wettersymbolen](https://erikflowers.github.io/weather-icons/), die insbesondere im Zusammenhang mit den [OpenWeather(https://openweathermap.org/city) verfügbaren Daten Anwendung finden können, wenn es darum geht:
+Es gibt darüber hinaus auf dieser Basis ein in Node-red nutzbares [noch umfangreiches Set von über 200 Wettersymbolen](https://erikflowers.github.io/weather-icons/), die insbesondere im Zusammenhang mit den [OpenWeather](https://openweathermap.org/city) verfügbaren Daten Anwendung finden können, wenn es darum geht:
 
 * zusätzliche Wettersymbole für Tag- und Nacht-Design 
 * Symbole für Mond- und Sonnen- Auf-und -Untergang
