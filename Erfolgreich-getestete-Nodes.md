@@ -50,6 +50,7 @@ Category: Administration
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
 | [node-red-contrib-s7comm](https://flows.nodered.org/node/node-red-contrib-s7comm) | | ✅ | | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
+| [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | | ✅|✅ | |
 | [node-red-contrib-sonospollytts](https://flows.nodered.org/node/node-red-contrib-sonospollytts) | Sprachausgabe auf Sonos | ✅ |⚠️ | Node-RED Port muss auf `80` konfiguriert werden |
 | [node-red-contrib-sun-position](https://github.com/Hypnos3/node-red-contrib-sun-position) | Steuerung abhängig von Sonne, Mond oder Zeit | ✅ | ✅ | |
 | [node-red-contrib-tahoma](https://github.com/hobbyquaker/RedMatic/issues/70) | Somfy Tahoma | ✅ | ✅ | siehe https://github.com/hobbyquaker/RedMatic/issues/70 https://github.com/nikkow/node-red-contrib-tahoma/pull/7| 
