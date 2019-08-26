@@ -59,7 +59,7 @@
   * [Wetterdaten mittels OpenWeatherMap in ein CUxD Device übertragen](Openweathermap)
   * [Schalter mit Statusanzeige](Schalter-mit-Status-als-Badge-Ersatz)
   * [Pillenförmige-Schalter sychron mit globaler Variable](Pillenförmige-Schalter-synchron-mit-globalen-Variablen)
-  * [Zusätzliche-Wettericons-für-UI-Dashboard-in-Redmatic-verfügbar-machen](Zusätzliche-Wettericons-für-UI-Dashboard-in-Redmatic-verfügbar-machen)
+  * [Zusätzliche Wettericons für UI-Dashboard in Redmatic verfügbar machen](Zusätzliche-Wettericons-für-UI-Dashboard-in-Redmatic-verfügbar-machen)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
