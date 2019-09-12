@@ -9,7 +9,7 @@ Category: Administration
 | --------- | ------------ | ----------------------- | -------------------- | ----------- |
 | [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) | | ✅| ✅ | |
 | [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
-| [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | | ✅|✅ | |
+| [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | | ✅|✅ |[Wiki](https://github.com/hklages/node-red-contrib-sonos-plus/wiki) |
 | [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos) | | ✅| | |
 | [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
 | [node-red-contrib-blockly](https://flows.nodered.org/node/node-red-contrib-blockly) | | ✅ | ✅ | | 
