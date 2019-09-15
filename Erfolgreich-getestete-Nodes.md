@@ -7,7 +7,7 @@ Category: Administration
 
 | Name/Link | Beschreibung | Lässt sich installieren | Erfolgreich getestet | Anmerkungen |
 | --------- | ------------ | ----------------------- | -------------------- | ----------- |
-| [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) | | ✅| No | | out of order
+| [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) | | ✅| No | out of order | 
 | [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
 | [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | | ✅|✅ |[Wiki](https://github.com/hklages/node-red-contrib-sonos-plus/wiki) |
 | [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos) | | ✅| | |
