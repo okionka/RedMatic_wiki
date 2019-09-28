@@ -60,6 +60,7 @@
   * [Schalter mit Statusanzeige](Schalter-mit-Status-als-Badge-Ersatz)
   * [Pillenförmige-Schalter sychron mit globaler Variable](Pillenförmige-Schalter-synchron-mit-globalen-Variablen)
   * [Zusätzliche Wettericons für UI-Dashboard in Redmatic verfügbar machen](Zusätzliche-Wettericons-für-UI-Dashboard-in-Redmatic-verfügbar-machen)
+  * [E3DC Anbindung per Modbus-TCP](https://github.com/rdmtc/RedMatic/wiki/E3DC-Anbindung-per-Modbus-TCP)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
