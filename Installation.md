@@ -11,7 +11,6 @@ Category: Administration
 * Datei auf die CCU hochladen: ![](images/install-6.png)
 * Installation Starten: ![](images/install-7.png)
 * Im Anschluss abwarten bis sich die CCU neu gestartet hat - hier ist Geduld erforderlich. Die Installation von RedMatic benötigt einige Zeit.
-* RaspberryMatic führt mittlerweile keinen automatischen Reboot nach Addon Installation mehr durch. Daher muss nach der Erstinstallation von RedMatic auf RaspberryMatic ein manueller Reboot durchgeführt werden.
 * Node-RED ist unter `http://<ccu-adresse>/addons/red` erreichbar.
 * Node-RED Dashboard ist unter `http://<ccu-adresse>/addons/red/ui` erreichbar.
 
