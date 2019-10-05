@@ -10,9 +10,7 @@ Bitte die [Hinweise zum Thema Sicherheit](Sicherheit) beachten!
 ### Passwort-Schutz für Node-RED einrichten, falls noch nicht geschehen.
 
 * Unter Systemsteuerung Zusatzsoftware Redmatic die Konfigurationsseite aufrufen (Button "Einstellen")
-* Unter Authentifizierung Admin ist die Einstellung "ReGaHSS" nach einer Neuinstallation der Default. Dann muss der CCU User "Admin" zum einloggen genommen werden.<br>
-Es kann auch "Credentials" eingestellt werden, um getrennte Username/Passwort Kombinationen nutzen zu können.
-<br>Schaltet man die Authentifizierung ab mit "Keine Authentifizierung", so ist der Zugang völlig ungeschützt!
+* Unter Authentifizierung Admin ist die Einstellung "ReGaHSS" nach einer Neuinstallation der Default. Dann muss ein gültiger CCU WebUI User einloggen genommen werden.
 * über Button "Set" bestätigen
 * Node-RED neustarten
 
