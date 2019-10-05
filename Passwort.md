@@ -5,10 +5,7 @@ Category: Administration
 
 In Standardeinstellung wird für Node-RED der gleiche Username und das gleiche Passwort verwendet das auch zur Authentifizierung am CCU WebUI genutzt werden muss. Hierbei Groß-/Kleinschreibung beachten, der Standardbenutzer der CCU ist `Admin` mit großem A.
 
-Sollte kein Passwortschutz eingestellt sein, so kann jeder im LAN oder falls Portforwarding des Port 80 vorhanden ist, jeder aus dem Internet die CCU relativ einfach mit einer Remote Code Execution übernehmen!<br>
-In jedem Fall muss das Passwort stark genug sein!<br>
-Node-Red ist sicher? Der Exploit [Gaining RCE by abusing Node-RED](https://quentinkaiser.be/pentesting/2018/09/07/node-red-rce/) funktioniert ohne Authentifizierung sofort, und mit Authentifizierung müssen die Logindaten angegeben werden.<br>
-Stand Heute Juli 2019: An die verschlüsselten Logindaten einer CCU zu kommen, ist aktuell realtiv einfach.
+Bitte die [Hinweise zum Thema Sicherheit](Sicherheit) beachten!
 
 ### Passwort-Schutz für Node-RED einrichten, falls noch nicht geschehen.
 
