@@ -65,7 +65,7 @@ Category: Administration
 | [node-red-contrib-ui_list](https://flows.nodered.org/node/node-red-contrib-ui_list) | | ✅ | | |
 | [node-red-contrib-uibuilder](https://flows.nodered.org/node/node-red-contrib-uibuilder)  | | ✅ | ⚠️ | Workaround nötig [siehe #94](https://github.com/rdmtc/RedMatic/issues/94) |
 | [node-red-contrib-unsafe-function](https://flows.nodered.org/node/node-red-contrib-unsafe-function) | | ✅ |✅  | |
-| [node-red-contrib-velux](https://flows.nodered.org/node/node-red-contrib-velux) | | ✅ | ✅ | |
+| [node-red-contrib-velux](https://flows.nodered.org/node/node-red-contrib-velux) | Velux KLF-200 io-homecontrol Gateway | ✅ | ✅ | |
 | [node-red-contrib-viera](https://flows.nodered.org/node/node-red-contrib-viera) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
 | [node-red-node-darksky](https://www.npmjs.com/package/node-red-node-darksky) |Abruf von aktuellen Wetterdaten und Wettervorhersage | ✅ | ✅ |benötigt [API](https://darksky.net/dev/) |
