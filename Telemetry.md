@@ -12,8 +12,9 @@
 * Zeitpunkt des letzten Updates
 * RedMatic Version
 * CCU bzw. RaspberryMatic Version
-* CCU Plattform (ein Bezeichner der genutzten Hardware, z.B. `rpi2`, `rpi3`, ...)
+* CCU Plattform (ein Bezeichner der genutzten Hardware, z.B. `rpi3`, `tinkerboard`, ...)
 * Eine Liste der installierte Nodes
+* Das Land
 
 ## Welche Daten werden _nicht_ übertragen und/oder gespeichert?
 
