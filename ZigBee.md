@@ -1,17 +1,17 @@
 # Installation
 Im RedMatic UI (Erreichbar im CCU WebUI unter Einstellungen->Systemsteuerung) im Tab "Pakete" bei node-red-contrib-zigbee auf den Install Button klicken, danach Node-RED neustarten.
 
-<Bild Folgt>
+![Install Packages](images/zigbee/InstallPackage.png)
 
 # Einrichtung
 ## Controller
 Den Node _controller_ aus dem Ordner _zigbee_ per Drag&Drop einem Flow hinzufügen.
 
-<Bild folgt>
+![Add Controller Node to Flow](images/zigbee/AddControllerNode.png)
 
 Die Konfiguration des neu hinzugefügten Node per Doppelklick öffnen, den Button mit dem Bleistift-Icon anklicken um einen neuen Controller hinzuzufügen. Dies ist die Verbindung zu einem CC253x USB Sticks zum Beispiel welche die Admininstrationseinstellungden des Zigbee Netzwerkes zur Verfügung stellt.
 
-<Bild folgt>
+![Add Coordinator](images/zigbee/AddCoordinator.png)
 
 Folgende Einstellungen machen später ein neues Pairing der Geräte nötg und sollten daher mit Bedacht gewählt werden:
 * Channels:
@@ -23,14 +23,16 @@ Der Path des Serialport gibt an, wo auf der CCU bzw. dem Raspberry der Stick ein
 
 Wenn die Einstellungen gemacht sind, den ADD Button klicken.
 
-<Bild folgt>
+![Setting Up Coordinator](images/zigbee/SettingsCoordinator.png)
 
 Die Konfiguration mit _DONE_ verlassen und mit _Deploy_ speichern und aktivieren.
+
+![Save and Deploy Coordinator](images/zigbee/SaveAndDeployCoordinator.png)
 
 ## Gerät anlernen
 Auf die eben hinzugefügte Controller Node oder irgendeine andere bereits im Flow intgrierte zigbee Node doppelklicken. Als ersten Punkt findet man den Link zum "herdsman", also der zentralen Kontrolleinheit im zigbee Netzwerk, dort auch Coordinator genannt. Mit dem Bleistift die Konfiguration öffnen.
 
-<Bild folgt>
+![ConfigureCoordinator.png](images/zigbee/)
 
 1. _Permit Join_:
 Den Button Permit Join anklicken. Damit läst der Coordinator zu, das sich neue Geräte im System anmelden dürfen.
@@ -39,4 +41,4 @@ Den Button Permit Join anklicken. Damit läst der Coordinator zu, das sich neue 
 1. Dem Device einen sinnvollen Klartextnamen geben
 1. Mit _Aktualisieren_ die Konfiguration Verlassen und dann wie gehabt mit _Deploy_ speichern und aktivieren
 
-
+![Join device](images/zigbee/AddDevice.png)
