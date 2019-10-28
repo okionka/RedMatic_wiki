@@ -42,3 +42,23 @@ Den Button Permit Join anklicken. Damit läst der Coordinator zu, das sich neue 
 1. Mit _Aktualisieren_ die Konfiguration Verlassen und dann wie gehabt mit _Deploy_ speichern und aktivieren
 
 ![Join device](images/zigbee/AddDevice.png)
+
+## Fehlerbehebung bei CUXd
+
+Da der CUXd leider auf die Seriellen Ports zugreift und dabei auf der CCU eine ordentliche Einrichtung teilweise unmöglich macht, sollte man den Port des CC253x USB Sticks ausklammern.
+
+1. Um heraus zu finden wo dieser auf der CCU liegt einfach per SSH auf die CCU einloggen und den Befehl auf der Konsole eingeben:
+
+2. ls /dev/tty*
+
+3. Schauen ob der Port /dev/ttyACM0 vorhanden ist. (Fast immer ist er es bei Verwendung eines CC253x USB Sticks)
+
+4. CUXd von der Systemsteuerung aus öffnen.
+
+5. Oben auf Setup drücken.
+
+6. Einfach im Fenster CUXd-Einstellungen folgendes einfügen:   TTYASSIGN=ttyACM0:NC
+
+7. Danach speichern und eventuell Neustarten der CCU.
+
+
