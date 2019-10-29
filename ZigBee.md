@@ -11,7 +11,7 @@ Den Node _controller_ aus dem Ordner _zigbee_ per Drag&Drop einem Flow hinzufüg
 
 Die Konfiguration des neu hinzugefügten Node per Doppelklick öffnen, den Button mit dem Bleistift-Icon anklicken um einen neuen Controller hinzuzufügen. Dies ist die Verbindung zu einem CC253x USB Sticks zum Beispiel welche die Admininstrationseinstellungden des Zigbee Netzwerkes zur Verfügung stellt.
 
-![Add Coordinator](https://1drv.ms/u/s!AgQ4UenKg8zHkUojl-5iW3NmrZxH?e=UbNGQJ/AddCoordinator.png)
+![Add Coordinator](https://1drv.ms/u/s!AgQ4UenKg8zHkUyYN8WV0o_9ZYLa?e=xuVFBk)
 
 Folgende Einstellungen machen später ein neues Pairing der Geräte nötg und sollten daher mit Bedacht gewählt werden:
 * Channels:
