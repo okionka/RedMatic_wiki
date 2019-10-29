@@ -1,7 +1,7 @@
 # Installation
 Im RedMatic UI (Erreichbar im CCU WebUI unter Einstellungen->Systemsteuerung) im Tab "Pakete" bei node-red-contrib-zigbee auf den Install Button klicken, danach Node-RED neustarten.
 
-![Install Packages](images/zigbee/InstallPackage.png)
+![Install Packages](/wiki/images/zigbee/InstallPackage.png)
 
 # Einrichtung
 ## Controller
