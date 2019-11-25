@@ -1,4 +1,4 @@
-* `24.11.2019` [Homematic User Treffen 2019 (Österreich)](https://youtu.be/Rll0sDiGnsQ?t=1634) - Vortrag von Robert Peißl
+* `24.11.2019` [Homematic User Treffen 2019 (Österreich)](https://youtu.be/Rll0sDiGnsQ?t=1634) - Vortrag von Robert Peißl (YouTube)
 * `28. 6.2019` [verdrahtet.info](https://www.youtube.com/watch?v=2I3UlTJ3ar8) - Siri und HomeMatic - so klappt es! (YouTube)
 * ` 3. 3.2019` [Luvima](https://www.youtube.com/watch?v=W_RruCV0J2w) - RedMatic, Node-Red einfach in die Homematic CCU installieren? (YouTube)
 * `18. 1.2019` [vedrahtet.info](https://www.youtube.com/watch?v=lMIrLS6JM-o) - Einstieg in RedMatic (YouTube)
