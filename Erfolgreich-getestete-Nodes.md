@@ -39,6 +39,7 @@ Category: Administration
 | [node-red-contrib-lgtv](https://flows.nodered.org/node/node-red-contrib-lgtv) | | ✅ | ✅ | |
 | [node-red-contrib-light-scheduler](https://flows.nodered.org/node/node-red-contrib-light-scheduler) | | ✅ | ✅ | |
 | [node-red-contrib-lodash-throttle](https://flows.nodered.org/node/node-red-contrib-lodash-throttle) | | ✅ | ✅ | |
+| [node-red-contrib-loxone](https://flows.nodered.org/node/node-red-contrib-loxone) | Loxone Miniserver Integration | ✅ | ✅ | |
 | [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) | Xiaomi Aqara Mi Home | ✅ | ✅ | |
 | [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | ✅ | |
 | [node-red-contrib-mysensors](https://github.com/tbowmo/node-red-contrib-mysensors) | [MySensors DIY Home Automation and IoT](https://www.mysensors.org/) | ✅ | ✅ | |
