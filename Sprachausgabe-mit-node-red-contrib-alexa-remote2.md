@@ -4,6 +4,7 @@
 * Konfiguration des Alexa Account Node durchführen:
   * IP der CCU unter `This IP` eintragen.
   * Port kann auf Standardeinstellungen `3456` belassen werden. Dieser Port muss in der CCU Firewall erlaubt sein!
+  * `File Path` auf `/usr/local/addons/redmatic/var/alexa.txt` setzen
   * `Service Host` auf `layla.amazon.de` setzen
   * `Page` auf `amazon.de` setzen
   * `Language` auf `de-DE` setzen
