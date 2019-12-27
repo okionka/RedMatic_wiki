@@ -39,7 +39,7 @@
   * [Schnelles Blinken der LED im Offline-Betrieb unterbinden](Flow-Offline-LED)
   * [CCU an MQTT anbinden](Flow-MQTT)
   * [Bidcos-Wired Dimmer mit Bidcos-RF Tasten steuern](Flow-Wired-Dimmer)
-  * [Sprachausgabe auf Echo mit node-red-contrib-alex-remote2](Sprachausgabe-mit-node-red-contrib-alex-remote2)
+  * [Sprachausgabe auf Echo mit node-red-contrib-alexa-remote2](Sprachausgabe-mit-node-red-contrib-alex-remote2)
 * Von Usern bereitgestellte Flows
   * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
   * [Licht schalten mit einem Dashboard button](combine-logic-node-for-toggle-state)
