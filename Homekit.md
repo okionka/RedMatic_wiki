@@ -100,7 +100,7 @@ Mit dem Universal Accessory ist es möglich beliebige HomeKit-Geräte zu erzeuge
 
 Dem Accessory können beliebig viele Services hinzugefügt werden. Siehe dazu auch https://github.com/rdmtc/RedMatic-HomeKit/issues/44
 
-Verfügbare Services sowie die dafür benötigten und optionalen Characteristiken sind in dieser Datei ersichtlich: https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js
+Verfügbare Services sowie die dafür benötigten und optionalen Characteristiken sind in dieser Datei ersichtlich: https://github.com/KhaosT/HAP-NodeJS/blob/master/src/lib/gen/HomeKit.ts
 
 Um eine optionale Characteristic anzulegen müssen dem Accessory direkt beim Start (z.B. über einen _Inject_ Node) Messages gesendet werden. 
 
@@ -110,7 +110,7 @@ Es soll ein Accessory mit einem _ContactSensor_ Service angelegt werden. Die `0`
 
 ![](images/homekit/universal-2.png)
 
-Aus https://github.com/KhaosT/HAP-NodeJS/blob/master/lib/gen/HomeKitTypes.js ist ersichtlich dass der Service _ContactSensor_ eine Charakteristik _ContactSensorState_ benötigt:
+Aus https://github.com/KhaosT/HAP-NodeJS/blob/master/src/lib/gen/HomeKit.ts ist ersichtlich dass der Service _ContactSensor_ eine Charakteristik _ContactSensorState_ benötigt:
 
 ![](images/homekit/universal-6.png)
 
