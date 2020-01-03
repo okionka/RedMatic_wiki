@@ -17,8 +17,8 @@ Sollte das Update fehlschlagen bitte diesen Artikel lesen: [Faq#redmatic-updates
 
 RedMatic Releases kommen manchmal in sehr schneller Folge - aber natürlich muss nicht jeder User unbedingt jedes Update installieren. Ich empfehle Updates nur dann wenn einer der folgenden Punkte zutrifft:
 
-* Man möchte ein neues, im Changelog genanntes, Feature nutzen.
-* Man möchte einen bekannten Bug, von dem man selbst betroffen ist und der laut Issuetracker oder Changelog behoben wurde, loswerden.
+* Man möchte ein neues, im [Changelog](https://github.com/rdmtc/RedMatic/blob/master/CHANGE_HISTORY.md) genanntes, Feature nutzen.
+* Man möchte einen bekannten Bug, von dem man selbst betroffen ist und der laut Issuetracker oder [Changelog](https://github.com/rdmtc/RedMatic/blob/master/CHANGE_HISTORY.md) behoben wurde, loswerden.
 * Man möchte um Support bitten. 
 * Man ist grade eh dabei seine Umgebung auf den neusten Stand zu bringen ;-)
 
