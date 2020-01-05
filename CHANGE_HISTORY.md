@@ -1,3 +1,12 @@
+# [v5.3.7](https://github.com/rdmtc/RedMatic/releases/v5.3.7) 2020-01-05T18:59:30Z
+
+* @hobbyquaker Update RedMatic-HomeKit
+  * HmIPW-FIO6: Fehler behoben, falscher Methodenname führte zu Node-RED Crash (https://github.com/rdmtc/RedMatic-HomeKit/issues/239)
+  * HmIP-WTH/BWTH/STH: Fehler behoben, Temperatur wurde zurückgesetzt beim erneuten Aufruf der Detailseite in Home.app (https://github.com/rdmtc/RedMatic-HomeKit/issues/245)
+
+
+
+
 # [v5.3.6](https://github.com/rdmtc/RedMatic/releases/v5.3.6) 2020-01-04T13:44:20Z
 
 * @hobbyquaker Update RedMatic-HomeKit
