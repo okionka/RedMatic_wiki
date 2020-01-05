@@ -1,3 +1,12 @@
+# [v5.3.6](https://github.com/rdmtc/RedMatic/releases/v5.3.6) 2020-01-04T13:44:20Z
+
+* @hobbyquaker Update RedMatic-HomeKit
+  * HmIPW-DRBL4: Fehler behoben beim Anlegen der Accessories (https://github.com/rdmtc/RedMatic-HomeKit/issues/243)
+* @hobbyquaker Update node-red-contrib-sun-position
+
+
+
+
 # [v5.3.5](https://github.com/rdmtc/RedMatic/releases/v5.3.5) 2020-01-03T20:31:45Z
 
 * @hobbyquaker Update RedMatic-HomeKit
@@ -5,8 +14,6 @@
   * Event Node: Möglichkeit 6 Tasten zu konfigurieren hinzugefügt (https://github.com/rdmtc/RedMatic/issues/296)
 * @hobbyquaker Automatisches erzeugen der CHANGE_HISTORY.md
 * @hobbyquaker Maximale Downloadzeit bei redmatic-pkg-* updates auf 720s begrenzt (erfordert mindestens ~220kbit/s für den Download einer 20MB Datei) (Mitigate #267)
-
-[Release History](https://github.com/rdmtc/RedMatic/blob/master/CHANGE_HISTORY.md)
 
 
 
@@ -1841,4 +1848,5 @@
 
 
 # [v0.0.3-9](https://github.com/rdmtc/RedMatic/releases/v0.0.3-9) 2018-04-28T21:36:21Z
+
 
