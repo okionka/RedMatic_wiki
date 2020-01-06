@@ -1,7 +1,7 @@
 # [v5.3.8](https://github.com/rdmtc/RedMatic/releases/v5.3.8) 2020-01-05T21:01:11Z
 
-* @hobbyquaker Update RedMatic-HomeKit
-  * Fehler behoben der dazu führen konnte dass alle Geräte "Keine Antwort" anzeigen und Kameras nicht mehr funktionieren (https://github.com/rdmtc/RedMatic-HomeKit/issues/246)
+* @hobbyquaker ~~Update RedMatic-HomeKit~~
+  * ~~Fehler behoben der dazu führen konnte dass alle Geräte "Keine Antwort" anzeigen und Kameras nicht mehr funktionieren~~ (https://github.com/rdmtc/RedMatic-HomeKit/issues/246)
 
 
 
