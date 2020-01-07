@@ -40,6 +40,7 @@
   * [CCU an MQTT anbinden](Flow-MQTT)
   * [Bidcos-Wired Dimmer mit Bidcos-RF Tasten steuern](Flow-Wired-Dimmer)
   * [Sprachausgabe auf Echo mit node-red-contrib-alexa-remote2](Sprachausgabe-mit-node-red-contrib-alexa-remote2)
+  * [Discovery von Geräten mit Echo Dot v3 und node-red-contrib-amazon-echo]
 * Von Usern bereitgestellte Flows
   * [Licht mittels Tastendruck aus und einschalten](Flow-simple-toggle-light)
   * [Licht schalten mit einem Dashboard button](combine-logic-node-for-toggle-state)
