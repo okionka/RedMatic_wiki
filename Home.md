@@ -66,6 +66,7 @@
   * [Pillenförmige-Schalter sychron mit globaler Variable](Pillenförmige-Schalter-synchron-mit-globalen-Variablen)
   * [Zusätzliche Wettericons für UI-Dashboard in Redmatic verfügbar machen](Zusätzliche-Wettericons-für-UI-Dashboard-in-Redmatic-verfügbar-machen)
   * [E3DC Anbindung per Modbus-TCP](https://github.com/rdmtc/RedMatic/wiki/E3DC-Anbindung-per-Modbus-TCP)
+  * [Alexa Anbindung mit node-red-contrib-alexa-home-skill](https://homematic-forum.de/forum/viewtopic.php?f=77&t=55931#p556001)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
