@@ -58,12 +58,13 @@ In der Home App oben rechts über den Plus-Button ein neues Gerät hinzufügen, 
 Die Sicherheitswarnung bestätigen    
 ![](images/homekit/homekit8.png)    
 
-
 Nun sollten alle unterstützen Geräte der CCU in der Home App erscheinen.
+
+**Achtung**: Wenn keine Geräte für HomeKit aktiviert sind (weil z.B. noch gar keine Geräte an der CCU angelernt sind oder die Checkboxen für die Geräte alle deaktiviert wurden) wird die Bridge nicht veröffentlicht und es erscheint _kein_ QR-Code.
 
 ### Nutzungshinweise
 
-Nicht alle Änderungen an den in HomeKit bereitgestellten Accessories werden bei einem Deploy in Node-RED übernommen. Bestimmte Änderungen erfordern nach dem Deploy einen Neustart von RedMatic:
+Nicht alle Änderungen an den in HomeKit bereitgestellten Accessories werden bei einem Deploy in Node-RED übernommen. **Bestimmte Änderungen erfordern nach dem Deploy einen Neustart von RedMatic**:
 
 * Entfernen von Geräten
 * Umbenennen von Geräten
