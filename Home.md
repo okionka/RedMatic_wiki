@@ -24,6 +24,7 @@
   * [RedMatic HomeKit](Homekit)
   * [RedMatic WebApp](Webapp)
   * [Node-RED Dashboard](Dashboard-Screenshots)
+  * [Zeit, Rolladen Steuerung](https://github.com/rdmtc/node-red-contrib-sun-position)
 
 * Beispiel Flows
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
