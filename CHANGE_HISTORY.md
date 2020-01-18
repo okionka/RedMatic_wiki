@@ -1,3 +1,11 @@
+# [v5.3.9](https://github.com/rdmtc/RedMatic/releases/v5.3.9) 2020-01-06T19:19:44Z
+
+* @wernersv Lighttpd Proxy Konfiguration für die Nutzung von [node-red-contrib-amazon-echo](https://flows.nodered.org/node/node-red-contrib-amazon-echo) hinzugefügt
+* @hobbyquaker Update RedMatic-HomeKit
+  * Fehler behoben der u.U. dazu führen konnte dass alle Geräte "Keine Antwort" anzeigen und Kameras nicht mehr funktionieren (https://github.com/rdmtc/RedMatic-HomeKit/issues/246)
+
+
+
 # [v5.3.8](https://github.com/rdmtc/RedMatic/releases/v5.3.8) 2020-01-05T21:01:11Z
 
 * @hobbyquaker ~~Update RedMatic-HomeKit~~
