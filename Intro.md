@@ -26,7 +26,9 @@ Nicht zuletzt kann _RedMatic_ auch als stabile und mit wesentlich mehr Möglichk
 ## Voraussetzungen
 
 _RedMatic_ ist __nur für die CCU3 und RaspberryMatic geeignet__. Da RedMatic unter Umständen über 200MB Speicher 
-benötigt ist es ratsam einen RaspberryPi mit 1GB RAM zu nutzen (ab Pi 2B). Die RaspberryMatic-Varianten "ova" und "intelnuc" werden (noch) nicht unterstützt. Auf der CCU1/2 kann _RedMatic_ nicht verwendet werden. 
+benötigt ist es ratsam einen RaspberryPi mit 1GB RAM zu nutzen (ab Pi 2B). 
+
+Die RaspberryMatic-Varianten "ova" und "intelnuc" werden (noch) nicht unterstützt. Auf der CCU1/2 kann _RedMatic_ nicht verwendet werden. 
 
 Für die Nutzung der Weboberflächen ist ein moderner Browser notwendig, der Internet Explorer wird nicht unterstützt.
 
