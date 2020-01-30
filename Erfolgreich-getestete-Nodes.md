@@ -82,3 +82,4 @@ Category: Administration
 | [node-red-contrib-pushbullet](https://flows.nodered.org/node/node-red-node-pushbullet) | | ✅ | ✅ | benötigt [API Key](https://docs.pushbullet.com/) |
 | [node-red-contrib-volumio](https://flows.nodered.org/node/node-red-contrib-volumio) | | ✅ | ✅ | |
 | [node-red-contrib-weekday](https://flows.nodered.org/node/node-red-contrib-weekday) | | ✅ | ✅ | |
+| [node-red-contrib-slack](https://flows.nodered.org/node/node-red-contrib-slack) | | ✅ | ✅ | |
