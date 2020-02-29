@@ -73,6 +73,7 @@
   * [Node-RED Link Sammlung](Links)
   * [Telemetrie](Telemetry)
   * [Danksagungen](Danke)
+  * [Change History](CHANGE_HISTORY)
 
 ## Webseite
 
