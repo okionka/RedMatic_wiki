@@ -1,3 +1,19 @@
+# [v5.3.10](https://github.com/rdmtc/RedMatic/releases/v5.3.10) 2020-01-18T13:06:28Z
+
+* @hobbyquaker Update node-red-contrib-zigbee
+  * Update Herdsman und Converter
+  * Hue Light Node: diverse Fehler behoben (https://github.com/hobbyquaker/node-red-contrib-zigbee/issues/88, https://github.com/hobbyquaker/node-red-contrib-zigbee/issues/90, https://github.com/hobbyquaker/node-red-contrib-zigbee/issues/87)
+* @hobbyquaker Update RedMatic-HomeKit
+  * Handling von Zigbee Extended Color Lights verbessert
+  * Log Ausgabe von Zigbee Devices erweitert
+* @hobbyquaker Update node-red-node-email and node-red-node-rbe
+* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-theme-midnight-red
+* @hobbyquaker Update Node.js and npm
+* 74de002 b31b315 @hobbyquaker Log Download um weitere beim Debugging hilfreiche Informationen ergänzt
+
+
+
 # [v5.3.9](https://github.com/rdmtc/RedMatic/releases/v5.3.9) 2020-01-06T19:19:44Z
 
 * @wernersv Lighttpd Proxy Konfiguration für die Nutzung von [node-red-contrib-amazon-echo](https://flows.nodered.org/node/node-red-contrib-amazon-echo) hinzugefügt
