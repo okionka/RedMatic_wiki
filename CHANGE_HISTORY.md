@@ -1,3 +1,25 @@
+# [v5.4.0](https://github.com/rdmtc/RedMatic/releases/v5.4.0) 2020-02-29T13:56:28Z
+
+* @hobbyquaker Update RedMatic-HomeKit
+  * HmIP-SWDO-PL hinzugefügt (https://github.com/rdmtc/RedMatic-HomeKit/issues/259)
+  * HmIP-SCI hinzugefügt (https://github.com/rdmtc/RedMatic-HomeKit/issues/256)
+  * HmIP-MOD-TM hinzugefügt (https://github.com/rdmtc/RedMatic-HomeKit/issues/255)
+  * Fehler der bei verwendung von HB-Uni-Sen-Temp-DS18B20 zum Absturz führen konnte behoben (https://github.com/rdmtc/RedMatic-HomeKit/issues/251)
+* @hobbyquaker Prepare log upload feature
+* @hobbyquaker Update node-red-contrib-rfxcom
+* @hobbyquaker Update node-red-node-sqlite
+* @hobbyquaker Update Node-RED ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+* @hobbyquaker Update node-red-dashboard ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker Update npm
+* @hobbyquaker Update theme midnight-red, Fix #317
+* @hobbyquaker Update node-red-node-email
+* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update fontawesome
+* @hobbyquaker Update Node.js
+* @hobbyquaker rename monit scripts
+
+
+
 # [v5.3.10](https://github.com/rdmtc/RedMatic/releases/v5.3.10) 2020-01-18T13:06:28Z
 
 * @hobbyquaker Update node-red-contrib-zigbee
