@@ -13,7 +13,7 @@
 * @hobbyquaker Update npm
 * @hobbyquaker Update theme midnight-red, Fix #317
 * @hobbyquaker Update node-red-node-email
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update fontawesome
 * @hobbyquaker Update Node.js
 * @hobbyquaker rename monit scripts
@@ -29,7 +29,7 @@
   * Handling von Zigbee Extended Color Lights verbessert
   * Log Ausgabe von Zigbee Devices erweitert
 * @hobbyquaker Update node-red-node-email and node-red-node-rbe
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update node-red-contrib-theme-midnight-red
 * @hobbyquaker Update Node.js and npm
 * 74de002 b31b315 @hobbyquaker Log Download um weitere beim Debugging hilfreiche Informationen ergänzt
@@ -64,7 +64,7 @@
 
 * @hobbyquaker Update RedMatic-HomeKit
   * HmIPW-DRBL4: Fehler behoben beim Anlegen der Accessories (https://github.com/rdmtc/RedMatic-HomeKit/issues/243)
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 
 
 
@@ -204,7 +204,7 @@
 * @hobbyquaker Update RedMatic-HomeKit
   * https://github.com/rdmtc/RedMatic-HomeKit/commit/46f20749fae60ba149d5b05c976bcfffcaf62631 @jpawlowski Add support for ZEL STG RM FFK
   * https://github.com/rdmtc/RedMatic-HomeKit/commit/682b3527df1bd22096af94362f2009982d45395f @jpawlowski Fix config of ZEL STG RM FEP 230v 
-* @hobbyquaker Update node-red-contrib-sun-position 
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update Node-RED ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
 * @hobbyquaker Update node-red-dashboard ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
 * @hobbyquaker node-red-contrib-theme-midnight-red
@@ -223,7 +223,7 @@
 * @hobbyquaker Update node-red-contrib-zigbee
 * @hobbyquaker Update node-red-node-email
 * @hobbyquaker Update node-red-contrib-theme-midnight-red
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update node-red-contrib-serialport
 * @hobbyquaker Update node-red-contrib-sqlite
 
@@ -243,7 +243,7 @@
 * @hobbyquaker Update node-red-contrib-zigbee
   * Diverse Verbesserungen und Fehlerbehebungen
   * Herdsman und Converter auf aktuellen Stand gebracht
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update node-red-contrib-johnny-five prebuild
 * @hobbyquaker Update node-red-contrib-smartmeter
 * @hobbyquaker Update node-red-contrib-theme-midnight-red
@@ -376,7 +376,7 @@
 * @hobbyquaker Update node-red-contrib-johnny-five prebuild
 * @hobbyquaker Update node-red-contrib-enocean
 * @hobbyquaker Update fontawesome
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update node-red-node-email
 * @hobbyquaker Update npm
 * @Hypnos Monit konfiguration geändert, Grenzwerte für Disk- und RAM-Nutzung erhöht (#250)
@@ -579,7 +579,7 @@
 
 # [v4.1.2](https://github.com/rdmtc/RedMatic/releases/v4.1.2) 2019-04-13T16:00:43Z
 
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * bce479e 3adbca2 731d7d1 @hobbyquaker Update node-red-contrib-ccu
   * Fehler behoben der dazu führen konnte das nachfolgende Änderungen im Flow die Statusanzeige von _Value_ und _Sysvar_ Nodes geändert haben (https://github.com/rdmtc/node-red-contrib-ccu/issues/77)
   * Fehler behoben der dazu führte dass Datenpunkte des Maintenance-Kanals (:0) und `PRESS_*` Datenpunkte nicht initial angelegt wurden (https://github.com/rdmtc/node-red-contrib-ccu/issues/76)
@@ -604,7 +604,7 @@
 * @hobbyquaker Update RedMatic-LED
   * An neuen Monit-Service in RaspberryMatic 3.45.5.20190330 angepasst 
 * @hobbyquaker Update node-red-node-serialport
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update Node-RED ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
 
 
@@ -669,7 +669,7 @@
 * @hobbyquaker Update node-red-contrib-ccu
   * Crash verhindern falls binrpc/xmlrpc Ports bereits belegt sind
 * @hobbyquaker Update node-red-contrib-mysensors
-* @Hypnos3  Update node-red-contrib-sun-position
+* @Hypnos3  Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update node-red-contrib-combine
 
 
@@ -737,7 +737,7 @@
 # [v3.0.0](https://github.com/rdmtc/RedMatic/releases/v3.0.0) 2019-03-12T21:00:25Z
 
 * @hobbyquaker Update node-red ([Video](https://youtu.be/C6w2H3BPauc), [Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
-* @Hypnos3  update node-red-contrib-sun-position
+* @Hypnos3  update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker add node-red-contrib-rfxcom (#159)
 
 
@@ -756,7 +756,7 @@
   * Möglichkeit nach Kanal-Index zu filtern im _Set Value_ und _RPC Event_ Node hinzugefügt
   * Fehler beim `lc` (Lastchange) Attribut des _Sysvar_ Node behoben
   * Testautomatisierung
-* @Hypnos3 Update node-red-contrib-sun-position
+* @Hypnos3 Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 * @hobbyquaker Update dependencies
   * Node.js
   * npm
@@ -800,7 +800,7 @@
 * @hobbyquaker Update RedMatic-HomeKit
   * Verbesserung beim Richtungswechsel von Rollläden (https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/121)
   * Garage Accessory: Unterstützung für HMW-Sen-SC-* (https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/42)
-* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
 
 
 
@@ -814,7 +814,7 @@
 * @hobbyquaker Update RedMatic-HomeKit
   * Neues Accessory: Homematic Garage (https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/42)
   * Verbesserungen für Rollladenaktoren beim Richtungswechsel (https://github.com/HM-RedMatic/RedMatic-HomeKit/issues/121)
-* @hobbyquaker  Update node-red-contrib-sun-position
+* @hobbyquaker  Update node-red-contrib-sun-position ([Changelog](https://github.com/rdmtc/node-red-contrib-sun-position/blob/master/CHANGELOG.md))
   * @Hypnos3 Neuer Node "Time comp" zum umrechnen und vergleichen von Zeitpunkten
   * @Hypnos3 Neuer Node "Timespan" für die Berechnung und den Vergleich von Zeitspannen  
   * @Hypnos3 Diverse Verbesserungen
