@@ -1,3 +1,20 @@
+# [v5.4.0-beta.1](https://github.com/rdmtc/RedMatic/releases/v5.4.0-beta.1) 2020-02-29T02:15:24Z
+
+* @hobbyquaker prepare log upload
+* @hobbyquaker Update node-red-contrib-rfxcom
+* @hobbyquaker Update node-red-node-sqlite
+* @hobbyquaker Update Node-RED ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+* @hobbyquaker Update node-red-dashboard ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker Update npm
+* @hobbyquaker Update theme midnight-red, Fix #317
+* @hobbyquaker Update node-red-node-email
+* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update fontawesome
+* @hobbyquaker Update Node.js
+* @hobbyquaker rename monit scripts
+
+
+
 # [v5.3.10](https://github.com/rdmtc/RedMatic/releases/v5.3.10) 2020-01-18T13:06:28Z
 
 * @hobbyquaker Update node-red-contrib-zigbee
