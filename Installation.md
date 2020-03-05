@@ -17,3 +17,4 @@ Category: Administration
 ### CUxD und Homematic-Wired
 
 Per Default werden die Schnittstellenprozesse CUxD und hs485d (wired) nicht aktiviert. Für eine Zukünftige Version ist dies geplant (https://github.com/hobbyquaker/RedMatic/issues/34), Stand heute muss das noch manuell im _ccu configuration_ Node gemacht werden.
+Zur Aktivierung dieser muss in der [ccu-connection node](https://github.com/rdmtc/RedMatic/wiki/CCU-Nodes#ccu-connection-node) der entsprechende Haken gesetzt werden, die Änderung gespeichert werden und die Änderung deployed werden.
