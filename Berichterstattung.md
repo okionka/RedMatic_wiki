@@ -1,4 +1,4 @@
-* ` 2. 3.2020` [Volumio Music-Player einbinden (Blogbeitrag von smart-wohnen.org)](https://smart-wohnen.org/homematic-den-volumio-music-player-in-die-hausautomatisierung-einbinden/)
+* ` 2. 3.2020` [Volumio Music-Player einbinden (Blogbeitrag von smart-wohnen.org)](https://smart-wohnen.org/homematic-den-volumio-music-player-in-die-hausautomatisierung-einbinden/)
 * `15.12.2019` [Withings Sleep einbinden (Blogbeitrag von smart-wohnen.org)](https://smart-wohnen.org/homematic-withings-sleep-in-die-hausautomatisierung-einbinden/)
 * `24.11.2019` [Homematic User Treffen 2019 (Österreich)](https://youtu.be/Rll0sDiGnsQ?t=1634) - Vortrag von Robert Peißl (YouTube)
 * `28. 6.2019` [verdrahtet.info](https://www.youtube.com/watch?v=2I3UlTJ3ar8) - Siri und HomeMatic - so klappt es! (YouTube)
