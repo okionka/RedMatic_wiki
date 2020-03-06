@@ -75,7 +75,3 @@
   * [Danksagungen](Danke)
   * [Change History](CHANGE_HISTORY)
 
-## Webseite
-
-Eine Webseite für das Projekt befindet sich derzeit im Aufbau. Wer einen Blick riskieren möchte: 
-https://dev.redmatic.de - Hilfe ist willkommen und gewünscht! :-)
