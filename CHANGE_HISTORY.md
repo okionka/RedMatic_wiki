@@ -1,3 +1,6 @@
+# [v5.5.0-beta.0](https://github.com/rdmtc/RedMatic/releases/v5.5.0-beta.0) 2020-03-06T16:53:22Z
+
+
 # [v5.4.1](https://github.com/rdmtc/RedMatic/releases/v5.4.1) 2020-02-29T14:40:14Z
 
 * @hobbyquaker Fehler im Buildprozess behoben der dazu führte dass im RedMatic Installationspaket ungewollt alle Zusatzpakete enthalten waren.
