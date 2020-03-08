@@ -1,5 +1,10 @@
 # [v5.5.0-beta.0](https://github.com/rdmtc/RedMatic/releases/v5.5.0-beta.0) 2020-03-06T16:53:22Z
 
+* 0480701 @hobbyquaker Update npm
+* 56a26e8 @hobbyquaker improve/cleanup build process, create packages for raspberrymatic i686 ova/intelnuc variants (#273)
+* 49e338a @hobbyquaker catch non-existant ccu_localhost.json
+* 516d99a @hobbyquaker handle scoped modules (#318)
+
 
 # [v5.4.1](https://github.com/rdmtc/RedMatic/releases/v5.4.1) 2020-02-29T14:40:14Z
 
