@@ -1,3 +1,14 @@
+# [v5.5.1](https://github.com/rdmtc/RedMatic/releases/v5.5.1) 2020-03-09T19:33:04Z
+
+* @hobbyquaker Update node-red-contrib-sun-position
+  * https://github.com/rdmtc/node-red-contrib-sun-position/pull/116
+* @hobbyquaker Update node-red-contrib-zigbee
+  * https://github.com/hobbyquaker/node-red-contrib-zigbee/issues/107
+* @hobbyquaker Update theme midnight-red
+
+
+
+
 # [v5.5.0](https://github.com/rdmtc/RedMatic/releases/v5.5.0) 2020-03-08T11:38:53Z
 
 * @hobbyquaker Update node-red-contrib-zigbee
