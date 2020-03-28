@@ -5,7 +5,7 @@ Category: User Flows
 # Steuerung von Miele Geräten
 
 ## Generelles
-![Darstellung im Browser](https://user-images.githubusercontent.com/17273119/60909649-11853680-a27f-11e9-9105-a00fd1fa5adc.png)
+Mit den subflows können Miele Geräte abgefragt und gesteuert werden. Beispielsweise kann die Laufzeit der Waschmaschine abgefragt werden. Der von Miele angebote Funktionsumfang ist allerdings "nicht sehr umfangreich". Bei Waschtrockner geht Start/Stop/Gerätename definieren und Abfragen des aktuellen Programs, Laufzeit und Status (aus, aus, ..)
 
 ## Benötigte Erweiterungen
 Empfohlen ist [credentials](https://flows.nodered.org/node/node-red-contrib-credentials), da ansonsten durch versehentliche Node Exports oder im Falle des Einsatzes von Projekten(github) kritische Kennwörter im Internet zu sehen sind. 
