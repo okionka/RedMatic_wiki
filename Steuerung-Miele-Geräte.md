@@ -4,7 +4,7 @@ Category: User Flows
 
 # Steuerung von Miele Geräten
 
-## Generelles
+## Anwendungsbereich
 Mit diesen subflows können Miele Geräte abgefragt und gesteuert werden. Der von Miele angebotene Funktionsumfang ist allerdings "recht begrenzt". Bei Waschtrockner geht Start/Stop/Gerätename definieren sowie Abfragen des aktuellen Programms, Laufzeit und Status (aus, an, ...)
 
 ## Benötigte Erweiterungen
