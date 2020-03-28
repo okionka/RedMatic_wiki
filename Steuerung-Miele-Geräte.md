@@ -5,7 +5,7 @@ Category: User Flows
 # Steuerung von Miele Geräten
 
 ## Generelles
-Mit den subflows können Miele Geräte abgefragt und gesteuert werden. Beispielsweise kann die Laufzeit der Waschmaschine abgefragt werden. Der von Miele angebote Funktionsumfang ist allerdings "nicht sehr umfangreich". Bei Waschtrockner geht Start/Stop/Gerätename definieren und Abfragen des aktuellen Programs, Laufzeit und Status (aus, aus, ..)
+Mit diesen subflows können Miele Geräte abgefragt und gesteuert werden. Der von Miele angebotene Funktionsumfang ist allerdings "nicht sehr umfangreich". Bei Waschtrockner geht Start/Stop/Gerätename definieren sowie Abfragen des aktuellen Programms, Laufzeit und Status (aus, an, ...)
 
 ## Benötigte Erweiterungen
 Empfohlen ist [credentials](https://flows.nodered.org/node/node-red-contrib-credentials), da ansonsten durch versehentliche Node Exports oder im Falle des Einsatzes von Projekten(github) kritische Kennwörter im Internet zu sehen sind. 
@@ -18,15 +18,15 @@ Empfohlen ist [credentials](https://flows.nodered.org/node/node-red-contrib-cred
 
 3. Bei Miele client_id und client_secret anfordern: [developer@miele.com](mailto:developer@miele.com) 
 
-4. Installieren der Node credentials [credentials](https://flows.nodered.org/node/node-red-contrib-credentials)
+4. Installieren der Node credentials [credentials](https://flows.nodered.org/node/node-red-contrib-credentials). Dies hilft die obigen Kennwörter etc nicht versehentlich zu exportieren oder mit bei GitHub zu "exposen".
 
-5. Importiere der Flows (siehe unten). Die Subflows sind in der Palette unter Kategory Miele zu sehen
+5. Importieren der Flows (siehe unten). Die Subflows sind dann in der Palette unter Kategory Miele zu sehen
  
-6. Eigene Daten in die credential node eintrage: Benutzername, Kennwort, client_id and client_secret
+6. Eigene Daten in die credential node eintragen: Benutzername, Kennwort, client_id and client_secret
 
-7. Mit "get_bearer" eine Token / bearer anfordern. Dieser wird in die globale Variable system_bearerMiele geschrieben. Der Refresh Token wird in system_refreshMiele geschrieben. 
+7. Mit "get_bearer" einen Token / bearer anfordern. Dieser wird in die globale Variable system_bearerMiele geschrieben. Der Refresh Token wird in system_refreshMiele geschrieben. 
 
-**Achtung:** Die globalen Variablen sollten permanent gespeicher werden (RedMatic Konfiguration, Context Storage, Default file!
+**Achtung:** Die globalen Variablen sollten permanent gespeicher werden (RedMatic Konfiguration, Context Storage, Default file!). 
 
 8. Jetzt kann man die anderen Subflows verwenden. 
 **Achtung:** Der Token muss alle 30 Tage aktualisiert(refresh) werden. 
