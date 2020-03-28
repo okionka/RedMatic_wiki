@@ -23,7 +23,7 @@ Category: Administration
 | [node-red-contrib-combine](https://flows.nodered.org/node/node-red-contrib-combine) | | ✅ | ✅ | |
 | [node-red-contrib-counter](https://flows.nodered.org/node/node-red-contrib-counter) | | ✅ | ✅ | |
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
-| [node-red-contrib-credentials](https://flows.nodered.org/node/node-red-contrib-credentials) | statt inject node bei kritischen Daten (passwords) | ✅ | ✅ | Sinnvoll, wenn die Projektfunktion in Verbindung mit einem public repository verwendet wird und tokens (AWS) verwendet werden |
+| [node-red-contrib-credentials](https://flows.nodered.org/node/node-red-contrib-credentials) | statt inject/change node bei kritischen Daten (passwords) | ✅ | ✅ | Sinnvoll, wenn die Projektfunktion in Verbindung mit einem public repository verwendet wird und tokens (AWS) verwendet werden |
 | [node-red-contrib-dashboard-average-bars](https://flows.nodered.org/node/node-red-contrib-dashboard-average-bars) | | ✅ | | |
 | [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | ✅ | |
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
