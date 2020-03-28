@@ -18,7 +18,7 @@ Empfohlen ist [credentials](https://flows.nodered.org/node/node-red-contrib-cred
 
 3. Bei Miele client_id und client_secret anfordern: [developer@miele.com](mailto:developer@miele.com) 
 
-4. Installieren der Node credentials [credentials](https://flows.nodered.org/node/node-red-contrib-credentials). Dies hilft die obigen Kennwörter etc nicht versehentlich zu exportieren oder mit bei GitHub zu "exposen".
+4. Installieren der Node credentials [credentials](https://flows.nodered.org/node/node-red-contrib-credentials). Dies hilft die obigen Kennwörter etc nicht versehentlich zu exportieren oder mit GitHub zu "exposen".
 
 5. Importieren der Flows (siehe unten). Die Subflows sind dann in der Palette unter Kategory Miele zu sehen
  
