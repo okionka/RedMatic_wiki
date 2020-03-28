@@ -5,7 +5,7 @@ Category: User Flows
 # Steuerung von Miele Geräten
 
 ## Generelles
-Mit diesen subflows können Miele Geräte abgefragt und gesteuert werden. Der von Miele angebotene Funktionsumfang ist allerdings "nicht sehr umfangreich". Bei Waschtrockner geht Start/Stop/Gerätename definieren sowie Abfragen des aktuellen Programms, Laufzeit und Status (aus, an, ...)
+Mit diesen subflows können Miele Geräte abgefragt und gesteuert werden. Der von Miele angebotene Funktionsumfang ist allerdings "recht begrenzt". Bei Waschtrockner geht Start/Stop/Gerätename definieren sowie Abfragen des aktuellen Programms, Laufzeit und Status (aus, an, ...)
 
 ## Benötigte Erweiterungen
 Empfohlen ist [credentials](https://flows.nodered.org/node/node-red-contrib-credentials), da ansonsten durch versehentliche Node Exports oder im Falle des Einsatzes von Projekten(github) kritische Kennwörter im Internet zu sehen sind. 
