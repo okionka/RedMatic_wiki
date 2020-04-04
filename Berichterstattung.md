@@ -1,3 +1,4 @@
+* `28. 3.2020` 📖[c't 8'2020](https://www.heise.de/select/ct/2020/8/2006217283313627436) Smart Home ­extrem - Homematic IP Wired in der Praxis
 * ` 2. 3.2020` 📖[smart-wohnen.org](https://smart-wohnen.org/homematic-den-volumio-music-player-in-die-hausautomatisierung-einbinden/) Volumio Music-Player einbinden
 * ` 1. 3.2020` 📺[Marcels Custom Shop](https://www.youtube.com/watch?v=exwqm-6PRv8) Homematic CCU mit Homekit koppeln
 * `15.12.2019` 📖[smart-wohnen.org](https://smart-wohnen.org/homematic-withings-sleep-in-die-hausautomatisierung-einbinden/) Withings Sleep einbinden
