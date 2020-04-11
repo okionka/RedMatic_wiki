@@ -1,3 +1,14 @@
+# [v5.5.2](https://github.com/rdmtc/RedMatic/releases/v5.5.2) 2020-03-12T18:21:16Z
+
+* @hobbyquaker Update node-red-contrib-zigbee
+  * OTA Update requests werden mit NO_IMAGE_AVAILABLE beantwortet (vorerst)
+* @hobbyquaker Update node-red-contrib-sun-position
+  * https://github.com/rdmtc/node-red-contrib-sun-position/commit/af8109771720e94d868df208af2a4c64e2587377
+* @hobbyquaker Update theme midnight-red
+
+
+
+
 # [v5.5.1](https://github.com/rdmtc/RedMatic/releases/v5.5.1) 2020-03-09T19:33:04Z
 
 * @hobbyquaker Update node-red-contrib-sun-position
