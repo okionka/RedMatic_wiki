@@ -6,6 +6,10 @@ Nutzung des kostenlosen/spendenfinanzierten Service [Node-RED Smart Home Control
 2) In Alexa App den Skill `Node-RED Smart Home Control` von cb-net hinzufügen und mit den in Schritt 1 verwendeten Zugangsdaten verbinden.
 3) Über den Node-RED Palette Manager die Nodes `node-red-contrib-alexa-smart-home` installieren.
 
+# Geräte Anlegen
+
+Jedes Gerät das man verwenden möchte muss unter https://red.cb-net.co.uk/devices angelegt werden. Danach muss man Alexa mit der Aufforderung "Suche Geräte" (oder über die App) diese neuen Geräte einbinden lassen.
+
 # Beispielflows
 
 * [Fensterkontakt](#Fensterkontakt)
@@ -16,7 +20,11 @@ Nutzung des kostenlosen/spendenfinanzierten Service [Node-RED Smart Home Control
 
 ## Fensterkontakt
 
-Ein _CCU Value_ Node wird auf den Datenpunkt `STATE` des Kanals 1 eins Fensterkontakts konfiguriert:
+Als Alexa Gerät wird ein "Contact Sensor" verwendet:
+
+![](images/alexa/tfk0.png)
+
+Ein _CCU Value_ Node wird auf den Datenpunkt `STATE` des Kanals 1 des Fensterkontakts konfiguriert:
 
 ![](images/alexa/tfk1.png)
 
