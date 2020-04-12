@@ -17,6 +17,8 @@ Jedes Gerät das man verwenden möchte muss unter https://red.cb-net.co.uk/devic
 * [Rollladen](#Rollladen)
 * [Dimmer](#Dimmer)
 * [Thermostat](#Thermostat)
+* [Keymatic](#Keymatic)
+* [Szenen](#Szenen)
 
 ## Fensterkontakt
 
@@ -51,9 +53,29 @@ Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
 
 ## Schaltaktor
 
+... todo
+
+
 ## Rollladen
+
+... todo
+
 
 ## Dimmer
 
+... todo
+
+
 ## Thermostat
 
+... todo
+
+
+## Keymatic
+
+... todo
+
+
+## Szenen
+
+... todo
