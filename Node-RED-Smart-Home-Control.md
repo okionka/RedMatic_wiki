@@ -1,4 +1,4 @@
-Nutzung des kostenlosen/spendenfinanzierten Service https://red.cb-net.co.uk/ zur Anbindung an Alexa (und Google Assistant bzw. Google Home).
+Nutzung des kostenlosen/spendenfinanzierten Service [Node-RED Smart Home Control](https://red.cb-net.co.uk/) zur Anbindung an Alexa (und Google Assistant bzw. Google Home).
 
 # Einrichtung
 
