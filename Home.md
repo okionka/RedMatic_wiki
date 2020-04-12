@@ -27,6 +27,7 @@
   * [Zeit, Rolladen Steuerung](https://github.com/rdmtc/node-red-contrib-sun-position)
 
 * Beispiel Flows
+  * [Kostenlose Alexa (und Google) Anbindung mit Node-RED Smart Home Control](Node-RED-Smart-Home-Control)
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
   * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
   * [UNREACH Meldung unterdrücken](Flow-Unreach)
