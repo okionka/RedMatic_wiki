@@ -11,14 +11,23 @@ Nutzung des kostenlosen/spendenfinanzierten Service https://red.cb-net.co.uk/ zu
 ## Fensterkontakt
 
 Ein _CCU Value_ Node wird auf den Datenpunkt `STATE` des Kanals 1 eins Fensterkontakts konfiguriert:
+
 ![](images/alexa/tfk1.png)
 
 Dieser Node gibt je nach Zustand des Fensterkontakts bool `true` oder `false` als `msg.payload` aus. Der Alexa Service erwartet jedoch folgende `msg`: `{"acknowledge": true, "payload": {"state": {"contact": "DETECTED"}}}` bzw. `{"acknowledge": true, "payload": {"state": {"contact": "NOT_DETECTED"}}}`, es ist also eine Transformation der Nachricht notwendig damit diese vom Alexa Node genutzt werden kann. Dies kann mit einem Switch und 2 Change Nodes durchgeführt werden:
 
+
 ![](images/alexa/tfk2.png)
+
+
 ![](images/alexa/tfk3.png)
+
+
 ![](images/alexa/tfk4.png)
+
+
 ![](images/alexa/tfk5.png)
+
 
 Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
 
