@@ -28,7 +28,7 @@
 
 * Beispiel Flows
   * [Kostenlose Alexa (und Google) Anbindung](Node-RED-Smart-Home-Control)
-  * [Sprachausgabe auf Echo mit node-red-contrib-alexa-remote2](Sprachausgabe-mit-node-red-contrib-alexa-remote2)
+  * [Sprachausgabe über Alexa/Echo](Sprachausgabe-mit-node-red-contrib-alexa-remote2)
   * [CCU an MQTT anbinden](Flow-MQTT)
   * [Anzahl und Liste offener Fenster im Dashboard anzeigen](Flow-Windows)
   * [Hue Lampen mit langem Tastendruck dimmen](Flow-Hue)
