@@ -4,7 +4,7 @@ Nutzung des kostenlosen/spendenfinanzierten Service [Node-RED Smart Home Control
 
 1) Account Anlegen auf https://red.cb-net.co.uk/new-user und Email Verifizierung durchführen.
 2) In Alexa App den Skill `Node-RED Smart Home Control` von cb-net hinzufügen und mit den in Schritt 1 verwendeten Zugangsdaten verbinden.
-3) Über den Node-RED Palette Manager die Nodes `node-red-contrib-alexa-smart-home` installieren (siehe https://github.com/rdmtc/RedMatic/wiki/Node-Installation)
+3) Über den Node-RED Palette Manager die Nodes `node-red-contrib-alexa-smart-home` installieren (siehe [Zusätzliche Nodes installieren](https://github.com/rdmtc/RedMatic/wiki/Node-Installation))
 
 # Geräte Anlegen
 
