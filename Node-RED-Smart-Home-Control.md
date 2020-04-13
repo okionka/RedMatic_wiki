@@ -68,6 +68,11 @@ Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
 
 ... todo
 
+#### Flow JSON
+
+```
+[{"id":"9ab1c36b.2091","type":"alexa-smart-home-v3","z":"f1e20418.913b28","conf":"e904a268.f4155","device":"10300","acknowledge":true,"name":"Rollladen Garten","topic":"","x":200,"y":120,"wires":[["2357a43.9631b5c"]]},{"id":"e7fdd3a8.f0b7","type":"alexa-smart-home-v3-state","z":"f1e20418.913b28","conf":"e904a268.f4155","device":"10300","name":"Rollladen Garten","x":1110,"y":120,"wires":[]},{"id":"2357a43.9631b5c","type":"range","z":"f1e20418.913b28","minin":"0","maxin":"100","minout":"0","maxout":"1","action":"scale","round":false,"property":"payload","name":"","x":370,"y":120,"wires":[["a7eb4b0e.7c1018"]]},{"id":"9f85c155.ac90d","type":"range","z":"f1e20418.913b28","minin":"0","maxin":"1","minout":"0","maxout":"100","action":"scale","round":false,"property":"payload","name":"","x":760,"y":120,"wires":[["3fdfd4c9.6da09c"]]},{"id":"a7eb4b0e.7c1018","type":"ccu-value","z":"f1e20418.913b28","name":"","iface":"BidCos-RF","channel":"GEQ0005911:1 Rollladen Garten:1","datapoint":"LEVEL","mode":"","start":true,"change":true,"cache":true,"queue":false,"on":0,"onType":"undefined","ramp":0,"rampType":"undefined","working":true,"ccuConfig":"38263145.35ea0e","topic":"${CCU}/${Interface}/${channel}/${datapoint}","x":550,"y":120,"wires":[["9f85c155.ac90d"]]},{"id":"3fdfd4c9.6da09c","type":"template","z":"f1e20418.913b28","name":"","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"{\"state\":{\"rangeValue\": {{payload}} }}","output":"json","x":920,"y":120,"wires":[["e7fdd3a8.f0b7"]]}]
+```
 
 ## Dimmer
 
