@@ -58,6 +58,8 @@ Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
 
 ... todo
 
+![](images/alexa/schaltaktor1.png)
+
 #### Flow JSON
 
 ```
@@ -67,6 +69,8 @@ Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
 ## Rollladen
 
 ... todo
+
+![](images/alexa/rollladen1.png)
 
 #### Flow JSON
 
@@ -78,6 +82,8 @@ Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
 
 ... todo
 
+![](images/alexa/dimmer1.png)
+
 #### Flow JSON
 
 ```
@@ -87,6 +93,8 @@ Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
 ## Thermostat
 
 ... todo
+
+![](images/alexa/thermostat1.png)
 
 #### Flow JSON
 
