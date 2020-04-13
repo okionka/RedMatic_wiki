@@ -24,7 +24,7 @@
   * [RedMatic HomeKit](Homekit)
   * [RedMatic WebApp](Webapp)
   * [Node-RED Dashboard](Dashboard-Screenshots)
-  * [Zeit, Rolladen Steuerung](https://github.com/rdmtc/node-red-contrib-sun-position)
+  * [node-red-contrib-sun-position: Zeit- und Sonnenstandabhängige Funktionen, Komfortable Rollladensteuerung](https://github.com/rdmtc/node-red-contrib-sun-position)
 
 * Beispiel Flows
   * [Kostenlose Alexa (und Google) Anbindung](Node-RED-Smart-Home-Control)
