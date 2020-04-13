@@ -20,7 +20,7 @@
   * [Flows exportieren](Flow-Export)
   * [Flows importieren](Flow-Import)
 * Spezielle Nodes und Erweiterungen
-  * [node-red-contrib-zigbee](ZigBee) - Einbindung von Zigbee Geräten (z.B. Xiaomi Aqara, Philips Hue, IKEA Tradfri, Osram/Ledvance Lightify, Müller Licht Tint, ...)
+  * [node-red-contrib-zigbee](ZigBee) - Einbindung von Zigbee Geräten über USB-Interface (z.B. Xiaomi Aqara, Philips Hue, IKEA Tradfri, Osram/Ledvance Lightify, Müller Licht Tint, ...)
   * [RedMatic-HomeKit](Homekit) - Anbindung an Apple HomeKit, Steuerung via Siri und Home.app
   * [RedMatic-WebApp](Webapp)
   * [Node-RED Dashboard](Dashboard-Screenshots)
