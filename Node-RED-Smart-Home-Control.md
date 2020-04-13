@@ -10,6 +10,11 @@ Nutzung des kostenlosen/spendenfinanzierten Service [Node-RED Smart Home Control
 
 Jedes Gerät das man verwenden möchte muss unter https://red.cb-net.co.uk/devices angelegt werden. Danach muss man Alexa mit der Aufforderung "Suche Geräte" (oder über die App) diese neuen Geräte einbinden lassen.
 
+# Weiterführende Links
+
+* https://homematic-forum.de/forum/viewtopic.php?f=77&t=55931#p556001
+
+
 # Beispielflows
 
 * [Fensterkontakt](#Fensterkontakt)
