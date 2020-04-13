@@ -62,6 +62,7 @@ Import siehe https://github.com/rdmtc/RedMatic/wiki/Flow-Import
 
 ... todo
 
+![](images/alexa/schaltaktor2.png)
 ![](images/alexa/schaltaktor1.png)
 
 #### Flow JSON
@@ -74,6 +75,7 @@ Import siehe https://github.com/rdmtc/RedMatic/wiki/Flow-Import
 
 ... todo
 
+![](images/alexa/rollladen2.png)
 ![](images/alexa/rollladen1.png)
 
 #### Flow JSON
@@ -86,6 +88,7 @@ Import siehe https://github.com/rdmtc/RedMatic/wiki/Flow-Import
 
 ... todo
 
+![](images/alexa/dimmer2.png)
 ![](images/alexa/dimmer1.png)
 
 #### Flow JSON
@@ -98,6 +101,7 @@ Import siehe https://github.com/rdmtc/RedMatic/wiki/Flow-Import
 
 ... todo
 
+![](images/alexa/thermostat2.png)
 ![](images/alexa/thermostat1.png)
 
 #### Flow JSON
