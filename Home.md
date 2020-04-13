@@ -20,11 +20,11 @@
   * [Flows exportieren](Flow-Export)
   * [Flows importieren](Flow-Import)
 * Erweiterungen
-  * [node-red-contrib-zigbee](ZigBee)
-  * [RedMatic HomeKit](Homekit)
+  * [node-red-contrib-zigbee](ZigBee) - Einbindung von Zigbee Geräten (z.B. Xiaomi Aqara, Philips Hue, IKEA Tradfri, Osram/Ledvance Lightify, Müller Licht Tint, ...)
+  * [RedMatic HomeKit](Homekit) - Anbindung an Apple HomeKit, Steuerung via Siri und Home.app
   * [RedMatic WebApp](Webapp)
   * [Node-RED Dashboard](Dashboard-Screenshots)
-  * [node-red-contrib-sun-position: Zeit- und Sonnenstandabhängige Funktionen, Komfortable Rollladensteuerung](https://github.com/rdmtc/node-red-contrib-sun-position)
+  * [node-red-contrib-sun-position](https://github.com/rdmtc/node-red-contrib-sun-position) Zeit- und Sonnenstandabhängige Funktionen, Komfortable Beschattungssteuerung
 
 * Beispiel Flows
   * [Kostenlose Alexa (und Google) Anbindung](Node-RED-Smart-Home-Control)
