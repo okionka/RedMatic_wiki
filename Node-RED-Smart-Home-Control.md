@@ -26,6 +26,8 @@ Als Alexa Gerät wird ein "Contact Sensor" verwendet:
 
 ![](images/alexa/tfk0.png)
 
+
+
 Ein _CCU Value_ Node wird auf den Datenpunkt `STATE` des Kanals 1 des Fensterkontakts konfiguriert:
 
 ![](images/alexa/tfk1.png)
@@ -40,6 +42,7 @@ Dieser Node gibt je nach Zustand des Fensterkontakts bool `true` oder `false` al
 
 
 ![](images/alexa/tfk5.png)
+
 
 
 Am Ende des Flows kommt der Node _alexa smart home v3 state_ zum Einsatz:
