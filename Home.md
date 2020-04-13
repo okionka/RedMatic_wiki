@@ -1,4 +1,5 @@
 * [Einleitung](Intro)
+* [FAQ - Häufig gestellte Fragen](Faq)
 * Administration
   * [Installation](Installation)
   * [Update](Update)
@@ -16,7 +17,6 @@
   * [Node-RED Grundlagen](Node-RED)
   * [CCU Nodes](CCU-Nodes)
   * [Tipps](Tipps)
-  * [FAQ - Häufig gestellte Fragen](Faq)
   * [Flows exportieren](Flow-Export)
   * [Flows importieren](Flow-Import)
 * Erweiterungen
