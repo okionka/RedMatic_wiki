@@ -11,6 +11,7 @@ Category: Administration
 | [node-red-contrib-alexa-home-skill](https://flows.nodered.org/node/node-red-contrib-alexa-home-skill) | | ✅| ✅ | account notwendig| 
 | [node-red-contrib-alexa-remote2](https://flows.nodered.org/node/node-red-contrib-alexa-remote2) | Echo ansteuern, Sprachausgabe u.v.m. | ✅| ✅ | | 
 | [node-red-contrib-alexa-smart-home](https://flows.nodered.org/node/node-red-contrib-alexa-smart-home) | Alexa und Google Home Anbindung| ✅| ✅ | account notwendig| 
+| [node-red-contrib-avr-yamaha](https://flows.nodered.org/node/node-red-contrib-avr-yamaha) | | ✅ |✅ |nicht alle Befehle werden von jedem Receiver unterstützt (z. B. nur POWER und nicht POWEROFF)|
 | [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
 | [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos) | | ✅| | |
 | [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
@@ -53,6 +54,7 @@ Category: Administration
 | [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover) | | ✅ | ✅ | |
 | [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis) | | ✅ | | |
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
+| [node-red-contrib-samsung-tv-control](https://flows.nodered.org/node/node-red-contrib-samsung-tv-control) | | ✅ | ✅ | Anleitung beachten. Hier wird zunächst MAC-Adresse und ein Token vom TV benötigt.|
 | [node-red-contrib-s7comm](https://flows.nodered.org/node/node-red-contrib-s7comm) | | ✅ | | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | umfangreiche SONOS Nodes | ✅|✅ |[Wiki](https://github.com/hklages/node-red-contrib-sonos-plus/wiki) |
