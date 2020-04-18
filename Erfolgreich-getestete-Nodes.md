@@ -11,7 +11,7 @@ Category: Administration
 | [node-red-contrib-alexa-home-skill](https://flows.nodered.org/node/node-red-contrib-alexa-home-skill) | | ✅| ✅ | account notwendig| 
 | [node-red-contrib-alexa-remote2](https://flows.nodered.org/node/node-red-contrib-alexa-remote2) | Echo ansteuern, Sprachausgabe u.v.m. | ✅| ✅ | | 
 | [node-red-contrib-alexa-smart-home](https://flows.nodered.org/node/node-red-contrib-alexa-smart-home) | Alexa und Google Home Anbindung| ✅| ✅ | account notwendig| 
-| [node-red-contrib-avr-yamaha](https://flows.nodered.org/node/node-red-contrib-avr-yamaha) | | ✅ |✅ |nicht alle Befehle werden von jedem Receiver unterstützt (z. B. nur POWER und nicht POWEROFF)|
+| [node-red-contrib-avr-yamaha](https://flows.nodered.org/node/node-red-contrib-avr-yamaha) | Ansteuerung von Yamaha AV-Receivern | ✅ |✅ |nicht alle Befehle werden von jedem Receiver unterstützt (z. B. nur POWER und nicht POWEROFF)|
 | [node-red-contrib-azure-iot-hub](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub) | | ✅ |✅ |benötigt Azure subscription und aktivierten [IoT Hub](https://azure.microsoft.com/de-de/services/iot-hub/)|
 | [node-red-contrib-better-sonos](https://flows.nodered.org/node/node-red-contrib-better-sonos) | | ✅| | |
 | [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
@@ -55,7 +55,7 @@ Category: Administration
 | [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis) | | ✅ | | |
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
 | [node-red-contrib-s7comm](https://flows.nodered.org/node/node-red-contrib-s7comm) | | ✅ | | |
-| [node-red-contrib-samsung-tv-control](https://flows.nodered.org/node/node-red-contrib-samsung-tv-control) | | ✅ | ✅ | Anleitung beachten. Hier wird zunächst MAC-Adresse und ein Token vom TV benötigt.|
+| [node-red-contrib-samsung-tv-control](https://flows.nodered.org/node/node-red-contrib-samsung-tv-control) | Ansteuerung von aktuellen Samsung TVs | ✅ | ✅ | Anleitung beachten. Hier wird zunächst MAC-Adresse und ein Token vom TV benötigt.|
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | umfangreiche SONOS Nodes | ✅|✅ |[Wiki](https://github.com/hklages/node-red-contrib-sonos-plus/wiki) |
 | [node-red-contrib-sonospollytts](https://flows.nodered.org/node/node-red-contrib-sonospollytts) | Sprachausgabe auf Sonos | ✅ |⚠️ | Node-RED Port muss auf `80` konfiguriert werden |
@@ -74,7 +74,7 @@ Category: Administration
 | [node-red-contrib-velux](https://flows.nodered.org/node/node-red-contrib-velux) | Velux KLF-200 io-homecontrol Gateway | ✅ | ✅ | |
 | [node-red-contrib-viera](https://flows.nodered.org/node/node-red-contrib-viera) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
-| [node-red-contrib-yeelight](https://flows.nodered.org/node/node-red-contrib-yeelight) |  | ✅ | ✅ | Yeelight-Lampen müssen zuvor einmalig in Developer-Modus versetzt werden. Port ist jeweils 55443. |
+| [node-red-contrib-yeelight](https://flows.nodered.org/node/node-red-contrib-yeelight) | Ansteuerung von Xiaomi Yeelight WLAN-LED-Lampen | ✅ | ✅ | Yeelight-Lampen müssen zuvor einmalig in Developer-Modus versetzt werden. Port ist jeweils 55443. |
 | [node-red-node-darksky](https://www.npmjs.com/package/node-red-node-darksky) |Abruf von aktuellen Wetterdaten und Wettervorhersage | ✅ | ✅ |benötigt [API](https://darksky.net/dev/) |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
