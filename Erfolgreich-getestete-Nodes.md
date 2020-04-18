@@ -54,8 +54,8 @@ Category: Administration
 | [node-red-contrib-pushover](https://flows.nodered.org/node/node-red-contrib-pushover) | | ✅ | ✅ | |
 | [node-red-contrib-redis](https://flows.nodered.org/node/node-red-contrib-redis) | | ✅ | | |
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
-| [node-red-contrib-samsung-tv-control](https://flows.nodered.org/node/node-red-contrib-samsung-tv-control) | | ✅ | ✅ | Anleitung beachten. Hier wird zunächst MAC-Adresse und ein Token vom TV benötigt.|
 | [node-red-contrib-s7comm](https://flows.nodered.org/node/node-red-contrib-s7comm) | | ✅ | | |
+| [node-red-contrib-samsung-tv-control](https://flows.nodered.org/node/node-red-contrib-samsung-tv-control) | | ✅ | ✅ | Anleitung beachten. Hier wird zunächst MAC-Adresse und ein Token vom TV benötigt.|
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | umfangreiche SONOS Nodes | ✅|✅ |[Wiki](https://github.com/hklages/node-red-contrib-sonos-plus/wiki) |
 | [node-red-contrib-sonospollytts](https://flows.nodered.org/node/node-red-contrib-sonospollytts) | Sprachausgabe auf Sonos | ✅ |⚠️ | Node-RED Port muss auf `80` konfiguriert werden |
