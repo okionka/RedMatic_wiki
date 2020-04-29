@@ -76,7 +76,7 @@ Category: Administration
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
 | [node-red-contrib-yeelight](https://flows.nodered.org/node/node-red-contrib-yeelight) | Ansteuerung von Xiaomi Yeelight WLAN-LED-Lampen | ✅ | ✅ | Yeelight-Lampen müssen zuvor einmalig in Developer-Modus versetzt werden. Port ist jeweils 55443. |
 | [node-red-node-darksky](https://www.npmjs.com/package/node-red-node-darksky) |Abruf von aktuellen Wetterdaten und Wettervorhersage | ✅ | ✅ |benötigt [API](https://darksky.net/dev/) |
-| [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | | |
+| [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | ✅ | |
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
 | [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping) | | ✅ | | |
 | [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
