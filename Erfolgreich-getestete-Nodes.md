@@ -88,5 +88,6 @@ Category: Administration
 | [node-red-contrib-weekday](https://flows.nodered.org/node/node-red-contrib-weekday) | | ✅ | ✅ | |
 | [node-red-contrib-slack](https://flows.nodered.org/node/node-red-contrib-slack) | | ✅ | ✅ | |
 | [node-red-node-pi-gpiod](https://flows.nodered.org/node/node-red-node-pi-gpiod) | | ✅ | ✅ | benötigt pigpiod-hm-addon (https://github.com/baycom/pigpiod-hm-addon/releases) |
+| [node-red-contrib-avr-yamaha](https://www.npmjs.com/package/node-red-contrib-avr-yamaha) | | ✅ | ✅ | |
 
 
