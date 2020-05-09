@@ -1,3 +1,4 @@
+* `11. 4.2020` 📖[technikkram.net](https://technikkram.net/2020/04/homematic-und-knx-verbinden-und-parallel-betreiben) - Homematic und KNX verbinden und parallel betreiben
 * ` 4. 4.2020` 📖[technikkram.net](https://technikkram.net/2020/04/redmatic-beta-release-des-redmatic-addon-fuer-x86-plattformen-installieren-und-testen) RedMatic Addon für x86 Plattformen installieren und Testen
 * `28. 3.2020` 📖[c't 8'2020](https://www.heise.de/select/ct/2020/8/2006217283313627436) Smart Home ­extrem - Homematic IP Wired in der Praxis
 * ` 2. 3.2020` 📖[smart-wohnen.org](https://smart-wohnen.org/homematic-den-volumio-music-player-in-die-hausautomatisierung-einbinden/) Volumio Music-Player einbinden
