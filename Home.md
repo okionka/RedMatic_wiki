@@ -69,6 +69,7 @@
   * [Zusätzliche Wettericons für UI-Dashboard in Redmatic verfügbar machen](Zusätzliche-Wettericons-für-UI-Dashboard-in-Redmatic-verfügbar-machen)
   * [E3DC Anbindung per Modbus-TCP](https://github.com/rdmtc/RedMatic/wiki/E3DC-Anbindung-per-Modbus-TCP)
   * [Steuerung von Miele Geräten](https://github.com/rdmtc/RedMatic/wiki/Steuerung-Miele)
+  * [Subflow für Enigma2 Receiver](https://github.com/Matten-Matten/node-red-enigma2-flow)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
