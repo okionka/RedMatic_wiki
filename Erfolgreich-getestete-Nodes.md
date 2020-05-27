@@ -36,7 +36,7 @@ Category: Administration
 | [node-red-contrib-google-action-dialogflow-http](https://flows.nodered.org/node/node-red-contrib-google-action-dialogflow-http) | | ✅ | | |
 | [node-red-contrib-google-tts](https://flows.nodered.org/node/node-red-contrib-google-tts) | | ✅ | ✅ | |
 | [node-red-contrib-harmony](https://flows.nodered.org/node/node-red-contrib-harmony) | Logitech Harmony Hub | ✅ | ✅ | Installation dauert aufgrund von Dependencies die via `git clone` installiert werden aussergewöhnlich lang, UI spiegelt Installationsfortschritt nicht richtig wieder (Spinner verschwindet verfrüht), Geduld notwendig, nicht erneut auf _Install_ klicken! | 
-| [node-red-contrib-homekit-bridged](https://github.com/NRCHKB/node-red-contrib-homekit-bridged) | Alternative zum RedMatic-HomeKit "Universal Accessory" für die Anbindung von nicht-Homematic Geräten | ✅ | ✅ | Achtung, es kann mehr als eine Bridge konfiguriert werden. Diese müssen auf unterschiedliche Ports verweisen und in Homematic müssen diese Ports entsprechend konfiguriert sein. Die verwendeten Ports müssen in der CCU Firewall freigegeben werden. Funktioniert auch mit getesteten Releases RedMatic 5.0.5 und node-red-contrib-homekit-bridged 0.8.0|
+| [node-red-contrib-homekit-bridged](https://github.com/NRCHKB/node-red-contrib-homekit-bridged) | Alternative zum RedMatic-HomeKit "Universal Accessory" für die Anbindung von nicht-Homematic Geräten | ✅ | ✅ | Achtung, es kann mehr als eine Bridge konfiguriert werden. Diese müssen auf unterschiedliche Ports verweisen und in Homematic müssen diese Ports entsprechend konfiguriert sein. Die verwendeten Ports müssen in der CCU Firewall freigegeben werden. Getestet und verwendet seit RedMatic-Release ab 4.3.5 bis 5.5.3 und node-red-contrib-homekit-bridged ab 0.5.1 bis 1.0.4|
 | [node-red-contrib-huemagic](https://flows.nodered.org/node/node-red-contrib-huemagic) | | ✅ | ✅ | |
 | [node-red-contrib-ifttt](https://github.com/diegopamio/node-red-contrib-ifttt) | | ✅ | |benötigt IFTTT Account https://ifttt.com/ |
 | [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb) | | ✅ | ✅ | |
@@ -88,5 +88,5 @@ Category: Administration
 | [node-red-contrib-slack](https://flows.nodered.org/node/node-red-contrib-slack) | | ✅ | ✅ | |
 | [node-red-node-pi-gpiod](https://flows.nodered.org/node/node-red-node-pi-gpiod) | | ✅ | ✅ | benötigt pigpiod-hm-addon (https://github.com/baycom/pigpiod-hm-addon/releases) |
 | [node-red-contrib-light-scheduler](https://flows.nodered.org/node/node-red-contrib-light-scheduler) |Wochenzeitschaltuhr für Lichtsteuerung mit grafischer Auswahl der Schaltzeiten | ✅ | ✅ | |
-
+| [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) |Sendet Wake-On-LAN (WOL)-Magic-Pakete zum Aufwecken von im Netzwerk verbundenen Geräten im Ruhezustand | ✅ | ✅ |Aufzuweckende Geräte müssen das unterstützen und entsprechend konfiguriert sein |
 
