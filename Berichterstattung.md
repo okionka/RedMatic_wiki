@@ -1,4 +1,4 @@
-* ` 4. 6.2020` 📖[homematic-blog.lison.ch](https://homematic-blog.lison.ch/messdaten-mit-redmatic-in-einer-influxdb-speichern/) Messdaten mit RedMatic in einer InfluxDB speichern
+* ` 4. 6.2020` 📖[homematic-blog.lison.ch](https://homematic-blog.lison.ch/messdaten-mit-redmatic-in-einer-influxdb-speichern/) Messdaten mit RedMatic in einer InfluxDB speichern
 * `11. 4.2020` 📖[homematic-blog.lison.ch](https://homematic-blog.lison.ch/klimadaten-mit-trend-auf-dem-e-paperdisplay-hm-dis-ep-wm55-mit-redmatic/) Klimadaten mit Trend auf dem E-Paperdisplay HM-Dis-EP-WM55 mit RedMatic
 * `11. 4.2020` 📖[technikkram.net](https://technikkram.net/2020/04/homematic-und-knx-verbinden-und-parallel-betreiben) Homematic und KNX verbinden und parallel betreiben
 * ` 4. 4.2020` 📖[technikkram.net](https://technikkram.net/2020/04/redmatic-beta-release-des-redmatic-addon-fuer-x86-plattformen-installieren-und-testen) RedMatic Addon für x86 Plattformen installieren und Testen
