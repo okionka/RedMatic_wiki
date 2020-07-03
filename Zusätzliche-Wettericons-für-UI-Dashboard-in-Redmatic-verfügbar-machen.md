@@ -1,28 +1,26 @@
 <img width="1084" alt="image" src="https://user-images.githubusercontent.com/37173958/58908532-1e0ef000-8711-11e9-8e30-63e8ed86b718.png">
 
-[Weather Icons Lite](https://github.com/Paul-Reed/weather-icons-lite) ist eine Sammlung von Wettersymbolen/-Icons, die bereits in node-red integriert sind. Sie können somit in jedem Flow verwendet werden, das hochwertige wetterbasierte Symbole darstellen soll, die als Labels und/oder auf Tasten im Node-red Dashboard angezeigt werden können.
-
-Der node_red Flow-Editor für z. B. das ```ui_template_widget``` 
+[Weather Icons Lite](https://github.com/Paul-Reed/weather-icons-lite) ist eine Sammlung von Wettersymbolen/-Icons, die bereits in node-red integriert sind. Sie können somit in jedem Flow verwendet werden, das hochwertige wetterbasierte Symbole darstellen soll, die als Labels und/oder auf Tasten im Node-red Dashboard angezeigt werden können. Der NodeRed-Flow-Editor für z. B. das ```ui_template_widget``` 
 <img width="141" alt="image" src="https://user-images.githubusercontent.com/37173958/60324605-84d89f80-9985-11e9-8e0c-bc94f8e09442.png"> verweisst in seiner Infobox selbst auf diese [in Node-Red out of-the-box verfügbaren](https://github.com/Paul-Reed/weather-icons-lite/blob/master/css_mappings.md) Wetter-Icons: 
 
 > <img width="707" alt="image" src="https://user-images.githubusercontent.com/37173958/60266438-55c02080-98e8-11e9-91c7-2b224a41c513.png">
 
-Es gibt darüber hinaus auf dieser Basis ein in Node-red nutzbares [noch umfangreiches Set von über 200 Wettersymbolen](https://erikflowers.github.io/weather-icons/), die insbesondere im Zusammenhang mit den [OpenWeather](https://openweathermap.org/city) verfügbaren Daten Anwendung finden können, wenn es darum geht:
+Es gibt darüber hinaus auf dieser Basis ein in Node-red nutzbares [noch umfangreiches Set von über 200 Wettersymbolen](https://erikflowers.github.io/weather-icons/). Diese eignen sich insbesondere im Zusammenhang mit den in der [OpenWeather-API](https://openweathermap.org/city) verfügbaren Daten, wenn es darum geht:
 
 * zusätzliche Wettersymbole für Tag- und Nacht-Design 
-* Symbole für Mond- und Sonnen- Auf-und -Untergang
+* Symbole für Mond-, Sonnenauf- und -Untergang
 * Uhrzeit-Icons für jede volle Stunde 
 * Windrichtungspfeile
 * Beaufort Windstärke
-* weitere verschiedene Icons im Wetter-Kontext 
+* weitere verschiedene Icons im Wetter-Kontext und astronomischen Kontext 
  
 darstellen zu wollen.
 
-Für die Einrichtung des vollen CSS-Repositories für ```RedMatic``` sind jedoch ein paar Dateien aus dem CSS-Repository auf RedMatic zu kopieren und ist eine kleine Konfigurationen vorzunehmen.
+Für die Einrichtung des vollen CSS-Repositories für ```RedMatic``` sind jedoch ein paar Dateien aus dem CSS-Repository auf RedMatic zu kopieren und es sind kleine Anpassungen in der Konfiguration vorzunehmen.
 
 **1) Clonen des Repositories**
 
-Erstellen Sie ein neues Verzeichnis (z.B. "public") auf einem Rechners, der später z. B. über sFTP mit der CCU3 verbunden werden kann. Mit Git klonen Sie [dieses Repository](https://github.com/Paul-Reed/weather-icons) in das neu erstelltes Verzeichnis:
+Erstellen eines neuen Verzeichnises (z.B. ```public```) auf einem Rechner, welcher z. B. über sFTP zum Kopieren der Dateien auf die CCU3 mit dieser verbunden werden kann. Mit ```git``` wird nun [dieses Repository](https://github.com/Paul-Reed/weather-icons) in das neu erstellte Verzeichnis geklont:
 
 ```
 cd && cd ./public
@@ -30,11 +28,11 @@ git clone https://github.com/Paul-Reed/weather-icons.git
 ```
 **2) Einrichten des Verzeichnis und Kopieren der CSS-Resourcen**
 
-Erstellen Sie auf der CCU3 ein Verzeichnis ```weather-icons``` in dem für solche Zwecke vorgesehenen Pfad:
+Auf der CCU3 wird nun ebenfalls ein Verzeichnis ```weather-icons``` in dem für solche Zwecke vorgesehenen Pfad angelegt:
 ```
 /usr/local/sdcard/www/addons/red/
 ```
-Kopieren Sie mindestens die im folgenden Bild angegeben Dateien per sFTP in dieses Verzeichnis:
+Nun werden aus dem geklonten Repository mindestens die im folgenden Bild angegeben Dateien per sFTP in dieses Verzeichnis auf der CCU3 kopiert:
 
 <img width="502" alt="image" src="https://user-images.githubusercontent.com/37173958/60265531-3d4f0680-98e6-11e9-89e5-bf2d9c825d50.png">
 
@@ -42,13 +40,13 @@ Beachten Sie die Verzeichnisstruktur und die Rechte auf Dateisystem!
 
 **3) httpStatic aktivieren durch Anpassen der RedMatic Node-Red settings.json**
 
-In der ```settings.json```von Node-red muss `httpStatic` aktiviert werden, damit der das UI-Dashboard beim Rendering der Webseite die Symbole aufgrund der CSS-Angaben im Template/Widget einbeziehen kann:
+In der ```settings.json```von Node-red muss `httpStatic` aktiviert werden, damit das UI-Dashboard beim Rendering der Webseite die Symbole aufgrund der CSS-Angaben im Template/Widget einbeziehen kann:
 
 ```
 /usr/local/addons/redmatic/etc/settings.json
 ```
 
-Überprüfen resp. anpassen der Parameter `httpRoot`und `httpStatic` gemäß des folgenden Beispiels:
+Als nächster Schritte überprüft resp. passt man die Parameter `httpRoot`und `httpStatic` gemäß des folgenden Beispiels an:
 <img width="352" alt="image" src="https://user-images.githubusercontent.com/37173958/60265630-8010de80-98e6-11e9-8147-c6e3d6a22328.png">
 
 **4) Neustart von RedMatic**
@@ -73,10 +71,10 @@ Exemplarisch sei hier der HTML-Code des `ui_template`-Nodes für das Symbol der 
 
 <img width="873" alt="image" src="https://user-images.githubusercontent.com/37173958/60265799-e138b200-98e6-11e9-9c71-3cbfe171e538.png">
 
-Wie oben erwähnt, sind ebenso die Sonnenauf- und -untergangssymbole verfügbar
+Wie oben erwähnt, sind ebenso die Sonnenauf- und -untergangssymbole verfügbar:
 
 <img width="303" alt="image" src="https://user-images.githubusercontent.com/37173958/60265975-560bec00-98e7-11e9-97b7-e089cff797d8.png">
 
-Sofern die zusätzlichen Icons benötigt werden, stell dieses Beispiel eine schöne Ergänzung für Node-red im allg. und in Verbindung mit RedMatic im speziellen eine schöne Ergänzung dar, wenn man UI-Dashboard mit umfangreichen Wetterinformation nutzen will.
+Sofern die zusätzlichen Icons benötigt werden, stellt dieses Beispiel eine schöne Ergänzung für Node-red im allg. und in Verbindung mit RedMatic im speziellen eine sinnvolle Erweiterung dar, wenn man UI-Dashboard mit umfangreichen grafischen Wetter- und anderen Symbolen nutzen will.
 
 Vielen Dank an dieser Stelle für die [Hilfe und Anmerkungen](https://github.com/rdmtc/RedMatic/issues/220#issuecomment-499434377) von **@Hypnos3** und **@hobbyquaker** im Zusammenhang mit dieser Ergänzung für RedMatic.
