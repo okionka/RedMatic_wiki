@@ -1,3 +1,25 @@
+# [v5.5.3](https://github.com/rdmtc/RedMatic/releases/v5.5.3) 2020-04-11T08:42:27Z
+
+* @hobbyquaker Update Node-RED ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+* @hobbyquaker Update node-red-dashboard ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker Update RedMatic-HomeKit
+  * https://github.com/rdmtc/RedMatic-HomeKit/commit/effe9e79fb11d29a59bf04242a9782f08399b2e6 @kneip68 Unterstützung für IKEA Kadrilj hinzugefügt
+  * https://github.com/rdmtc/RedMatic-HomeKit/commit/effe9e79fb11d29a59bf04242a9782f08399b2e6 @kneip68 Unterstützung für IKEA Tradrfri Control Outlet hinzugefügt
+* @hobbyquaker Update node-red-contrib-sun-position
+* @hobbyquaker Update node-red-contrib-serialport
+* @hobbyquaker Update node-red-contrib-enocean
+* @hobbyquaker Update node-red-contrib-comfoair
+* @hobbyquaker Update node-red-contrib-modbus
+* @hobbyquaker Update node-red-node-sqlite
+* @hobbyquaker Update node-red-node-email
+* @hobbyquaker Update jquery and fontawesome
+* @hobbyquaker Update nodejs
+* @hobbyquaker Update npm
+* @hobbyquaker Update theme midnight-red
+
+
+
+
 # [v5.5.2](https://github.com/rdmtc/RedMatic/releases/v5.5.2) 2020-03-12T18:21:16Z
 
 * @hobbyquaker Update node-red-contrib-zigbee
