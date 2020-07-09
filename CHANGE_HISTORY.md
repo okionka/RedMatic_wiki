@@ -1,3 +1,14 @@
+# [v5.6.0-beta.0](https://github.com/rdmtc/RedMatic/releases/v5.6.0-beta.0) 2020-07-09T17:47:10Z
+
+* @hobbyquaker update prebuild binaries
+* @hobbyquaker update dependencies
+* @hobbyquaker reorganize prebuild scripts
+* @hobbyquaker Update dependencies, add binary modules (#354, #343, #321, #277)
+* @hobbyquaker Update Wiki TOC
+
+
+
+
 # [v5.5.3](https://github.com/rdmtc/RedMatic/releases/v5.5.3) 2020-04-11T08:42:27Z
 
 * @hobbyquaker Update Node-RED ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
