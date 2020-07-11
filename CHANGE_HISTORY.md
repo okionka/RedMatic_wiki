@@ -1,3 +1,11 @@
+# [v5.6.0-beta.1](https://github.com/rdmtc/RedMatic/releases/v5.6.0-beta.1) 2020-07-09T20:07:12Z
+
+* @hobbyquaker remove redmatic-canbus (for now), ignore rpi specific nodes in i686 build, catch error on pkg bundling
+* @hobbyquaker remove redmatic-canbus (for now)
+
+
+
+
 # [v5.6.0-beta.0](https://github.com/rdmtc/RedMatic/releases/v5.6.0-beta.0) 2020-07-09T17:47:10Z
 
 * @hobbyquaker update prebuild binaries
