@@ -1,5 +1,7 @@
 # Openweathermap mit Virtuellem CUxD Device und Systemvariablen nutzen
 
+[Youtube How-To von verdrahtet.info](https://www.youtube.com/watch?v=C61PfTBXM1o)
+
 ## Voraussetzungen
   * OpenWeatherMap [API Key (kostenlos) bekommen](http://openweathermap.org/appid)
   * Deine Station ID: steht in der URL wenn du nach einer Seite suchst: https://openweathermap.org/city/2867714
