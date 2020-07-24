@@ -1,3 +1,4 @@
+* `24. 7.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=jIi94oDgRCc) WLAN ein und ausschalten mit RedMatic und der CCU
 * `17. 7.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=C61PfTBXM1o) Virtuelle HomeMatic Wetterstation mit RedMatic
 * ` 4. 6.2020` 📖 [homematic-blog.lison.ch](https://homematic-blog.lison.ch/messdaten-mit-redmatic-in-einer-influxdb-speichern/) Messdaten mit RedMatic in einer InfluxDB speichern
 * `11. 4.2020` 📖 [homematic-blog.lison.ch](https://homematic-blog.lison.ch/klimadaten-mit-trend-auf-dem-e-paperdisplay-hm-dis-ep-wm55-mit-redmatic/) Klimadaten mit Trend auf dem E-Paperdisplay HM-Dis-EP-WM55 mit RedMatic
