@@ -39,6 +39,7 @@ Category: Administration
 | [node-red-contrib-harmony](https://flows.nodered.org/node/node-red-contrib-harmony) | Logitech Harmony Hub | ✅ | ✅ | Installation dauert aufgrund von Dependencies die via `git clone` installiert werden aussergewöhnlich lang, UI spiegelt Installationsfortschritt nicht richtig wieder (Spinner verschwindet verfrüht), Geduld notwendig, nicht erneut auf _Install_ klicken! | 
 | [node-red-contrib-homekit-bridged](https://github.com/NRCHKB/node-red-contrib-homekit-bridged) | Alternative zum RedMatic-HomeKit "Universal Accessory" für die Anbindung von nicht-Homematic Geräten | ✅ | ✅ | Achtung, es kann mehr als eine Bridge konfiguriert werden. Diese müssen auf unterschiedliche Ports verweisen und in Homematic müssen diese Ports entsprechend konfiguriert sein. Die verwendeten Ports müssen in der CCU Firewall freigegeben werden. Getestet und verwendet seit RedMatic-Release ab 4.3.5 bis 5.5.3 und node-red-contrib-homekit-bridged ab 0.5.1 bis 1.1.1. Das Release 1.1.1. nutzt nun [hap-nodejs Release 0.7.3](https://github.com/homebridge/HAP-NodeJS), welches zahlreiche Stablitätsverbesserungen im Umgang mit der Apple Homekit API bereitstellt.|
 | [node-red-contrib-huemagic](https://flows.nodered.org/node/node-red-contrib-huemagic) | | ✅ | ✅ | |
+| [node-red-contrib-hyperion](https://flows.nodered.org/node/node-red-contrib-hyperion) | zur Steuerung eines Hyperion-Servers | ✅ | ✅ | |
 | [node-red-contrib-ical-events](https://flows.nodered.org/node/node-red-contrib-ical-events) | Dieses Node RED-Modul ruft die Ereignisse von einer ical-URL oder von einem caldav-Server ab | ✅ | ✅ | |
 | [node-red-contrib-ifttt](https://github.com/diegopamio/node-red-contrib-ifttt) | | ✅ | |benötigt IFTTT Account https://ifttt.com/ |
 | [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb) | | ✅ | ✅ | |
@@ -49,6 +50,7 @@ Category: Administration
 | [node-red-contrib-mi-devices](https://flows.nodered.org/node/node-red-contrib-mi-devices) | Xiaomi Aqara Mi Home | ✅ | ✅ | |
 | [node-red-contrib-milight-2](https://flows.nodered.org/node/node-red-contrib-milight-2) | | ✅ | ✅ | |
 | [node-red-contrib-mysensors](https://github.com/tbowmo/node-red-contrib-mysensors) | [MySensors DIY Home Automation and IoT](https://www.mysensors.org/) | ✅ | ✅ | |
+| [node-red-contrib-neato-botvac](https://flows.nodered.org/node/node-red-contrib-neato-botvac) | zur Steuerung und Werte Erfassung eines Neato Botvac-Roboter | ✅ | ✅ | benötigt ein NEATO Account |
 | [node-red-contrib-netatmo](https://flows.nodered.org/node/node-red-contrib-netatmo) |Netatmogeräte in Node-Red anzeigen| ✅ |✅ |benötigt API-Key und Mac-Adresse des Gerätes |
 | [node-red-contrib-node-hue](https://flows.nodered.org/node/node-red-contrib-node-hue) | | ✅ | ✅ | |
 | [node-red-contrib-node-lifx](https://flows.nodered.org/node/node-red-contrib-node-lifx) | | ✅ | | |
@@ -58,6 +60,7 @@ Category: Administration
 | [node-red-contrib-ringdoorbell](https://flows.nodered.org/node/node-red-contrib-ringdoorbell) | | ✅ | | |
 | [node-red-contrib-s7comm](https://flows.nodered.org/node/node-red-contrib-s7comm) | | ✅ | | |
 | [node-red-contrib-samsung-tv-control](https://flows.nodered.org/node/node-red-contrib-samsung-tv-control) | Ansteuerung von aktuellen Samsung TVs | ✅ | ✅ | Anleitung beachten. Hier wird zunächst MAC-Adresse und ein Token vom TV benötigt.|
+| [node-red-contrib-simple-gate](https://flows.nodered.org/node/node-red-contrib-simple-gate) | zur Steuerung des Nachrichtenflusses | ✅ | ✅ | |
 | [node-red-contrib-sonoff-tasmota](https://flows.nodered.org/node/node-red-contrib-sonoff-tasmota) | | ✅ | | |
 | [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) | umfangreiche SONOS Nodes | ✅|✅ |[Wiki](https://github.com/hklages/node-red-contrib-sonos-plus/wiki) |
 | [node-red-contrib-sonospollytts](https://flows.nodered.org/node/node-red-contrib-sonospollytts) | Sprachausgabe auf Sonos | ✅ |⚠️ | Node-RED Port muss auf `80` konfiguriert werden |
