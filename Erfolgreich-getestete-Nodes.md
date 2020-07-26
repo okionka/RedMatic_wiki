@@ -74,6 +74,7 @@ Category: Administration
 | [node-red-contrib-velux](https://flows.nodered.org/node/node-red-contrib-velux) | Velux KLF-200 io-homecontrol Gateway | ✅ | ✅ | |
 | [node-red-contrib-viera](https://flows.nodered.org/node/node-red-contrib-viera) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
+| [node-red-node-base64](https://flows.nodered.org/node/node-red-node-base64) |  | ✅ | ✅ | |node-red-node-base64
 | [node-red-node-darksky](https://www.npmjs.com/package/node-red-node-darksky) |Abruf von aktuellen Wetterdaten und Wettervorhersage | ✅ | ✅ |benötigt [API](https://darksky.net/dev/) |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | ✅ | |
 | [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
