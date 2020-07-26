@@ -21,6 +21,7 @@ Category: Administration
 | [node-red-contrib-bt-presence](https://flows.nodered.org/node/node-red-contrib-bt-presence) | Anwesenheitserkennung über Bluetooth| ✅ |⚠️  | Bluetooth aktivieren auf CCU: `touch /etc/config/enableBluetooth ; /etc/init.d/S31bluetooth restart` | 
 | [node-red-contrib-cast](https://flows.nodered.org/node/node-red-contrib-cast) | | ✅ | ✅ | ist der Nachfolger zu [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) |
 | [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) | | ✅ | :exclamation: | Achtung! Ein Verbindungsabbruch verursacht einen RedMatic absturz. [Issue #7](https://github.com/hobbyquaker/RedMatic/issues/7) |
+| [node-red-contrib-color-convert](https://flows.nodered.org/node/node-red-contrib-color-convert) | Konvertieren zwischen Farbdarstellungen (z. B. RGB zu HSV) | ✅ | ✅ | |
 | [node-red-contrib-combine](https://flows.nodered.org/node/node-red-contrib-combine) | | ✅ | ✅ | |
 | [node-red-contrib-counter](https://flows.nodered.org/node/node-red-contrib-counter) | | ✅ | ✅ | |
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
