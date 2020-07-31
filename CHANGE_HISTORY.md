@@ -1,3 +1,13 @@
+# [v5.6.0-beta.2](https://github.com/rdmtc/RedMatic/releases/v5.6.0-beta.2) 2020-07-11T11:39:03Z
+
+* @hobbyquaker Update Node-RED, node-red-dashboard, node-red-contrib-zigbee, redmatic-homekit
+* @hobbyquaker don't delete on copy
+* @hobbyquaker remove node-red-contrib-nukible
+* @hobbyquaker hide log upload
+
+
+
+
 # [v5.6.0-beta.1](https://github.com/rdmtc/RedMatic/releases/v5.6.0-beta.1) 2020-07-09T20:07:12Z
 
 * @hobbyquaker remove redmatic-canbus (for now), ignore rpi specific nodes in i686 build, catch error on pkg bundling
