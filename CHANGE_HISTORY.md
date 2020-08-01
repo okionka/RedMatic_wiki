@@ -1,3 +1,15 @@
+# [v6.0.0-beta.0](https://github.com/rdmtc/RedMatic/releases/v6.0.0-beta.0) 2020-07-31T22:03:54Z
+
+* @hobbyquaker reorder
+* @hobbyquaker fix missing johnny-five in armv7l pkg
+* @hobbyquaker add pigpod armv7l libs to johnny-five pkg
+* @hobbyquaker use nodejs 14, update deps, rework prebuild, bump version (#374)
+* @hobbyquaker update npm, node-red-contrib-rfxcom, redmatic-homekit, theme midnight-red
+* @hobbyquaker Update theme midnight-red, update node-red-contrib-chatbot
+
+
+
+
 # [v5.6.0-beta.2](https://github.com/rdmtc/RedMatic/releases/v5.6.0-beta.2) 2020-07-11T11:39:03Z
 
 * @hobbyquaker Update Node-RED, node-red-dashboard, node-red-contrib-zigbee, redmatic-homekit
