@@ -1,3 +1,16 @@
+# [v6.0.0](https://github.com/rdmtc/RedMatic/releases/v6.0.0) 2020-08-02T11:18:49Z
+
+* ⚠️ **Update auf Node.js 14** Da die Unterstützung für die x86 32 Bit Plattform in aktuellen Node.js Versionen nicht mehr gegeben ist, musste der Support für die RaspberryMatic Varianten _ova_ und _intelnuc_ vorerst eingestellt werden 
+https://github.com/rdmtc/RedMatic/issues/374#issuecomment-667663002
+* Standard-Build nun für armv7l, armv6l Build (für RaspberryMatic _rpi0_) separiert
+* Node-RED 1.1.2 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+* Node-RED-Dashboard 2.23.0 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* node-red-contrib-zigbee: Conbee Unterstützung (ungetestet)
+* Update fast aller Module/Nodes, diverse Fehlerbehebungen und Verbesserungen
+
+
+
+
 # [v6.0.0-beta.1](https://github.com/rdmtc/RedMatic/releases/v6.0.0-beta.1) 2020-08-01T08:19:05Z
 
 * @hobbyquaker setting prerelease breaks build_release_body
