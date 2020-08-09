@@ -69,14 +69,15 @@ BidCoS-RF:1) und mit dem "poll" Node verbinden.
 
 ## Ich möchte meine Flows unabhängig vom CCU-Backup sichern. Welche Dateien sind relevant?
 
-Für eine Sicherung der Flows sind folgende Dateien relevant:
+Für eine Sicherung der Flows sind folgende Ordner/Dateien relevant:
 
 * `/usr/local/addons/redmatic/var/flows.json`
 * `/usr/local/addons/redmatic/var/flows_cred.json`
 * `/usr/local/addons/redmatic/etc/credentials.key`
-* Falls das Node-RED Projects-Feature aktiviert ist der Ordner: `/usr/local/addons/redmatic/var/projects`
-* Falls HomeKit genutzt wird noch der Ordner: `/usr/local/addons/redmatic/var/homekit`
-
+* `/usr/local/addons/redmatic/etc/settings.json`
+* Falls Node-RED "Projects" aktiviert ist: `/usr/local/addons/redmatic/var/projects`
+* Falls RedMatic-HomeKit genutzt wird: `/usr/local/addons/redmatic/var/homekit`
+* Falls node-red-contrib-zigbee genutzt wird: `/usr/local/addons/redmatic/var/zigbee`
 
 ## Besser CCU3/RaspberryMatic und RedMatic oder piVCCU/Debmatic und Node-RED (im Container) ...?﻿</b></summary>
 
