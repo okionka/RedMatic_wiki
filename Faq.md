@@ -33,6 +33,7 @@ und Updates von Addons eine wesentlich effizientere Methodik mit deutlich gering
 suggeriert funktioniert dieses Addon nicht nur im Zusammenspiel mit RaspberryMatic sondern auch mit der eQ-3 CCU3 
 Firmware.
 
+Sollte es nach dem Update zu Problemen mit dem RedMatic UI kommen (z.B.: Node-RED Prozess zeigt "stopped" an obwohl er läuft) kann es helfen den Browser-Cache zu leeren.
 
 ## Tastendruck erzeugt keine Events
 
