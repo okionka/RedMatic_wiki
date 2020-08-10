@@ -1,3 +1,15 @@
+# [v6.0.1](https://github.com/rdmtc/RedMatic/releases/v6.0.1) 2020-08-08T11:37:22Z
+
+* @hobbyquaker update node-red-contrib-ccu to 3.2.1 
+  * Workaround für Fehler bei Abfrage von Rega-Variablen (#381)
+* @hobbyquaker update node-red to 1.1.3 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md)) 
+* @hobbyquaker update node-red-dashboard to 2.23.2 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker update bootstrap to 4.5.2
+* @hobbyquaker improved dependency update script
+
+
+
+
 # [v6.0.0](https://github.com/rdmtc/RedMatic/releases/v6.0.0) 2020-08-02T11:18:49Z
 
 * ⚠️ **Update auf Node.js 14** Da die Unterstützung für die x86 32 Bit Plattform in aktuellen Node.js Versionen nicht mehr gegeben ist, musste der Support für die RaspberryMatic Varianten _ova_ und _intelnuc_ vorerst eingestellt werden 
