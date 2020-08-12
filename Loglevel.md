@@ -17,6 +17,6 @@ Zur Fehleranalyse und um ein Log für Supportanfragen zu generieren den Loglevel
 
 ### Log herunterladen
 
-RedMatic loggt in das CCU Syslog (`/var/log/messages`), im UI kann das Log (gefiltert auf Meldungen von RedMatic/Node-RED) heruntergeladen werden:
+RedMatic loggt in das CCU Syslog (`/var/log/messages`), im UI kann das Log (gefiltert auf Meldungen von RedMatic/Node-RED und angereichert mit Versionsinformationen) heruntergeladen werden:
 
 ![](images/log-download.png)
