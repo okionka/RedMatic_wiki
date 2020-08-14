@@ -1,3 +1,4 @@
+* `14. 8.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=vl0Q0VyH-qk) Zigbee Geräte mit Homematic verbinden - Xiaomi Temperatur Sensor
 * `24. 7.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=jIi94oDgRCc) WLAN ein und ausschalten mit RedMatic und der CCU
 * `17. 7.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=C61PfTBXM1o) Virtuelle HomeMatic Wetterstation mit RedMatic
 * ` 4. 6.2020` 📖 [homematic-blog.lison.ch](https://homematic-blog.lison.ch/messdaten-mit-redmatic-in-einer-influxdb-speichern/) Messdaten mit RedMatic in einer InfluxDB speichern
