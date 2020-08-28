@@ -39,7 +39,7 @@ Sollte es nach dem Update zu Problemen mit dem RedMatic UI kommen (z.B.: Node-RE
 
 Dem Schnittstellenprozess muss mitgeteilt werden, dass sich jemand für diese Events "interessiert" (er legt dann "hinter den Kulissen" eine Verknüpfung von der Taste zum sogenannten "Central Device" an die notwendig ist um die Events von Tasten zu erhalten). Dies kann über eine der folgenden beiden Möglichkeiten bewerkstelligt werden:
 
-1. Für jeden Kanal ein "Dummy" CCU-Programm anlegen. Einfach ein Programm das auf Tastendruck reagiert (egal ob PRESS_SHORT oder PRESS_LONG) und nichts tut. Die Programme können danach wieder gelöscht werden.
+1. Für jeden Kanal ein "Dummy" CCU-Programm anlegen. Einfach ein Programm das auf Tastendruck reagiert (egal ob PRESS_SHORT oder PRESS_LONG) und nichts tut.
 2. Den Homematic-Manager installieren, im Reiter Geräte das Gerät über das + in der Spalte links "aufklappen" und dann auf die Kanäle rechtsklicken und "reportValueUsage" anklicken.
 
 
