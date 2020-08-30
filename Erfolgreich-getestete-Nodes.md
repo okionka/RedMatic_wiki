@@ -17,6 +17,7 @@ Category: Administration
 | [node-red-contrib-blindcontroller](https://flows.nodered.org/node/node-red-contrib-blindcontroller) | | ✅ | ✅ | | 
 | [node-red-contrib-blockly](https://flows.nodered.org/node/node-red-contrib-blockly) | | ✅ | ✅ | | 
 | [node-red-contrib-boolean-logic](https://flows.nodered.org/node/node-red-contrib-boolean-logic) | | ✅ | ✅ | | 
+| [node-red-contrib-bool-gate](https://flows.nodered.org/node/node-red-contrib-bool-gate) | | ✅ | ✅ | | 
 | [node-red-contrib-broadlink](https://flows.nodered.org/node/node-red-contrib-broadlink) | | ✅ | ✅ | | 
 | [node-red-contrib-bt-presence](https://flows.nodered.org/node/node-red-contrib-bt-presence) | Anwesenheitserkennung über Bluetooth| ✅ |⚠️  | Bluetooth aktivieren auf CCU: `touch /etc/config/enableBluetooth ; /etc/init.d/S31bluetooth restart` | 
 | [node-red-contrib-cast](https://flows.nodered.org/node/node-red-contrib-cast) | | ✅ | ✅ | ist der Nachfolger zu [node-red-contrib-chromecast](https://flows.nodered.org/node/node-red-contrib-chromecast) |
