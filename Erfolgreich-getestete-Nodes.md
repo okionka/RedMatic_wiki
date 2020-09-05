@@ -7,7 +7,7 @@ Category: Administration
 
 | Name/Link | Beschreibung | Lässt sich installieren | Erfolgreich getestet | Anmerkungen |
 | --------- | ------------ | ----------------------- | -------------------- | ----------- |
-| [node-red-contrib-aedes](https://flows.nodered.org/node/node-red-contrib-aedes)|  MQTT z. B. für Shelly devices| ✅| ✅ | | 
+| [node-red-contrib-aedes](https://flows.nodered.org/node/node-red-contrib-aedes)|  MQTT server (broker) z. B. für Shelly devices| ✅| ✅ | | 
 | [node-red-contrib-alexa-local](https://flows.nodered.org/node/node-red-contrib-alexa-local) | | ✅| Nein | funktioniert nicht mehr seit 2019-09 | 
 | [node-red-contrib-alexa-home-skill](https://flows.nodered.org/node/node-red-contrib-alexa-home-skill) | | ✅| ✅ | account notwendig| 
 | [node-red-contrib-alexa-remote2](https://flows.nodered.org/node/node-red-contrib-alexa-remote2) | Echo ansteuern, Sprachausgabe u.v.m. | ✅| ✅ | | 
