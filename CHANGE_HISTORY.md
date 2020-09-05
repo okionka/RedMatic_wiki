@@ -1,3 +1,12 @@
+# [v6.0.2](https://github.com/rdmtc/RedMatic/releases/v6.0.2) 2020-08-10T15:43:33Z
+
+* @hobbyquaker use armv6l prebuild for now (workaround #385)
+  Behebt einen Fehler der dazu geführt hat dass Nodes mit Binärmodulen (z.B. Zigbee) auf der CCU3 nicht funktioniert haben
+* @hobbyquaker show old version in git commit msg
+
+
+
+
 # [v6.0.1](https://github.com/rdmtc/RedMatic/releases/v6.0.1) 2020-08-08T11:37:22Z
 
 * @hobbyquaker update node-red-contrib-ccu to 3.2.1 
