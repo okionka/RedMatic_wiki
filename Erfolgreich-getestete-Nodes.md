@@ -98,3 +98,4 @@ Category: Administration
 | [node-red-contrib-light-scheduler](https://flows.nodered.org/node/node-red-contrib-light-scheduler) |Wochenzeitschaltuhr für Lichtsteuerung mit grafischer Auswahl der Schaltzeiten | ✅ | ✅ | |
 | [node-red-node-wol](https://flows.nodered.org/node/node-red-node-wol) |Sendet Wake-On-LAN (WOL)-Magic-Pakete zum Aufwecken von im Netzwerk verbundenen Geräten im Ruhezustand | ✅ | ✅ |Aufzuweckende Geräte müssen das unterstützen und entsprechend konfiguriert sein |
 | [node-red-contrib-pi-hole-remote](https://flows.nodered.org/node/node-red-contrib-pi-hole-remote) |  Steuern des [pi-hole](https://pi-hole.net) Network-wide Ad-Blocking servers  | ✅ | ✅ | Erlaubt das Ein-/Ausschalten der DNS-Filterung über Node-red mittels secure API-Token |
+| [node-red-node-ui-table](https://flows.nodered.org/node/node-red-node-ui-table) | Beautiful tables | ✅ | ✅ | |
