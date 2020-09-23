@@ -29,8 +29,8 @@ Das Shelly1 Relais wird in die Lichtschalter-Unterputzdose verbaut. [Anleitung](
 Das Shelly2.5 Relais wird analog verbaut. [Anleitung](https://www.youtube.com/watch?v=_DEqoUHP0IM)
 Die beiden L Anschlusse werden intern überbrückt. 
 
-## Software Installation für Node-RED
-RedMatic (Node-RED) auf der CCU und MQTT für die Shelly's Integration. Die Shelly App bzw. die Shelly Cloud wird nicht genutzt. 
+## Software Installation für RedMatic (Node-RED) und MQTT
+Die Shelly App bzw. die Shelly Cloud wird nicht genutzt. 
 
 MQTT wird in diesem Video gut erläutert: [Shelly MQTT](https://www.youtube.com/watch?v=KQA70lZCccI)
 
