@@ -3,7 +3,7 @@
 Shelly Relais sind kostengünstige Relais (10 Euro), die in Unterputzdosen verbaut werden. 
 Sie können über WLAN (REST API, MQTT) in die Hausautomation (ioBroker, FHEM, Node-RED, Alexa, ...) eingebunden werden.
 
-Voraussetzungen: Freien Platz und Strom (Phase, Nulleiter) in der Lichtschalter-Unterputzdose 
+Voraussetzungen: Freien Platz und Strom (Phase, Nulleiter) in der Lichtschalter-Unterputzdose. 
 
 Welche Modelle gibt es: [Shelly homepage](https://shelly.cloud/)
 
@@ -27,9 +27,11 @@ Vorteil: Beste Nutzung der drei Leuchten. Außerdem wird vermieden, dass versehe
 
 ## Physische Installation der Shelly durch Elektriker.
 Das Shelly1 Relais wird in die Lichtschalter-Unterputzdose verbaut. [Anleitung](https://www.youtube.com/watch?v=N25PJ8uLceg)
+
 ![Shelly1 Anschlüsse](https://user-images.githubusercontent.com/17273119/94026821-72ccf300-fdba-11ea-83d1-e72d3fb86f57.png)
 
 Das Shelly2.5 Relais wird analog verbaut. [Anleitung](https://www.youtube.com/watch?v=_DEqoUHP0IM)
+
 Die beiden L Anschlusse werden intern überbrückt. 
 
 ## Software Installation für RedMatic (Node-RED) und MQTT
