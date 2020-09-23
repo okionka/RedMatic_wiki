@@ -38,4 +38,16 @@ MQTT wird in diesem Video gut erläutert: [Shelly MQTT](https://www.youtube.com/
 2. Als MQTT Broker/Server: node-red-contrib-aedes oder Mosquito, Homematic MQTT Add on, ... 
 3. Homematic IP Scripte um die Kanäle für die Homematic IP Schalter zu aktivieren
 
-Hier sind die Flows und Settings für die 3 Beispiele.
+### Settings und flows
+Beispiel 1
+
+Settings:  
+POWER ON DEFAULT MODE: Restore last mode
+BUTTON TYPE: Edge Switch
+
+Internet & Security
+WIFI MODE - CLIENT: yes, mein WLAN, IP statisch: 192.168.178.204
+ADVANCED - DEVELOPER SETTINGS: Enable MQTT, 192.168.178.25:1883
+CLOUD: Disabled
+
+Flow: `[{"id":"e2f04485.a54c48","type":"mqtt in","z":"4a59ce31.c7bf3","name":"","topic":"shellies/shelly1-A4CF12F4221F/relay/0","qos":"2","datatype":"auto","broker":"608a29e6.968158","x":191,"y":2002,"wires":[["22099828.e20a88"]]},{"id":"22099828.e20a88","type":"rbe","z":"4a59ce31.c7bf3","name":"","func":"rbe","gap":"","start":"","inout":"out","property":"payload","x":415,"y":2002,"wires":[["39352df4.5fed22","ecd480eb.1ccd3"]]},{"id":"39352df4.5fed22","type":"ui_switch","z":"4a59ce31.c7bf3","name":"","label":"Büro","tooltip":"","group":"4cbff0bc.b38a3","order":5,"width":3,"height":1,"passthru":false,"decouple":"true","topic":"","style":"","onvalue":"on","onvalueType":"str","onicon":"wb_incandescent","oncolor":"var(--nr-dashboard-widgetBackgroundColor)","offvalue":"off","offvalueType":"str","officon":"wb_incandescent","offcolor":"var(--nr-dashboard-widgetTextColor)","x":551,"y":2002,"wires":[["34143ad0.ff9336"]]},{"id":"34143ad0.ff9336","type":"mqtt out","z":"4a59ce31.c7bf3","name":"","topic":"shellies/shelly1-A4CF12F4221F/relay/0/command","qos":"2","retain":"","broker":"608a29e6.968158","x":817,"y":2002,"wires":[]},{"id":"608a29e6.968158","type":"mqtt-broker","z":"","name":"ccuBroker","broker":"localhost","port":"1883","clientid":"","usetls":false,"compatmode":false,"keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","closeTopic":"","closeQos":"0","closePayload":"","willTopic":"","willQos":"0","willPayload":""},{"id":"4cbff0bc.b38a3","type":"ui_group","z":"","name":"Lichter","tab":"7effafe8.b39eb","order":1,"disp":true,"width":"9","collapse":false},{"id":"7effafe8.b39eb","type":"ui_tab","z":"","name":"Leuchten Schalter","icon":"fa-lightbulb-o","order":4,"disabled":false,"hidden":false}]`
