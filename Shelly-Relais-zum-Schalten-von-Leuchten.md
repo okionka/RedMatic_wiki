@@ -22,7 +22,7 @@ Es ist eine Leuchtenleiste mit drei Leuchten installiert. Je nach Nutzung wird n
 
 ## Physische Installation der Shelly - durch Elektriker.
 Das Shelly1 Relais wird in die Lichtschalter-Unterputzdose verbaut. [Anleitung](https://www.youtube.com/watch?v=N25PJ8uLceg)
-Anschlussbild
+
 
 Das Shelly2.5 Relais wird analog verbaut. [Anleitung](https://www.youtube.com/watch?v=_DEqoUHP0IM)
 Die beiden L Anschlusse werden intern überbrückt. 
