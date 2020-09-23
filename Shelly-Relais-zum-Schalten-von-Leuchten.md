@@ -38,9 +38,7 @@ MQTT wird in diesem Video gut erläutert: [Shelly MQTT](https://www.youtube.com/
 2. Als MQTT Broker/Server: node-red-contrib-aedes oder Mosquito, Homematic MQTT Add on, ... 
 3. Homematic IP Scripte um die Kanäle für die Homematic IP Schalter zu aktivieren
 
-### Settings und flows
-Beispiel 1
-
+### Settings und flows Beispiel 1
 Settings:  
 * POWER ON DEFAULT MODE: Restore last mode
 * BUTTON TYPE: Edge Switch
