@@ -73,6 +73,7 @@
   * [INSTAR Kameras anbinden](https://wiki.instar.de/Erweitert/Homematic_CCU3_und_RedMatic/)
   * [Subflow für Home24-Mediaplayer App](https://github.com/Matten-Matten/node-red-home24-mediaplayer-flow)
   * [EASY Push Subflow Push Nachrichten an EASY-Smarthome App oder Smartha App](https://github.com/Matten-Matten/Redmatic-EASY-Push-Flow)
+  * [Shelly Relais zu Schalten von Leuchten](https://github.com/rdmtc/RedMatic/wiki/Shelly-Relais-zum-Schalten-von-Leuchten)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
