@@ -8,7 +8,7 @@ Welche Modelle gibt es: [Shelly homepage](https://shelly.cloud/)
 ## Meine Einsatzbereiche
 
 ### 1. Standard Lichtschalter mit standard LED Leuchte: Shelly 1
-Die LED Leuchte wird über RedMatic geschaltet. Der vorhandene Lichtschalter ist weiterhin funktionsfähig.
+Die LED Leuchte wird über RedMatic und Alexa geschaltet. Der vorhandene Lichtschalter ist weiterhin funktionsfähig.
 
 Vorteil: Automation zu geringen Kosten.
 
