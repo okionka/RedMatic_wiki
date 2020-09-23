@@ -1,3 +1,7 @@
+
+![Screenshot 2020-09-23 163534](https://user-images.githubusercontent.com/17273119/94027210-e40ca600-fdba-11ea-9d9e-f775074a6381.png)
+
+
 Shelly Relais sind kostengünstige Relais (10 Euro), die in Unterputzdosen verbaut werden. 
 Sie können über WLAN (REST API, MQTT) in die Hausautomation (ioBroker, FHEM, Node-RED, Alexa, ...) eingebunden werden.
 
