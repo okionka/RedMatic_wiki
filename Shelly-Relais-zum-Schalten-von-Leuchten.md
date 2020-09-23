@@ -19,7 +19,7 @@ Vorteil: Automation mit Präsenzmelder und Alexa.
 
 ### 3. Homematic IP 6-fach Lichtschalter mit 3 Philips HUE Leuchten: Shelly 1 
 Es ist eine Leuchtenleiste mit drei Leuchten installiert. Je nach Nutzung wird nur eine oder mehrere Leuchten eingeschaltet - auch gedimmt (Hue Szenen)
-Über den 6-fach Schalter können die einzelnen Leuchten geschaltet werden plus Szenen aktiviert werden. 
+Über den 6-fach Schalter können die einzelnen Leuchten geschaltet plus Szenen aktiviert werden. 
 
 Vorteil: Beste Nutzung der drei Leuchten. Außerdem wird vermieden, dass versehentlich der Schalter betätigt wird und die HUE Lampe keinen Strom hat - somit nicht mehr schaltbar ist (das typische Philips Hue Problem).
 
