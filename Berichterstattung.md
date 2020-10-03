@@ -1,3 +1,4 @@
+* ` 2.10.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=GBlIK_T6NPw) [💶 Seminar: RedMatic für Einsteiger – Erweitere Deine Homematic!](https://www.verdrahtet.info/redmatic-fuer-einsteiger-erweitere-deine-homematic/) 
 * `14. 8.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=vl0Q0VyH-qk) Zigbee Geräte mit Homematic verbinden - Xiaomi Temperatur Sensor
 * `24. 7.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=jIi94oDgRCc) WLAN ein und ausschalten mit RedMatic und der CCU
 * `17. 7.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=C61PfTBXM1o) Virtuelle HomeMatic Wetterstation mit RedMatic
