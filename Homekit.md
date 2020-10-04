@@ -92,6 +92,10 @@ Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kan
 
 Bitte beachten: Ein HomeKit Switch Node = Ein Switch in HomeKit, dh. wird der HomeKit Switch Node an mehreren Stellen benötigt, darf er nicht kopiert oder neu angelegt werden, da dies zur Anlage eines weiteren Switch in HomeKit führen würde. Für mehr Übersichtlichkeit und/oder Verwendung über mehrere Flows hinweg können hier die Link-Nodes helfen.
 
+Der HomeKit Switch kann innerhalb von Red geschaltet werden. Eine Schaltung in Red ändert den Zustand des Switch in HomeKit, verursacht aber keinen Output aus dem Switch! Wird der Switch in HomeKit geschaltet, verursacht dies einen True/False Output in Red, der für weitere Aktionen genutzt werden kann. Soll eine Schaltung des Switch in Red gleichzeitig die Aktion in Red auslösen, die beim Schalten in HomeKit ausgelöst würde, muss der True/False Befehl parallel weitergeleitet werden.
+
+
+
 ### Programme
 
 Leider werden bisher von der Home App und Siri keine Taster unterstützt die einen Einmaligen Event erzeugen. Als Workaround steht mit dem _redmatic homekit - button_ Node ein Schalter zur Verfügung der sich automatisch nach dem Anschalten zurücksetzt und so als "Pseudobutton" genutzt werden kann.
