@@ -90,6 +90,7 @@ Zum Auslösen von Aktionen in HomeKit über Homematic Fernbedienungen/Taster kan
 
 ![](images/homekit/homekit-sysvar.png)
 
+Bitte beachten: Ein HomeKit Switch Node = Ein Switch in HomeKit, dh. wird der HomeKit Switch Node an mehreren Stellen benötigt, darf er nicht kopiert oder neu angelegt werden, da dies zur Anlage eines weiteren Switch in HomeKit führen würde. Für mehr Übersichtlichkeit und/oder Verwendung über mehrere Flows hinweg können hier die Link-Nodes helfen.
 
 ### Programme
 
