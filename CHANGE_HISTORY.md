@@ -1,3 +1,17 @@
+# [v6.0.3](https://github.com/rdmtc/RedMatic/releases/v6.0.3) 2020-09-05T13:30:00Z
+
+* @hobbyquaker update node.js
+* @hobbyquaker update node-red-contrib-chatbot 0.19.6 to 0.19.7
+* @hobbyquaker update node-red-node-serialport 0.10.3 to 0.11.0
+* @hobbyquaker update npm 6.14.7 to 6.14.8
+* @hobbyquaker update node-red-contrib-sun-position 1.1.3 to 1.1.6
+* @hobbyquaker update node-red-dashboard 2.23.2 to 2.23.3 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker update node-red-node-email 1.7.8 to 1.7.9
+* @hobbyquaker add x86_64
+
+
+
+
 # [v6.0.2](https://github.com/rdmtc/RedMatic/releases/v6.0.2) 2020-08-10T15:43:33Z
 
 * @hobbyquaker use armv6l prebuild for now (workaround #385)
