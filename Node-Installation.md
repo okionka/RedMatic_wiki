@@ -22,6 +22,13 @@ Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktiv
 
 ![](images/node-install-2.png)
 
+## Installation via npm auf der Kommandozeile
+
+```
+source /usr/local/addons/redmatic/home/.profile
+cd /usr/local/addons/redmatic/var
+npm install --save --no-package-lock --global-style --save-prefix="~" --production <paket-name>
+```
 
 ## Nodes mit Binärmodulen
 
@@ -49,13 +56,7 @@ Um dieses Problem zu lösen bringt RedMatic noch eine weitere eigene Paketverwal
 ![image](https://user-images.githubusercontent.com/12692680/54923104-d5b1a580-4f09-11e9-8668-22509a30ec3a.png)
 
 
-## Installation via npm auf der Kommandozeile
 
-```
-source /usr/local/addons/redmatic/home/.profile
-cd /usr/local/addons/redmatic/var
-npm install --save --no-package-lock --global-style --save-prefix="~" --production <paket-name>
-```
 
 
 ## Kommentar: Wie kann ich die Qualität von Node-RED Nodes beurteilen?
