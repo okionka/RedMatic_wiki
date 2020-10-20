@@ -15,6 +15,8 @@ Wer die Flows und Einstellungen von RedMatic unabhängig vom CCU Backup sichern 
 
 Das entspricht der Empfehlung von [nodeRed cookbook](https://github.com/node-red/cookbook.nodered.org/wiki/How-to-backup-flows-and-related-configuration).
 
+Achtung: .config.json bzw. .config.*.json (ab 1.20) ist/sind "hidden" und sollte nicht vergessen werden, da es die credentials für Projekte enthält (falls genutzt)
+
 Achtung: Die globalen Variablen müssen zusätzlich gesichert werden, falls man den Default Pfad geändert hat. 
 
 Wenn man ein manuelles Backup zurückspielt sollte zuerst Node-RED gestoppt werden, dann erst die Dateien zurück kopieren. 
