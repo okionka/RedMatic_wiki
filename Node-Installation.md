@@ -14,6 +14,8 @@ Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktiv
 
 * Zur Sicherheit vor dem Installieren zusätzlicher Nodes ein **CCU Backup anlegen!**
 * Fehlerhafte Nodes können im schlimmsten Fall zum Node-RED Absturz direkt beim Start führen, falls dieses Problem auftritt kann man diese im [Safe Mode](safe-mode) wieder entfernen.
+* Falls der Safe mode nicht funktioniert, kann man versuchen sich auf die CCU per ssh einzuloggen, dort mit "mount -o remount,rw /" das root Verzeichnis 
+zugreifbar machen und dann mit `npm` im user Verzeichns `cd /usr/local/addons/redmatic/var` zu entfernen. Danach auf alle Fälle wieder den mount setzen mit `mount -o remount,ro /` oder rebooten. 
 
 
 ## Installation via Node-RED Palette Manager
