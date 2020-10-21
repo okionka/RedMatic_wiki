@@ -82,9 +82,9 @@ Category: Administration
 | [node-red-contrib-viera](https://flows.nodered.org/node/node-red-contrib-viera) | | ✅ | | |
 | [node-red-contrib-xiaomi-miio](https://flows.nodered.org/node/node-red-contrib-xiaomi-miio) |  | ✅ | ✅ | |
 | [node-red-node-base64](https://flows.nodered.org/node/node-red-node-base64) | Codieren und Decodieren von Nachrichten im Base64-Format | ✅ | ✅ | |node-red-node-base64
-| [node-red-node-darksky](https://www.npmjs.com/package/node-red-node-darksky) |Abruf von aktuellen Wetterdaten und Wettervorhersage | ✅ | ✅ |benötigt [API](https://darksky.net/dev/) |
+| [node-red-node-darksky](https://www.npmjs.com/package/node-red-node-darksky) | Abruf von aktuellen Wetterdaten und Wettervorhersage | ✅ | ✅ |benötigt [API](https://darksky.net/dev/); es werden jedoch keine neuen API-Subscriptions mehr angenommen, wohl als Folge der [Akquise von Darksky durch Apple](https://www.theverge.com/2020/3/31/21201666/apple-acquires-weather-app-dark-sky-shut-down-android-wear-os-ios) |
 | [node-red-node-mysql](https://flows.nodered.org/node/node-red-node-mysql) | | ✅ | ✅ | |
-| [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) |Standort Wetterdaten auslesen | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
+| [node-red-node-openweathermap](https://flows.nodered.org/node/node-red-node-openweathermap) | Abruf von standortbasierten, aktuellen Wetterdaten und Wettervorhersage | ✅ | ✅ | benötigt [API Key](http://openweathermap.org/appid) | 
 | [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping) | | ✅ | | |
 | [node-red-node-random](https://flows.nodered.org/node/node-red-node-random) | | ✅ | ✅ | |
 | [node-red-node-sentiment](https://flows.nodered.org/node/node-red-node-sentiment) | | ✅ | | |
