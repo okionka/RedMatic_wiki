@@ -17,7 +17,7 @@ Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktiv
 * Falls der Safe mode nicht die erwarteten Ergebnisse liefert, kann man versuchen die Node per Hand zu entfernen. Dazu zuerst einen Backup machen! und sich dann bewusst sein, dass es sich hier um einen sehr kritischen Eingriff in das CCU System handelt.
   * ssh einzuloggen unter root
   * `mount -o remount,rw /`
-  * `cd /usr/local/addons/redmatic/var´
+  * `cd /usr/local/addons/redmatic/var`
   * `npm uninstall node-red-contrib-hue` alternativ einfach eine alte Version installieren
   * `mount -o remount,ro /` am besten auch noch ein reboot. 
 
