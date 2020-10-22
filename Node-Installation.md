@@ -18,7 +18,7 @@ Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktiv
   * ssh einzuloggen unter root
   * `mount -o remount,rw /`
   * `cd /usr/local/addons/redmatic/var`
-  * `npm uninstall node-red-contrib-hue` alternativ einfach eine alte Version installieren
+  * `npm uninstall node-red-contrib-hue` - Beispiel package node-red-contrib-hue.
   * `mount -o remount,ro /` am besten auch noch ein reboot. 
 
 ## Installation via Node-RED Palette Manager
