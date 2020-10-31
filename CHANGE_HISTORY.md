@@ -1,3 +1,18 @@
+# [v6.0.4](https://github.com/rdmtc/RedMatic/releases/v6.0.4) 2020-10-10T12:48:54Z
+* @hobbyquaker update Node.js 14.9.0 to 14.13.1
+* @hobbyquaker add x86_64 binaries
+* @hobbyquaker update @fortawesome/fontawesome-free 5.14.0 to 5.15.1
+* @hobbyquaker update node-red-contrib-zigbee 0.19.0 to 0.20.0
+* @hobbyquaker update node-red-node-sqlite 0.4.3 to 0.4.4
+* @hobbyquaker update node-red-contrib-sun-position 1.1.6 to 1.1.7
+* @hobbyquaker update node-red-dashboard 2.23.3 to 2.23.4
+* @hobbyquaker update node-red-node-email 1.7.9 to 1.7.11
+* 98a06f2 @hobbyquaker move npm-cache to var and exclude from backup (close #409)
+
+
+
+
+
 # [v6.0.3](https://github.com/rdmtc/RedMatic/releases/v6.0.3) 2020-09-05T13:30:00Z
 
 * @hobbyquaker update node.js
