@@ -1,3 +1,16 @@
+# [v7.0.0](https://github.com/rdmtc/RedMatic/releases/v7.0.0) 2020-10-31T16:04:32Z
+* @hobbyquaker update node-red 1.1.3 to 1.2.2 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+* @hobbyquaker update node-red-dashboard 2.23.4 to 2.23.5 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker update node.js to 14.15.0
+* @hobbyquaker update bootstrap 4.5.2 to 4.5.3
+* @hobbyquaker update node-red-contrib-comfoair 0.0.5 to 0.0.6
+* @hobbyquaker update @node-red-contrib-themes/midnight-red 1.4.4 to 1.4.5
+* @hobbyquaker update node-red-node-email 1.7.11 to 1.8.2
+* 0ab11e3 042da7e a8bfee5 77bbbaf 36756db f584435 1f6cdf9 0830384 @hobbyquaker fix x86_64 build
+
+
+
+
 # [v6.0.4](https://github.com/rdmtc/RedMatic/releases/v6.0.4) 2020-10-10T12:48:54Z
 * @hobbyquaker update Node.js 14.9.0 to 14.13.1
 * @hobbyquaker add x86_64 binaries
