@@ -2,8 +2,8 @@
 * [FAQ - Häufig gestellte Fragen](Faq)
 * Administration
   * [Installation](Installation)
-  * [Probleme beim Update/Installation](Probleme-Update-Installation)
   * [Update](Update)
+  * [Probleme beim Update Installation](Probleme-Update-Installation)
   * [Backup](Backup)
   * [Firewall](Firewall)
   * [Context Storage Konfigurieren](Context-Storage)
