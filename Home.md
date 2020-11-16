@@ -2,6 +2,7 @@
 * [FAQ - Häufig gestellte Fragen](Faq)
 * Administration
   * [Installation](Installation)
+  * [Probleme beim Update/Installation](Probleme-Update-Installation)
   * [Update](Update)
   * [Backup](Backup)
   * [Firewall](Firewall)
