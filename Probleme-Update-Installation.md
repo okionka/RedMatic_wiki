@@ -4,7 +4,7 @@ Falls Probleme beim Update/Installation auftreten, bitte folgendes prüfen/beach
 
 - Prüfen, ob die richtige Datei für die vorhandene Hardware installiert wurde
 
-- Erreichbarkeit prüfen: [flows](http://<ip address>:80/addons/red/#flow) bzw das [dashboard](http://<ip address>:80/addons/red/ui/) (falls genutzt)
+- Erreichbarkeit prüfen: [flows](http://<ccu-address>:80/addons/red/#flow) bzw das [dashboard](http://<ccu-address>:80/addons/red/ui/) (falls genutzt)
 
 - Logfile untersuchen
 
