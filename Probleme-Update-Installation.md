@@ -1,4 +1,4 @@
-Falls Probleme beim Update oder der Installation auftreten, bitte folgendes prüfen/beachten
+Falls Probleme beim Update/Installation auftreten, bitte folgendes prüfen/beachten
 
 - Geduld: Update/Installation kann durchaus 60 Minuten dauern
 
