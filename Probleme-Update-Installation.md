@@ -6,6 +6,8 @@ Falls Probleme beim Update/Installation auftreten, bitte folgendes prüfen/beach
 
 - Erreichbarkeit prüfen: [flows](http://<ccu-address>:80/addons/red/#flow) bzw das [dashboard](http://<ccu-address>:80/addons/red/ui/) (falls genutzt)
 
+- Gegebenenfalls die CCU im Safe Mode starten - geht das? Hier können Nodes/Pakete deinstalliert werden
+
 - Logfile untersuchen
 
   - Konnten die Versionen der einzelnen Komponenten ermittelt werden (Node.JS, npm, node-RED) und stimmen diese mit den Versionen im Change Log überein?
