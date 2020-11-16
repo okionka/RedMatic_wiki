@@ -4,6 +4,8 @@ Falls Probleme beim Update/Installation auftreten, bitte folgendes prüfen/beach
 
 - Prüfen, ob die richtige Datei für die vorhandene Hardware installiert wurde
 
+- Prüfen, ob eine neue Node über die Palette installiert wurde, die spezielle Binärdateien benötigt. Das funktioniert nicht. 
+
 - Erreichbarkeit prüfen: [flows](http://<ccu-address>:80/addons/red/#flow) bzw das [dashboard](http://<ccu-address>:80/addons/red/ui/) (falls genutzt)
 
 - Gegebenenfalls die CCU im Safe Mode starten - geht das? Hier können Nodes/Pakete deinstalliert werden
