@@ -32,6 +32,7 @@ Category: Administration
 | [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | ✅ | |
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
 | [node-red-contrib-edge-trigger](https://flows.nodered.org/node/node-red-contrib-edge-trigger) | | ✅ | ✅ | |
+| [node-red-contrib-timed-counter](https://github.com/tomgidden/node-red-contrib-timed-counter) | Node der Messages zählt, die in einem bestimmten Zeitlimit empfangen wurden. | ✅ | ✅ | Klassischer Anwendungsfall zum Unterscheiden von Single vs. Double Press von Buttons, die eine Message bei einem Release-Event auf diesem erzeugen (z. B. [deCONZ Conbee II/raspBee II](https://phoscon.de/de/conbee2/)). Funktioniert auch für Tripple Press usw. |
 | [node-red-contrib-eiscp](https://github.com/estbeetoo/node-red-contrib-eiscp) | Steuerung von Integra/Onkyo-Geräten (AVR, BD-Player, etc.) mit Hilfe des eISCP-Protokolls | ✅ | ✅ | Ältere Node-red Contribution aber immer noch funktional, da Onkyo auch in seinen neueren Receivern das Protokoll noch unterstützt. |
 | [node-red-contrib-filter](https://flows.nodered.org/node/node-red-contrib-filter) | | ✅ |✅  | |
 | [node-red-contrib-fritz](https://flows.nodered.org/node/node-red-contrib-fritz) | Zugang zur Fritzbox mittels TR064 API | ✅ |✅  | Erfolgreich getestete Nodes bisher `fritzbox-in` und `fritzbox-calllist` auf Basis 7590 und FritzOS 7 |
