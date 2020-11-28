@@ -1,3 +1,16 @@
+# [v7.1.1](https://github.com/rdmtc/RedMatic/releases/v7.1.1) 2020-11-07T16:54:45Z
+
+* @hobbyquaker fix typo that lead to broken 7.1.0 build
+* @hobbyquaker add node-red-contrib-loxone prebuild (close #411)
+* @hobbyquaker add node-red-contrib-harmony-websocket prebuild (close #402)
+* @hobbyquaker add node-red-contrib-lgtv prebuild (close #423)
+* @hobbyquaker update node-red-contrib-doorbird 0.2.6 to 0.2.8
+* @hobbyquaker update node-red-node-serialport 0.11.0 to 0.11.1
+* @hobbyquaker update node-red 1.2.2 to 1.2.3 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+
+
+
+
 # [v7.0.0](https://github.com/rdmtc/RedMatic/releases/v7.0.0) 2020-10-31T16:04:32Z
 * @hobbyquaker update node-red 1.1.3 to 1.2.2 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
 * @hobbyquaker update node-red-dashboard 2.23.4 to 2.23.5 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
