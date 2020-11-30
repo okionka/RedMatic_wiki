@@ -3,7 +3,6 @@
 * Administration
   * [Installation](Installation)
   * [Update](Update)
-  * [Probleme beim Update Installation](Probleme-Update-Installation)
   * [Backup](Backup)
   * [Firewall](Firewall)
   * [Context Storage Konfigurieren](Context-Storage)
