@@ -11,7 +11,7 @@ Das Addon vor einem Update RedMatic **nicht deinstallieren!** Man installiert di
 
 Nach erfolgtem Update ist u.U. eine Löschung des Browser-Cache notwendig.
 
-Sollte das Update fehlschlagen bitte diesen Artikel lesen: [Faq#redmatic-updates-funktionieren-nicht](Faq#redmatic-updates-funktionieren-nicht)
+**Sollte das Update fehlschlagen bitte diesen Artikel lesen:** [Faq#redmatic-updates-funktionieren-nicht](Faq#redmatic-updates-funktionieren-nicht)
 
 ### Wann oder wie oft sollte ich Updates durchführen?
 
