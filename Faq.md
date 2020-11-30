@@ -1,7 +1,7 @@
 # FAQ - Häufig gestellte Fragen
 
 * [Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!](#hilfe-nach-der-installation-fährt-meine-ccuraspberrymatic-nicht-mehr-hoch)
-* [RedMatic Updates funktionieren nicht!](#redmatic-updates-funktionieren-nicht)
+* [RedMatic Update funktioniert nicht!](#redmatic-update-funktioniert-nicht)
 * [Tastendruck erzeugt keine Events](#Tastendruck-erzeugt-keine-Events)
 * [Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen](#bei-anhaltendem-tastendruck-werden-keine-press_cont-events-empfangen)
 * [Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar](#beim-auswählen-der-schnittstelle-ist-cuxd-oder-bidcos-wired-nicht-auswählbar)
@@ -21,19 +21,28 @@ bei der Installation von der CCU erledigt werden muss, ist dabei je nach Raspber
 Performance sehr Zeitintensiv. Hier ist Geduld erforderlich.
 
 
-## RedMatic Updates funktionieren nicht
+## RedMatic Update funktioniert nicht
 
-Die Ursache hierfür ist fast immer zuwenig verfügbares RAM. Es kann zum Erfolg führen Node-RED vor dem Update zu 
-stoppen. Oft ist das Problem auch dass RedMatic _und_ Mediola genutzt werden - davon ist dringend abzuraten! Beide 
-Addons haben einen relativ hohen Speicherbedarf, der RaspberryPi mit 1GB RAM ist für den gleichzeitigen Betrieb beider
+* Geduld: Update/Installation kann über 30 Minuten dauern
+* Prüfen, ob die richtige Datei für die genutzte RaspberryMatic Variante installiert wurde
+
+Wenn das Update trotzdem nicht funktioniert ist die Ursache hierfür fast immer zu wenig verfügbares RAM. Es kann zum Erfolg führen Node-RED vor dem Update zu stoppen. Oft ist das Problem auch dass RedMatic _und_ Mediola oder andere Speicherintensive Addons (HVL, HAP-HomeMatic, CCU-Historian, ...) genutzt werden - davon ist dringend abzuraten! Diese Node.js und Java basierten 
+Addons haben einen relativ hohen Speicherbedarf, der RaspberryPi mit 1GB RAM ist für den gleichzeitigen Betrieb mehrerer
 nicht geeignet.
-Sollte das Update trotzdem nicht funktionieren ist die Installation über das Addon 
+
+Sollte das Update weiterhin nicht funktionieren ist die Installation über das Addon 
 [rmupdate](https://github.com/j-a-n/raspberrymatic-addon-rmupdate) eine mögliche Lösung, dieses hat bei der Installation
 und Updates von Addons eine wesentlich effizientere Methodik mit deutlich geringerem RAM-Bedarf. Anders als der Name
 suggeriert funktioniert dieses Addon nicht nur im Zusammenspiel mit RaspberryMatic sondern auch mit der eQ-3 CCU3 
 Firmware.
 
 Sollte es nach dem Update zu Problemen mit dem RedMatic UI kommen (z.B.: Node-RED Prozess zeigt "stopped" an obwohl er läuft) kann es helfen den Browser-Cache zu leeren.
+
+
+
+
+
+
 
 ## Tastendruck erzeugt keine Events
 
