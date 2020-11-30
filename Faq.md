@@ -23,8 +23,8 @@ Performance sehr Zeitintensiv. Hier ist Geduld erforderlich.
 
 ## RedMatic Update funktioniert nicht
 
-* Geduld: Update/Installation kann über 30 Minuten dauern
-* Prüfen, ob die richtige Datei für die genutzte RaspberryMatic Variante installiert wurde
+* Geduld: Update/Installation kann über 30 Minuten dauern.
+* Prüfen, ob die richtige Datei für die genutzte Hardware bzw. RaspberryMatic Variante installiert wurde.
 
 Wenn das Update trotzdem nicht funktioniert ist die Ursache hierfür fast immer zu wenig verfügbares RAM. Es kann zum Erfolg führen Node-RED vor dem Update zu stoppen. Oft ist das Problem auch dass RedMatic _und_ Mediola oder andere Speicherintensive Addons (HVL, HAP-HomeMatic, CCU-Historian, ...) genutzt werden - davon ist dringend abzuraten! Diese Node.js und Java basierten 
 Addons haben einen relativ hohen Speicherbedarf, der RaspberryPi mit 1GB RAM ist für den gleichzeitigen Betrieb mehrerer
