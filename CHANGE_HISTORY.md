@@ -1,3 +1,11 @@
+# [v7.1.2](https://github.com/rdmtc/RedMatic/releases/v7.1.2) 2020-11-28T19:22:00Z
+* @hobbyquaker update @node-red-contrib-themes/midnight-red 1.4.5 to 1.4.6
+* @hobbyquaker update node-red 1.2.3 to 1.2.6 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+* @hobbyquaker update npm 6.14.8 to 6.14.9
+* @hobbyquaker update node-red-dashboard 2.23.5 to 2.24.1 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker generate changelog links
+
+
 # [v7.1.1](https://github.com/rdmtc/RedMatic/releases/v7.1.1) 2020-11-07T16:54:45Z
 
 * @hobbyquaker fix typo that lead to broken 7.1.0 build
