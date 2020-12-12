@@ -1,3 +1,4 @@
+* ` 6.10.2020` 📖 [technikkram.net](https://technikkram.net/blog/2020/10/06/homematic-alternative-benutzeroberflaeche-fuer-gaeste-erstellen-mit-redmatic-webapp/) Benutzeroberfläche erstellen mit RedMatic WebApp
 * ` 2.10.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=GBlIK_T6NPw) [💶 Seminar: RedMatic für Einsteiger – Erweitere Deine Homematic!](https://www.verdrahtet.info/redmatic-fuer-einsteiger-erweitere-deine-homematic/) 
 * `14. 8.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=vl0Q0VyH-qk) Zigbee Geräte mit Homematic verbinden - Xiaomi Temperatur Sensor
 * `24. 7.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=jIi94oDgRCc) WLAN ein und ausschalten mit RedMatic und der CCU
