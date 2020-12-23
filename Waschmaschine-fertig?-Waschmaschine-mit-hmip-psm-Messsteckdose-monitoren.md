@@ -8,8 +8,10 @@ Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine üb
 * hmip-psm Messsteckdose / Möglichkeit den Datapoint POWER abzugreifen -> Ggf. muss die korrekte PSM ausgewählt werden
 * Ggf. müssen die Entscheidungswerte angepasst werden: Meine LG-Waschmaschine hat einen Standby-Verbrauch von <1 Watt, wenn das Programm läuft >10 Watt
 
+![flow](https://user-images.githubusercontent.com/75842297/103002835-ec968900-452f-11eb-9578-2c9e18ce5d57.PNG)
+
 ## Flow:
-`
+```
 [{
         "id": "1bfd593a.e08cd7",
         "type": "tab",
@@ -535,7 +537,7 @@ Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine üb
         "order": 1,
         "disabled": false,
         "hidden": false
-    }]`
+    }]```
 
 
 ## Version: 
