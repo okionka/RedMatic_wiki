@@ -1,3 +1,8 @@
+---
+Title: Waschmaschine fertig? Waschmaschine mit hmip psm Messsteckdose monitoren
+Category: Von Usern bereitgestellte Flows
+---
+
 Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine über den RPC-Event einer hmip-psm Messsteckdose
 
 * Die Logik entscheidet ob die Waschmaschine fertig ist (in meinem Fall wenn 2 Minuten lang <4 Watt anliegen)
