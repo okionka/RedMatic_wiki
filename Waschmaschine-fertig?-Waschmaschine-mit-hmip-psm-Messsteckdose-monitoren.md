@@ -10,8 +10,7 @@ Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine üb
 
 ## Flow:
 
-[
-    {
+[{
         "id": "1bfd593a.e08cd7",
         "type": "tab",
         "label": "Waschmaschine",
@@ -536,8 +535,7 @@ Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine üb
         "order": 1,
         "disabled": false,
         "hidden": false
-    }
-]
+    }]
 
 
 ## Version: 
