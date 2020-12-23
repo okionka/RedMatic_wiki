@@ -537,7 +537,8 @@ Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine üb
         "order": 1,
         "disabled": false,
         "hidden": false
-    }]```
+    }]
+```
 
 
 ## Version: 
