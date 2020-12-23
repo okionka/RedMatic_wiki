@@ -9,7 +9,7 @@ Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine üb
 * Ggf. müssen die Entscheidungswerte angepasst werden: Meine LG-Waschmaschine hat einen Standby-Verbrauch von <1 Watt, wenn das Programm läuft >10 Watt
 
 ## Flow:
-
+`
 [{
         "id": "1bfd593a.e08cd7",
         "type": "tab",
@@ -535,7 +535,7 @@ Dieser flow überwacht den aktuellen Stand des Programms einer Waschmaschine üb
         "order": 1,
         "disabled": false,
         "hidden": false
-    }]
+    }]`
 
 
 ## Version: 
