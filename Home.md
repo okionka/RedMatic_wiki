@@ -75,7 +75,7 @@
   * [EASY Push Subflow Push Nachrichten an EASY-Smarthome App oder Smartha App](https://github.com/Matten-Matten/Redmatic-EASY-Push-Flow)
   * [Shelly Relais zu Schalten von Leuchten](https://github.com/rdmtc/RedMatic/wiki/Shelly-Relais-zum-Schalten-von-Leuchten)
   * [Waschmaschine fertig? Waschmaschine mit hmip psm Messsteckdose monitoren](https://github.com/rdmtc/RedMatic/wiki/Waschmaschine-fertig%3F-Waschmaschine-mit-hmip-psm-Messsteckdose-monitoren)
-  * [SMS mit SIM800 Modul](https://github.com/Matten-Matten/SIM800-NodeRed)
+  * [SMS mit SIM800 Modul: SMS senden & empfangen](https://github.com/Matten-Matten/SIM800-NodeRed)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
