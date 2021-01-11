@@ -11,7 +11,7 @@ Die Hue-Integration die die Homematic CCU mitbringt bietet leider keine Möglich
 Hinweis zu Tastenevents: https://github.com/rdmtc/RedMatic/wiki/Faq#Tastendruck-erzeugt-keine-Events
 ![](images/hue-1.png)
 
-_RPC Event Nodes_ werden so konfiguriert dass sie den `PRESS_CONT` Event einer Fernbedienungstaste ausgeben (dieser Event wird bei anhaltendem Tastendruck mehrfach pro Sekunde erzeugt). Sollte es sich bei dem Taster um ein HmIP Gerät handeln ist zu beachten dass es kein `PRESS_CONT` Event mehr gibt, HmIP sendet aber den `PRESS_LONG` Event wiederholt, also einfach `PRESS_LONG` anstellen `PRESS_CONT` verwenden.
+_RPC Event Nodes_ werden so konfiguriert dass sie den `PRESS_CONT` Event einer Fernbedienungstaste ausgeben (dieser Event wird bei anhaltendem Tastendruck mehrfach pro Sekunde erzeugt). Sollte es sich bei dem Taster um ein HmIP Gerät handeln ist zu beachten dass es kein `PRESS_CONT` Event mehr gibt, HmIP sendet aber den `PRESS_LONG` Event wiederholt, also einfach `PRESS_LONG` anstelle `PRESS_CONT` verwenden.
 
 ![](images/hue-2.png)
 
