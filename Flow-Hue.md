@@ -8,6 +8,8 @@ Category: Beispiel Flows
 
 Die Hue-Integration die die Homematic CCU mitbringt bietet leider keine Möglichkeit über langen Tastendruck eine Lampe auf/ab zu dimmen. Mit Hilfe dieses Flows kann dies dennoch realisiert werden. Hierfür werden die [Huemagic Nodes](https://flows.nodered.org/node/node-red-contrib-huemagic) benötigt (siehe [Installation zusätzlicher Nodes](https://github.com/hobbyquaker/RedMatic/wiki/Node-Installation)). 
 
+Hinweis zu Tastendruckevents: https://github.com/rdmtc/RedMatic/wiki/Faq#bei-anhaltendem-tastendruck-werden-keine-press_cont-events-empfangen
+
 ![](images/hue-1.png)
 
 _RPC Event Nodes_ werden so konfiguriert dass sie den `PRESS_CONT` Event einer Fernbedienungstaste ausgeben (dieser Event wird bei anhaltendem Tastendruck mehrfach pro Sekunde erzeugt).
