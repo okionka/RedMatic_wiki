@@ -13,7 +13,7 @@ Wer die Flows und Einstellungen von RedMatic unabhängig vom CCU Backup sichern 
 * `/usr/local/addons/redmatic/etc/settings.json`
 * `/usr/local/addons/redmatic/var` aber ohne Verzeichnis `node_modules`
 
-Das entspricht der Empfehlung von [nodeRed cookbook](https://github.com/node-red/cookbook.nodered.org/wiki/How-to-backup-flows-and-related-configuration).
+Das entspricht der Empfehlung von [Node-RED Cookbook](https://github.com/node-red/cookbook.nodered.org/wiki/How-to-backup-flows-and-related-configuration).
 
 Achtung: .config.json bzw. .config.*.json (ab 1.20) ist/sind "hidden" und sollte nicht vergessen werden, da es die credentials für Projekte enthält (falls genutzt)
 
