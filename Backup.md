@@ -15,6 +15,6 @@ Das entspricht der Empfehlung von [Node-RED Cookbook](https://github.com/node-re
 
 **Achtung** - Falls das Node-RED "Projects" Feature genutzt wird: Die Dateien `.config.json` bzw. `.config.*.json` (ab 1.20) sind versteckte Dateien und sollten ebenfalls gesichert werden.
 
-Achtung: Der Node-RED Context (falls man ihn im Dateisystem ablegt und den Default Pfad geändert hat) muss zusätzlich gesichert werden.
+**Achtung**: Der Node-RED Context (falls man ihn im Dateisystem ablegt und den Default Pfad geändert hat) muss ggf. zusätzlich gesichert werden.
 
 Wenn man ein manuelles Backup zurückspielt sollte Node-RED gestoppt werden bevor man die Dateien zurückkopiert.
