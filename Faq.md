@@ -2,7 +2,7 @@
 
 * [Hilfe! Nach der Installation fährt meine CCU/RaspberryMatic nicht mehr hoch!](#hilfe-nach-der-installation-fährt-meine-ccuraspberrymatic-nicht-mehr-hoch)
 * [RedMatic Update funktioniert nicht!](#redmatic-update-funktioniert-nicht)
-* [Tastendruck erzeugt keine Events](#Tastendruck-erzeugt-keine-Events)
+* [HmIP - Tastendruck erzeugt keine Events](#hmip---tastendruck-erzeugt-keine-events)
 * [Bei anhaltendem Tastendruck werden keine PRESS_CONT Events empfangen](#bei-anhaltendem-tastendruck-werden-keine-press_cont-events-empfangen)
 * [Beim Auswählen der Schnittstelle ist CUxD (oder BidCos-Wired) nicht auswählbar](#beim-auswählen-der-schnittstelle-ist-cuxd-oder-bidcos-wired-nicht-auswählbar)
 * [Bis Änderungen von Systemvariablen in RedMatic ankommen vergeht sehr viel Zeit. Wie kann man das beschleunigen?](#bis-Änderungen-von-systemvariablen-in-redmatic-ankommen-vergeht-sehr-viel-zeit-wie-kann-man-das-beschleunigen)
