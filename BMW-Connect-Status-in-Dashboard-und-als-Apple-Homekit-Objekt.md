@@ -1,3 +1,7 @@
+---
+Category: User Flows
+---
+
 # Mini Cooper Online 
 
 Nach dem ich nun mein 1. Auto mit echter API Schnittstelle bekommen habe - einen Mini Cooper SE, und ich die App nicht so praktisch fand (sie spricht nun mal nicht) hab ich mir was selber gebastelt. Ziel sollte es sein, einen Status in Apple Homekit zu haben, der mir sagt ob der Mini vollgeladen ist oder lädst oder oder ... ie das so ist, sieht man sich Logs an und sieht was man alles auslesen kann, kommt man auf verrückte Ideen.  
