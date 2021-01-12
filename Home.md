@@ -76,6 +76,7 @@
   * [Shelly Relais zu Schalten von Leuchten](https://github.com/rdmtc/RedMatic/wiki/Shelly-Relais-zum-Schalten-von-Leuchten)
   * [Waschmaschine fertig? Waschmaschine mit hmip psm Messsteckdose monitoren](https://github.com/rdmtc/RedMatic/wiki/Waschmaschine-fertig%3F-Waschmaschine-mit-hmip-psm-Messsteckdose-monitoren)
   * [SMS mit SIM800 Modul: SMS senden & empfangen](https://github.com/Matten-Matten/SIM800-NodeRed)
+  * [BMW Connect Status in Dashboard und Apple HomeKit](https://github.com/rdmtc/RedMatic/wiki/BMW-Connect-Status-in-Dashboard-und-als-Apple-Homekit-Objekt)
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
