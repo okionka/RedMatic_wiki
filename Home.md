@@ -77,6 +77,8 @@
   * [Waschmaschine fertig? Waschmaschine mit HmIP-PSM Messsteckdose monitoren](https://github.com/rdmtc/RedMatic/wiki/Waschmaschine-fertig%3F-Waschmaschine-mit-hmip-psm-Messsteckdose-monitoren)
   * [SMS mit SIM800 Modul: SMS senden & empfangen](https://github.com/Matten-Matten/SIM800-NodeRed)
   * [BMW Connect Status in Dashboard und Apple HomeKit](https://github.com/rdmtc/RedMatic/wiki/BMW-Connect-Status-in-Dashboard-und-als-Apple-Homekit-Objekt)
+  * [EgiGeoZone Geofence Subflow: An/abmelden von Geozonen, in Redmatic empfangen](https://github.com/Matten-Matten/EgiGeoZone-Geofence-Subfow/blob/main/README.md)
+
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
   * [Node-RED Link Sammlung](Links)
