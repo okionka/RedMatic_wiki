@@ -18,7 +18,7 @@ Node-RED kann durch zusätzliche _Nodes_ erweitert werden, eine große und aktiv
   * ssh einzuloggen unter root und dann source nutzen, um die richtige npm Umgebung zu erhalten (es gibt mindestens 2: eine auf der CCU, die veraltet ist und die von Redmatic, die auf dem aktuellen Stand ist (heute ist 2020-10-24)
   * `source /usr/local/addons/redmatic/home/.profile`
   * `cd /usr/local/addons/redmatic/var`
-  * `npm uninstall --no-package-lock --global-style --save-prefix="~" --production <paket-name>
+  * `npm uninstall --no-package-lock --global-style --save-prefix="~" --production <paket-name>`
 
 ## Installation via Node-RED Palette Manager
 
