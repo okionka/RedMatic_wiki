@@ -1,3 +1,9 @@
+# [v7.1.3](https://github.com/rdmtc/RedMatic/releases/v7.1.3) 2020-12-11T18:20:16Z
+* @hobbyquaker update node-red-contrib-zigbee 0.20.0 to 0.20.1
+* @hobbyquaker update node-red-contrib-smartmeter 0.3.1 to 0.4.0
+* @hobbyquaker update node-red-dashboard 2.24.1 to 2.25.0 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+
+
 # [v7.1.2](https://github.com/rdmtc/RedMatic/releases/v7.1.2) 2020-11-28T19:22:00Z
 * @hobbyquaker update @node-red-contrib-themes/midnight-red 1.4.5 to 1.4.6
 * @hobbyquaker update node-red 1.2.3 to 1.2.6 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
