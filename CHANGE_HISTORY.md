@@ -1,3 +1,38 @@
+# [v7.2.0-beta.0](https://github.com/rdmtc/RedMatic/releases/v7.2.0-beta.0) 2021-03-06T23:24:22Z
+
+* @hobbyquaker update node-red 1.2.6 to 1.2.9 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
+* @hobbyquaker update node-red-dashboard 2.25.0 to 2.28.1 ([Changelog](https://github.com/node-red/node-red-dashboard/blob/master/CHANGELOG.md))
+* @hobbyquaker update node-red-contrib-ccu 3.2.1 to 3.4.2
+* @hobbyquaker update node-red-contrib-zigbee 0.20.1 to 0.20.3
+* @hobbyquaker update node-red-contrib-sun-position 1.1.7 to 1.2.4
+* @hobbyquaker update node-red-node-email 1.8.2 to 1.8.3
+* @hobbyquaker update npm 6.14.9 to 7.6.1
+* @hobbyquaker add aarch64, remove armv6l
+* @hobbyquaker catch errors on package bundling
+* @hobbyquaker adapt to 64bit builds
+* @hobbyquaker update aarch64 prebuild
+* @hobbyquaker update armv7l prebuild
+* @hobbyquaker add libudev-dev build dependency
+* @hobbyquaker catch non-existant packages
+* @hobbyquaker update jquery 3.5.1 to 3.6.0
+* @hobbyquaker update @fortawesome/fontawesome-free 5.15.1 to 5.15.2
+* @hobbyquaker update bootstrap 4.5.3 to 4.6.0
+* @hobbyquaker fix nodered-contrib-signal-client package name
+* @hobbyquaker update node-red-contrib-harmony-websocket 2.2.4 to 2.2.6
+* @hobbyquaker update @node-red-contrib-themes/midnight-red 1.4.6 to 1.4.7
+* @hobbyquaker update node-red-contrib-rfxcom 2.11.2 to 2.11.3
+* @hobbyquaker update node-red-contrib-smartmeter 0.4.0 to 0.5.1
+* @hobbyquaker update node-red-node-sqlite 0.4.4 to 0.5.0
+* @hobbyquaker add node-red-contrib-tfjs-coco-ssd (#454)
+* @hobbyquaker add node-red-contrib-m-bus (#460)
+* @hobbyquaker add node-red-contrib-xiaomi-ble (#484)
+* @hobbyquaker add node-red-contrib-signal-client (#472)
+* @hobbyquaker fix failing version output on spaces in dir name (#449)
+* @hobbyquaker fix typo in node-red-contrib-harmony-websocket prebuild, remove dir on update (fix #449)
+
+
+
+
 # [v7.1.3](https://github.com/rdmtc/RedMatic/releases/v7.1.3) 2020-12-11T18:20:16Z
 * @hobbyquaker update node-red-contrib-zigbee 0.20.0 to 0.20.1
 * @hobbyquaker update node-red-contrib-smartmeter 0.3.1 to 0.4.0
