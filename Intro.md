@@ -25,7 +25,7 @@ Nicht zuletzt kann _RedMatic_ auch als stabile und mit wesentlich mehr Möglichk
 
 ## Voraussetzungen
 
-_RedMatic_ ist nur für die CCU3, piVCCU3 und die RaspberryMatic Varianten _rpi2_, rpi3_, _rpi4_, _tinkerboard_, _intelnuc_ und _ova_ geeignet__. 
+_RedMatic_ ist nur für die CCU3, piVCCU3 und die RaspberryMatic Varianten _rpi2_, rpi3_, _rpi4_, _tinkerboard_, _intelnuc_ und _ova_ geeignet. 
 
 Auf der CCU1, CCU2 und der RaspberryMatic Variante _rpi0_ kann _RedMatic_ nicht verwendet werden. 
 
