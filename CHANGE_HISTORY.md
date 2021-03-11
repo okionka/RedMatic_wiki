@@ -1,3 +1,11 @@
+# [v7.2.0-beta.1](https://github.com/rdmtc/RedMatic/releases/v7.2.0-beta.1) 2021-03-07T13:22:33Z
+
+* @hobbyquaker add git templates
+* @hobbyquaker fix x86_64 git dependencies and paths
+
+
+
+
 # [v7.2.0-beta.0](https://github.com/rdmtc/RedMatic/releases/v7.2.0-beta.0) 2021-03-06T23:24:22Z
 
 * @hobbyquaker update node-red 1.2.6 to 1.2.9 ([Changelog](https://github.com/node-red/node-red/blob/master/CHANGELOG.md))
