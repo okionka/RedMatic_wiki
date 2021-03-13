@@ -1,3 +1,17 @@
+# [v7.2.0-beta.2](https://github.com/rdmtc/RedMatic/releases/v7.2.0-beta.2) 2021-03-11T22:42:39Z
+
+* @hobbyquaker update aarch64 prebuild
+* @hobbyquaker update armv7l prebuild
+* @hobbyquaker fix aarch64 download link
+* @hobbyquaker update nodered-contrib-signal-client 2.3.1 to 2.4.0
+* @hobbyquaker update redmatic-homekit 3.2.2 to 3.3.0
+* @hobbyquaker update node-red-node-serialport 0.11.1 to 0.12.0
+* @hobbyquaker update npm 7.6.1 to 7.6.2
+* @hobbyquaker add node-red-contrib-uhppoted (#450)
+
+
+
+
 # [v7.2.0-beta.1](https://github.com/rdmtc/RedMatic/releases/v7.2.0-beta.1) 2021-03-07T13:22:33Z
 
 * @hobbyquaker add git templates
