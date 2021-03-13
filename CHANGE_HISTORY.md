@@ -1,3 +1,12 @@
+# [v7.2.0](https://github.com/rdmtc/RedMatic/releases/v7.2.0) 2021-03-13T10:03:52Z
+
+* @hobbyquaker update node-red-node-serialport 0.12.0 to 0.13.0
+* @hobbyquaker update npm 7.6.2 to 7.6.3
+* @hobbyquaker update node-red-node-rbe 0.2.9 to 0.4.0
+
+
+
+
 # [v7.2.0-beta.2](https://github.com/rdmtc/RedMatic/releases/v7.2.0-beta.2) 2021-03-11T22:42:39Z
 
 * @hobbyquaker update aarch64 prebuild
