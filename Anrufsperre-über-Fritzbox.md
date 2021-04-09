@@ -560,4 +560,4 @@ d) flow importieren
 ## Version: 
 | Version | Bemerkung | Datum |
 | ------------- | ------------- |  ------------- | 
-| 1.0  | Funktionierend | 09. April 2021 |
+| 1.0  | Funktionierend, Basisfunktion | 09. April 2021 |
