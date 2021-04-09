@@ -1,7 +1,7 @@
 Dieser flow definiert eine Anrufsperre für ankommende Anrufe über die Fritzbox.
 
 * Kann über das dashboard aktiviert / deaktiviert werden
-* Anrufe können ausgehend getätigt werden, eingehende Anrufe werden geblockt, falls gewünscht automatisch auf den Anrufbeantworter geleitet
+* **Anrufe können ausgehend getätigt werden, eingehende Anrufe werden geblockt, falls gewünscht automatisch auf den Anrufbeantworter geleitet** (ACHTUNG, IHR SEID DANN VON EXTERN NICHT ÜBER FESTZNETZ ERREICHBAR!)
 * Die Anrufsperre wird per default am nächsten Morgen um 08:00 automatisch wieder deaktiviert
 * Vorbereitung für Telegram-Benachrichtigung
 * Es wird eine globale Variable in Redmatic definiert die den Status der Anrufsperre per boolean true/false global zur Verfügung stellt und bei Neustart den toggle und Text im dashboard entsprechend einstellt
