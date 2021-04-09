@@ -79,6 +79,7 @@
   * [BMW Connect Status in Dashboard und Apple HomeKit](https://github.com/rdmtc/RedMatic/wiki/BMW-Connect-Status-in-Dashboard-und-als-Apple-Homekit-Objekt)
   * [EgiGeoZone Geofence Subflow: An/abmelden von Geozonen, in Redmatic empfangen](https://github.com/Matten-Matten/EgiGeoZone-Geofence-Subfow/blob/main/README.md)
   * [Xiaomi / Roborock S1-S6 in Dashboard](https://github.com/rdmtc/RedMatic/wiki/Xiaomi-Staubsauger-in-Dashboard#roborock-oder-xiaomi-staubsauger-s1-s6-im-dashboard)
+  * [Anrufsperre über Fritzbox für eingehende Anrufe](https://github.com/rdmtc/RedMatic/wiki/Anrufsperre-%C3%BCber-Fritzbox)
 
 * Sonstiges
   * [Berichterstattung, Blogbeiträge, Videos über RedMatic](Berichterstattung)
