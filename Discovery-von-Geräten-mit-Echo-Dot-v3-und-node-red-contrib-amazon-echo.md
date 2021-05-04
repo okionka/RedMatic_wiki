@@ -8,4 +8,4 @@ Sollten keine Geräte gefunden werden, so sind `/var/log/lighttpd-access.log` an
 ---
 **Links für die zusätzliche Hilfe:**
 
-[#305](https://github.com/rdmtc/RedMatic/issues/305) < _Geräte erkennen_ [Tool](https://homematic-forum.de/forum/viewtopic.php?f=77&t=55863&p=660777#p660777)
+* [#305](https://github.com/rdmtc/RedMatic/issues/305) < _Geräte erkennen_ [Tool](https://homematic-forum.de/forum/viewtopic.php?f=77&t=55863&p=660777#p660777)
