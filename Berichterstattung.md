@@ -1,5 +1,5 @@
 * `12. 3.2021` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=CRpLQPBu4nk) - ZigBee Zwischenstecker in HomeMatic einbinden - Schritt für Schritt
-* ` 28. 1.2021` 📖  [thema-haus.de](https://thema-haus.de/zigbee-led-band_in_homematic-smart-home_integrieren/) - Integration eines ZigBee-LED-Bandes in ein Homematic-Smart-Home mit RedMatic
+* `28. 1.2021` 📖  [thema-haus.de](https://thema-haus.de/zigbee-led-band_in_homematic-smart-home_integrieren/) - Integration eines ZigBee-LED-Bandes in ein Homematic-Smart-Home mit RedMatic
 * ` 6.10.2020` 📖 [technikkram.net](https://technikkram.net/blog/2020/10/06/homematic-alternative-benutzeroberflaeche-fuer-gaeste-erstellen-mit-redmatic-webapp/) Benutzeroberfläche erstellen mit RedMatic WebApp
 * ` 2.10.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=GBlIK_T6NPw) [💶 Seminar: RedMatic für Einsteiger – Erweitere Deine Homematic!](https://www.verdrahtet.info/redmatic-fuer-einsteiger-erweitere-deine-homematic/) 
 * `14. 8.2020` 📺 [verdrahtet.info](https://www.youtube.com/watch?v=vl0Q0VyH-qk) Zigbee Geräte mit Homematic verbinden - Xiaomi Temperatur Sensor
