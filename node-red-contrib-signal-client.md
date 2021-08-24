@@ -24,5 +24,5 @@
 * In die Request-SMS-Node "Captcha-Code" einfügen
 * Speichern und Deploy
 * Den Request triggern
-* Reqister-Node hinzufügen + den Verifikations-Code reinschreiben, Speichern, Deploy + Trigger der Register-Node
+* Register-Node hinzufügen + den Verifikations-Code reinschreiben, Speichern, Deploy + Trigger der Register-Node
 * Fertig
