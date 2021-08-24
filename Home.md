@@ -25,6 +25,7 @@
   * [RedMatic-WebApp](Webapp)
   * [Node-RED Dashboard](Dashboard-Screenshots)
   * [node-red-contrib-sun-position](https://github.com/rdmtc/node-red-contrib-sun-position) Zeit- und Sonnenstandabhängige Funktionen, Komfortable Beschattungssteuerung
+  * [node-red-contrib-signal-client](node-red-contrib-signal-client)
 
 * Beispiel Flows
   * [Kostenlose Alexa (und Google) Anbindung](Node-RED-Smart-Home-Control)
