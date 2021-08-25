@@ -31,6 +31,7 @@ Category: Administration
 | [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) | | ✅ | ✅ | |
 | [node-red-contrib-credentials](https://flows.nodered.org/node/node-red-contrib-credentials) | statt inject/change node bei kritischen Daten (passwords) | ✅ | ✅ | Sinnvoll, wenn die Projektfunktion in Verbindung mit einem public repository verwendet wird und tokens (AWS) verwendet werden |
 | [node-red-contrib-dashboard-average-bars](https://flows.nodered.org/node/node-red-contrib-dashboard-average-bars) | | ✅ | | |
+| [node-red-contrib-deconz](https://flows.nodered.org/node/node-red-contrib-deconz) | Node-Red Nodes für den Zigbee deCONZ-USB-Stick/RaspBee II HAT | ✅ | ✅ | Getestet wurde hierfür der [RaspBee II-HAT](https://phoscon.de/de/raspbee2) auf einem separatem Raspberry Pi. Es erfolgte explizit kein Test des [deCONZ Conbee II](https://phoscon.de/de/conbee2/) direkt an einem CCU USB-Port oder mit RaspberryMatic |
 | [node-red-contrib-device-stats](https://flows.nodered.org/node/node-red-contrib-device-stats) | | ✅ | ✅ | |
 | [node-red-contrib-dwd](https://flows.nodered.org/node/node-red-contrib-dwd) | | ✅ | ✅ | |
 | [node-red-contrib-edge-trigger](https://flows.nodered.org/node/node-red-contrib-edge-trigger) | | ✅ | ✅ | |
