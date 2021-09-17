@@ -120,8 +120,8 @@ Im Change node kann dann neben `msg.payload.tempc` oder `msg.payload.humidity` d
   * `msg.payload.tempc` - Temperatur in Celsius
   * `msg.payload.temp_maxc` - maximale Temperatur in Celsius
   * `msg.payload.temp_minc` - minimale Temperatur in Celsius
-  * `msg.payload.maxtemp` - maximale Temperatur in Celsius
-  * `msg.payload.mintemp` - minimale Temperatur in Celsius
+  * `msg.payload.maxtemp` - maximale Temperatur in Kelvin
+  * `msg.payload.mintemp` - minimale Temperatur in Kelvin
   * `msg.payload.windspeed` - Windgeschwindigkeit
   * `msg.payload.winddirection` - Windrichtung
   * `msg.payload.location` - Position der Wetterstation
