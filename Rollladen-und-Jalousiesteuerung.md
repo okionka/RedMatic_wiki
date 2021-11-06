@@ -6,6 +6,10 @@ link: https://github.com/rdmtc/RedMatic/wiki/Rollladen-und-Jalousiesteuerung
 
 # Rollläden, Jalousien, Markisen mit Node-Red steuern
 
+## Vorwort
+
+Diese Anleitung wird nur bedingt gepflegt und daher können die hier aufgeführten Funktionen von der aktuellen Version der Node stark abweichen. Aktueller ist hier die englische Anleitung im wiki zu den nodes unter https://github.com/rdmtc/node-red-contrib-sun-position/wiki/blind-control.
+
 ## Einleitung
 
 Eine Rollladensteuerung ist nicht trivial. Diese Anleitung soll den Einstieg in dieses Thema bieten. Es kann beliebig weiter ausgebaut werden.
